@@ -1,0 +1,8 @@
+flask
+flask-socketio
+flask-cors
+openai
+requests
+pandas
+python-dotenv
+adm-zip
