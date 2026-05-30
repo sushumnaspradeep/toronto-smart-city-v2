@@ -176,6 +176,30 @@ def get_311_requests(limit: int = 500) -> pd.DataFrame:
     print(" Fetching 311 service requests...")
     return fetch_zip_csv(DATASET_SLUGS["s311"], "SR2026.csv", limit)
 
+def get_neighbourhoods(limit: int = 200) -> pd.DataFrame:
+    """
+    Official Toronto neighbourhood boundaries.
+    158 neighbourhoods with exact polygon boundaries.
+    """
+    print("📦 Fetching neighbourhood boundaries...")
+    # Use slug instead of hardcoded resource ID
+    pkg = get_package("neighbourhoods")
+    resource = next(
+        (r for r in pkg["resources"] if r.get("datastore_active")),
+        None
+    )
+    if not resource:
+        # Try CSV fallback
+        resource = next(
+            (r for r in pkg["resources"]
+             if r.get("format", "").upper() == "CSV"),
+            None
+        )
+    if not resource:
+        raise ValueError(f"No usable resource. Available: {[r['name'] for r in pkg['resources']]}")
+
+    print(f"  ↳ Using resource: {resource['name']} ({resource['id']})")
+    return datastore_search(resource["id"], limit)
 
 def get_zoning(limit: int = 500) -> pd.DataFrame:
     """
@@ -184,7 +208,20 @@ def get_zoning(limit: int = 500) -> pd.DataFrame:
     """
     print(" Fetching zoning data...")
     return datastore_search(RESOURCE_IDS["zoning"], limit)
+# Centreline resource ID confirmed working
+CENTRELINE_RESOURCE_ID = "ad296ebf-fca6-4e67-b3ce-48040a20e6cd"
 
+def get_roads(limit: int = 5000) -> pd.DataFrame:
+    """
+    Toronto Centreline road network.
+    Contains every road segment in Toronto.
+    Columns used:
+      LINEAR_NAME_FULL  → road name
+      FEATURE_CODE_DESC → road type (Local, Arterial, Expressway etc)
+      geometry          → LineString coordinates
+    """
+    print("📦 Fetching road centreline data...")
+    return datastore_search(CENTRELINE_RESOURCE_ID, limit)
 
 # ── Combined loader ───────────────────────────────────────────────────────────
 
