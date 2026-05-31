@@ -360,8 +360,8 @@ with col_reset:
 st.subheader("Ask a Question")
 st.caption(
     "Examples: Which wards need the most investment? "
-    "How is transit around Kipling? "
-    "I am planning to build in Mimico, what should I know?"
+    "How is transit around Etobicoke? "
+    "I am planning to build in Willowdale, what should I know?"
 )
 
 if "chat" not in st.session_state:
@@ -371,8 +371,6 @@ if "chat" not in st.session_state:
 for msg in st.session_state["chat"]:
     with st.chat_message(msg["role"]):
         st.write(msg["content"])
-        if msg.get("chart"):
-            render_chart(msg["chart"])
 
 # Chat input
 user_input = st.chat_input("Ask about Toronto city planning...")
@@ -400,13 +398,12 @@ if user_input:
             # Debug -- prints to terminal to verify answer source
             print(f"\n[Streamlit Chat] Answer:\n{answer}\n")
 
-            chart_info = get_chart_data(user_input)
+            
 
             st.write(answer)
-            render_chart(chart_info)
+            
 
     st.session_state["chat"].append({
         "role":    "assistant",
-        "content": answer,
-        "chart":   chart_info,
+        "content": answer
     })

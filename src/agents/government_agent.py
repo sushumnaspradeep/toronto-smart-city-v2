@@ -529,7 +529,6 @@ def get_chart_data(question: str) -> dict:
 
 def ask_government_question(question: str,
                              chat_history: list = None) -> str:
-    return f"TEST ANSWER FOR: {question}"
     print(f"\n[Government Agent] Question: {question}")
 
     profiles   = load_urban_profiles()
@@ -551,109 +550,144 @@ def ask_government_question(question: str,
     else:
         avg_transit = avg_parks = avg_bikes = avg_biz = 0
 
-    # -- Detect question type and build a pre-written answer ------------------
-
-    is_invest  = any(w in question_lower for w in [
-        "invest", "priorit", "develop", "focus", "improve",
-        "need", "which ward", "which area"
-    ])
-    is_compare = any(w in question_lower for w in [
-        "compare", "vs", "versus", "between", "better"
-    ])
-
     # Find mentioned areas
-    matched_ward_data = {}
+    matched_wards = {}
+    matched_ttc   = {}
+
     for ward, data in profiles.items():
         if any(word in ward.lower()
                for word in question_lower.split() if len(word) > 3):
-            matched_ward_data[ward] = data
+            matched_wards[ward] = data
 
-    matched_ttc = {}
     for name, data in ttc_scores.items():
         if any(word in name.lower()
                for word in question_lower.split() if len(word) > 3):
             matched_ttc[name] = data
 
-    # -- Build answer directly from data (no AI for logic) --------------------
+    # Build detailed context
+    facts = []
 
-    answer_lines = []
-
-    if is_invest and not matched_ward_data:
-        # General investment question -- list top priorities
-        for p in priorities[:5]:
-            reasons = " and ".join(p["reasons"])
-            answer_lines.append(
-                f"{p['ward']} needs investment: {reasons}."
-            )
-
-    elif matched_ward_data:
-        # Specific area question
-        for ward, data in matched_ward_data.items():
-            parks   = data.get("total_parks", 0)
-            bikes   = data.get("total_bike_lane_segments", 0)
-            biz     = data.get("total_active_businesses", 0)
-            transit = data.get("total_active_transit_stops", 0)
-            cultural= data.get("total_cultural_hotspots", 0)
-            dev     = data.get("total_development_applications", 0)
-            roads   = data.get("total_road_segments", 0)
-
-            answer_lines.append(
-                f"{ward} ward has {transit} transit stops "
-                f"({'above' if transit >= avg_transit else 'below'} city average of {avg_transit:.0f}), "
-                f"{parks} parks "
-                f"({'above' if parks >= avg_parks else 'below'} city average of {avg_parks:.0f}), "
-                f"{bikes} bike lane segments "
-                f"({'above' if bikes >= avg_bikes else 'below'} city average of {avg_bikes:.0f}), "
-                f"and {biz} active businesses "
-                f"({'above' if biz >= avg_biz else 'below'} city average of {avg_biz:.0f}). "
-                f"There are {cultural} cultural hotspots, {roads} road segments, "
-                f"and {dev} active development applications in the ward."
-            )
-
-        # Add matching TTC data
-        for name, data in matched_ttc.items():
-            stops     = data.get("stop_count", 0)
-            subway    = "including subway" if data.get("has_subway") else "no subway"
-            streetcar = ", streetcar" if data.get("has_streetcar") else ""
-            bus       = ", bus" if data.get("has_bus") else ""
-            samples   = ", ".join(data.get("sample_stops", [])[:3])
-            answer_lines.append(
-                f"{name} neighbourhood has {stops} TTC stops "
-                f"({subway}{streetcar}{bus}). "
-                f"Key stops include: {samples}."
-            )
-
-    elif matched_ttc and not matched_ward_data:
-        # TTC-only match
-        for name, data in matched_ttc.items():
-            stops     = data.get("stop_count", 0)
-            subway    = "including subway" if data.get("has_subway") else "no subway"
-            streetcar = ", streetcar" if data.get("has_streetcar") else ""
-            bus       = ", bus" if data.get("has_bus") else ""
-            samples   = ", ".join(data.get("sample_stops", [])[:3])
-            answer_lines.append(
-                f"{name} has {stops} TTC stops "
-                f"({subway}{streetcar}{bus}). "
-                f"Key stops: {samples}."
-            )
-
-    else:
-        # Fallback -- general city overview
-        answer_lines.append(
-            f"Toronto has {len(profiles)} wards with an average of "
-            f"{avg_transit:.0f} transit stops, {avg_parks:.0f} parks, "
-            f"{avg_bikes:.0f} bike lane segments, and {avg_biz:.0f} "
-            f"active businesses per ward."
+    for ward, data in matched_wards.items():
+        parks    = data.get("total_parks", 0)
+        bikes    = data.get("total_bike_lane_segments", 0)
+        biz      = data.get("total_active_businesses", 0)
+        transit  = data.get("total_active_transit_stops", 0)
+        cultural = data.get("total_cultural_hotspots", 0)
+        rinks    = data.get("total_outdoor_ice_rinks", 0)
+        dev      = data.get("total_development_applications", 0)
+        roads    = data.get("total_road_segments", 0)
+        facts.append(
+            f"{ward} ward: {transit} transit stops (avg {avg_transit}), "
+            f"{parks} parks (avg {avg_parks}), "
+            f"{bikes} bike lanes (avg {avg_bikes}), "
+            f"{biz} businesses (avg {avg_biz}), "
+            f"{cultural} cultural hotspots, "
+            f"{rinks} ice rinks, "
+            f"{roads} road segments, "
+            f"{dev} development applications."
         )
-        for p in priorities[:3]:
-            answer_lines.append(
-                f"{p['ward']} is a top priority: "
-                + " and ".join(p["reasons"]) + "."
+
+    for name, data in matched_ttc.items():
+        stops     = data.get("stop_count", 0)
+        subway    = "subway" if data.get("has_subway")    else "no subway"
+        streetcar = "streetcar" if data.get("has_streetcar") else "no streetcar"
+        bus       = "bus" if data.get("has_bus") else "no bus"
+        samples   = ", ".join(data.get("sample_stops", [])[:5])
+        facts.append(
+            f"{name} TTC: {stops} stops, {subway}, {streetcar}, {bus}. "
+            f"Key stops: {samples}."
+        )
+
+    # Investment rank
+    for i, p in enumerate(priorities):
+        if any(word in p["ward"].lower()
+               for word in question_lower.split() if len(word) > 3):
+            facts.append(
+                f"{p['ward']} investment rank: #{i+1} out of {len(priorities)} wards. "
+                f"Reasons: {', '.join(p['reasons'])}."
+            )
+            break
+
+    if not facts:
+        for p in priorities[:5]:
+            facts.append(
+                f"{p['ward']}: " + ", ".join(p["reasons"]) + "."
             )
 
-    answer = " ".join(answer_lines)
-    print(f"[Government Agent] Response ready.")
-    return answer
+    context = (
+        f"City averages: {avg_transit} transit stops, "
+        f"{avg_parks} parks, {avg_bikes} bike lanes, "
+        f"{avg_biz} businesses per ward.\n\n"
+        + "\n".join(facts)
+    )
+
+    # -- Few-shot examples by question type -----------------------------------
+
+    few_shot_investment = """
+Example Q: Which wards need the most investment?
+Example A: Scarborough North is the highest priority ward with only 47 parks against the city average of 72 and just 21 bike lane segments against the city average of 61, while its 4,211 active businesses fall below the city average of 5,465. Scarborough-Guildwood follows with only 246 transit stops against the city average of 361 and 3,639 businesses well below average, with zero active development applications indicating stagnant growth. Willowdale has a critical cycling infrastructure gap with only 13 bike lane segments versus the city average of 61, and 277 transit stops below the city average. Scarborough-Agincourt has just 45 parks against the city average of 72, and Scarborough Centre has 54 parks and 40 bike lanes both below city averages.
+"""
+
+    few_shot_area = """
+Example Q: What is the situation in Etobicoke-Lakeshore?
+Example A: Etobicoke-Lakeshore is one of Toronto's strongest wards with 524 transit stops well above the city average of 361, and 114 parks compared to the city average of 72, giving residents excellent access to green space. The ward has 105 bike lane segments above the city average of 61, and 7,894 active businesses significantly above the city average of 5,465, reflecting a vibrant commercial area. There are 122 cultural hotspots and 6 outdoor ice rinks across 4,155 road segments serving the ward. Currently there are zero active development applications, which may indicate a pause in new construction despite the ward's strong infrastructure base.
+"""
+
+    few_shot_construction = """
+Example Q: I am planning to build in Mimico. What should I know?
+Example A: Mimico falls within Etobicoke-Lakeshore ward, which has 524 transit stops well above the city average of 361, including subway, streetcar and bus service giving future residents and workers strong TTC access. The ward has 114 parks against the city average of 72 and 105 bike lane segments above the city average of 61, making it attractive for residential development with strong active transportation and green space. With 7,894 active businesses above the city average of 5,465 and 122 cultural hotspots, the area supports a vibrant mixed-use community. There are currently zero active development applications in the ward, meaning your project faces limited direct competition, and 4,155 road segments provide strong vehicular access for construction logistics.
+"""
+
+    few_shot_comparison = """
+Example Q: Compare Willowdale and Scarborough North.
+Example A: Willowdale has 277 transit stops below the city average of 361, while Scarborough North has 430 stops above average, giving Scarborough North a stronger transit foundation. However Willowdale has 78 parks above the city average of 72, while Scarborough North has only 47 parks well below average, making parks the critical gap in Scarborough North. Both wards have severely underdeveloped cycling infrastructure — Willowdale has only 13 bike lane segments and Scarborough North has 21, both far below the city average of 61. In terms of business activity, Willowdale has 4,312 businesses and Scarborough North has 4,211, both below the city average of 5,465, and neither ward has active development applications.
+"""
+
+    few_shot_transit = """
+Example Q: Which areas have the worst transit connectivity?
+Example A: Scarborough-Guildwood has only 246 transit stops, the lowest among wards with full profiles, sitting 115 stops below the city average of 361 and limiting mobility for residents across the ward. Toronto Centre and Spadina-Fort York also fall below average with 216 and 199 transit stops respectively, despite being central wards where high ridership would be expected. Willowdale has 277 stops below the city average, and Scarborough-Agincourt has 313 stops, both underserved relative to their ward populations. Improving transit frequency and coverage in these wards should be a priority given the significant gap compared to well-served areas like Etobicoke-Lakeshore with 524 stops.
+"""
+
+    # Select relevant few-shot example based on question type
+    is_invest      = any(w in question_lower for w in ["invest", "priorit", "which ward", "which area", "focus"])
+    is_construction= any(w in question_lower for w in ["build", "construct", "planning to"])
+    is_comparison  = any(w in question_lower for w in ["compare", "vs", "versus", "between"])
+    is_transit     = any(w in question_lower for w in ["transit", "ttc", "connectivity", "worst transit"])
+
+    if is_construction:
+        few_shot = few_shot_construction
+    elif is_comparison:
+        few_shot = few_shot_comparison
+    elif is_invest:
+        few_shot = few_shot_investment
+    elif is_transit:
+        few_shot = few_shot_transit
+    else:
+        few_shot = few_shot_area
+
+    system_prompt = (
+        "You are a Toronto city planning advisor. "
+        "Give detailed factual answers using actual numbers from the data. "
+        "Cover every metric: transit stops, parks, bike lanes, businesses, "
+        "cultural hotspots, road segments, development applications. "
+        "Compare every metric to the city average. "
+        "Write 4-6 sentences. Start immediately with the answer. "
+        "Never show reasoning. Never say 'based on the data' or 'looking at'. "
+        "Use the style shown in the examples below.\n"
+        + few_shot
+    )
+
+    prompt = (
+        f"Data:\n{context}\n\n"
+        f"Question: {question}\n\n"
+        f"Answer:"
+    )
+
+    from src.services.openai_service import ask_ai
+    response = ask_ai(system_prompt, prompt, max_tokens=500)
+
+    print(f"[Government Agent] Response: {response[:80]}")
+    return response
 # -- Test ---------------------------------------------------------------------
 
 if __name__ == "__main__":

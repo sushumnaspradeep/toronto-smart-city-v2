@@ -1,9 +1,14 @@
 import os
 import json
 import logging
+from pathlib import Path
+import sys
 from openai import OpenAI
 from dotenv import load_dotenv
-from resolver import TorontoUrbanLocationResolver # Import the resolver from previous steps
+
+sys.path.append(os.path.join(os.path.dirname(__file__), "../..")) # Ensure we can import from src
+
+from src.services.resolver import TorontoUrbanLocationResolver # Import the resolver from previous steps
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
@@ -13,7 +18,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 class NeighborhoodUrbanAgent:
-    def __init__(self, data_dir: str = "../../data_payloads"):
+    def __init__(self, data_dir: str = "data"):
         """
         Initializes the agent, the local spatial resolver, and the connection 
         to the Nemotron model hosted on the ASUS DGX.
@@ -25,7 +30,7 @@ class NeighborhoodUrbanAgent:
         dgx_api_key = os.getenv("DGX_API_KEY", "empty-key-for-local")
         
         # The specific Nemotron model loaded on your DGX (update if needed)
-        self.model_name = os.getenv("NEMOTRON_MODEL_NAME", "nvidia/nemotron-4-340b-instruct")
+        self.model_name = os.getenv("NEMOTRON_MODEL_NAME", "meta/llama-3.1-8b-instruct")
         
         logger.info(f"Connecting to Nemotron DGX Endpoint at: {dgx_base_url}")
         self.llm_client = OpenAI(

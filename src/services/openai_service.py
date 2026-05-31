@@ -1,23 +1,29 @@
 # openai_service.py
 # ─────────────────────────────────────────────
-# Handles all communication with Mistral model
-# hosted on NVIDIA API (integrate.api.nvidia.com)
-# Used by all 3 core agents and 3 portal agents.
+# Handles all communication with local Llama model
+# hosted on the ASUS DGX via Docker/NIM.
+# Used by all core agents and portal agents.
 # Includes retry logic for rate limit errors.
 # ─────────────────────────────────────────────
 
 import os
 import time
 import requests
+import re
 from dotenv import load_dotenv
 
 load_dotenv()
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-NVIDIA_API_KEY = os.getenv("NVIDIA_API_KEY")
-INVOKE_URL     = os.getenv("NVIDIA_BASE_URL", "https://integrate.api.nvidia.com/v1") + "/chat/completions"
-MODEL          = os.getenv("NVIDIA_MODEL", "mistralai/mistral-medium-3.5-128b")
+# Point directly to the DGX local host port exposed by your Docker container
+INVOKE_URL     = os.getenv("DGX_BASE_URL", "http://localhost:8000/v1") + "/chat/completions"
+
+# Local endpoints ignore the key, but the HTTP standard still expects a Bearer token string
+DGX_API_KEY    = os.getenv("DGX_API_KEY", "dummy-local-key")
+
+# The exact model namespace we loaded into the NIM container
+MODEL          = os.getenv("DGX_MODEL", "meta/llama-3.1-8b-instruct")
 
 # ── Core functions ────────────────────────────────────────────────────────────
 
@@ -36,13 +42,13 @@ def ask_ai(system_prompt: str, user_message: str, max_tokens: int = 1000) -> str
             "content": user_message
         },
     ]
-    raw = _call_nvidia(messages, max_tokens)
+    raw = _call_dgx(messages, max_tokens)
     return clean_thinking(raw)
 
 
 def ask_ai_with_history(messages: list, max_tokens: int = 1000) -> str:
     """
-    Send a full conversation history to Mistral via NVIDIA API.
+    Send a full conversation history to Llama via local DGX.
     Automatically strips thinking/reasoning from response.
     """
     # Inject hard stop instruction into system message
@@ -64,16 +70,15 @@ def ask_ai_with_history(messages: list, max_tokens: int = 1000) -> str:
         else:
             enforced.append(msg)
 
-    raw = _call_nvidia(enforced, max_tokens)
+    raw = _call_dgx(enforced, max_tokens)
     return clean_thinking(raw)
+
 
 def clean_thinking(text: str) -> str:
     """
-    Remove all reasoning/thinking from Mistral responses.
+    Remove all reasoning/thinking from LLM responses.
     Cuts the response at the first line that looks like a real answer.
     """
-    import re
-
     # Remove XML think blocks
     text = re.sub(r'<think>.*?</think>', '', text, flags=re.DOTALL)
 
@@ -141,16 +146,16 @@ def clean_thinking(text: str) -> str:
 
 # ── Internal helper ───────────────────────────────────────────────────────────
 
-def _call_nvidia(messages: list, max_tokens: int, force_json: bool = False) -> str:
+def _call_dgx(messages: list, max_tokens: int, force_json: bool = False) -> str:
     """
-    Makes the actual HTTP call to NVIDIA API.
+    Makes the actual HTTP call to the local DGX API.
     Handles retries on 429 rate limit errors.
     """
     MAX_RETRIES  = 5
     WAIT_SECONDS = 20
 
     headers = {
-        "Authorization": f"Bearer {NVIDIA_API_KEY}",
+        "Authorization": f"Bearer {DGX_API_KEY}",
         "Accept":        "application/json",
         "Content-Type":  "application/json",
     }
@@ -162,8 +167,6 @@ def _call_nvidia(messages: list, max_tokens: int, force_json: bool = False) -> s
         "temperature": 0.10 if force_json else 0.70,
         "top_p":       1.00,
         "stream":      False,
-        # REMOVED: "reasoning_effort": "high"
-        # This was causing Mistral to think out loud in every response
     }
 
     if force_json:
@@ -189,7 +192,7 @@ def _call_nvidia(messages: list, max_tokens: int, force_json: bool = False) -> s
 
             if response.status_code == 401:
                 raise Exception(
-                    "Authentication failed. Check NVIDIA_API_KEY in .env"
+                    "Authentication failed. The local container is rejecting the dummy key."
                 )
 
             response.raise_for_status()
@@ -208,7 +211,7 @@ def _call_nvidia(messages: list, max_tokens: int, force_json: bool = False) -> s
                 print(f"  Timeout. Retrying ({attempt}/{MAX_RETRIES})...")
                 time.sleep(10)
                 continue
-            raise Exception("NVIDIA API timed out after max retries.")
+            raise Exception("Local DGX API timed out after max retries. Check if the Docker container is running.")
 
         except Exception as e:
             if "Rate limit" in str(e) or "429" in str(e):
@@ -220,7 +223,7 @@ def _call_nvidia(messages: list, max_tokens: int, force_json: bool = False) -> s
 # ── Test ──────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    print("\n🤖 Testing NVIDIA + Mistral connection...\n")
+    print("\n🤖 Testing Local DGX + Llama connection...\n")
 
     print("Test 1 — Single question:")
     answer = ask_ai(
@@ -258,4 +261,4 @@ if __name__ == "__main__":
     answer2 = ask_ai_with_history(history, max_tokens=100)
     print(f" Response: {answer2}\n")
 
-    print(" NVIDIA + Mistral connection working!")
+    print("✅ Local DGX connection working!")

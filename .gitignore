@@ -6,3 +6,4 @@ __pycache__/
 venv/
 .venv
 data/cleared_building_permits.json
+venv2/
