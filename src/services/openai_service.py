@@ -21,36 +21,123 @@ MODEL          = os.getenv("NVIDIA_MODEL", "mistralai/mistral-medium-3.5-128b")
 
 # ── Core functions ────────────────────────────────────────────────────────────
 
-def ask_ai(system_prompt: str, user_message: str, max_tokens: int = 1000, force_json: bool = False) -> str:
-    """Send a single question to Mistral via NVIDIA API."""
+def ask_ai(system_prompt: str, user_message: str, max_tokens: int = 1000) -> str:
     messages = [
-        {"role": "system", "content": system_prompt},
-        {"role": "user",   "content": user_message},
+        {
+            "role":    "system",
+            "content": (
+                "RULE: Output the final answer only. "
+                "No reasoning. No thinking. Start with the answer. "
+                "\n\n" + system_prompt
+            )
+        },
+        {
+            "role":    "user",
+            "content": user_message
+        },
     ]
-    return _call_nvidia(messages, max_tokens, force_json=force_json)
+    raw = _call_nvidia(messages, max_tokens)
+    return clean_thinking(raw)
 
 
 def ask_ai_with_history(messages: list, max_tokens: int = 1000) -> str:
     """
     Send a full conversation history to Mistral via NVIDIA API.
-    Used by the user chatbot (user_agent.py) so the AI
-    remembers previous messages in the conversation.
-
-    Args:
-        messages: Full chat history as list of dicts:
-            [
-                {"role": "system",    "content": "You are..."},
-                {"role": "user",      "content": "Is transit good?"},
-                {"role": "assistant", "content": "Yes, there are..."},
-                {"role": "user",      "content": "What about parks?"},
-            ]
-        max_tokens: Max length of the response
-
-    Returns:
-        The AI response as a plain string
+    Automatically strips thinking/reasoning from response.
     """
-    return _call_nvidia(messages, max_tokens)
+    # Inject hard stop instruction into system message
+    enforced = []
+    injected = False
 
+    for msg in messages:
+        if msg["role"] == "system" and not injected:
+            enforced.append({
+                "role":    "system",
+                "content": (
+                    "RULE: Output the final answer only. "
+                    "No reasoning steps. No thinking. No self-talk. "
+                    "Start immediately with the answer. "
+                    "\n\n" + msg["content"]
+                )
+            })
+            injected = True
+        else:
+            enforced.append(msg)
+
+    raw = _call_nvidia(enforced, max_tokens)
+    return clean_thinking(raw)
+
+def clean_thinking(text: str) -> str:
+    """
+    Remove all reasoning/thinking from Mistral responses.
+    Cuts the response at the first line that looks like a real answer.
+    """
+    import re
+
+    # Remove XML think blocks
+    text = re.sub(r'<think>.*?</think>', '', text, flags=re.DOTALL)
+
+    lines = text.strip().split("\n")
+
+    # Phrases that indicate reasoning not answer
+    reasoning_phrases = [
+        "the user is asking", "the user wants", "i need to find",
+        "looking at the data", "i can see", "i see that", "let me",
+        "based on the data", "from the data", "the data shows",
+        "i need to check", "i should", "i will", "first i",
+        "looking at", "the question is", "they want", "they've",
+        "the system has", "the question asks", "the answer is",
+        "so the answer", "wait i need", "but i need", "but the user",
+        "however i", "so i need", "the area would be",
+        "from the ward", "from the ttc", "from the neighbourhood",
+        "let me check", "let me find", "let me look",
+        "i need to identify", "i need to be",
+        "looking at the ward", "looking at the ttc",
+        "looking at the neighbourhood", "looking at the all",
+    ]
+
+    result      = []
+    found_start = False
+
+    for line in lines:
+        stripped = line.strip()
+        if not stripped:
+            if found_start:
+                result.append("")
+            continue
+
+        lower = stripped.lower()
+
+        # Skip reasoning lines
+        if any(lower.startswith(p) for p in reasoning_phrases):
+            continue
+
+        # Skip lines that look like data field listings
+        if re.match(r'^[-*]\s+(score|stops|rating|has_|total_|ward|ttc)', lower):
+            continue
+
+        # Skip lines with colons that look like raw data
+        if re.match(r'^(score|stops|rating|parks|businesses|bike):', lower):
+            continue
+
+        # Skip numbered reasoning lists
+        if re.match(r'^\d+\.\s+(there|the|i|looking|based|from)', lower):
+            continue
+
+        found_start = True
+        result.append(stripped)
+
+    cleaned = "\n".join(result).strip()
+
+    # Last resort -- if still starts with reasoning, take last paragraph
+    if cleaned and any(
+        cleaned.lower().startswith(p) for p in reasoning_phrases
+    ):
+        paragraphs = [p.strip() for p in cleaned.split("\n\n") if p.strip()]
+        if paragraphs:
+            cleaned = paragraphs[-1]
+
+    return cleaned if cleaned else text.strip()
 
 # ── Internal helper ───────────────────────────────────────────────────────────
 
@@ -69,17 +156,16 @@ def _call_nvidia(messages: list, max_tokens: int, force_json: bool = False) -> s
     }
 
     payload = {
-        "model":            MODEL,
-        "messages":         messages,
-        "max_tokens":       max_tokens,
-        # Drop temperature to 0.1 if forcing JSON structures to prevent analytical drifts
-        "temperature":      0.10 if force_json else 0.70,
-        "top_p":            1.00,
-        "reasoning_effort": "high",
-        "stream":           False,
+        "model":       MODEL,
+        "messages":    messages,
+        "max_tokens":  max_tokens,
+        "temperature": 0.10 if force_json else 0.70,
+        "top_p":       1.00,
+        "stream":      False,
+        # REMOVED: "reasoning_effort": "high"
+        # This was causing Mistral to think out loud in every response
     }
 
-    # If the calling agent specifically flagged force_json, explicitly inject the parameter
     if force_json:
         payload["response_format"] = {"type": "json_object"}
 
@@ -94,29 +180,32 @@ def _call_nvidia(messages: list, max_tokens: int, force_json: bool = False) -> s
 
             if response.status_code == 429:
                 if attempt < MAX_RETRIES:
-                    print(f"  ⏳ Rate limited. Waiting {WAIT_SECONDS}s (attempt {attempt}/{MAX_RETRIES})...")
+                    print(f"  Rate limited. Waiting {WAIT_SECONDS}s "
+                          f"(attempt {attempt}/{MAX_RETRIES})...")
                     time.sleep(WAIT_SECONDS)
                     continue
                 else:
                     raise Exception("Rate limit: max retries exceeded.")
 
             if response.status_code == 401:
-                raise Exception("Authentication failed. Check your NVIDIA_API_KEY in .env")
+                raise Exception(
+                    "Authentication failed. Check NVIDIA_API_KEY in .env"
+                )
 
             response.raise_for_status()
 
-            data = response.json()
+            data    = response.json()
             content = data["choices"][0]["message"]["content"]
-            
-            # NVIDIA reasoning model fallback validation
+
             if content is None or content == "":
                 content = data["choices"][0]["message"].get("reasoning", "")
-                
-            return content
+
+            # Strip thinking text before returning
+            return clean_thinking(content)
 
         except requests.exceptions.Timeout:
             if attempt < MAX_RETRIES:
-                print(f"  ⏳ Timeout. Retrying ({attempt}/{MAX_RETRIES})...")
+                print(f"  Timeout. Retrying ({attempt}/{MAX_RETRIES})...")
                 time.sleep(10)
                 continue
             raise Exception("NVIDIA API timed out after max retries.")

@@ -1,6 +1,7 @@
 # app.py
 
 import streamlit as st
+from core_engine import SpatialContextEngine
 
 st.set_page_config(
     page_title = "Toronto Smart City Planning Tool",

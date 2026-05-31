@@ -2,81 +2,104 @@
 # ---------------------------------------------
 # GOVERNMENT PORTAL
 # ---------------------------------------------
-
+import sys
+print(f"[GOV PAGE LOADED] Python path: {sys.argv}", flush=True)
 import streamlit as st
-import json
 import os
 import sys
 import pandas as pd
-import re
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "../"))
 
-from src.agents.mobility_agent   import run_mobility_agent, load_all_neighbourhood_scores
-from src.services.openai_service import ask_ai, ask_ai_with_history
+import importlib
+import src.agents.government_agent as _gov_module
+importlib.reload(_gov_module)
+
+run_government_agent    = _gov_module.run_government_agent
+ask_government_question = _gov_module.ask_government_question
+load_urban_profiles     = _gov_module.load_urban_profiles
+get_investment_priorities = _gov_module.get_investment_priorities
+get_chart_data          = _gov_module.get_chart_data
+from src.agents.mobility_agent import load_all_neighbourhood_scores
 
 # -- Page config --------------------------------------------------------------
 
 st.set_page_config(page_title="Government Portal", layout="wide")
 
-# -- Helper -------------------------------------------------------------------
+# -- Chart renderer -----------------------------------------------------------
 
-def clean_ai_response(text: str) -> str:
-    text = re.sub(r'<think>.*?</think>', '', text, flags=re.DOTALL)
-    skip_phrases = [
-        "let me analyze", "looking at the data", "i need to find",
-        "the data provided", "i don't see", "the user is asking",
-        "the neighborhood data", "i should", "let me check",
-        "based on the data", "looking at", "the question",
-        "so the answer", "to answer this", "first i",
-        "the context", "the user", "i need to",
-    ]
-    lines  = text.strip().split("\n")
-    result = []
-    for line in lines:
-        line = line.strip()
-        if not line:
-            continue
-        if any(phrase in line.lower() for phrase in skip_phrases):
-            continue
-        result.append(line)
-    return " ".join(result).strip()
+def render_chart(chart_info: dict):
+    if not chart_info or not chart_info.get("data"):
+        return
+    st.markdown(f"**{chart_info['title']}**")
+    if chart_info["chart_type"] == "bar":
+        chart_df = pd.DataFrame(
+            list(chart_info["data"].items()),
+            columns=[chart_info["x_label"], chart_info["y_label"]]
+        ).set_index(chart_info["x_label"])
+        st.bar_chart(chart_df)
+    elif chart_info["chart_type"] == "multi_bar":
+        rows = []
+        for ward, metrics in chart_info["data"].items():
+            for metric, value in metrics.items():
+                rows.append({"Ward": ward, "Metric": metric, "Value": value})
+        if rows:
+            pivot_df = pd.DataFrame(rows).pivot(
+                index="Metric", columns="Ward", values="Value"
+            )
+            st.bar_chart(pivot_df)
 
 # -- Header -------------------------------------------------------------------
 
 st.title("Government Portal")
-st.caption("City planner view -- Toronto transit analysis")
+st.caption("City planner view -- Toronto transit and urban analysis")
 st.divider()
 
 # -- Load data ----------------------------------------------------------------
 
-if "mobility" not in st.session_state:
+if "gov_data" not in st.session_state:
     if st.button("Run Analysis", use_container_width=False):
-        with st.spinner("Loading transit data..."):
+        with st.spinner("Running analysis..."):
             try:
-                mobility = run_mobility_agent()
-                scores   = load_all_neighbourhood_scores()
-                st.session_state["mobility"]  = mobility
-                st.session_state["scores"]    = scores
-                st.session_state["chat"]      = []
-                st.session_state["gov_error"] = None
+                gov_data       = run_government_agent()
+                scores         = load_all_neighbourhood_scores()
+                urban_profiles = load_urban_profiles()
 
-                prompt = f"""
-Toronto transit data:
-Zone breakdown: {json.dumps(mobility.get('zone_breakdown', {}))}
-Transit deserts: {json.dumps(mobility.get('transit_deserts', []))}
-Worst connected: {json.dumps(mobility.get('neighbourhood_rankings', {}).get('worst_connected', []))}
+                st.session_state["gov_data"]       = gov_data
+                st.session_state["scores"]         = scores
+                st.session_state["urban_profiles"] = urban_profiles
+                st.session_state["chat"]           = []
+                st.session_state["gov_error"]      = None
 
-In 3-4 sentences only, what should the city prioritize for transit investment?
-Answer directly. No reasoning.
-"""
-                raw = ask_ai(
-                    "You are a Toronto city planning advisor. "
-                    "Answer in 3-4 sentences only. No reasoning. No bullet points.",
-                    prompt,
-                    max_tokens=300,
-                )
-                st.session_state["gov_summary"] = clean_ai_response(raw)
+                # Generate summary from pure data -- no AI call
+                _priorities = gov_data.get("investment_priorities", [])
+                _avgs       = gov_data.get("city_averages", {})
+
+                if _priorities:
+                    top  = _priorities[0]
+                    top2 = _priorities[1] if len(_priorities) > 1 else None
+
+                    summary = (
+                        f"Toronto's top investment priority is {top['ward']}, "
+                        f"which has {top['parks']} parks "
+                        f"(city average: {_avgs.get('avg_parks', 0):.0f}) "
+                        f"and {top['bike_lanes']} bike lane segments "
+                        f"(city average: {_avgs.get('avg_bike_lanes', 0):.0f}). "
+                    )
+                    if top2:
+                        summary += (
+                            f"{top2['ward']} follows with "
+                            f"{top2['transit_stops']} transit stops "
+                            f"(city average: {_avgs.get('avg_transit_stops', 0):.0f}) "
+                            f"and {top2['businesses']} active businesses "
+                            f"(city average: {_avgs.get('avg_businesses', 0):.0f}). "
+                        )
+                    summary += (
+                        f"Across {gov_data.get('total_wards', 0)} wards analyzed, "
+                        f"bike lane infrastructure and park coverage "
+                        f"are the most widespread gaps."
+                    )
+                    st.session_state["gov_summary"] = summary
 
             except FileNotFoundError as e:
                 st.session_state["gov_error"] = str(e)
@@ -89,196 +112,301 @@ Answer directly. No reasoning.
 
 if st.session_state.get("gov_error"):
     st.error(st.session_state["gov_error"])
-    st.info("Run first:\n\n```\npython src/agents/mobility_agent.py --store\n```")
+    st.info(
+        "Run this first:\n\n"
+        "```\npython src/agents/mobility_agent.py --store\n```"
+    )
     st.stop()
 
 # -- Data ---------------------------------------------------------------------
 
-mobility = st.session_state["mobility"]
-scores   = st.session_state["scores"]
-rankings = mobility.get("neighbourhood_rankings", {})
+gov_data       = st.session_state["gov_data"]
+scores         = st.session_state["scores"]
+urban_profiles = st.session_state.get("urban_profiles", {})
+priorities     = gov_data.get("investment_priorities", [])
+city_avgs      = gov_data.get("city_averages", {})
 
-# AI summary
-if "gov_summary" in st.session_state:
-    st.subheader("AI Recommendation")
-    st.info(st.session_state["gov_summary"])
-    st.divider()
-
-# 3 columns
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    st.subheader("TTC Network")
-    rs = mobility.get("route_summary", {})
-    st.metric("Total Routes", rs.get("total_routes", 0))
-    st.metric("Total Stops",  rs.get("total_stops",  0))
-    st.write(f"Bus:       {rs.get('bus_routes', 0)} routes")
-    st.write(f"Subway:    {rs.get('subway_routes', 0)} routes")
-    st.write(f"Streetcar: {rs.get('streetcar_routes', 0)} routes")
-
-with col2:
-    st.subheader("Transit Deserts")
-    deserts = mobility.get("transit_deserts", [])
-    if deserts:
-        for d in deserts:
-            severity = d.get("severity", "Unknown")
-            area     = d.get("area",     "Unknown")
-            stops    = d.get("stop_count", 0)
-            color    = (
-                "red"    if severity == "Critical" else
-                "orange" if severity == "High"     else
-                "blue"
-            )
-            st.markdown(f":{color}[{severity}] **{area}** -- {stops} stops")
-    else:
-        st.success("No critical transit deserts found")
-
-with col3:
-    st.subheader("Recommendations")
-    for rec in mobility.get("recommendations", []):
-        st.write(f"- {rec}")
-
-st.divider()
-
-# Best and worst
-col4, col5 = st.columns(2)
-
-with col4:
-    st.markdown("**Best Connected**")
-    best = rankings.get("best_connected", [])
-    if best:
-        st.dataframe(
-            pd.DataFrame(best)[["neighbourhood", "score", "rating", "stops"]],
-            use_container_width=True,
-            hide_index=True,
-        )
-
-with col5:
-    st.markdown("**Worst Connected**")
-    worst = rankings.get("worst_connected", [])
-    if worst:
-        st.dataframe(
-            pd.DataFrame(worst)[["neighbourhood", "score", "rating", "stops"]],
-            use_container_width=True,
-            hide_index=True,
-        )
-
-st.divider()
-
-# Zone chart
-st.subheader("TTC Stops by Zone")
-zone_data = mobility.get("zone_breakdown", {})
-if zone_data:
-    zone_df = pd.DataFrame(
-        list(zone_data.items()),
-        columns=["Zone", "Stops"]
-    ).sort_values("Stops", ascending=False)
-    st.bar_chart(zone_df.set_index("Zone"))
-
-st.divider()
-
-# All neighbourhoods
-st.subheader("All 158 Neighbourhoods")
 valid_scores  = {k: v for k, v in scores.items() if "error" not in v}
 sorted_scores = sorted(
     valid_scores.items(),
     key=lambda x: x[1].get("connectivity_score", 0),
     reverse=True
 )
-all_df = pd.DataFrame([
-    {
-        "Neighbourhood": k,
-        "Score":         v["connectivity_score"],
-        "Rating":        v["rating"],
-        "Stops":         v["stop_count"],
-        "Subway":        "Yes" if v["has_subway"]    else "No",
-        "Streetcar":     "Yes" if v["has_streetcar"] else "No",
-        "Bus":           "Yes" if v["has_bus"]       else "No",
-    }
-    for k, v in sorted_scores
-])
-st.dataframe(all_df, use_container_width=True, hide_index=True)
+
+# -- AI Summary ---------------------------------------------------------------
+
+if "gov_summary" in st.session_state:
+    st.subheader("AI Recommendation")
+    st.info(st.session_state["gov_summary"])
+    st.divider()
+
+# -- Top metrics row ----------------------------------------------------------
+
+col_a, col_b, col_c, col_d = st.columns(4)
+with col_a:
+    st.metric("Total Wards",          gov_data.get("total_wards", 0))
+with col_b:
+    st.metric("Total Neighbourhoods", gov_data.get("total_neighbourhoods", 0))
+with col_c:
+    st.metric("Avg Transit Stops",    city_avgs.get("avg_transit_stops", 0))
+with col_d:
+    st.metric("Avg Bike Lanes",       city_avgs.get("avg_bike_lanes", 0))
 
 st.divider()
 
-# -- Chat ---------------------------------------------------------------------
+# -- Tabs ---------------------------------------------------------------------
+
+tab1, tab2, tab3 = st.tabs(["Transit", "Urban Profiles", "All Neighbourhoods"])
+
+# =============================================================================
+# TAB 1 -- TRANSIT
+# =============================================================================
+
+with tab1:
+
+    st.subheader("Investment Priorities")
+    st.caption(
+        "Wards ranked by need across transit, parks, "
+        "bike lanes and business activity"
+    )
+
+    if priorities:
+        priority_df = pd.DataFrame([
+            {
+                "Ward":             p["ward"],
+                "Priority Score":   p["investment_score"],
+                "Transit Stops":    p["transit_stops"],
+                "Parks":            p["parks"],
+                "Bike Lanes":       p["bike_lanes"],
+                "Businesses":       p["businesses"],
+                "Dev Applications": p["dev_applications"],
+                "Vibrancy":         p["vibrancy"],
+                "Economic":         p["economic"],
+                "Reasons":          ", ".join(p["reasons"]),
+            }
+            for p in priorities
+        ])
+        st.dataframe(priority_df, use_container_width=True, hide_index=True)
+
+    st.divider()
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.markdown("**Best Connected Neighbourhoods**")
+        best_5 = sorted_scores[:5]
+        if best_5:
+            st.dataframe(
+                pd.DataFrame([
+                    {
+                        "Neighbourhood": k,
+                        "Score":         v["connectivity_score"],
+                        "Stops":         v["stop_count"],
+                        "Subway":        "Yes" if v["has_subway"]    else "No",
+                        "Streetcar":     "Yes" if v["has_streetcar"] else "No",
+                    }
+                    for k, v in best_5
+                ]),
+                use_container_width=True,
+                hide_index=True,
+            )
+
+    with col2:
+        st.markdown("**Worst Connected Neighbourhoods**")
+        worst_5 = sorted_scores[-5:][::-1]
+        if worst_5:
+            st.dataframe(
+                pd.DataFrame([
+                    {
+                        "Neighbourhood": k,
+                        "Score":         v["connectivity_score"],
+                        "Stops":         v["stop_count"],
+                        "Subway":        "Yes" if v["has_subway"]    else "No",
+                        "Streetcar":     "Yes" if v["has_streetcar"] else "No",
+                    }
+                    for k, v in worst_5
+                ]),
+                use_container_width=True,
+                hide_index=True,
+            )
+
+# =============================================================================
+# TAB 2 -- URBAN PROFILES
+# =============================================================================
+
+with tab2:
+
+    if not urban_profiles:
+        st.warning(
+            "No urban profile data found. "
+            "Add data/urban_profiles_payload.json to your project."
+        )
+    else:
+        ward_rows = []
+        for ward, data in urban_profiles.items():
+            ward_rows.append({
+                "Ward":             ward,
+                "Parks":            data.get("total_parks", 0),
+                "Transit Stops":    data.get("total_active_transit_stops", 0),
+                "Bike Lanes":       data.get("total_bike_lane_segments", 0),
+                "Road Segments":    data.get("total_road_segments", 0),
+                "Businesses":       data.get("total_active_businesses", 0),
+                "Cultural Spots":   data.get("total_cultural_hotspots", 0),
+                "Ice Rinks":        data.get("total_outdoor_ice_rinks", 0),
+                "Dev Applications": data.get("total_development_applications", 0),
+                "Recreation":       data.get("recreation_deficit_score", ""),
+                "Vibrancy":         data.get("community_vibrancy_score", ""),
+                "Transit Label":    data.get("transit_connectivity", ""),
+                "Economic":         data.get("economic_vitality_score", ""),
+            })
+
+        ward_df = pd.DataFrame(ward_rows)
+
+        st.subheader("Ward Comparison")
+        st.dataframe(ward_df, use_container_width=True, hide_index=True)
+
+        st.divider()
+
+        col3, col4 = st.columns(2)
+        with col3:
+            st.markdown("**Parks per Ward**")
+            st.bar_chart(
+                ward_df[["Ward", "Parks"]]
+                .sort_values("Parks", ascending=False)
+                .set_index("Ward")
+            )
+        with col4:
+            st.markdown("**Bike Lanes per Ward**")
+            st.bar_chart(
+                ward_df[["Ward", "Bike Lanes"]]
+                .sort_values("Bike Lanes", ascending=False)
+                .set_index("Ward")
+            )
+
+        st.divider()
+
+        col5, col6 = st.columns(2)
+        with col5:
+            st.markdown("**Transit Stops per Ward**")
+            st.bar_chart(
+                ward_df[["Ward", "Transit Stops"]]
+                .sort_values("Transit Stops", ascending=False)
+                .set_index("Ward")
+            )
+        with col6:
+            st.markdown("**Active Businesses per Ward**")
+            st.bar_chart(
+                ward_df[["Ward", "Businesses"]]
+                .sort_values("Businesses", ascending=False)
+                .set_index("Ward")
+            )
+
+        st.divider()
+
+        st.subheader("Wards Needing Attention")
+        col7, col8, col9 = st.columns(3)
+        with col7:
+            st.markdown("**Lowest Transit Stops**")
+            st.dataframe(
+                ward_df[["Ward", "Transit Stops"]].nsmallest(5, "Transit Stops"),
+                use_container_width=True, hide_index=True,
+            )
+        with col8:
+            st.markdown("**Fewest Parks**")
+            st.dataframe(
+                ward_df[["Ward", "Parks"]].nsmallest(5, "Parks"),
+                use_container_width=True, hide_index=True,
+            )
+        with col9:
+            st.markdown("**Fewest Bike Lanes**")
+            st.dataframe(
+                ward_df[["Ward", "Bike Lanes"]].nsmallest(5, "Bike Lanes"),
+                use_container_width=True, hide_index=True,
+            )
+
+# =============================================================================
+# TAB 3 -- ALL NEIGHBOURHOODS
+# =============================================================================
+
+with tab3:
+
+    st.subheader("All 158 Neighbourhoods -- TTC Scores")
+    all_df = pd.DataFrame([
+        {
+            "Neighbourhood": k,
+            "Score":         v["connectivity_score"],
+            "Stops":         v["stop_count"],
+            "Subway":        "Yes" if v["has_subway"]    else "No",
+            "Streetcar":     "Yes" if v["has_streetcar"] else "No",
+            "Bus":           "Yes" if v["has_bus"]       else "No",
+        }
+        for k, v in sorted_scores
+    ])
+    st.dataframe(all_df, use_container_width=True, hide_index=True)
+
+# =============================================================================
+# CHAT
+# =============================================================================
+
+st.divider()
+
+# Reset button -- wipes all cached chat history
+col_reset, _ = st.columns([1, 8])
+with col_reset:
+    if st.button("Clear Chat"):
+        st.session_state["chat"] = []
+        st.rerun()
 
 st.subheader("Ask a Question")
 st.caption(
-    "Ask anything about Toronto transit. "
-    "Example: How is transit in Mimico? "
-    "Which area needs the most investment?"
+    "Examples: Which wards need the most investment? "
+    "How is transit around Kipling? "
+    "I am planning to build in Mimico, what should I know?"
 )
 
 if "chat" not in st.session_state:
     st.session_state["chat"] = []
 
+# Render chat history
 for msg in st.session_state["chat"]:
     with st.chat_message(msg["role"]):
         st.write(msg["content"])
+        if msg.get("chart"):
+            render_chart(msg["chart"])
 
-user_input = st.chat_input("Ask about Toronto transit...")
+# Chat input
+user_input = st.chat_input("Ask about Toronto city planning...")
 
 if user_input:
-    st.session_state["chat"].append({"role": "user", "content": user_input})
+    st.session_state["chat"].append({
+        "role":    "user",
+        "content": user_input,
+    })
 
     with st.chat_message("user"):
         st.write(user_input)
 
-    # Find matching neighbourhoods from the question
-    question_lower = user_input.lower()
-    mentioned_nb   = {}
-    for name, data in scores.items():
-        if any(word in name.lower() for word in question_lower.split()
-               if len(word) > 3):
-            mentioned_nb[name] = {
-                "stop_count":         data.get("stop_count"),
-                "connectivity_score": data.get("connectivity_score"),
-                "rating":             data.get("rating"),
-                "has_subway":         data.get("has_subway"),
-                "has_streetcar":      data.get("has_streetcar"),
-                "has_bus":            data.get("has_bus"),
-                "sample_stops":       data.get("sample_stops", [])[:5],
-            }
-
-    # Build context
-    context = f"""
-Zone breakdown: {json.dumps(mobility.get('zone_breakdown', {}))}
-Transit deserts: {json.dumps(mobility.get('transit_deserts', []))}
-Route summary: {json.dumps(mobility.get('route_summary', {}))}
-Best connected: {json.dumps(rankings.get('best_connected', []))}
-Worst connected: {json.dumps(rankings.get('worst_connected', []))}
-
-Neighbourhoods matching the question:
-{json.dumps(mentioned_nb, indent=2) if mentioned_nb else "No exact match -- use all scores below"}
-
-All 158 neighbourhood scores:
-{json.dumps({k: {"score": v.get("connectivity_score"), "stops": v.get("stop_count"), "rating": v.get("rating"), "sample_stops": v.get("sample_stops", [])[:3]} for k, v in scores.items()})}
-"""
-
-    messages = [
-        {
-            "role":    "system",
-            "content": (
-                "You are a Toronto city planning advisor. "
-                "You have TTC data for all 158 Toronto neighbourhoods. "
-                "When asked about an area search for partial name matches. "
-                "Lakeshore matches Humber Bay Shores or New Toronto. "
-                "Mimico matches Mimico-Queensway. "
-                "Always give specific numbers. "
-                "Answer directly. No reasoning out loud."
-            ),
-        },
-        {
-            "role":    "user",
-            "content": f"Data:\n{context}\n\nQuestion: {user_input}",
-        },
-    ]
-
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
-            raw    = ask_ai_with_history(messages, max_tokens=300)
-            answer = clean_ai_response(raw)
-            st.write(answer)
 
-    st.session_state["chat"].append({"role": "assistant", "content": answer})
+            answer = ask_government_question(
+                user_input,
+                chat_history=[
+                    m for m in st.session_state["chat"][:-1]
+                    if m["role"] == "user"
+                ],
+            )
+
+            # Debug -- prints to terminal to verify answer source
+            print(f"\n[Streamlit Chat] Answer:\n{answer}\n")
+
+            chart_info = get_chart_data(user_input)
+
+            st.write(answer)
+            render_chart(chart_info)
+
+    st.session_state["chat"].append({
+        "role":    "assistant",
+        "content": answer,
+        "chart":   chart_info,
+    })
