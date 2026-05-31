@@ -1,0 +1,7871 @@
+{
+  "generated_at": "2026-05-31T02:02:12.812321Z",
+  "source_file": null,
+  "dataset": {
+    "rows": 32000,
+    "date_range": {
+      "application_min": "1985-01-28 00:00:00",
+      "application_max": "2026-05-28 00:00:00"
+    },
+    "null_rate": {
+      "_id": 0.0,
+      "PERMIT_NUM": 0.0,
+      "REVISION_NUM": 0.0,
+      "PERMIT_TYPE": 0.0,
+      "STRUCTURE_TYPE": 0.003,
+      "WORK": 0.001875,
+      "STREET_NUM": 0.0001875,
+      "STREET_NAME": 0.0001875,
+      "STREET_TYPE": 0.0,
+      "STREET_DIRECTION": 0.0,
+      "POSTAL": 0.0,
+      "GEO_ID": 0.02753125,
+      "WARD_GRID": 0.0001875,
+      "APPLICATION_DATE": 0.0,
+      "ISSUED_DATE": 0.06628125,
+      "COMPLETED_DATE": 1.0,
+      "STATUS": 0.0,
+      "DESCRIPTION": 0.0018125,
+      "CURRENT_USE": 0.10190625,
+      "PROPOSED_USE": 0.10184375,
+      "DWELLING_UNITS_CREATED": 0.56646875,
+      "DWELLING_UNITS_LOST": 0.57265625,
+      "EST_CONST_COST": 0.5975625,
+      "ASSEMBLY": 0.0,
+      "INSTITUTIONAL": 0.0,
+      "RESIDENTIAL": 0.0,
+      "BUSINESS_AND_PERSONAL_SERVICES": 0.0,
+      "MERCANTILE": 0.0,
+      "INDUSTRIAL": 0.0,
+      "INTERIOR_ALTERATIONS": 0.0,
+      "DEMOLITION": 0.0,
+      "BUILDER_NAME": 0.81925,
+      "FSA": 0.0,
+      "approval_days": 0.06628125,
+      "completion_days": 1.0,
+      "app_year": 0.0
+    }
+  },
+  "status_breakdown": {
+    "Inspection": 19035,
+    "Permit Issued": 7261,
+    "Revision Issued": 3116,
+    "Issuance Pending": 471,
+    "Examiner's Notice Sent": 441,
+    "Under Review ": 317,
+    "Revocation Pending": 316,
+    "Application On Hold": 232,
+    "Work Not Started": 145,
+    "Refusal Notice": 132,
+    "Not Started": 130,
+    "Application Acceptable": 71,
+    "Pending Cancellation": 61,
+    "Open": 59,
+    "Response Received": 59,
+    "Ready for Issuance": 36,
+    "Application Received": 26,
+    "Abandoned": 23,
+    "Deficiency Notice Issued": 13,
+    "Not Started - Express": 11,
+    "Plan Review Complete": 8,
+    "Application Withdrawn": 6,
+    "Approved": 5,
+    "Active": 5,
+    "Revised": 4,
+    "Agreement in Progress": 2,
+    "Pending Parent Folder Review": 2,
+    "Not Accepted": 2,
+    "Extension Granted": 2,
+    "Order Complied": 2,
+    "Licence Issued": 1,
+    "Cancelled": 1,
+    "Work Suspended": 1,
+    "Permit Revoked": 1,
+    "File Closed": 1,
+    "VIOLATION": 1,
+    "Notice Sent": 1
+  },
+  "permit_type_counts": {
+    "Plumbing(PS)": 6842,
+    "Small Residential Projects": 6581,
+    "Mechanical(MS)": 5751,
+    "Building Additions/Alterations": 4406,
+    "New Houses": 3138,
+    "Drain and Site Service": 2519,
+    "Fire/Security Upgrade": 793,
+    "Demolition Folder (DM)": 684,
+    "Residential Building Permit": 401,
+    "New Building": 338,
+    "Designated Structures": 155,
+    "Non-Residential Building Permit": 95,
+    "DCs DeferredFees": 59,
+    "Partial Permit": 54,
+    "Temporary Structures": 54,
+    "Portable Classrooms": 41,
+    "AS Alternative Solution": 31,
+    "Conditional Permit": 30,
+    "Multiple Use Permit": 20,
+    "Toronto Buildings Contacts": 5,
+    "Rental Renovation Licence": 2,
+    "Site Inspection(Scarborough)": 1
+  },
+  "structure_type_counts": {
+    "SFD - Detached": 12607,
+    "SFD - Semi-Detached": 2081,
+    "Office": 1903,
+    "Apartment Building": 1863,
+    "SFD - Townhouse": 1483,
+    "2 Unit - Detached": 1166,
+    "Retail Store": 1064,
+    "Multiple Unit Building": 863,
+    "3+ Unit - Detached": 721,
+    "Laneway / Rear Yard Suite": 638,
+    "Multiple Use/Non Residential": 610,
+    "Other": 575,
+    "Industrial": 537,
+    "Restaurant 30 Seats or Less ": 482,
+    "Stacked Townhouses": 425,
+    "Mixed Use/Res w Non Res": 337,
+    "Hospital": 320,
+    "Unknown": 314,
+    "Restaurant Greater Than 30 Seats": 301,
+    "2 Unit - Semi-detached": 286,
+    "Medical/Dental Office": 267,
+    "Elementary School": 234,
+    "Converted House": 195,
+    "University": 172,
+    "Place of Worship": 151,
+    "Transit Station,Subway, Bus Terminal": 150,
+    "Warehouse": 132,
+    "3+ Unit - Semi-detached": 120,
+    "Secondary School": 111,
+    "College/Trade/Tech School/Training Cent.": 101
+  },
+  "work_counts": {
+    "Building Permit Related(PS)": 5843,
+    "Building Permit Related(MS)": 5394,
+    "Interior Alterations": 3757,
+    "New Building": 3603,
+    "Multiple Projects": 3021,
+    "Building Permit Related (DR)": 1959,
+    "Addition(s) ": 936,
+    "Demolition": 684,
+    "Other(BA)": 493,
+    " Backflow Prevention Devices (Water only)": 413,
+    "Other(SR)": 335,
+    "Unknown": 314,
+    "Garage": 267,
+    "New Laneway / Rear Yard Suite": 261,
+    "Back Water Valve (Sewer only)": 260,
+    "Other(PS)": 258,
+    "Electromagnetic Locks": 206,
+    "Garage Repair/Reconstruction": 197,
+    "Building Permit Related(FS)": 189,
+    "Fire Alarm": 189,
+    "Deck": 189,
+    "Porch": 181,
+    "Party Wall Admin Permits": 173,
+    "Underpinning": 170,
+    "Inside and Outside Drains": 158,
+    "Sprinklers": 150,
+    "Site Service": 149,
+    "Second Suite (New)": 143,
+    "Alteration to Existing Building": 134,
+    "Accessory Building(s)": 112
+  },
+  "approval_time_overall": {
+    "n": 29878,
+    "mean": 100.78917598232813,
+    "median": 34.0,
+    "p25": 14.0,
+    "p75": 82.0,
+    "p90": 233.0,
+    "p99": 1057.2299999999996,
+    "min": 0.0,
+    "max": 6991.0
+  },
+  "completion_time_overall": null,
+  "approval_time_by_permit_type": [
+    {
+      "key": "Plumbing(PS)",
+      "n": 6524,
+      "median_days": 32.0,
+      "p90_days": 206.39999999999964,
+      "mean_days": 93.17412630288167
+    },
+    {
+      "key": "Small Residential Projects",
+      "n": 6248,
+      "median_days": 20.0,
+      "p90_days": 120.0,
+      "mean_days": 56.87836107554418
+    },
+    {
+      "key": "Mechanical(MS)",
+      "n": 5443,
+      "median_days": 35.0,
+      "p90_days": 239.0,
+      "mean_days": 111.42513319860372
+    },
+    {
+      "key": "Building Additions/Alterations",
+      "n": 4211,
+      "median_days": 33.0,
+      "p90_days": 146.0,
+      "mean_days": 71.81073379244835
+    },
+    {
+      "key": "New Houses",
+      "n": 2948,
+      "median_days": 69.0,
+      "p90_days": 523.0,
+      "mean_days": 182.83582089552237
+    },
+    {
+      "key": "Drain and Site Service",
+      "n": 2334,
+      "median_days": 34.0,
+      "p90_days": 299.0,
+      "mean_days": 115.87917737789203
+    },
+    {
+      "key": "Fire/Security Upgrade",
+      "n": 587,
+      "median_days": 27.0,
+      "p90_days": 80.59999999999991,
+      "mean_days": 46.46678023850085
+    },
+    {
+      "key": "Demolition Folder (DM)",
+      "n": 566,
+      "median_days": 71.0,
+      "p90_days": 356.0,
+      "mean_days": 155.1696113074205
+    },
+    {
+      "key": "Residential Building Permit",
+      "n": 384,
+      "median_days": 59.5,
+      "p90_days": 302.4,
+      "mean_days": 140.04947916666666
+    },
+    {
+      "key": "New Building",
+      "n": 268,
+      "median_days": 225.5,
+      "p90_days": 1237.5000000000002,
+      "mean_days": 471.07089552238807
+    },
+    {
+      "key": "Designated Structures",
+      "n": 144,
+      "median_days": 27.5,
+      "p90_days": 94.70000000000002,
+      "mean_days": 52.40972222222222
+    },
+    {
+      "key": "Non-Residential Building Permit",
+      "n": 91,
+      "median_days": 62.0,
+      "p90_days": 247.0,
+      "mean_days": 159.84615384615384
+    },
+    {
+      "key": "Temporary Structures",
+      "n": 45,
+      "median_days": 11.0,
+      "p90_days": 85.2,
+      "mean_days": 55.644444444444446
+    },
+    {
+      "key": "Portable Classrooms",
+      "n": 38,
+      "median_days": 47.5,
+      "p90_days": 185.3000000000001,
+      "mean_days": 104.39473684210526
+    },
+    {
+      "key": "Conditional Permit",
+      "n": 20,
+      "median_days": 50.0,
+      "p90_days": 132.00000000000006,
+      "mean_days": 66.8
+    },
+    {
+      "key": "Multiple Use Permit",
+      "n": 20,
+      "median_days": 57.0,
+      "p90_days": 173.00000000000017,
+      "mean_days": 107.35
+    }
+  ],
+  "approval_time_by_structure_type": [
+    {
+      "key": "SFD - Detached",
+      "n": 12097,
+      "median_days": 29.0,
+      "p90_days": 155.39999999999964,
+      "mean_days": 73.89939654459783
+    },
+    {
+      "key": "SFD - Semi-Detached",
+      "n": 2007,
+      "median_days": 14.0,
+      "p90_days": 137.0,
+      "mean_days": 64.81963129048331
+    },
+    {
+      "key": "Office",
+      "n": 1801,
+      "median_days": 27.0,
+      "p90_days": 90.0,
+      "mean_days": 56.434758467518044
+    },
+    {
+      "key": "Apartment Building",
+      "n": 1684,
+      "median_days": 34.0,
+      "p90_days": 320.8000000000002,
+      "mean_days": 124.24465558194774
+    },
+    {
+      "key": "SFD - Townhouse",
+      "n": 1408,
+      "median_days": 168.0,
+      "p90_days": 708.3,
+      "mean_days": 259.56178977272725
+    },
+    {
+      "key": "2 Unit - Detached",
+      "n": 1054,
+      "median_days": 39.0,
+      "p90_days": 187.70000000000005,
+      "mean_days": 84.67362428842505
+    },
+    {
+      "key": "Retail Store",
+      "n": 1001,
+      "median_days": 30.0,
+      "p90_days": 106.0,
+      "mean_days": 63.92907092907093
+    },
+    {
+      "key": "Multiple Unit Building",
+      "n": 801,
+      "median_days": 34.0,
+      "p90_days": 206.0,
+      "mean_days": 99.50561797752809
+    },
+    {
+      "key": "3+ Unit - Detached",
+      "n": 576,
+      "median_days": 71.0,
+      "p90_days": 252.0,
+      "mean_days": 109.94965277777777
+    },
+    {
+      "key": "Multiple Use/Non Residential",
+      "n": 571,
+      "median_days": 34.0,
+      "p90_days": 183.0,
+      "mean_days": 99.36952714535902
+    },
+    {
+      "key": "Other",
+      "n": 548,
+      "median_days": 43.0,
+      "p90_days": 262.3,
+      "mean_days": 106.05839416058394
+    },
+    {
+      "key": "Laneway / Rear Yard Suite",
+      "n": 522,
+      "median_days": 74.5,
+      "p90_days": 292.1000000000003,
+      "mean_days": 123.22988505747126
+    },
+    {
+      "key": "Industrial",
+      "n": 491,
+      "median_days": 50.0,
+      "p90_days": 247.0,
+      "mean_days": 110.16089613034623
+    },
+    {
+      "key": "Restaurant 30 Seats or Less ",
+      "n": 454,
+      "median_days": 32.0,
+      "p90_days": 96.79999999999995,
+      "mean_days": 55.43832599118943
+    },
+    {
+      "key": "Stacked Townhouses",
+      "n": 425,
+      "median_days": 464.0,
+      "p90_days": 988.0,
+      "mean_days": 528.2305882352941
+    },
+    {
+      "key": "Unknown",
+      "n": 313,
+      "median_days": 8.0,
+      "p90_days": 142.80000000000013,
+      "mean_days": 50.02875399361022
+    },
+    {
+      "key": "Hospital",
+      "n": 309,
+      "median_days": 40.0,
+      "p90_days": 126.19999999999999,
+      "mean_days": 74.94822006472492
+    },
+    {
+      "key": "Restaurant Greater Than 30 Seats",
+      "n": 271,
+      "median_days": 40.0,
+      "p90_days": 159.0,
+      "mean_days": 78.59040590405904
+    },
+    {
+      "key": "2 Unit - Semi-detached",
+      "n": 268,
+      "median_days": 24.0,
+      "p90_days": 112.0,
+      "mean_days": 58.62686567164179
+    },
+    {
+      "key": "Medical/Dental Office",
+      "n": 252,
+      "median_days": 36.5,
+      "p90_days": 108.0,
+      "mean_days": 56.90079365079365
+    },
+    {
+      "key": "Mixed Use/Res w Non Res",
+      "n": 240,
+      "median_days": 297.5,
+      "p90_days": 1059.0,
+      "mean_days": 464.42083333333335
+    },
+    {
+      "key": "Elementary School",
+      "n": 217,
+      "median_days": 35.0,
+      "p90_days": 191.00000000000006,
+      "mean_days": 95.46543778801843
+    },
+    {
+      "key": "Converted House",
+      "n": 192,
+      "median_days": 21.0,
+      "p90_days": 166.00000000000006,
+      "mean_days": 84.44791666666667
+    },
+    {
+      "key": "University",
+      "n": 163,
+      "median_days": 34.0,
+      "p90_days": 178.20000000000005,
+      "mean_days": 130.25153374233128
+    },
+    {
+      "key": "Place of Worship",
+      "n": 141,
+      "median_days": 67.0,
+      "p90_days": 410.0,
+      "mean_days": 200.95035460992906
+    }
+  ],
+  "approval_time_by_work": [
+    {
+      "key": "Building Permit Related(PS)",
+      "n": 5538,
+      "median_days": 36.0,
+      "p90_days": 250.30000000000018,
+      "mean_days": 102.52383531960997
+    },
+    {
+      "key": "Building Permit Related(MS)",
+      "n": 5092,
+      "median_days": 36.0,
+      "p90_days": 251.90000000000055,
+      "mean_days": 114.88413197172035
+    },
+    {
+      "key": "Interior Alterations",
+      "n": 3626,
+      "median_days": 25.0,
+      "p90_days": 102.0,
+      "mean_days": 49.978212906784336
+    },
+    {
+      "key": "New Building",
+      "n": 3346,
+      "median_days": 74.0,
+      "p90_days": 568.0,
+      "mean_days": 202.56455469216976
+    },
+    {
+      "key": "Multiple Projects",
+      "n": 2886,
+      "median_days": 34.0,
+      "p90_days": 156.5,
+      "mean_days": 74.5977130977131
+    },
+    {
+      "key": "Building Permit Related (DR)",
+      "n": 1811,
+      "median_days": 42.0,
+      "p90_days": 286.0,
+      "mean_days": 115.94864715626726
+    },
+    {
+      "key": "Addition(s) ",
+      "n": 885,
+      "median_days": 39.0,
+      "p90_days": 245.60000000000002,
+      "mean_days": 100.08926553672316
+    },
+    {
+      "key": "Demolition",
+      "n": 566,
+      "median_days": 71.0,
+      "p90_days": 356.0,
+      "mean_days": 155.1572438162544
+    },
+    {
+      "key": "Other(BA)",
+      "n": 461,
+      "median_days": 40.0,
+      "p90_days": 182.0,
+      "mean_days": 91.21475054229936
+    },
+    {
+      "key": " Backflow Prevention Devices (Water only)",
+      "n": 408,
+      "median_days": 22.5,
+      "p90_days": 56.900000000000034,
+      "mean_days": 52.279411764705884
+    },
+    {
+      "key": "Other(SR)",
+      "n": 316,
+      "median_days": 13.0,
+      "p90_days": 95.0,
+      "mean_days": 37.50632911392405
+    },
+    {
+      "key": "Unknown",
+      "n": 313,
+      "median_days": 8.0,
+      "p90_days": 142.80000000000013,
+      "mean_days": 50.02875399361022
+    },
+    {
+      "key": "Back Water Valve (Sewer only)",
+      "n": 257,
+      "median_days": 1.0,
+      "p90_days": 9.400000000000006,
+      "mean_days": 15.69260700389105
+    },
+    {
+      "key": "Other(PS)",
+      "n": 254,
+      "median_days": 21.5,
+      "p90_days": 66.70000000000002,
+      "mean_days": 32.732283464566926
+    },
+    {
+      "key": "Garage",
+      "n": 252,
+      "median_days": 8.0,
+      "p90_days": 85.0,
+      "mean_days": 38.24603174603175
+    },
+    {
+      "key": "New Laneway / Rear Yard Suite",
+      "n": 209,
+      "median_days": 79.0,
+      "p90_days": 278.4000000000001,
+      "mean_days": 128.22966507177034
+    },
+    {
+      "key": "Electromagnetic Locks",
+      "n": 199,
+      "median_days": 14.0,
+      "p90_days": 37.20000000000002,
+      "mean_days": 23.180904522613066
+    },
+    {
+      "key": "Garage Repair/Reconstruction",
+      "n": 194,
+      "median_days": 28.0,
+      "p90_days": 71.40000000000003,
+      "mean_days": 34.98453608247423
+    },
+    {
+      "key": "Fire Alarm",
+      "n": 184,
+      "median_days": 27.5,
+      "p90_days": 48.0,
+      "mean_days": 31.945652173913043
+    },
+    {
+      "key": "Deck",
+      "n": 176,
+      "median_days": 9.5,
+      "p90_days": 111.5,
+      "mean_days": 45.73863636363637
+    },
+    {
+      "key": "Porch",
+      "n": 171,
+      "median_days": 7.0,
+      "p90_days": 52.0,
+      "mean_days": 25.538011695906434
+    },
+    {
+      "key": "Underpinning",
+      "n": 168,
+      "median_days": 8.0,
+      "p90_days": 52.40000000000009,
+      "mean_days": 25.99404761904762
+    },
+    {
+      "key": "Party Wall Admin Permits",
+      "n": 166,
+      "median_days": 10.0,
+      "p90_days": 78.5,
+      "mean_days": 33.10843373493976
+    },
+    {
+      "key": "Sprinklers",
+      "n": 146,
+      "median_days": 31.5,
+      "p90_days": 185.0,
+      "mean_days": 93.66438356164383
+    },
+    {
+      "key": "Inside and Outside Drains",
+      "n": 141,
+      "median_days": 71.0,
+      "p90_days": 734.0,
+      "mean_days": 237.63120567375887
+    }
+  ],
+  "approval_time_by_fsa": [
+    {
+      "key": "",
+      "n": 1850,
+      "median_days": 55.5,
+      "p90_days": 708.0,
+      "mean_days": 212.22324324324325
+    },
+    {
+      "key": "M2N",
+      "n": 689,
+      "median_days": 32.0,
+      "p90_days": 183.0,
+      "mean_days": 84.29317851959361
+    },
+    {
+      "key": "M6S",
+      "n": 639,
+      "median_days": 27.0,
+      "p90_days": 144.4000000000001,
+      "mean_days": 77.45070422535211
+    },
+    {
+      "key": "M6G",
+      "n": 602,
+      "median_days": 19.0,
+      "p90_days": 145.29999999999984,
+      "mean_days": 63.12292358803987
+    },
+    {
+      "key": "M4L",
+      "n": 563,
+      "median_days": 21.0,
+      "p90_days": 192.20000000000005,
+      "mean_days": 89.79573712255772
+    },
+    {
+      "key": "M3H",
+      "n": 562,
+      "median_days": 41.0,
+      "p90_days": 411.0,
+      "mean_days": 109.79003558718861
+    },
+    {
+      "key": "M4J",
+      "n": 541,
+      "median_days": 21.0,
+      "p90_days": 140.0,
+      "mean_days": 77.5452865064695
+    },
+    {
+      "key": "M6H",
+      "n": 539,
+      "median_days": 30.0,
+      "p90_days": 193.39999999999998,
+      "mean_days": 88.18552875695732
+    },
+    {
+      "key": "M9A",
+      "n": 514,
+      "median_days": 34.0,
+      "p90_days": 148.0,
+      "mean_days": 73.92801556420234
+    },
+    {
+      "key": "M4C",
+      "n": 507,
+      "median_days": 22.0,
+      "p90_days": 138.0,
+      "mean_days": 65.35305719921105
+    },
+    {
+      "key": "M6J",
+      "n": 501,
+      "median_days": 25.0,
+      "p90_days": 147.0,
+      "mean_days": 73.48303393213573
+    },
+    {
+      "key": "M5M",
+      "n": 494,
+      "median_days": 33.0,
+      "p90_days": 140.0,
+      "mean_days": 70.7834008097166
+    },
+    {
+      "key": "M8Z",
+      "n": 477,
+      "median_days": 43.0,
+      "p90_days": 299.40000000000003,
+      "mean_days": 107.041928721174
+    },
+    {
+      "key": "M4K",
+      "n": 476,
+      "median_days": 19.5,
+      "p90_days": 125.5,
+      "mean_days": 51.73109243697479
+    },
+    {
+      "key": "M6P",
+      "n": 476,
+      "median_days": 23.5,
+      "p90_days": 181.5,
+      "mean_days": 79.12605042016807
+    },
+    {
+      "key": "M6N",
+      "n": 465,
+      "median_days": 45.0,
+      "p90_days": 756.0,
+      "mean_days": 168.26021505376343
+    },
+    {
+      "key": "M6R",
+      "n": 459,
+      "median_days": 18.0,
+      "p90_days": 107.39999999999998,
+      "mean_days": 50.81481481481482
+    },
+    {
+      "key": "M5R",
+      "n": 454,
+      "median_days": 28.0,
+      "p90_days": 140.0,
+      "mean_days": 82.79295154185021
+    },
+    {
+      "key": "M9W",
+      "n": 435,
+      "median_days": 41.0,
+      "p90_days": 249.40000000000032,
+      "mean_days": 124.76091954022988
+    },
+    {
+      "key": "M6E",
+      "n": 426,
+      "median_days": 35.0,
+      "p90_days": 154.5,
+      "mean_days": 83.87089201877934
+    },
+    {
+      "key": "M4M",
+      "n": 417,
+      "median_days": 26.0,
+      "p90_days": 269.4000000000004,
+      "mean_days": 103.01199040767386
+    },
+    {
+      "key": "M5V",
+      "n": 416,
+      "median_days": 31.0,
+      "p90_days": 177.0,
+      "mean_days": 93.82211538461539
+    },
+    {
+      "key": "M6B",
+      "n": 409,
+      "median_days": 38.0,
+      "p90_days": 324.0,
+      "mean_days": 107.239608801956
+    },
+    {
+      "key": "M9B",
+      "n": 408,
+      "median_days": 38.0,
+      "p90_days": 149.20000000000005,
+      "mean_days": 82.31127450980392
+    },
+    {
+      "key": "M4G",
+      "n": 406,
+      "median_days": 29.0,
+      "p90_days": 124.0,
+      "mean_days": 69.36206896551724
+    },
+    {
+      "key": "M6A",
+      "n": 405,
+      "median_days": 43.0,
+      "p90_days": 470.0,
+      "mean_days": 136.52592592592592
+    },
+    {
+      "key": "M4W",
+      "n": 404,
+      "median_days": 28.0,
+      "p90_days": 133.9999999999999,
+      "mean_days": 66.31930693069307
+    },
+    {
+      "key": "M8Y",
+      "n": 381,
+      "median_days": 42.0,
+      "p90_days": 262.0,
+      "mean_days": 111.77952755905511
+    },
+    {
+      "key": "M6C",
+      "n": 375,
+      "median_days": 27.0,
+      "p90_days": 160.0,
+      "mean_days": 79.51733333333334
+    },
+    {
+      "key": "M8V",
+      "n": 364,
+      "median_days": 37.5,
+      "p90_days": 203.0,
+      "mean_days": 103.09065934065934
+    },
+    {
+      "key": "M6K",
+      "n": 361,
+      "median_days": 24.0,
+      "p90_days": 126.0,
+      "mean_days": 69.78116343490305
+    },
+    {
+      "key": "M5S",
+      "n": 360,
+      "median_days": 35.0,
+      "p90_days": 238.0,
+      "mean_days": 114.7388888888889
+    },
+    {
+      "key": "M8W",
+      "n": 348,
+      "median_days": 59.0,
+      "p90_days": 210.7000000000001,
+      "mean_days": 109.76149425287356
+    },
+    {
+      "key": "M1P",
+      "n": 345,
+      "median_days": 63.0,
+      "p90_days": 199.80000000000018,
+      "mean_days": 109.19420289855073
+    },
+    {
+      "key": "M4E",
+      "n": 344,
+      "median_days": 18.0,
+      "p90_days": 125.09999999999997,
+      "mean_days": 59.32267441860465
+    },
+    {
+      "key": "M3B",
+      "n": 338,
+      "median_days": 36.0,
+      "p90_days": 149.0000000000001,
+      "mean_days": 83.35502958579882
+    },
+    {
+      "key": "M3C",
+      "n": 338,
+      "median_days": 56.0,
+      "p90_days": 234.0,
+      "mean_days": 127.6775147928994
+    },
+    {
+      "key": "M4N",
+      "n": 333,
+      "median_days": 35.0,
+      "p90_days": 144.80000000000007,
+      "mean_days": 75.57657657657657
+    },
+    {
+      "key": "M5T",
+      "n": 330,
+      "median_days": 39.5,
+      "p90_days": 287.4000000000001,
+      "mean_days": 132.8181818181818
+    },
+    {
+      "key": "M5A",
+      "n": 329,
+      "median_days": 34.0,
+      "p90_days": 327.9999999999999,
+      "mean_days": 129.88753799392097
+    },
+    {
+      "key": "M5N",
+      "n": 325,
+      "median_days": 26.0,
+      "p90_days": 88.60000000000002,
+      "mean_days": 65.81846153846153
+    },
+    {
+      "key": "M6M",
+      "n": 324,
+      "median_days": 35.5,
+      "p90_days": 199.29999999999978,
+      "mean_days": 93.89197530864197
+    },
+    {
+      "key": "M5G",
+      "n": 322,
+      "median_days": 25.0,
+      "p90_days": 84.50000000000017,
+      "mean_days": 60.35403726708075
+    },
+    {
+      "key": "M2J",
+      "n": 320,
+      "median_days": 28.0,
+      "p90_days": 181.00000000000023,
+      "mean_days": 83.86875
+    },
+    {
+      "key": "M1L",
+      "n": 315,
+      "median_days": 59.0,
+      "p90_days": 338.2000000000006,
+      "mean_days": 155.54920634920634
+    },
+    {
+      "key": "M1N",
+      "n": 315,
+      "median_days": 48.0,
+      "p90_days": 242.0,
+      "mean_days": 107.29206349206349
+    },
+    {
+      "key": "M1R",
+      "n": 295,
+      "median_days": 39.0,
+      "p90_days": 189.80000000000007,
+      "mean_days": 79.62033898305084
+    },
+    {
+      "key": "M9C",
+      "n": 291,
+      "median_days": 36.0,
+      "p90_days": 162.0,
+      "mean_days": 86.16151202749141
+    },
+    {
+      "key": "M2M",
+      "n": 287,
+      "median_days": 49.0,
+      "p90_days": 377.6000000000008,
+      "mean_days": 174.57839721254356
+    },
+    {
+      "key": "M4V",
+      "n": 283,
+      "median_days": 29.0,
+      "p90_days": 200.0000000000001,
+      "mean_days": 89.73144876325088
+    },
+    {
+      "key": "M2L",
+      "n": 279,
+      "median_days": 48.0,
+      "p90_days": 439.2000000000011,
+      "mean_days": 201.00358422939067
+    },
+    {
+      "key": "M5P",
+      "n": 264,
+      "median_days": 27.5,
+      "p90_days": 148.20000000000027,
+      "mean_days": 59.71590909090909
+    },
+    {
+      "key": "M4B",
+      "n": 263,
+      "median_days": 31.0,
+      "p90_days": 196.0,
+      "mean_days": 70.56273764258555
+    },
+    {
+      "key": "M9N",
+      "n": 255,
+      "median_days": 49.0,
+      "p90_days": 273.79999999999995,
+      "mean_days": 100.65882352941176
+    },
+    {
+      "key": "M4T",
+      "n": 232,
+      "median_days": 20.0,
+      "p90_days": 87.70000000000002,
+      "mean_days": 44.12068965517241
+    },
+    {
+      "key": "M9V",
+      "n": 227,
+      "median_days": 45.0,
+      "p90_days": 231.4,
+      "mean_days": 104.90748898678414
+    },
+    {
+      "key": "M2R",
+      "n": 226,
+      "median_days": 40.5,
+      "p90_days": 161.5,
+      "mean_days": 76.7433628318584
+    },
+    {
+      "key": "M1K",
+      "n": 221,
+      "median_days": 47.0,
+      "p90_days": 281.0,
+      "mean_days": 109.79638009049773
+    },
+    {
+      "key": "M1C",
+      "n": 219,
+      "median_days": 41.0,
+      "p90_days": 380.80000000000007,
+      "mean_days": 162.54337899543378
+    },
+    {
+      "key": "M4R",
+      "n": 212,
+      "median_days": 30.0,
+      "p90_days": 137.60000000000002,
+      "mean_days": 64.43867924528301
+    },
+    {
+      "key": "M5H",
+      "n": 209,
+      "median_days": 27.0,
+      "p90_days": 81.0,
+      "mean_days": 48.70334928229665
+    },
+    {
+      "key": "M6L",
+      "n": 209,
+      "median_days": 37.0,
+      "p90_days": 136.00000000000009,
+      "mean_days": 72.43540669856459
+    },
+    {
+      "key": "M1S",
+      "n": 207,
+      "median_days": 58.0,
+      "p90_days": 251.0,
+      "mean_days": 110.35265700483092
+    },
+    {
+      "key": "M2K",
+      "n": 207,
+      "median_days": 45.0,
+      "p90_days": 478.2000000000003,
+      "mean_days": 133.65217391304347
+    },
+    {
+      "key": "M8X",
+      "n": 205,
+      "median_days": 33.0,
+      "p90_days": 117.39999999999998,
+      "mean_days": 78.7560975609756
+    },
+    {
+      "key": "M4S",
+      "n": 203,
+      "median_days": 38.0,
+      "p90_days": 225.2000000000001,
+      "mean_days": 96.75862068965517
+    },
+    {
+      "key": "M3K",
+      "n": 195,
+      "median_days": 33.0,
+      "p90_days": 337.0,
+      "mean_days": 119.43589743589743
+    },
+    {
+      "key": "M1M",
+      "n": 194,
+      "median_days": 52.0,
+      "p90_days": 216.0,
+      "mean_days": 105.18041237113403
+    },
+    {
+      "key": "M1W",
+      "n": 192,
+      "median_days": 97.5,
+      "p90_days": 769.0,
+      "mean_days": 269.0
+    },
+    {
+      "key": "M1E",
+      "n": 188,
+      "median_days": 45.0,
+      "p90_days": 224.70000000000022,
+      "mean_days": 99.17021276595744
+    },
+    {
+      "key": "M9M",
+      "n": 188,
+      "median_days": 54.0,
+      "p90_days": 233.80000000000007,
+      "mean_days": 107.43617021276596
+    },
+    {
+      "key": "M5B",
+      "n": 187,
+      "median_days": 34.0,
+      "p90_days": 184.80000000000015,
+      "mean_days": 150.32085561497325
+    },
+    {
+      "key": "M3A",
+      "n": 184,
+      "median_days": 36.5,
+      "p90_days": 157.40000000000003,
+      "mean_days": 64.04891304347827
+    },
+    {
+      "key": "M4P",
+      "n": 184,
+      "median_days": 34.0,
+      "p90_days": 183.80000000000007,
+      "mean_days": 85.14673913043478
+    },
+    {
+      "key": "M9P",
+      "n": 182,
+      "median_days": 34.0,
+      "p90_days": 173.30000000000004,
+      "mean_days": 75.4010989010989
+    },
+    {
+      "key": "M3J",
+      "n": 179,
+      "median_days": 38.0,
+      "p90_days": 238.80000000000015,
+      "mean_days": 94.75977653631286
+    },
+    {
+      "key": "M5J",
+      "n": 169,
+      "median_days": 30.0,
+      "p90_days": 84.60000000000005,
+      "mean_days": 65.48520710059172
+    },
+    {
+      "key": "M1B",
+      "n": 166,
+      "median_days": 40.5,
+      "p90_days": 205.0,
+      "mean_days": 93.70481927710843
+    },
+    {
+      "key": "M1V",
+      "n": 156,
+      "median_days": 34.0,
+      "p90_days": 184.0,
+      "mean_days": 83.76282051282051
+    },
+    {
+      "key": "M2H",
+      "n": 147,
+      "median_days": 20.0,
+      "p90_days": 112.00000000000006,
+      "mean_days": 44.4421768707483
+    },
+    {
+      "key": "M2P",
+      "n": 143,
+      "median_days": 39.0,
+      "p90_days": 145.79999999999998,
+      "mean_days": 74.73426573426573
+    },
+    {
+      "key": "M3M",
+      "n": 138,
+      "median_days": 33.0,
+      "p90_days": 117.29999999999997,
+      "mean_days": 63.28260869565217
+    },
+    {
+      "key": "M9R",
+      "n": 126,
+      "median_days": 30.5,
+      "p90_days": 170.0,
+      "mean_days": 70.62698412698413
+    },
+    {
+      "key": "M4Y",
+      "n": 124,
+      "median_days": 30.0,
+      "p90_days": 189.60000000000002,
+      "mean_days": 90.24193548387096
+    },
+    {
+      "key": "M9L",
+      "n": 122,
+      "median_days": 45.0,
+      "p90_days": 325.0,
+      "mean_days": 153.86065573770492
+    },
+    {
+      "key": "M1T",
+      "n": 103,
+      "median_days": 41.0,
+      "p90_days": 160.0,
+      "mean_days": 121.2621359223301
+    },
+    {
+      "key": "M1H",
+      "n": 93,
+      "median_days": 39.0,
+      "p90_days": 169.19999999999993,
+      "mean_days": 86.53763440860214
+    },
+    {
+      "key": "M1J",
+      "n": 93,
+      "median_days": 40.0,
+      "p90_days": 219.59999999999997,
+      "mean_days": 92.89247311827957
+    },
+    {
+      "key": "M4A",
+      "n": 90,
+      "median_days": 34.5,
+      "p90_days": 227.60000000000005,
+      "mean_days": 75.52222222222223
+    },
+    {
+      "key": "M3N",
+      "n": 77,
+      "median_days": 20.0,
+      "p90_days": 149.80000000000004,
+      "mean_days": 129.1038961038961
+    },
+    {
+      "key": "M4X",
+      "n": 73,
+      "median_days": 27.0,
+      "p90_days": 156.59999999999985,
+      "mean_days": 58.054794520547944
+    },
+    {
+      "key": "M1G",
+      "n": 67,
+      "median_days": 29.0,
+      "p90_days": 94.79999999999998,
+      "mean_days": 46.07462686567164
+    },
+    {
+      "key": "M5C",
+      "n": 67,
+      "median_days": 27.0,
+      "p90_days": 144.79999999999998,
+      "mean_days": 52.940298507462686
+    },
+    {
+      "key": "M5E",
+      "n": 64,
+      "median_days": 30.0,
+      "p90_days": 255.90000000000003,
+      "mean_days": 90.484375
+    },
+    {
+      "key": "M1X",
+      "n": 57,
+      "median_days": 36.0,
+      "p90_days": 231.59999999999977,
+      "mean_days": 91.15789473684211
+    },
+    {
+      "key": "M3L",
+      "n": 55,
+      "median_days": 30.0,
+      "p90_days": 378.60000000000036,
+      "mean_days": 134.34545454545454
+    },
+    {
+      "key": "M7A",
+      "n": 36,
+      "median_days": 12.5,
+      "p90_days": 62.0,
+      "mean_days": 25.38888888888889
+    },
+    {
+      "key": "M4H",
+      "n": 26,
+      "median_days": 32.0,
+      "p90_days": 157.5,
+      "mean_days": 61.61538461538461
+    }
+  ],
+  "approval_time_by_ward": [
+    {
+      "key": "N0824",
+      "n": 358,
+      "median_days": 34.0,
+      "p90_days": 169.80000000000007,
+      "mean_days": 81.08100558659218
+    },
+    {
+      "key": "N0823",
+      "n": 339,
+      "median_days": 42.0,
+      "p90_days": 470.0,
+      "mean_days": 131.74041297935102
+    },
+    {
+      "key": "N1824",
+      "n": 304,
+      "median_days": 39.0,
+      "p90_days": 161.7,
+      "mean_days": 67.84210526315789
+    },
+    {
+      "key": "N0629",
+      "n": 302,
+      "median_days": 50.0,
+      "p90_days": 413.90000000000003,
+      "mean_days": 144.91059602649005
+    },
+    {
+      "key": "N0833",
+      "n": 253,
+      "median_days": 27.0,
+      "p90_days": 125.00000000000006,
+      "mean_days": 80.51778656126483
+    },
+    {
+      "key": "S1128",
+      "n": 244,
+      "median_days": 25.5,
+      "p90_days": 111.50000000000009,
+      "mean_days": 75.78688524590164
+    },
+    {
+      "key": "W0335",
+      "n": 238,
+      "median_days": 44.0,
+      "p90_days": 264.3,
+      "mean_days": 120.64285714285714
+    },
+    {
+      "key": "N1822",
+      "n": 230,
+      "median_days": 69.0,
+      "p90_days": 392.0,
+      "mean_days": 192.24347826086955
+    },
+    {
+      "key": "S0430",
+      "n": 223,
+      "median_days": 30.0,
+      "p90_days": 133.0,
+      "mean_days": 74.09865470852019
+    },
+    {
+      "key": "W0326",
+      "n": 220,
+      "median_days": 43.0,
+      "p90_days": 326.5,
+      "mean_days": 109.77272727272727
+    },
+    {
+      "key": "N0827",
+      "n": 219,
+      "median_days": 30.0,
+      "p90_days": 165.40000000000003,
+      "mean_days": 83.68036529680366
+    },
+    {
+      "key": "N0829",
+      "n": 214,
+      "median_days": 29.0,
+      "p90_days": 113.60000000000014,
+      "mean_days": 58.71495327102804
+    },
+    {
+      "key": "S1034",
+      "n": 206,
+      "median_days": 28.0,
+      "p90_days": 63.5,
+      "mean_days": 38.35436893203884
+    },
+    {
+      "key": "W0322",
+      "n": 205,
+      "median_days": 34.0,
+      "p90_days": 98.79999999999998,
+      "mean_days": 74.13170731707316
+    },
+    {
+      "key": "W0328",
+      "n": 197,
+      "median_days": 39.0,
+      "p90_days": 166.8,
+      "mean_days": 91.23350253807106
+    },
+    {
+      "key": "N0628",
+      "n": 196,
+      "median_days": 208.0,
+      "p90_days": 705.5,
+      "mean_days": 297.4030612244898
+    },
+    {
+      "key": "S0435",
+      "n": 188,
+      "median_days": 19.0,
+      "p90_days": 82.60000000000002,
+      "mean_days": 44.02127659574468
+    },
+    {
+      "key": "W0229",
+      "n": 184,
+      "median_days": 35.0,
+      "p90_days": 147.10000000000005,
+      "mean_days": 68.82065217391305
+    },
+    {
+      "key": "S1033",
+      "n": 176,
+      "median_days": 29.5,
+      "p90_days": 185.5,
+      "mean_days": 104.32386363636364
+    },
+    {
+      "key": "N1522",
+      "n": 173,
+      "median_days": 42.0,
+      "p90_days": 406.2000000000011,
+      "mean_days": 220.28323699421966
+    },
+    {
+      "key": "S1145",
+      "n": 173,
+      "median_days": 25.0,
+      "p90_days": 76.80000000000001,
+      "mean_days": 40.15028901734104
+    },
+    {
+      "key": "N1524",
+      "n": 172,
+      "median_days": 48.0,
+      "p90_days": 311.0000000000001,
+      "mean_days": 128.04651162790697
+    },
+    {
+      "key": "E2330",
+      "n": 170,
+      "median_days": 821.0,
+      "p90_days": 1003.0,
+      "mean_days": 619.8058823529411
+    },
+    {
+      "key": "N1526",
+      "n": 165,
+      "median_days": 29.0,
+      "p90_days": 153.0,
+      "mean_days": 77.42424242424242
+    },
+    {
+      "key": "W0325",
+      "n": 162,
+      "median_days": 42.5,
+      "p90_days": 340.9000000000001,
+      "mean_days": 103.11728395061728
+    },
+    {
+      "key": "S1222",
+      "n": 159,
+      "median_days": 36.0,
+      "p90_days": 203.2000000000001,
+      "mean_days": 94.0754716981132
+    },
+    {
+      "key": "E2028",
+      "n": 154,
+      "median_days": 70.0,
+      "p90_days": 623.0000000000011,
+      "mean_days": 225.83116883116884
+    },
+    {
+      "key": "S0426",
+      "n": 154,
+      "median_days": 19.5,
+      "p90_days": 112.70000000000002,
+      "mean_days": 54.61038961038961
+    },
+    {
+      "key": "W0336",
+      "n": 154,
+      "median_days": 42.0,
+      "p90_days": 280.0,
+      "mean_days": 90.1948051948052
+    },
+    {
+      "key": "N1826",
+      "n": 153,
+      "median_days": 31.0,
+      "p90_days": 361.0000000000003,
+      "mean_days": 117.36601307189542
+    },
+    {
+      "key": "W0324",
+      "n": 153,
+      "median_days": 46.0,
+      "p90_days": 250.60000000000008,
+      "mean_days": 120.07843137254902
+    },
+    {
+      "key": "N1823",
+      "n": 151,
+      "median_days": 34.0,
+      "p90_days": 194.0,
+      "mean_days": 105.80794701986756
+    },
+    {
+      "key": "W0230",
+      "n": 150,
+      "median_days": 34.5,
+      "p90_days": 171.6999999999999,
+      "mean_days": 83.40666666666667
+    },
+    {
+      "key": "N0825",
+      "n": 148,
+      "median_days": 32.0,
+      "p90_days": 103.60000000000002,
+      "mean_days": 55.3445945945946
+    },
+    {
+      "key": "S0432",
+      "n": 146,
+      "median_days": 16.5,
+      "p90_days": 130.0,
+      "mean_days": 47.321917808219176
+    },
+    {
+      "key": "S1133",
+      "n": 145,
+      "median_days": 26.0,
+      "p90_days": 182.6,
+      "mean_days": 76.17241379310344
+    },
+    {
+      "key": "W0334",
+      "n": 144,
+      "median_days": 66.5,
+      "p90_days": 207.70000000000002,
+      "mean_days": 115.19444444444444
+    },
+    {
+      "key": "N0831",
+      "n": 143,
+      "median_days": 99.0,
+      "p90_days": 326.4,
+      "mean_days": 186.56643356643357
+    },
+    {
+      "key": "N1727",
+      "n": 142,
+      "median_days": 24.0,
+      "p90_days": 151.50000000000003,
+      "mean_days": 70.17605633802818
+    },
+    {
+      "key": "E2033",
+      "n": 141,
+      "median_days": 41.0,
+      "p90_days": 206.0,
+      "mean_days": 113.92198581560284
+    },
+    {
+      "key": "N0624",
+      "n": 138,
+      "median_days": 30.0,
+      "p90_days": 148.6,
+      "mean_days": 69.34057971014492
+    },
+    {
+      "key": "S1129",
+      "n": 138,
+      "median_days": 29.5,
+      "p90_days": 120.0,
+      "mean_days": 50.57971014492754
+    },
+    {
+      "key": "S0933",
+      "n": 136,
+      "median_days": 28.5,
+      "p90_days": 202.5,
+      "mean_days": 75.50735294117646
+    },
+    {
+      "key": "W0228",
+      "n": 136,
+      "median_days": 31.0,
+      "p90_days": 126.5,
+      "mean_days": 55.669117647058826
+    },
+    {
+      "key": "S1144",
+      "n": 135,
+      "median_days": 34.0,
+      "p90_days": 120.60000000000001,
+      "mean_days": 62.977777777777774
+    },
+    {
+      "key": "N1521",
+      "n": 133,
+      "median_days": 38.0,
+      "p90_days": 204.0,
+      "mean_days": 79.21804511278195
+    },
+    {
+      "key": "N1529",
+      "n": 132,
+      "median_days": 27.5,
+      "p90_days": 99.50000000000003,
+      "mean_days": 45.95454545454545
+    },
+    {
+      "key": "N1531",
+      "n": 132,
+      "median_days": 28.0,
+      "p90_days": 219.00000000000006,
+      "mean_days": 78.67424242424242
+    },
+    {
+      "key": "S1027",
+      "n": 131,
+      "median_days": 26.0,
+      "p90_days": 125.0,
+      "mean_days": 75.0
+    },
+    {
+      "key": "N1725",
+      "n": 129,
+      "median_days": 45.0,
+      "p90_days": 298.0000000000002,
+      "mean_days": 115.68217054263566
+    }
+  ],
+  "approval_time_by_year": [
+    {
+      "key": 2025,
+      "n": 3577,
+      "median_days": 35.0,
+      "p90_days": 148.0,
+      "mean_days": 59.49203242941012
+    },
+    {
+      "key": 2024,
+      "n": 2531,
+      "median_days": 43.0,
+      "p90_days": 241.0,
+      "mean_days": 89.22165152113789
+    },
+    {
+      "key": 2022,
+      "n": 1958,
+      "median_days": 55.5,
+      "p90_days": 310.0,
+      "mean_days": 122.8161389172625
+    },
+    {
+      "key": 2023,
+      "n": 1958,
+      "median_days": 51.0,
+      "p90_days": 324.0,
+      "mean_days": 121.95658835546476
+    },
+    {
+      "key": 2021,
+      "n": 1727,
+      "median_days": 47.0,
+      "p90_days": 818.8000000000002,
+      "mean_days": 183.14302258251303
+    },
+    {
+      "key": 2019,
+      "n": 1398,
+      "median_days": 39.0,
+      "p90_days": 411.0,
+      "mean_days": 144.19742489270385
+    },
+    {
+      "key": 2026,
+      "n": 1382,
+      "median_days": 21.0,
+      "p90_days": 56.0,
+      "mean_days": 26.104920405209842
+    },
+    {
+      "key": 2020,
+      "n": 1193,
+      "median_days": 40.0,
+      "p90_days": 243.39999999999986,
+      "mean_days": 112.05699916177703
+    },
+    {
+      "key": 2015,
+      "n": 1173,
+      "median_days": 35.0,
+      "p90_days": 528.0,
+      "mean_days": 171.47399829497016
+    },
+    {
+      "key": 2018,
+      "n": 1075,
+      "median_days": 32.0,
+      "p90_days": 205.00000000000034,
+      "mean_days": 108.57488372093023
+    },
+    {
+      "key": 2017,
+      "n": 1062,
+      "median_days": 29.0,
+      "p90_days": 204.69999999999993,
+      "mean_days": 94.4934086629002
+    },
+    {
+      "key": 2016,
+      "n": 1026,
+      "median_days": 29.0,
+      "p90_days": 259.5,
+      "mean_days": 92.54093567251462
+    },
+    {
+      "key": 2014,
+      "n": 796,
+      "median_days": 26.5,
+      "p90_days": 318.0,
+      "mean_days": 115.92211055276383
+    },
+    {
+      "key": 2013,
+      "n": 787,
+      "median_days": 33.0,
+      "p90_days": 299.0,
+      "mean_days": 125.37992376111816
+    },
+    {
+      "key": 2011,
+      "n": 786,
+      "median_days": 26.0,
+      "p90_days": 138.5,
+      "mean_days": 76.03053435114504
+    },
+    {
+      "key": 2012,
+      "n": 748,
+      "median_days": 35.0,
+      "p90_days": 239.7000000000006,
+      "mean_days": 111.2620320855615
+    },
+    {
+      "key": 2010,
+      "n": 710,
+      "median_days": 25.0,
+      "p90_days": 161.0,
+      "mean_days": 96.43943661971831
+    },
+    {
+      "key": 2008,
+      "n": 688,
+      "median_days": 19.0,
+      "p90_days": 105.0,
+      "mean_days": 49.88517441860465
+    },
+    {
+      "key": 2009,
+      "n": 683,
+      "median_days": 22.0,
+      "p90_days": 161.40000000000055,
+      "mean_days": 85.60029282576866
+    },
+    {
+      "key": 2007,
+      "n": 682,
+      "median_days": 19.0,
+      "p90_days": 181.89999999999998,
+      "mean_days": 101.19941348973607
+    },
+    {
+      "key": 2005,
+      "n": 606,
+      "median_days": 18.0,
+      "p90_days": 179.5,
+      "mean_days": 92.14191419141915
+    },
+    {
+      "key": 2006,
+      "n": 593,
+      "median_days": 15.0,
+      "p90_days": 103.20000000000027,
+      "mean_days": 77.3760539629005
+    },
+    {
+      "key": 2004,
+      "n": 561,
+      "median_days": 35.0,
+      "p90_days": 273.0,
+      "mean_days": 91.12655971479501
+    },
+    {
+      "key": 2003,
+      "n": 496,
+      "median_days": 27.0,
+      "p90_days": 147.5,
+      "mean_days": 62.54032258064516
+    },
+    {
+      "key": 2002,
+      "n": 389,
+      "median_days": 32.0,
+      "p90_days": 230.2,
+      "mean_days": 96.6349614395887
+    },
+    {
+      "key": 2000,
+      "n": 290,
+      "median_days": 35.5,
+      "p90_days": 245.5000000000001,
+      "mean_days": 143.1103448275862
+    },
+    {
+      "key": 2001,
+      "n": 254,
+      "median_days": 20.0,
+      "p90_days": 180.0,
+      "mean_days": 55.346456692913385
+    },
+    {
+      "key": 1999,
+      "n": 219,
+      "median_days": 34.0,
+      "p90_days": 197.2000000000007,
+      "mean_days": 72.95433789954338
+    },
+    {
+      "key": 1998,
+      "n": 196,
+      "median_days": 49.0,
+      "p90_days": 173.0,
+      "mean_days": 78.00510204081633
+    },
+    {
+      "key": 1997,
+      "n": 87,
+      "median_days": 32.0,
+      "p90_days": 142.20000000000007,
+      "mean_days": 63.28735632183908
+    },
+    {
+      "key": 1996,
+      "n": 73,
+      "median_days": 27.0,
+      "p90_days": 124.59999999999997,
+      "mean_days": 48.28767123287671
+    }
+  ],
+  "approval_time_by_type_and_fsa": [
+    {
+      "key": [
+        "Plumbing(PS)",
+        ""
+      ],
+      "n": 466,
+      "median_days": 53.0,
+      "p90_days": 820.0,
+      "mean_days": 214.59442060085837
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        ""
+      ],
+      "n": 403,
+      "median_days": 62.0,
+      "p90_days": 820.0,
+      "mean_days": 242.3424317617866
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        ""
+      ],
+      "n": 361,
+      "median_days": 31.0,
+      "p90_days": 147.0,
+      "mean_days": 66.00277008310249
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M6G"
+      ],
+      "n": 241,
+      "median_days": 14.0,
+      "p90_days": 115.0,
+      "mean_days": 50.08298755186722
+    },
+    {
+      "key": [
+        "New Houses",
+        ""
+      ],
+      "n": 220,
+      "median_days": 318.0,
+      "p90_days": 1003.0,
+      "mean_days": 440.54545454545456
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M6S"
+      ],
+      "n": 218,
+      "median_days": 19.5,
+      "p90_days": 146.0,
+      "mean_days": 62.57798165137615
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M4L"
+      ],
+      "n": 203,
+      "median_days": 13.0,
+      "p90_days": 100.40000000000003,
+      "mean_days": 42.41379310344828
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M4J"
+      ],
+      "n": 199,
+      "median_days": 15.0,
+      "p90_days": 105.60000000000014,
+      "mean_days": 54.984924623115575
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M6H"
+      ],
+      "n": 193,
+      "median_days": 21.0,
+      "p90_days": 146.80000000000018,
+      "mean_days": 62.637305699481864
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M6P"
+      ],
+      "n": 191,
+      "median_days": 17.0,
+      "p90_days": 113.0,
+      "mean_days": 48.952879581151834
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M6R"
+      ],
+      "n": 190,
+      "median_days": 13.0,
+      "p90_days": 78.39999999999992,
+      "mean_days": 40.55263157894737
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M6J"
+      ],
+      "n": 184,
+      "median_days": 19.0,
+      "p90_days": 122.50000000000009,
+      "mean_days": 52.94565217391305
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M4C"
+      ],
+      "n": 179,
+      "median_days": 12.0,
+      "p90_days": 104.00000000000009,
+      "mean_days": 52.26815642458101
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M4K"
+      ],
+      "n": 174,
+      "median_days": 13.0,
+      "p90_days": 73.0,
+      "mean_days": 31.511494252873565
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M5V"
+      ],
+      "n": 161,
+      "median_days": 30.0,
+      "p90_days": 126.0,
+      "mean_days": 68.90062111801242
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M6S"
+      ],
+      "n": 161,
+      "median_days": 22.0,
+      "p90_days": 101.0,
+      "mean_days": 57.03105590062112
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M2N"
+      ],
+      "n": 152,
+      "median_days": 26.5,
+      "p90_days": 166.00000000000006,
+      "mean_days": 72.5
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M6E"
+      ],
+      "n": 146,
+      "median_days": 18.0,
+      "p90_days": 113.0,
+      "mean_days": 55.5958904109589
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M6N"
+      ],
+      "n": 141,
+      "median_days": 26.0,
+      "p90_days": 118.0,
+      "mean_days": 67.56737588652483
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M3H"
+      ],
+      "n": 139,
+      "median_days": 35.0,
+      "p90_days": 411.0,
+      "mean_days": 110.58992805755396
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4L"
+      ],
+      "n": 134,
+      "median_days": 17.5,
+      "p90_days": 164.10000000000002,
+      "mean_days": 63.02985074626866
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M5V"
+      ],
+      "n": 130,
+      "median_days": 32.0,
+      "p90_days": 107.20000000000002,
+      "mean_days": 84.64615384615385
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4K"
+      ],
+      "n": 130,
+      "median_days": 26.5,
+      "p90_days": 132.10000000000002,
+      "mean_days": 56.1
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M4M"
+      ],
+      "n": 128,
+      "median_days": 16.0,
+      "p90_days": 119.0,
+      "mean_days": 61.46875
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M9W"
+      ],
+      "n": 127,
+      "median_days": 47.0,
+      "p90_days": 230.8,
+      "mean_days": 87.75590551181102
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M9A"
+      ],
+      "n": 126,
+      "median_days": 27.0,
+      "p90_days": 108.0,
+      "mean_days": 51.317460317460316
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M2N"
+      ],
+      "n": 125,
+      "median_days": 28.0,
+      "p90_days": 135.80000000000032,
+      "mean_days": 59.0
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M6G"
+      ],
+      "n": 125,
+      "median_days": 14.0,
+      "p90_days": 92.60000000000001,
+      "mean_days": 46.328
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M4E"
+      ],
+      "n": 125,
+      "median_days": 13.0,
+      "p90_days": 72.80000000000003,
+      "mean_days": 36.92
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M5G"
+      ],
+      "n": 124,
+      "median_days": 21.5,
+      "p90_days": 74.90000000000002,
+      "mean_days": 33.86290322580645
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M6C"
+      ],
+      "n": 124,
+      "median_days": 18.0,
+      "p90_days": 90.10000000000001,
+      "mean_days": 55.38709677419355
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4J"
+      ],
+      "n": 123,
+      "median_days": 13.0,
+      "p90_days": 89.8,
+      "mean_days": 37.666666666666664
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M2N"
+      ],
+      "n": 122,
+      "median_days": 31.0,
+      "p90_days": 148.80000000000007,
+      "mean_days": 82.77049180327869
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M6N"
+      ],
+      "n": 120,
+      "median_days": 39.0,
+      "p90_days": 876.0,
+      "mean_days": 165.91666666666666
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4C"
+      ],
+      "n": 116,
+      "median_days": 22.0,
+      "p90_days": 123.0,
+      "mean_days": 66.04310344827586
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        ""
+      ],
+      "n": 115,
+      "median_days": 138.0,
+      "p90_days": 680.2000000000002,
+      "mean_days": 265.95652173913044
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M6H"
+      ],
+      "n": 115,
+      "median_days": 26.0,
+      "p90_days": 191.0,
+      "mean_days": 69.77391304347826
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M5R"
+      ],
+      "n": 114,
+      "median_days": 31.5,
+      "p90_days": 95.4,
+      "mean_days": 80.2719298245614
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M6R"
+      ],
+      "n": 114,
+      "median_days": 14.0,
+      "p90_days": 83.4,
+      "mean_days": 42.13157894736842
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M9A"
+      ],
+      "n": 113,
+      "median_days": 32.0,
+      "p90_days": 89.19999999999997,
+      "mean_days": 55.43362831858407
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M8Z"
+      ],
+      "n": 112,
+      "median_days": 36.5,
+      "p90_days": 175.10000000000005,
+      "mean_days": 82.20535714285714
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M6S"
+      ],
+      "n": 110,
+      "median_days": 28.5,
+      "p90_days": 161.20000000000002,
+      "mean_days": 106.7
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M5S"
+      ],
+      "n": 109,
+      "median_days": 28.0,
+      "p90_days": 149.40000000000003,
+      "mean_days": 54.055045871559635
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M5G"
+      ],
+      "n": 109,
+      "median_days": 30.0,
+      "p90_days": 103.80000000000001,
+      "mean_days": 110.35779816513761
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M6J"
+      ],
+      "n": 108,
+      "median_days": 25.0,
+      "p90_days": 152.29999999999995,
+      "mean_days": 66.14814814814815
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M6H"
+      ],
+      "n": 107,
+      "median_days": 29.0,
+      "p90_days": 198.80000000000004,
+      "mean_days": 102.26168224299066
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M5T"
+      ],
+      "n": 106,
+      "median_days": 35.0,
+      "p90_days": 92.5,
+      "mean_days": 80.55660377358491
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M4W"
+      ],
+      "n": 105,
+      "median_days": 22.0,
+      "p90_days": 78.60000000000001,
+      "mean_days": 38.19047619047619
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M9W"
+      ],
+      "n": 105,
+      "median_days": 47.0,
+      "p90_days": 173.8,
+      "mean_days": 121.33333333333333
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4M"
+      ],
+      "n": 104,
+      "median_days": 24.0,
+      "p90_days": 230.80000000000007,
+      "mean_days": 81.25961538461539
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M3H"
+      ],
+      "n": 102,
+      "median_days": 24.0,
+      "p90_days": 131.70000000000002,
+      "mean_days": 55.450980392156865
+    },
+    {
+      "key": [
+        "New Houses",
+        "M2N"
+      ],
+      "n": 101,
+      "median_days": 57.0,
+      "p90_days": 253.0,
+      "mean_days": 111.63366336633663
+    },
+    {
+      "key": [
+        "New Houses",
+        "M5M"
+      ],
+      "n": 101,
+      "median_days": 51.0,
+      "p90_days": 131.0,
+      "mean_days": 95.0990099009901
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M5R"
+      ],
+      "n": 100,
+      "median_days": 24.0,
+      "p90_days": 105.0,
+      "mean_days": 105.56
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M9B"
+      ],
+      "n": 100,
+      "median_days": 34.5,
+      "p90_days": 101.40000000000003,
+      "mean_days": 59.08
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M6E"
+      ],
+      "n": 99,
+      "median_days": 37.0,
+      "p90_days": 141.40000000000003,
+      "mean_days": 82.73737373737374
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M4G"
+      ],
+      "n": 99,
+      "median_days": 21.0,
+      "p90_days": 76.4,
+      "mean_days": 43.17171717171717
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M5M"
+      ],
+      "n": 99,
+      "median_days": 15.0,
+      "p90_days": 135.0,
+      "mean_days": 60.76767676767677
+    },
+    {
+      "key": [
+        "New Houses",
+        "M6A"
+      ],
+      "n": 97,
+      "median_days": 105.0,
+      "p90_days": 590.2,
+      "mean_days": 211.24742268041237
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M6P"
+      ],
+      "n": 97,
+      "median_days": 18.0,
+      "p90_days": 212.40000000000006,
+      "mean_days": 69.19587628865979
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M8Z"
+      ],
+      "n": 96,
+      "median_days": 43.5,
+      "p90_days": 286.5,
+      "mean_days": 144.03125
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4G"
+      ],
+      "n": 96,
+      "median_days": 25.0,
+      "p90_days": 112.5,
+      "mean_days": 54.145833333333336
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M6A"
+      ],
+      "n": 95,
+      "median_days": 39.0,
+      "p90_days": 144.80000000000013,
+      "mean_days": 100.87368421052632
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M5H"
+      ],
+      "n": 94,
+      "median_days": 21.0,
+      "p90_days": 76.90000000000002,
+      "mean_days": 34.52127659574468
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M8Y"
+      ],
+      "n": 94,
+      "median_days": 37.0,
+      "p90_days": 162.70000000000005,
+      "mean_days": 98.69148936170212
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M3H"
+      ],
+      "n": 93,
+      "median_days": 42.0,
+      "p90_days": 602.8,
+      "mean_days": 169.58064516129033
+    },
+    {
+      "key": [
+        "New Houses",
+        "M3H"
+      ],
+      "n": 93,
+      "median_days": 60.0,
+      "p90_days": 414.0,
+      "mean_days": 176.6451612903226
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4W"
+      ],
+      "n": 92,
+      "median_days": 29.5,
+      "p90_days": 89.60000000000008,
+      "mean_days": 54.78260869565217
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M5M"
+      ],
+      "n": 92,
+      "median_days": 21.5,
+      "p90_days": 108.9,
+      "mean_days": 49.31521739130435
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M5R"
+      ],
+      "n": 91,
+      "median_days": 16.0,
+      "p90_days": 93.0,
+      "mean_days": 49.68131868131868
+    },
+    {
+      "key": [
+        "New Houses",
+        "M9A"
+      ],
+      "n": 88,
+      "median_days": 47.0,
+      "p90_days": 199.49999999999994,
+      "mean_days": 86.44318181818181
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4E"
+      ],
+      "n": 88,
+      "median_days": 17.5,
+      "p90_days": 106.39999999999992,
+      "mean_days": 57.55681818181818
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M4J"
+      ],
+      "n": 87,
+      "median_days": 22.0,
+      "p90_days": 151.00000000000009,
+      "mean_days": 55.4367816091954
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M4L"
+      ],
+      "n": 87,
+      "median_days": 31.0,
+      "p90_days": 254.60000000000053,
+      "mean_days": 147.75862068965517
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M6G"
+      ],
+      "n": 86,
+      "median_days": 27.5,
+      "p90_days": 257.5,
+      "mean_days": 108.61627906976744
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M9B"
+      ],
+      "n": 84,
+      "median_days": 34.0,
+      "p90_days": 140.0000000000001,
+      "mean_days": 75.38095238095238
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M6K"
+      ],
+      "n": 84,
+      "median_days": 26.0,
+      "p90_days": 102.30000000000003,
+      "mean_days": 48.476190476190474
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M6M"
+      ],
+      "n": 84,
+      "median_days": 23.5,
+      "p90_days": 128.20000000000002,
+      "mean_days": 55.45238095238095
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M4C"
+      ],
+      "n": 83,
+      "median_days": 24.0,
+      "p90_days": 99.6,
+      "mean_days": 53.93975903614458
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M6B"
+      ],
+      "n": 83,
+      "median_days": 63.0,
+      "p90_days": 209.2,
+      "mean_days": 115.51807228915662
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M6B"
+      ],
+      "n": 83,
+      "median_days": 42.0,
+      "p90_days": 297.19999999999993,
+      "mean_days": 97.08433734939759
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M8Y"
+      ],
+      "n": 83,
+      "median_days": 39.0,
+      "p90_days": 280.0,
+      "mean_days": 96.10843373493977
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M5N"
+      ],
+      "n": 83,
+      "median_days": 14.0,
+      "p90_days": 84.0,
+      "mean_days": 35.373493975903614
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M5R"
+      ],
+      "n": 82,
+      "median_days": 29.0,
+      "p90_days": 133.0,
+      "mean_days": 74.84146341463415
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M9A"
+      ],
+      "n": 82,
+      "median_days": 29.5,
+      "p90_days": 146.90000000000006,
+      "mean_days": 78.76829268292683
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M4W"
+      ],
+      "n": 81,
+      "median_days": 28.0,
+      "p90_days": 142.0,
+      "mean_days": 66.77777777777777
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M8V"
+      ],
+      "n": 81,
+      "median_days": 25.0,
+      "p90_days": 142.0,
+      "mean_days": 56.50617283950617
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M4W"
+      ],
+      "n": 80,
+      "median_days": 29.0,
+      "p90_days": 127.30000000000028,
+      "mean_days": 72.2625
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M1R"
+      ],
+      "n": 80,
+      "median_days": 27.5,
+      "p90_days": 150.5000000000004,
+      "mean_days": 65.725
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M8Y"
+      ],
+      "n": 80,
+      "median_days": 29.5,
+      "p90_days": 91.00000000000009,
+      "mean_days": 79.4875
+    },
+    {
+      "key": [
+        "New Houses",
+        "M2M"
+      ],
+      "n": 79,
+      "median_days": 108.0,
+      "p90_days": 925.0,
+      "mean_days": 336.1012658227848
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M2N"
+      ],
+      "n": 78,
+      "median_days": 31.0,
+      "p90_days": 171.5,
+      "mean_days": 85.42307692307692
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M5T"
+      ],
+      "n": 78,
+      "median_days": 35.5,
+      "p90_days": 205.49999999999994,
+      "mean_days": 83.07692307692308
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M6J"
+      ],
+      "n": 78,
+      "median_days": 29.5,
+      "p90_days": 138.59999999999997,
+      "mean_days": 94.08974358974359
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M8V"
+      ],
+      "n": 78,
+      "median_days": 34.0,
+      "p90_days": 330.2999999999996,
+      "mean_days": 113.16666666666667
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M2J"
+      ],
+      "n": 77,
+      "median_days": 28.0,
+      "p90_days": 91.20000000000002,
+      "mean_days": 47.55844155844156
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M5A"
+      ],
+      "n": 77,
+      "median_days": 40.0,
+      "p90_days": 159.8,
+      "mean_days": 114.48051948051948
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M9W"
+      ],
+      "n": 77,
+      "median_days": 56.0,
+      "p90_days": 335.20000000000005,
+      "mean_days": 201.0
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M1P"
+      ],
+      "n": 77,
+      "median_days": 53.0,
+      "p90_days": 177.40000000000003,
+      "mean_days": 88.36363636363636
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M4V"
+      ],
+      "n": 77,
+      "median_days": 16.0,
+      "p90_days": 102.40000000000003,
+      "mean_days": 52.064935064935064
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M8W"
+      ],
+      "n": 77,
+      "median_days": 36.0,
+      "p90_days": 169.40000000000003,
+      "mean_days": 72.41558441558442
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M8Z"
+      ],
+      "n": 77,
+      "median_days": 28.0,
+      "p90_days": 89.4,
+      "mean_days": 40.41558441558441
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M5A"
+      ],
+      "n": 76,
+      "median_days": 30.5,
+      "p90_days": 210.5,
+      "mean_days": 82.63157894736842
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4N"
+      ],
+      "n": 76,
+      "median_days": 32.5,
+      "p90_days": 116.0,
+      "mean_days": 52.86842105263158
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M8W"
+      ],
+      "n": 76,
+      "median_days": 62.5,
+      "p90_days": 199.0,
+      "mean_days": 119.65789473684211
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M1P"
+      ],
+      "n": 75,
+      "median_days": 52.0,
+      "p90_days": 159.00000000000006,
+      "mean_days": 77.78666666666666
+    },
+    {
+      "key": [
+        "New Houses",
+        "M6B"
+      ],
+      "n": 75,
+      "median_days": 56.0,
+      "p90_days": 324.0,
+      "mean_days": 170.09333333333333
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M9B"
+      ],
+      "n": 75,
+      "median_days": 40.0,
+      "p90_days": 199.4000000000003,
+      "mean_days": 82.50666666666666
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M6K"
+      ],
+      "n": 75,
+      "median_days": 14.0,
+      "p90_days": 70.00000000000009,
+      "mean_days": 63.04
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M5J"
+      ],
+      "n": 73,
+      "median_days": 26.0,
+      "p90_days": 57.0,
+      "mean_days": 37.95890410958904
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M6K"
+      ],
+      "n": 73,
+      "median_days": 28.0,
+      "p90_days": 145.79999999999998,
+      "mean_days": 66.68493150684931
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M9C"
+      ],
+      "n": 72,
+      "median_days": 36.5,
+      "p90_days": 131.1,
+      "mean_days": 58.0
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M2J"
+      ],
+      "n": 72,
+      "median_days": 24.5,
+      "p90_days": 572.5999999999999,
+      "mean_days": 119.91666666666667
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M6M"
+      ],
+      "n": 72,
+      "median_days": 35.0,
+      "p90_days": 281.2999999999999,
+      "mean_days": 129.81944444444446
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M1N"
+      ],
+      "n": 72,
+      "median_days": 34.0,
+      "p90_days": 186.39999999999998,
+      "mean_days": 78.0
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M4T"
+      ],
+      "n": 72,
+      "median_days": 15.0,
+      "p90_days": 76.0,
+      "mean_days": 36.52777777777778
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M4G"
+      ],
+      "n": 71,
+      "median_days": 34.0,
+      "p90_days": 126.0,
+      "mean_days": 78.32394366197182
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M5M"
+      ],
+      "n": 71,
+      "median_days": 31.0,
+      "p90_days": 176.0,
+      "mean_days": 80.09859154929578
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M5S"
+      ],
+      "n": 71,
+      "median_days": 34.0,
+      "p90_days": 124.0,
+      "mean_days": 77.73239436619718
+    },
+    {
+      "key": [
+        "New Houses",
+        "M2L"
+      ],
+      "n": 71,
+      "median_days": 78.0,
+      "p90_days": 1778.0,
+      "mean_days": 468.63380281690144
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M1N"
+      ],
+      "n": 71,
+      "median_days": 42.0,
+      "p90_days": 252.0,
+      "mean_days": 102.49295774647888
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M5V"
+      ],
+      "n": 71,
+      "median_days": 30.0,
+      "p90_days": 96.0,
+      "mean_days": 78.2394366197183
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M5B"
+      ],
+      "n": 70,
+      "median_days": 30.0,
+      "p90_days": 158.70000000000007,
+      "mean_days": 69.72857142857143
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M6E"
+      ],
+      "n": 70,
+      "median_days": 50.0,
+      "p90_days": 163.60000000000008,
+      "mean_days": 137.27142857142857
+    },
+    {
+      "key": [
+        "New Houses",
+        "M3C"
+      ],
+      "n": 70,
+      "median_days": 232.0,
+      "p90_days": 234.0,
+      "mean_days": 205.81428571428572
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M9W"
+      ],
+      "n": 70,
+      "median_days": 19.0,
+      "p90_days": 117.20000000000006,
+      "mean_days": 47.8
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M6N"
+      ],
+      "n": 69,
+      "median_days": 45.0,
+      "p90_days": 877.2,
+      "mean_days": 252.2608695652174
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M6R"
+      ],
+      "n": 69,
+      "median_days": 26.0,
+      "p90_days": 100.2,
+      "mean_days": 49.42028985507246
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M8V"
+      ],
+      "n": 69,
+      "median_days": 51.0,
+      "p90_days": 347.80000000000024,
+      "mean_days": 119.66666666666667
+    },
+    {
+      "key": [
+        "New Houses",
+        "M9B"
+      ],
+      "n": 69,
+      "median_days": 43.0,
+      "p90_days": 159.0000000000001,
+      "mean_days": 72.91304347826087
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M2J"
+      ],
+      "n": 69,
+      "median_days": 13.0,
+      "p90_days": 92.20000000000005,
+      "mean_days": 52.69565217391305
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M8X"
+      ],
+      "n": 69,
+      "median_days": 28.0,
+      "p90_days": 98.60000000000011,
+      "mean_days": 48.95652173913044
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M5M"
+      ],
+      "n": 68,
+      "median_days": 23.5,
+      "p90_days": 147.5000000000001,
+      "mean_days": 73.16176470588235
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M8W"
+      ],
+      "n": 68,
+      "median_days": 60.0,
+      "p90_days": 253.50000000000014,
+      "mean_days": 122.67647058823529
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M3H"
+      ],
+      "n": 67,
+      "median_days": 36.0,
+      "p90_days": 147.4,
+      "mean_days": 61.3134328358209
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M4K"
+      ],
+      "n": 67,
+      "median_days": 18.0,
+      "p90_days": 124.8,
+      "mean_days": 67.61194029850746
+    },
+    {
+      "key": [
+        "New Building",
+        ""
+      ],
+      "n": 67,
+      "median_days": 156.0,
+      "p90_days": 1006.0,
+      "mean_days": 329.8805970149254
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M6C"
+      ],
+      "n": 67,
+      "median_days": 22.0,
+      "p90_days": 154.6,
+      "mean_days": 84.46268656716418
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M4M"
+      ],
+      "n": 66,
+      "median_days": 28.0,
+      "p90_days": 118.5,
+      "mean_days": 65.95454545454545
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M5N"
+      ],
+      "n": 66,
+      "median_days": 20.5,
+      "p90_days": 78.0,
+      "mean_days": 32.89393939393939
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M9N"
+      ],
+      "n": 66,
+      "median_days": 52.0,
+      "p90_days": 279.5,
+      "mean_days": 112.39393939393939
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M4E"
+      ],
+      "n": 65,
+      "median_days": 22.0,
+      "p90_days": 128.4,
+      "mean_days": 64.26153846153846
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M9C"
+      ],
+      "n": 65,
+      "median_days": 42.0,
+      "p90_days": 133.60000000000002,
+      "mean_days": 64.52307692307693
+    },
+    {
+      "key": [
+        "New Houses",
+        "M4G"
+      ],
+      "n": 64,
+      "median_days": 49.0,
+      "p90_days": 217.00000000000003,
+      "mean_days": 87.5
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M2L"
+      ],
+      "n": 64,
+      "median_days": 42.5,
+      "p90_days": 207.50000000000017,
+      "mean_days": 111.21875
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M3C"
+      ],
+      "n": 64,
+      "median_days": 40.0,
+      "p90_days": 233.0,
+      "mean_days": 84.6875
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M5S"
+      ],
+      "n": 64,
+      "median_days": 37.0,
+      "p90_days": 212.10000000000014,
+      "mean_days": 88.578125
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M6A"
+      ],
+      "n": 63,
+      "median_days": 33.0,
+      "p90_days": 101.40000000000003,
+      "mean_days": 59.17460317460318
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M6J"
+      ],
+      "n": 63,
+      "median_days": 34.0,
+      "p90_days": 210.8000000000001,
+      "mean_days": 83.11111111111111
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M6A"
+      ],
+      "n": 63,
+      "median_days": 37.0,
+      "p90_days": 494.0,
+      "mean_days": 180.44444444444446
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M1L"
+      ],
+      "n": 63,
+      "median_days": 52.0,
+      "p90_days": 344.4000000000001,
+      "mean_days": 168.84126984126985
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M3B"
+      ],
+      "n": 63,
+      "median_days": 38.0,
+      "p90_days": 192.40000000000026,
+      "mean_days": 101.44444444444444
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4V"
+      ],
+      "n": 63,
+      "median_days": 24.0,
+      "p90_days": 83.60000000000001,
+      "mean_days": 51.87301587301587
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M5A"
+      ],
+      "n": 63,
+      "median_days": 28.0,
+      "p90_days": 527.4000000000001,
+      "mean_days": 156.15873015873015
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M1L"
+      ],
+      "n": 63,
+      "median_days": 47.0,
+      "p90_days": 210.8,
+      "mean_days": 96.31746031746032
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M6P"
+      ],
+      "n": 62,
+      "median_days": 25.5,
+      "p90_days": 168.59999999999997,
+      "mean_days": 56.016129032258064
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M4B"
+      ],
+      "n": 62,
+      "median_days": 29.5,
+      "p90_days": 111.69999999999999,
+      "mean_days": 51.66129032258065
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M9N"
+      ],
+      "n": 62,
+      "median_days": 35.0,
+      "p90_days": 169.29999999999998,
+      "mean_days": 80.41935483870968
+    },
+    {
+      "key": [
+        "Fire/Security Upgrade",
+        ""
+      ],
+      "n": 61,
+      "median_days": 26.0,
+      "p90_days": 108.0,
+      "mean_days": 56.85245901639344
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M4N"
+      ],
+      "n": 61,
+      "median_days": 32.0,
+      "p90_days": 192.0,
+      "mean_days": 89.0327868852459
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M6K"
+      ],
+      "n": 61,
+      "median_days": 26.0,
+      "p90_days": 72.0,
+      "mean_days": 49.98360655737705
+    },
+    {
+      "key": [
+        "New Houses",
+        "M3B"
+      ],
+      "n": 61,
+      "median_days": 48.0,
+      "p90_days": 169.0,
+      "mean_days": 95.47540983606558
+    },
+    {
+      "key": [
+        "New Houses",
+        "M5N"
+      ],
+      "n": 61,
+      "median_days": 36.0,
+      "p90_days": 107.0,
+      "mean_days": 76.0
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M5P"
+      ],
+      "n": 61,
+      "median_days": 26.0,
+      "p90_days": 64.0,
+      "mean_days": 35.868852459016395
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M9C"
+      ],
+      "n": 61,
+      "median_days": 37.0,
+      "p90_days": 97.0,
+      "mean_days": 64.24590163934427
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M6B"
+      ],
+      "n": 61,
+      "median_days": 20.0,
+      "p90_days": 83.0,
+      "mean_days": 49.885245901639344
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M1L"
+      ],
+      "n": 60,
+      "median_days": 54.5,
+      "p90_days": 188.2,
+      "mean_days": 153.9
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M4N"
+      ],
+      "n": 60,
+      "median_days": 10.0,
+      "p90_days": 72.30000000000001,
+      "mean_days": 89.43333333333334
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M4R"
+      ],
+      "n": 60,
+      "median_days": 14.0,
+      "p90_days": 68.9,
+      "mean_days": 30.45
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M3C"
+      ],
+      "n": 58,
+      "median_days": 28.5,
+      "p90_days": 124.3000000000001,
+      "mean_days": 58.03448275862069
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M3B"
+      ],
+      "n": 58,
+      "median_days": 29.0,
+      "p90_days": 245.4000000000002,
+      "mean_days": 89.60344827586206
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M6C"
+      ],
+      "n": 58,
+      "median_days": 32.5,
+      "p90_days": 94.60000000000001,
+      "mean_days": 78.46551724137932
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4B"
+      ],
+      "n": 58,
+      "median_days": 32.5,
+      "p90_days": 170.80000000000015,
+      "mean_days": 65.32758620689656
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M5B"
+      ],
+      "n": 57,
+      "median_days": 34.0,
+      "p90_days": 138.79999999999993,
+      "mean_days": 216.40350877192984
+    },
+    {
+      "key": [
+        "New Houses",
+        "M1L"
+      ],
+      "n": 57,
+      "median_days": 123.0,
+      "p90_days": 598.3999999999999,
+      "mean_days": 236.59649122807016
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M1R"
+      ],
+      "n": 57,
+      "median_days": 51.0,
+      "p90_days": 208.39999999999995,
+      "mean_days": 85.35087719298245
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M9V"
+      ],
+      "n": 57,
+      "median_days": 45.0,
+      "p90_days": 298.3999999999998,
+      "mean_days": 113.0
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M1C"
+      ],
+      "n": 57,
+      "median_days": 17.0,
+      "p90_days": 195.79999999999984,
+      "mean_days": 75.42105263157895
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M8Z"
+      ],
+      "n": 56,
+      "median_days": 50.0,
+      "p90_days": 311.5,
+      "mean_days": 122.91071428571429
+    },
+    {
+      "key": [
+        "New Houses",
+        "M5P"
+      ],
+      "n": 56,
+      "median_days": 43.0,
+      "p90_days": 234.0,
+      "mean_days": 94.625
+    },
+    {
+      "key": [
+        "New Houses",
+        "M8W"
+      ],
+      "n": 56,
+      "median_days": 95.0,
+      "p90_days": 222.5,
+      "mean_days": 139.60714285714286
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M3B"
+      ],
+      "n": 55,
+      "median_days": 32.0,
+      "p90_days": 105.0,
+      "mean_days": 73.72727272727273
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M6G"
+      ],
+      "n": 55,
+      "median_days": 9.0,
+      "p90_days": 133.4,
+      "mean_days": 61.70909090909091
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M1P"
+      ],
+      "n": 55,
+      "median_days": 65.0,
+      "p90_days": 183.0,
+      "mean_days": 142.8909090909091
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M1R"
+      ],
+      "n": 55,
+      "median_days": 24.0,
+      "p90_days": 164.0,
+      "mean_days": 73.81818181818181
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M2L"
+      ],
+      "n": 55,
+      "median_days": 31.0,
+      "p90_days": 174.0,
+      "mean_days": 98.16363636363636
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M6G"
+      ],
+      "n": 54,
+      "median_days": 32.0,
+      "p90_days": 171.2000000000001,
+      "mean_days": 83.57407407407408
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M1N"
+      ],
+      "n": 54,
+      "median_days": 33.0,
+      "p90_days": 140.60000000000002,
+      "mean_days": 77.31481481481481
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M1S"
+      ],
+      "n": 54,
+      "median_days": 54.0,
+      "p90_days": 252.0,
+      "mean_days": 140.83333333333334
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M5T"
+      ],
+      "n": 54,
+      "median_days": 41.5,
+      "p90_days": 526.4000000000003,
+      "mean_days": 198.14814814814815
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M2N"
+      ],
+      "n": 54,
+      "median_days": 28.0,
+      "p90_days": 89.70000000000003,
+      "mean_days": 61.94444444444444
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M5P"
+      ],
+      "n": 54,
+      "median_days": 21.0,
+      "p90_days": 140.00000000000028,
+      "mean_days": 47.77777777777778
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M9P"
+      ],
+      "n": 54,
+      "median_days": 18.5,
+      "p90_days": 91.50000000000001,
+      "mean_days": 51.907407407407405
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M6P"
+      ],
+      "n": 53,
+      "median_days": 32.0,
+      "p90_days": 101.40000000000006,
+      "mean_days": 47.924528301886795
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M4B"
+      ],
+      "n": 53,
+      "median_days": 23.0,
+      "p90_days": 153.60000000000002,
+      "mean_days": 68.35849056603773
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M5H"
+      ],
+      "n": 53,
+      "median_days": 28.0,
+      "p90_days": 63.40000000000001,
+      "mean_days": 46.094339622641506
+    },
+    {
+      "key": [
+        "New Houses",
+        "M8Y"
+      ],
+      "n": 53,
+      "median_days": 76.0,
+      "p90_days": 428.20000000000016,
+      "mean_days": 144.11320754716982
+    },
+    {
+      "key": [
+        "New Houses",
+        "M8Z"
+      ],
+      "n": 53,
+      "median_days": 67.0,
+      "p90_days": 348.0,
+      "mean_days": 132.9056603773585
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M5S"
+      ],
+      "n": 53,
+      "median_days": 37.0,
+      "p90_days": 555.4000000000018,
+      "mean_days": 148.11320754716982
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M6M"
+      ],
+      "n": 52,
+      "median_days": 40.5,
+      "p90_days": 231.89999999999992,
+      "mean_days": 89.36538461538461
+    },
+    {
+      "key": [
+        "New Houses",
+        "M4N"
+      ],
+      "n": 52,
+      "median_days": 36.0,
+      "p90_days": 247.39999999999998,
+      "mean_days": 80.21153846153847
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M1K"
+      ],
+      "n": 52,
+      "median_days": 43.0,
+      "p90_days": 283.29999999999984,
+      "mean_days": 104.40384615384616
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M5G"
+      ],
+      "n": 52,
+      "median_days": 28.5,
+      "p90_days": 76.69999999999999,
+      "mean_days": 37.71153846153846
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M3J"
+      ],
+      "n": 51,
+      "median_days": 47.0,
+      "p90_days": 278.0,
+      "mean_days": 82.6078431372549
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M9V"
+      ],
+      "n": 51,
+      "median_days": 42.0,
+      "p90_days": 173.0,
+      "mean_days": 116.03921568627452
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M4V"
+      ],
+      "n": 51,
+      "median_days": 34.0,
+      "p90_days": 339.0,
+      "mean_days": 157.9607843137255
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M9C"
+      ],
+      "n": 51,
+      "median_days": 15.0,
+      "p90_days": 138.0,
+      "mean_days": 66.49019607843137
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M4M"
+      ],
+      "n": 50,
+      "median_days": 29.0,
+      "p90_days": 308.6000000000001,
+      "mean_days": 103.52
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M6B"
+      ],
+      "n": 50,
+      "median_days": 17.5,
+      "p90_days": 102.00000000000001,
+      "mean_days": 44.66
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M2M"
+      ],
+      "n": 50,
+      "median_days": 40.0,
+      "p90_days": 226.5,
+      "mean_days": 79.64
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M4L"
+      ],
+      "n": 49,
+      "median_days": 13.0,
+      "p90_days": 143.20000000000024,
+      "mean_days": 131.30612244897958
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M3J"
+      ],
+      "n": 49,
+      "median_days": 34.0,
+      "p90_days": 113.80000000000003,
+      "mean_days": 57.224489795918366
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M5A"
+      ],
+      "n": 49,
+      "median_days": 13.0,
+      "p90_days": 161.40000000000003,
+      "mean_days": 58.91836734693877
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M1V"
+      ],
+      "n": 48,
+      "median_days": 38.0,
+      "p90_days": 235.70000000000067,
+      "mean_days": 86.35416666666667
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M2H"
+      ],
+      "n": 48,
+      "median_days": 27.0,
+      "p90_days": 77.00000000000013,
+      "mean_days": 46.395833333333336
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M4C"
+      ],
+      "n": 48,
+      "median_days": 21.5,
+      "p90_days": 152.10000000000002,
+      "mean_days": 81.97916666666667
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M5N"
+      ],
+      "n": 48,
+      "median_days": 19.0,
+      "p90_days": 88.0,
+      "mean_days": 63.041666666666664
+    },
+    {
+      "key": [
+        "New Houses",
+        "M1P"
+      ],
+      "n": 48,
+      "median_days": 152.0,
+      "p90_days": 230.0,
+      "mean_days": 146.33333333333334
+    },
+    {
+      "key": [
+        "New Houses",
+        "M6C"
+      ],
+      "n": 48,
+      "median_days": 40.0,
+      "p90_days": 200.30000000000004,
+      "mean_days": 103.14583333333333
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        ""
+      ],
+      "n": 48,
+      "median_days": 16.0,
+      "p90_days": 95.50000000000003,
+      "mean_days": 33.375
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M4P"
+      ],
+      "n": 47,
+      "median_days": 28.0,
+      "p90_days": 153.3999999999997,
+      "mean_days": 64.7872340425532
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M4Y"
+      ],
+      "n": 47,
+      "median_days": 29.0,
+      "p90_days": 131.39999999999992,
+      "mean_days": 63.5531914893617
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M9N"
+      ],
+      "n": 47,
+      "median_days": 55.0,
+      "p90_days": 304.3999999999999,
+      "mean_days": 108.7872340425532
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M1C"
+      ],
+      "n": 47,
+      "median_days": 41.0,
+      "p90_days": 205.59999999999997,
+      "mean_days": 99.27659574468085
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4T"
+      ],
+      "n": 47,
+      "median_days": 17.0,
+      "p90_days": 88.4,
+      "mean_days": 33.61702127659574
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M1K"
+      ],
+      "n": 47,
+      "median_days": 17.0,
+      "p90_days": 315.7999999999999,
+      "mean_days": 95.29787234042553
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M9M"
+      ],
+      "n": 46,
+      "median_days": 57.0,
+      "p90_days": 227.0,
+      "mean_days": 112.17391304347827
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M4K"
+      ],
+      "n": 46,
+      "median_days": 12.5,
+      "p90_days": 185.5,
+      "mean_days": 63.130434782608695
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M3C"
+      ],
+      "n": 46,
+      "median_days": 68.0,
+      "p90_days": 296.5,
+      "mean_days": 177.2391304347826
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M4T"
+      ],
+      "n": 46,
+      "median_days": 22.0,
+      "p90_days": 55.5,
+      "mean_days": 30.695652173913043
+    },
+    {
+      "key": [
+        "New Houses",
+        "M1C"
+      ],
+      "n": 46,
+      "median_days": 73.0,
+      "p90_days": 1350.0,
+      "mean_days": 361.0652173913044
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M1E"
+      ],
+      "n": 46,
+      "median_days": 50.5,
+      "p90_days": 169.0,
+      "mean_days": 81.43478260869566
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M6L"
+      ],
+      "n": 46,
+      "median_days": 19.5,
+      "p90_days": 234.0,
+      "mean_days": 96.80434782608695
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M9M"
+      ],
+      "n": 45,
+      "median_days": 56.0,
+      "p90_days": 202.60000000000002,
+      "mean_days": 130.75555555555556
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M9V"
+      ],
+      "n": 45,
+      "median_days": 45.0,
+      "p90_days": 162.4000000000001,
+      "mean_days": 101.62222222222222
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M2R"
+      ],
+      "n": 45,
+      "median_days": 41.0,
+      "p90_days": 187.00000000000003,
+      "mean_days": 74.35555555555555
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M3K"
+      ],
+      "n": 45,
+      "median_days": 29.0,
+      "p90_days": 298.0,
+      "mean_days": 92.57777777777778
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M6L"
+      ],
+      "n": 45,
+      "median_days": 43.0,
+      "p90_days": 128.60000000000002,
+      "mean_days": 67.31111111111112
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M6A"
+      ],
+      "n": 44,
+      "median_days": 51.5,
+      "p90_days": 486.80000000000007,
+      "mean_days": 170.5
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M4J"
+      ],
+      "n": 43,
+      "median_days": 21.0,
+      "p90_days": 640.4000000000017,
+      "mean_days": 258.6511627906977
+    },
+    {
+      "key": [
+        "New Houses",
+        "M1N"
+      ],
+      "n": 43,
+      "median_days": 62.0,
+      "p90_days": 420.60000000000036,
+      "mean_days": 150.13953488372093
+    },
+    {
+      "key": [
+        "New Houses",
+        "M2R"
+      ],
+      "n": 43,
+      "median_days": 63.0,
+      "p90_days": 236.0000000000003,
+      "mean_days": 107.48837209302326
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M1N"
+      ],
+      "n": 42,
+      "median_days": 49.5,
+      "p90_days": 171.39999999999998,
+      "mean_days": 76.78571428571429
+    },
+    {
+      "key": [
+        "New Houses",
+        "M1M"
+      ],
+      "n": 42,
+      "median_days": 75.0,
+      "p90_days": 174.7,
+      "mean_days": 118.52380952380952
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M9M"
+      ],
+      "n": 42,
+      "median_days": 32.5,
+      "p90_days": 225.7999999999999,
+      "mean_days": 76.42857142857143
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M1P"
+      ],
+      "n": 42,
+      "median_days": 32.5,
+      "p90_days": 155.1,
+      "mean_days": 69.88095238095238
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M2M"
+      ],
+      "n": 41,
+      "median_days": 49.0,
+      "p90_days": 258.0,
+      "mean_days": 107.39024390243902
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M6N"
+      ],
+      "n": 41,
+      "median_days": 75.0,
+      "p90_days": 757.0,
+      "mean_days": 300.4878048780488
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M8Z"
+      ],
+      "n": 41,
+      "median_days": 33.0,
+      "p90_days": 266.0,
+      "mean_days": 101.09756097560975
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M1W"
+      ],
+      "n": 41,
+      "median_days": 464.0,
+      "p90_days": 464.0,
+      "mean_days": 309.0975609756098
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M5J"
+      ],
+      "n": 41,
+      "median_days": 34.0,
+      "p90_days": 75.0,
+      "mean_days": 48.707317073170735
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M8X"
+      ],
+      "n": 41,
+      "median_days": 32.0,
+      "p90_days": 85.0,
+      "mean_days": 48.24390243902439
+    },
+    {
+      "key": [
+        "New Houses",
+        "M6S"
+      ],
+      "n": 41,
+      "median_days": 41.0,
+      "p90_days": 189.0,
+      "mean_days": 89.60975609756098
+    },
+    {
+      "key": [
+        "New Houses",
+        "M8V"
+      ],
+      "n": 41,
+      "median_days": 51.0,
+      "p90_days": 212.0,
+      "mean_days": 107.82926829268293
+    },
+    {
+      "key": [
+        "Residential Building Permit",
+        ""
+      ],
+      "n": 41,
+      "median_days": 139.0,
+      "p90_days": 338.0,
+      "mean_days": 190.82926829268294
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M4S"
+      ],
+      "n": 41,
+      "median_days": 27.0,
+      "p90_days": 93.0,
+      "mean_days": 38.65853658536585
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M4G"
+      ],
+      "n": 40,
+      "median_days": 13.5,
+      "p90_days": 87.00000000000003,
+      "mean_days": 52.925
+    },
+    {
+      "key": [
+        "New Houses",
+        "M4B"
+      ],
+      "n": 40,
+      "median_days": 46.5,
+      "p90_days": 382.0,
+      "mean_days": 100.85
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M1V"
+      ],
+      "n": 40,
+      "median_days": 30.0,
+      "p90_days": 66.4,
+      "mean_days": 41.075
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M1B"
+      ],
+      "n": 40,
+      "median_days": 24.0,
+      "p90_days": 168.90000000000006,
+      "mean_days": 84.275
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M1E"
+      ],
+      "n": 40,
+      "median_days": 29.0,
+      "p90_days": 174.90000000000006,
+      "mean_days": 88.7
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M3M"
+      ],
+      "n": 40,
+      "median_days": 23.0,
+      "p90_days": 84.50000000000003,
+      "mean_days": 45.6
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M6S"
+      ],
+      "n": 39,
+      "median_days": 46.0,
+      "p90_days": 164.0000000000001,
+      "mean_days": 112.41025641025641
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M2L"
+      ],
+      "n": 39,
+      "median_days": 78.0,
+      "p90_days": 500.20000000000107,
+      "mean_days": 201.5897435897436
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M3B"
+      ],
+      "n": 39,
+      "median_days": 36.0,
+      "p90_days": 99.20000000000007,
+      "mean_days": 51.46153846153846
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M6S"
+      ],
+      "n": 39,
+      "median_days": 14.0,
+      "p90_days": 125.00000000000013,
+      "mean_days": 119.0
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M1S"
+      ],
+      "n": 39,
+      "median_days": 35.0,
+      "p90_days": 194.60000000000005,
+      "mean_days": 82.87179487179488
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M2R"
+      ],
+      "n": 39,
+      "median_days": 35.0,
+      "p90_days": 137.60000000000002,
+      "mean_days": 70.92307692307692
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M3K"
+      ],
+      "n": 39,
+      "median_days": 51.0,
+      "p90_days": 299.0,
+      "mean_days": 113.43589743589743
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M6L"
+      ],
+      "n": 39,
+      "median_days": 26.0,
+      "p90_days": 73.80000000000005,
+      "mean_days": 37.717948717948715
+    },
+    {
+      "key": [
+        "New Houses",
+        "M1W"
+      ],
+      "n": 39,
+      "median_days": 769.0,
+      "p90_days": 769.0,
+      "mean_days": 639.6410256410256
+    },
+    {
+      "key": [
+        "New Houses",
+        "M3K"
+      ],
+      "n": 39,
+      "median_days": 337.0,
+      "p90_days": 541.6000000000001,
+      "mean_days": 320.43589743589746
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M5T"
+      ],
+      "n": 39,
+      "median_days": 64.0,
+      "p90_days": 321.60000000000014,
+      "mean_days": 133.07692307692307
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M4S"
+      ],
+      "n": 38,
+      "median_days": 26.5,
+      "p90_days": 91.40000000000016,
+      "mean_days": 56.26315789473684
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M2M"
+      ],
+      "n": 38,
+      "median_days": 27.0,
+      "p90_days": 155.0000000000001,
+      "mean_days": 56.60526315789474
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M1M"
+      ],
+      "n": 38,
+      "median_days": 56.0,
+      "p90_days": 162.40000000000003,
+      "mean_days": 89.28947368421052
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M2K"
+      ],
+      "n": 38,
+      "median_days": 35.0,
+      "p90_days": 419.3000000000005,
+      "mean_days": 106.94736842105263
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4S"
+      ],
+      "n": 38,
+      "median_days": 41.5,
+      "p90_days": 244.40000000000026,
+      "mean_days": 127.23684210526316
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M5H"
+      ],
+      "n": 38,
+      "median_days": 30.0,
+      "p90_days": 72.50000000000003,
+      "mean_days": 56.28947368421053
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M8X"
+      ],
+      "n": 38,
+      "median_days": 37.0,
+      "p90_days": 479.30000000000024,
+      "mean_days": 183.6578947368421
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M3H"
+      ],
+      "n": 37,
+      "median_days": 41.0,
+      "p90_days": 96.79999999999995,
+      "mean_days": 54.83783783783784
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M9L"
+      ],
+      "n": 37,
+      "median_days": 57.0,
+      "p90_days": 454.19999999999993,
+      "mean_days": 194.8918918918919
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M6H"
+      ],
+      "n": 37,
+      "median_days": 61.0,
+      "p90_days": 336.79999999999995,
+      "mean_days": 152.75675675675674
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M9A"
+      ],
+      "n": 37,
+      "median_days": 41.0,
+      "p90_days": 246.59999999999982,
+      "mean_days": 89.1891891891892
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M2K"
+      ],
+      "n": 37,
+      "median_days": 29.0,
+      "p90_days": 564.4,
+      "mean_days": 142.27027027027026
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M3J"
+      ],
+      "n": 37,
+      "median_days": 45.0,
+      "p90_days": 196.99999999999994,
+      "mean_days": 160.0810810810811
+    },
+    {
+      "key": [
+        "New Houses",
+        "M1K"
+      ],
+      "n": 37,
+      "median_days": 85.0,
+      "p90_days": 268.3999999999999,
+      "mean_days": 149.51351351351352
+    },
+    {
+      "key": [
+        "New Houses",
+        "M6E"
+      ],
+      "n": 37,
+      "median_days": 57.0,
+      "p90_days": 159.59999999999994,
+      "mean_days": 99.83783783783784
+    },
+    {
+      "key": [
+        "New Houses",
+        "M6L"
+      ],
+      "n": 37,
+      "median_days": 41.0,
+      "p90_days": 125.39999999999998,
+      "mean_days": 65.0
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M3A"
+      ],
+      "n": 37,
+      "median_days": 36.0,
+      "p90_days": 146.59999999999997,
+      "mean_days": 55.37837837837838
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M9P"
+      ],
+      "n": 37,
+      "median_days": 34.0,
+      "p90_days": 139.99999999999994,
+      "mean_days": 80.51351351351352
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M1S"
+      ],
+      "n": 37,
+      "median_days": 43.0,
+      "p90_days": 91.39999999999998,
+      "mean_days": 49.21621621621622
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M3B"
+      ],
+      "n": 37,
+      "median_days": 24.0,
+      "p90_days": 82.19999999999999,
+      "mean_days": 38.83783783783784
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M4L"
+      ],
+      "n": 36,
+      "median_days": 27.0,
+      "p90_days": 144.5,
+      "mean_days": 56.666666666666664
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M4T"
+      ],
+      "n": 36,
+      "median_days": 20.0,
+      "p90_days": 117.5,
+      "mean_days": 44.72222222222222
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M6H"
+      ],
+      "n": 36,
+      "median_days": 35.0,
+      "p90_days": 228.5,
+      "mean_days": 89.97222222222223
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M6M"
+      ],
+      "n": 36,
+      "median_days": 47.5,
+      "p90_days": 89.5,
+      "mean_days": 63.30555555555556
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M4B"
+      ],
+      "n": 36,
+      "median_days": 22.0,
+      "p90_days": 280.0,
+      "mean_days": 76.0
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M6R"
+      ],
+      "n": 36,
+      "median_days": 7.0,
+      "p90_days": 83.5,
+      "mean_days": 46.388888888888886
+    },
+    {
+      "key": [
+        "New Houses",
+        "M6N"
+      ],
+      "n": 36,
+      "median_days": 86.0,
+      "p90_days": 876.0,
+      "mean_days": 242.38888888888889
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M4K"
+      ],
+      "n": 35,
+      "median_days": 32.0,
+      "p90_days": 153.2,
+      "mean_days": 81.2
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M6R"
+      ],
+      "n": 35,
+      "median_days": 44.0,
+      "p90_days": 132.2,
+      "mean_days": 67.77142857142857
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M8V"
+      ],
+      "n": 35,
+      "median_days": 33.0,
+      "p90_days": 197.8,
+      "mean_days": 80.8
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M2R"
+      ],
+      "n": 35,
+      "median_days": 50.0,
+      "p90_days": 160.2,
+      "mean_days": 69.57142857142857
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M8V"
+      ],
+      "n": 35,
+      "median_days": 26.0,
+      "p90_days": 147.40000000000003,
+      "mean_days": 102.17142857142858
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M2J"
+      ],
+      "n": 35,
+      "median_days": 47.0,
+      "p90_days": 151.20000000000002,
+      "mean_days": 77.54285714285714
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M4S"
+      ],
+      "n": 35,
+      "median_days": 34.0,
+      "p90_days": 148.8,
+      "mean_days": 61.22857142857143
+    },
+    {
+      "key": [
+        "New Houses",
+        "M2K"
+      ],
+      "n": 35,
+      "median_days": 70.0,
+      "p90_days": 580.0,
+      "mean_days": 195.9142857142857
+    },
+    {
+      "key": [
+        "New Houses",
+        "M2P"
+      ],
+      "n": 35,
+      "median_days": 69.0,
+      "p90_days": 143.60000000000002,
+      "mean_days": 84.4
+    },
+    {
+      "key": [
+        "New Houses",
+        "M4V"
+      ],
+      "n": 35,
+      "median_days": 49.0,
+      "p90_days": 253.2000000000001,
+      "mean_days": 136.34285714285716
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M1B"
+      ],
+      "n": 35,
+      "median_days": 34.0,
+      "p90_days": 119.80000000000001,
+      "mean_days": 81.97142857142858
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M2R"
+      ],
+      "n": 35,
+      "median_days": 23.0,
+      "p90_days": 82.60000000000002,
+      "mean_days": 34.65714285714286
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M6B"
+      ],
+      "n": 34,
+      "median_days": 44.5,
+      "p90_days": 284.29999999999995,
+      "mean_days": 102.02941176470588
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M1P"
+      ],
+      "n": 34,
+      "median_days": 168.0,
+      "p90_days": 459.09999999999985,
+      "mean_days": 170.61764705882354
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M4N"
+      ],
+      "n": 34,
+      "median_days": 39.5,
+      "p90_days": 133.99999999999997,
+      "mean_days": 63.73529411764706
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M1E"
+      ],
+      "n": 34,
+      "median_days": 33.5,
+      "p90_days": 218.0,
+      "mean_days": 76.11764705882354
+    },
+    {
+      "key": [
+        "New Houses",
+        "M4J"
+      ],
+      "n": 34,
+      "median_days": 59.5,
+      "p90_days": 584.0,
+      "mean_days": 149.6764705882353
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4R"
+      ],
+      "n": 34,
+      "median_days": 19.0,
+      "p90_days": 235.69999999999996,
+      "mean_days": 73.38235294117646
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M5B"
+      ],
+      "n": 34,
+      "median_days": 37.0,
+      "p90_days": 129.7,
+      "mean_days": 175.6764705882353
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M6E"
+      ],
+      "n": 33,
+      "median_days": 47.0,
+      "p90_days": 162.00000000000003,
+      "mean_days": 75.0909090909091
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M6P"
+      ],
+      "n": 33,
+      "median_days": 8.0,
+      "p90_days": 83.0,
+      "mean_days": 53.54545454545455
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M1C"
+      ],
+      "n": 33,
+      "median_days": 43.0,
+      "p90_days": 352.40000000000003,
+      "mean_days": 148.36363636363637
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M3A"
+      ],
+      "n": 33,
+      "median_days": 20.0,
+      "p90_days": 105.00000000000003,
+      "mean_days": 60.303030303030305
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M4C"
+      ],
+      "n": 32,
+      "median_days": 37.5,
+      "p90_days": 79.4,
+      "mean_days": 57.375
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M4J"
+      ],
+      "n": 32,
+      "median_days": 29.5,
+      "p90_days": 301.9000000000004,
+      "mean_days": 87.0
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M5N"
+      ],
+      "n": 32,
+      "median_days": 28.5,
+      "p90_days": 64.9,
+      "mean_days": 157.4375
+    },
+    {
+      "key": [
+        "Fire/Security Upgrade",
+        "M5G"
+      ],
+      "n": 32,
+      "median_days": 10.5,
+      "p90_days": 31.900000000000002,
+      "mean_days": 35.09375
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M1K"
+      ],
+      "n": 32,
+      "median_days": 45.5,
+      "p90_days": 232.60000000000002,
+      "mean_days": 95.28125
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M5P"
+      ],
+      "n": 32,
+      "median_days": 25.0,
+      "p90_days": 112.50000000000001,
+      "mean_days": 52.78125
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M9R"
+      ],
+      "n": 32,
+      "median_days": 7.5,
+      "p90_days": 53.60000000000001,
+      "mean_days": 37.4375
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M6N"
+      ],
+      "n": 31,
+      "median_days": 52.0,
+      "p90_days": 263.0,
+      "mean_days": 136.09677419354838
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M6K"
+      ],
+      "n": 31,
+      "median_days": 14.0,
+      "p90_days": 489.0,
+      "mean_days": 162.4516129032258
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M9P"
+      ],
+      "n": 31,
+      "median_days": 35.0,
+      "p90_days": 129.0,
+      "mean_days": 63.32258064516129
+    },
+    {
+      "key": [
+        "New Houses",
+        "M4L"
+      ],
+      "n": 31,
+      "median_days": 77.0,
+      "p90_days": 1049.0,
+      "mean_days": 247.58064516129033
+    },
+    {
+      "key": [
+        "New Houses",
+        "M6M"
+      ],
+      "n": 31,
+      "median_days": 67.0,
+      "p90_days": 170.0,
+      "mean_days": 101.0
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M3M"
+      ],
+      "n": 31,
+      "median_days": 34.0,
+      "p90_days": 114.0,
+      "mean_days": 84.48387096774194
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M1M"
+      ],
+      "n": 31,
+      "median_days": 39.0,
+      "p90_days": 157.0,
+      "mean_days": 64.7741935483871
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M1W"
+      ],
+      "n": 31,
+      "median_days": 16.0,
+      "p90_days": 128.0,
+      "mean_days": 56.225806451612904
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M9B"
+      ],
+      "n": 30,
+      "median_days": 23.5,
+      "p90_days": 91.20000000000002,
+      "mean_days": 55.5
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M4P"
+      ],
+      "n": 30,
+      "median_days": 30.5,
+      "p90_days": 74.30000000000004,
+      "mean_days": 39.63333333333333
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M4R"
+      ],
+      "n": 30,
+      "median_days": 33.5,
+      "p90_days": 133.30000000000007,
+      "mean_days": 95.2
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M4Y"
+      ],
+      "n": 30,
+      "median_days": 39.0,
+      "p90_days": 76.90000000000003,
+      "mean_days": 92.63333333333334
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M3K"
+      ],
+      "n": 30,
+      "median_days": 9.0,
+      "p90_days": 71.0,
+      "mean_days": 23.733333333333334
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M4P"
+      ],
+      "n": 30,
+      "median_days": 29.0,
+      "p90_days": 174.70000000000002,
+      "mean_days": 72.06666666666666
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M9V"
+      ],
+      "n": 30,
+      "median_days": 51.0,
+      "p90_days": 307.30000000000007,
+      "mean_days": 106.66666666666667
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M1L"
+      ],
+      "n": 29,
+      "median_days": 29.0,
+      "p90_days": 95.99999999999997,
+      "mean_days": 48.51724137931034
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M5P"
+      ],
+      "n": 29,
+      "median_days": 30.0,
+      "p90_days": 270.2,
+      "mean_days": 85.89655172413794
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M6E"
+      ],
+      "n": 29,
+      "median_days": 35.0,
+      "p90_days": 262.79999999999995,
+      "mean_days": 108.3103448275862
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M8W"
+      ],
+      "n": 29,
+      "median_days": 47.0,
+      "p90_days": 216.19999999999982,
+      "mean_days": 128.0344827586207
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M1B"
+      ],
+      "n": 29,
+      "median_days": 39.0,
+      "p90_days": 258.1999999999999,
+      "mean_days": 94.48275862068965
+    },
+    {
+      "key": [
+        "New Houses",
+        "M4C"
+      ],
+      "n": 29,
+      "median_days": 63.0,
+      "p90_days": 299.99999999999994,
+      "mean_days": 123.86206896551724
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4P"
+      ],
+      "n": 29,
+      "median_days": 43.0,
+      "p90_days": 186.79999999999993,
+      "mean_days": 107.13793103448276
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M2K"
+      ],
+      "n": 28,
+      "median_days": 39.0,
+      "p90_days": 103.30000000000001,
+      "mean_days": 56.5
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M1R"
+      ],
+      "n": 28,
+      "median_days": 29.0,
+      "p90_days": 166.00000000000006,
+      "mean_days": 87.64285714285714
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M3M"
+      ],
+      "n": 28,
+      "median_days": 32.5,
+      "p90_days": 140.70000000000007,
+      "mean_days": 65.0
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M9R"
+      ],
+      "n": 28,
+      "median_days": 46.5,
+      "p90_days": 167.5,
+      "mean_days": 66.35714285714286
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M1V"
+      ],
+      "n": 28,
+      "median_days": 25.5,
+      "p90_days": 167.50000000000003,
+      "mean_days": 55.92857142857143
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M6A"
+      ],
+      "n": 28,
+      "median_days": 44.0,
+      "p90_days": 138.8,
+      "mean_days": 62.964285714285715
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M1B"
+      ],
+      "n": 27,
+      "median_days": 49.0,
+      "p90_days": 191.60000000000002,
+      "mean_days": 77.51851851851852
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M1R"
+      ],
+      "n": 27,
+      "median_days": 47.0,
+      "p90_days": 118.80000000000007,
+      "mean_days": 61.22222222222222
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M1L"
+      ],
+      "n": 27,
+      "median_days": 93.0,
+      "p90_days": 605.2000000000002,
+      "mean_days": 254.0
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M4V"
+      ],
+      "n": 27,
+      "median_days": 37.0,
+      "p90_days": 250.20000000000033,
+      "mean_days": 79.22222222222223
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M6J"
+      ],
+      "n": 27,
+      "median_days": 5.0,
+      "p90_days": 89.40000000000006,
+      "mean_days": 38.22222222222222
+    },
+    {
+      "key": [
+        "New Houses",
+        "M1S"
+      ],
+      "n": 27,
+      "median_days": 89.0,
+      "p90_days": 275.0000000000001,
+      "mean_days": 140.33333333333334
+    },
+    {
+      "key": [
+        "New Houses",
+        "M4R"
+      ],
+      "n": 27,
+      "median_days": 47.0,
+      "p90_days": 191.60000000000005,
+      "mean_days": 83.88888888888889
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M2H"
+      ],
+      "n": 27,
+      "median_days": 19.0,
+      "p90_days": 149.60000000000002,
+      "mean_days": 53.48148148148148
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4Y"
+      ],
+      "n": 27,
+      "median_days": 25.0,
+      "p90_days": 149.80000000000013,
+      "mean_days": 70.03703703703704
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M9L"
+      ],
+      "n": 27,
+      "median_days": 28.0,
+      "p90_days": 125.40000000000006,
+      "mean_days": 66.11111111111111
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M3A"
+      ],
+      "n": 26,
+      "median_days": 35.5,
+      "p90_days": 111.5,
+      "mean_days": 57.65384615384615
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M4N"
+      ],
+      "n": 26,
+      "median_days": 37.5,
+      "p90_days": 146.0,
+      "mean_days": 84.6923076923077
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M6C"
+      ],
+      "n": 26,
+      "median_days": 25.5,
+      "p90_days": 72.0,
+      "mean_days": 37.5
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M6M"
+      ],
+      "n": 26,
+      "median_days": 25.0,
+      "p90_days": 315.0,
+      "mean_days": 105.6923076923077
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M1M"
+      ],
+      "n": 26,
+      "median_days": 27.5,
+      "p90_days": 169.0,
+      "mean_days": 69.23076923076923
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M3A"
+      ],
+      "n": 26,
+      "median_days": 37.0,
+      "p90_days": 103.0,
+      "mean_days": 52.30769230769231
+    },
+    {
+      "key": [
+        "New Houses",
+        "M1R"
+      ],
+      "n": 26,
+      "median_days": 100.0,
+      "p90_days": 204.0,
+      "mean_days": 122.26923076923077
+    },
+    {
+      "key": [
+        "New Houses",
+        "M6H"
+      ],
+      "n": 26,
+      "median_days": 169.0,
+      "p90_days": 197.0,
+      "mean_days": 138.57692307692307
+    },
+    {
+      "key": [
+        "New Houses",
+        "M9N"
+      ],
+      "n": 26,
+      "median_days": 86.0,
+      "p90_days": 289.0,
+      "mean_days": 155.6153846153846
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M1T"
+      ],
+      "n": 26,
+      "median_days": 33.5,
+      "p90_days": 132.0,
+      "mean_days": 56.19230769230769
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M4X"
+      ],
+      "n": 26,
+      "median_days": 26.0,
+      "p90_days": 87.5,
+      "mean_days": 55.73076923076923
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M1H"
+      ],
+      "n": 25,
+      "median_days": 45.0,
+      "p90_days": 154.20000000000007,
+      "mean_days": 77.28
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M1W"
+      ],
+      "n": 25,
+      "median_days": 47.0,
+      "p90_days": 75.2,
+      "mean_days": 46.64
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M2M"
+      ],
+      "n": 25,
+      "median_days": 15.0,
+      "p90_days": 88.60000000000005,
+      "mean_days": 111.4
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M5C"
+      ],
+      "n": 25,
+      "median_days": 26.0,
+      "p90_days": 119.20000000000007,
+      "mean_days": 53.92
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M5E"
+      ],
+      "n": 25,
+      "median_days": 32.0,
+      "p90_days": 185.20000000000016,
+      "mean_days": 69.68
+    },
+    {
+      "key": [
+        "Demolition Folder (DM)",
+        "M1M"
+      ],
+      "n": 25,
+      "median_days": 137.0,
+      "p90_days": 411.6000000000001,
+      "mean_days": 181.32
+    },
+    {
+      "key": [
+        "Demolition Folder (DM)",
+        "M9A"
+      ],
+      "n": 25,
+      "median_days": 125.0,
+      "p90_days": 317.8,
+      "mean_days": 151.84
+    },
+    {
+      "key": [
+        "Fire/Security Upgrade",
+        "M5S"
+      ],
+      "n": 25,
+      "median_days": 29.0,
+      "p90_days": 163.4,
+      "mean_days": 68.56
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M5C"
+      ],
+      "n": 25,
+      "median_days": 31.0,
+      "p90_days": 107.20000000000005,
+      "mean_days": 47.4
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M9L"
+      ],
+      "n": 25,
+      "median_days": 112.0,
+      "p90_days": 447.00000000000006,
+      "mean_days": 259.16
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M1G"
+      ],
+      "n": 25,
+      "median_days": 20.0,
+      "p90_days": 120.80000000000007,
+      "mean_days": 50.28
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M2L"
+      ],
+      "n": 25,
+      "median_days": 27.0,
+      "p90_days": 67.60000000000002,
+      "mean_days": 31.88
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M1K"
+      ],
+      "n": 24,
+      "median_days": 34.5,
+      "p90_days": 105.99999999999997,
+      "mean_days": 72.33333333333333
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M9A"
+      ],
+      "n": 24,
+      "median_days": 27.5,
+      "p90_days": 83.1,
+      "mean_days": 38.333333333333336
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M9B"
+      ],
+      "n": 24,
+      "median_days": 34.0,
+      "p90_days": 335.2,
+      "mean_days": 267.9166666666667
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M2J"
+      ],
+      "n": 24,
+      "median_days": 41.5,
+      "p90_days": 587.1999999999999,
+      "mean_days": 156.08333333333334
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M3K"
+      ],
+      "n": 24,
+      "median_days": 1.0,
+      "p90_days": 39.99999999999999,
+      "mean_days": 19.833333333333332
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M4R"
+      ],
+      "n": 24,
+      "median_days": 30.5,
+      "p90_days": 187.19999999999993,
+      "mean_days": 75.91666666666667
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M6C"
+      ],
+      "n": 24,
+      "median_days": 19.0,
+      "p90_days": 99.8,
+      "mean_days": 54.041666666666664
+    },
+    {
+      "key": [
+        "New Houses",
+        "M3A"
+      ],
+      "n": 24,
+      "median_days": 68.0,
+      "p90_days": 294.69999999999993,
+      "mean_days": 102.5
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M1W"
+      ],
+      "n": 24,
+      "median_days": 73.5,
+      "p90_days": 265.0,
+      "mean_days": 244.125
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M2H"
+      ],
+      "n": 24,
+      "median_days": 8.0,
+      "p90_days": 24.7,
+      "mean_days": 16.833333333333332
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M1E"
+      ],
+      "n": 23,
+      "median_days": 53.0,
+      "p90_days": 161.40000000000003,
+      "mean_days": 80.47826086956522
+    },
+    {
+      "key": [
+        "Demolition Folder (DM)",
+        "M5M"
+      ],
+      "n": 23,
+      "median_days": 52.0,
+      "p90_days": 241.60000000000002,
+      "mean_days": 92.30434782608695
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M2K"
+      ],
+      "n": 23,
+      "median_days": 29.0,
+      "p90_days": 354.80000000000007,
+      "mean_days": 122.82608695652173
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M3A"
+      ],
+      "n": 23,
+      "median_days": 45.0,
+      "p90_days": 147.80000000000004,
+      "mean_days": 62.91304347826087
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M3C"
+      ],
+      "n": 23,
+      "median_days": 232.0,
+      "p90_days": 233.8,
+      "mean_days": 147.17391304347825
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M8Y"
+      ],
+      "n": 23,
+      "median_days": 34.0,
+      "p90_days": 161.00000000000003,
+      "mean_days": 66.34782608695652
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M1V"
+      ],
+      "n": 23,
+      "median_days": 43.0,
+      "p90_days": 395.80000000000007,
+      "mean_days": 173.47826086956522
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M1T"
+      ],
+      "n": 23,
+      "median_days": 28.0,
+      "p90_days": 85.60000000000001,
+      "mean_days": 48.43478260869565
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M8Y"
+      ],
+      "n": 22,
+      "median_days": 58.5,
+      "p90_days": 170.70000000000002,
+      "mean_days": 94.18181818181819
+    },
+    {
+      "key": [
+        "Demolition Folder (DM)",
+        "M2N"
+      ],
+      "n": 22,
+      "median_days": 50.5,
+      "p90_days": 372.8000000000002,
+      "mean_days": 112.9090909090909
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M5R"
+      ],
+      "n": 22,
+      "median_days": 14.0,
+      "p90_days": 212.30000000000024,
+      "mean_days": 59.72727272727273
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M5E"
+      ],
+      "n": 22,
+      "median_days": 29.0,
+      "p90_days": 193.7000000000002,
+      "mean_days": 65.04545454545455
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M9R"
+      ],
+      "n": 22,
+      "median_days": 35.0,
+      "p90_days": 347.1000000000004,
+      "mean_days": 141.5
+    },
+    {
+      "key": [
+        "New Houses",
+        "M4E"
+      ],
+      "n": 22,
+      "median_days": 43.5,
+      "p90_days": 247.30000000000007,
+      "mean_days": 104.04545454545455
+    },
+    {
+      "key": [
+        "New Houses",
+        "M4M"
+      ],
+      "n": 22,
+      "median_days": 200.5,
+      "p90_days": 1159.0,
+      "mean_days": 481.77272727272725
+    },
+    {
+      "key": [
+        "New Houses",
+        "M8X"
+      ],
+      "n": 22,
+      "median_days": 51.0,
+      "p90_days": 79.20000000000005,
+      "mean_days": 59.68181818181818
+    },
+    {
+      "key": [
+        "New Houses",
+        "M9P"
+      ],
+      "n": 22,
+      "median_days": 62.0,
+      "p90_days": 257.6000000000002,
+      "mean_days": 100.04545454545455
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M1H"
+      ],
+      "n": 22,
+      "median_days": 29.0,
+      "p90_days": 148.70000000000005,
+      "mean_days": 59.13636363636363
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M1J"
+      ],
+      "n": 22,
+      "median_days": 64.5,
+      "p90_days": 267.0000000000001,
+      "mean_days": 158.4090909090909
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M2P"
+      ],
+      "n": 22,
+      "median_days": 50.5,
+      "p90_days": 226.50000000000006,
+      "mean_days": 97.31818181818181
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M1J"
+      ],
+      "n": 22,
+      "median_days": 20.0,
+      "p90_days": 151.0000000000001,
+      "mean_days": 55.81818181818182
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M3N"
+      ],
+      "n": 21,
+      "median_days": 24.0,
+      "p90_days": 132.0,
+      "mean_days": 49.285714285714285
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M9N"
+      ],
+      "n": 21,
+      "median_days": 31.0,
+      "p90_days": 77.0,
+      "mean_days": 36.23809523809524
+    },
+    {
+      "key": [
+        "Designated Structures",
+        ""
+      ],
+      "n": 21,
+      "median_days": 27.0,
+      "p90_days": 107.0,
+      "mean_days": 59.19047619047619
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M1B"
+      ],
+      "n": 21,
+      "median_days": 131.0,
+      "p90_days": 229.0,
+      "mean_days": 124.0
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M1W"
+      ],
+      "n": 21,
+      "median_days": 265.0,
+      "p90_days": 265.0,
+      "mean_days": 186.52380952380952
+    },
+    {
+      "key": [
+        "Mechanical(MS)",
+        "M7A"
+      ],
+      "n": 21,
+      "median_days": 7.0,
+      "p90_days": 22.0,
+      "mean_days": 14.047619047619047
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M4A"
+      ],
+      "n": 21,
+      "median_days": 34.0,
+      "p90_days": 227.0,
+      "mean_days": 84.52380952380952
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M5J"
+      ],
+      "n": 21,
+      "median_days": 32.0,
+      "p90_days": 68.0,
+      "mean_days": 82.61904761904762
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M1S"
+      ],
+      "n": 20,
+      "median_days": 45.5,
+      "p90_days": 148.30000000000015,
+      "mean_days": 90.5
+    },
+    {
+      "key": [
+        "Building Additions/Alterations",
+        "M4A"
+      ],
+      "n": 20,
+      "median_days": 36.0,
+      "p90_days": 160.1000000000001,
+      "mean_days": 67.15
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M1C"
+      ],
+      "n": 20,
+      "median_days": 47.5,
+      "p90_days": 213.10000000000002,
+      "mean_days": 102.65
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M1M"
+      ],
+      "n": 20,
+      "median_days": 97.0,
+      "p90_days": 257.90000000000026,
+      "mean_days": 145.1
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M2P"
+      ],
+      "n": 20,
+      "median_days": 33.5,
+      "p90_days": 114.60000000000001,
+      "mean_days": 51.35
+    },
+    {
+      "key": [
+        "Drain and Site Service",
+        "M4W"
+      ],
+      "n": 20,
+      "median_days": 71.5,
+      "p90_days": 268.90000000000003,
+      "mean_days": 101.85
+    },
+    {
+      "key": [
+        "Plumbing(PS)",
+        "M1X"
+      ],
+      "n": 20,
+      "median_days": 29.0,
+      "p90_days": 128.40000000000003,
+      "mean_days": 60.45
+    },
+    {
+      "key": [
+        "Small Residential Projects",
+        "M2M"
+      ],
+      "n": 20,
+      "median_days": 29.5,
+      "p90_days": 154.50000000000026,
+      "mean_days": 92.2
+    }
+  ],
+  "volume_by_year": {
+    "1985": 3,
+    "1986": 4,
+    "1987": 1,
+    "1988": 4,
+    "1989": 6,
+    "1990": 11,
+    "1991": 11,
+    "1992": 21,
+    "1993": 24,
+    "1994": 44,
+    "1995": 45,
+    "1996": 73,
+    "1997": 87,
+    "1998": 198,
+    "1999": 224,
+    "2000": 306,
+    "2001": 262,
+    "2002": 397,
+    "2003": 499,
+    "2004": 563,
+    "2005": 608,
+    "2006": 596,
+    "2007": 694,
+    "2008": 705,
+    "2009": 696,
+    "2010": 719,
+    "2011": 807,
+    "2012": 761,
+    "2013": 804,
+    "2014": 826,
+    "2015": 1198,
+    "2016": 1049,
+    "2017": 1098,
+    "2018": 1118,
+    "2019": 1485,
+    "2020": 1239,
+    "2021": 1825,
+    "2022": 2069,
+    "2023": 2078,
+    "2024": 2729,
+    "2025": 3993,
+    "2026": 2120
+  },
+  "cost": {
+    "overall": {
+      "n": 12878,
+      "mean": 852648.3923582855,
+      "median": 20000.0,
+      "p25": 0.0,
+      "p75": 200000.0,
+      "p90": 750000.0,
+      "p99": 10000000.0,
+      "min": 0.0,
+      "max": 630075639.0
+    },
+    "by_structure_type": {
+      "2 Unit - Detached": {
+        "n": 443,
+        "mean": 208019.02031602708,
+        "median": 30000.0,
+        "p25": 0.0,
+        "p75": 250000.0,
+        "p90": 744000.0000000003,
+        "p99": 1671157.9999999953,
+        "min": 0.0,
+        "max": 4250000.0
+      },
+      "2 Unit - Semi-detached": {
+        "n": 112,
+        "mean": 110512.5,
+        "median": 10000.0,
+        "p25": 0.0,
+        "p75": 100000.0,
+        "p90": 300000.0,
+        "p99": 850000.0,
+        "min": 0.0,
+        "max": 1500000.0
+      },
+      "2 Unit - Townhouse": {
+        "n": 29,
+        "mean": 80422.41379310345,
+        "median": 35000.0,
+        "p25": 5000.0,
+        "p75": 100000.0,
+        "p90": 200000.0,
+        "p99": 415999.99999999965,
+        "min": 0.0,
+        "max": 500000.0
+      },
+      "3+ Unit - Detached": {
+        "n": 279,
+        "mean": 401558.70967741933,
+        "median": 80000.0,
+        "p25": 0.0,
+        "p75": 800000.0,
+        "p90": 1160000.000000001,
+        "p99": 2000000.0,
+        "min": 0.0,
+        "max": 2200000.0
+      },
+      "3+ Unit - Semi-detached": {
+        "n": 50,
+        "mean": 206880.0,
+        "median": 27500.0,
+        "p25": 0.0,
+        "p75": 187500.0,
+        "p90": 837000.0000000001,
+        "p99": 1750999.9999999998,
+        "min": 0.0,
+        "max": 1800000.0
+      },
+      "Apartment Building": {
+        "n": 956,
+        "mean": 2226285.155073222,
+        "median": 15000.0,
+        "p25": 3000.0,
+        "p75": 200000.0,
+        "p90": 1000000.0,
+        "p99": 51125000.00000011,
+        "min": 0.0,
+        "max": 343000000.0
+      },
+      "Bank": {
+        "n": 24,
+        "mean": 308233.8954166667,
+        "median": 75806.745,
+        "p25": 18750.0,
+        "p75": 225000.0,
+        "p90": 779999.9999999998,
+        "p99": 2269999.9999999995,
+        "min": 0.0,
+        "max": 2500000.0
+      },
+      "College/Trade/Tech School/Training Cent.": {
+        "n": 32,
+        "mean": 3642468.75,
+        "median": 50000.0,
+        "p25": 0.0,
+        "p75": 275000.0,
+        "p90": 1450000.0000000012,
+        "p99": 68805000.0000001,
+        "min": 0.0,
+        "max": 95000000.0
+      },
+      "Converted House": {
+        "n": 97,
+        "mean": 37979.8969072165,
+        "median": 15000.0,
+        "p25": 1000.0,
+        "p75": 50000.0,
+        "p90": 100000.0,
+        "p99": 353199.99999999936,
+        "min": 0.0,
+        "max": 430000.0
+      },
+      "Elementary School": {
+        "n": 97,
+        "mean": 978816.830927835,
+        "median": 50000.0,
+        "p25": 10000.0,
+        "p75": 157593.6,
+        "p90": 1136000.0000000026,
+        "p99": 18166479.999999966,
+        "min": 0.0,
+        "max": 22162000.0
+      },
+      "First Party": null,
+      "Fitness Centre": {
+        "n": 15,
+        "mean": 726733.3333333334,
+        "median": 75000.0,
+        "p25": 42500.0,
+        "p75": 425000.0,
+        "p90": 799999.9999999998,
+        "p99": 7019999.999999996,
+        "min": 10000.0,
+        "max": 8000000.0
+      },
+      "Gas Station/Car Wash/Repair Garage": {
+        "n": 32,
+        "mean": 105204.6875,
+        "median": 7500.0,
+        "p25": 1000.0,
+        "p75": 92500.0,
+        "p90": 195000.00000000012,
+        "p99": 1319500.0000000019,
+        "min": 0.0,
+        "max": 1800000.0
+      },
+      "Hospital": {
+        "n": 117,
+        "mean": 4651631.352820513,
+        "median": 65000.0,
+        "p25": 3000.0,
+        "p75": 500000.0,
+        "p90": 2614800.000000002,
+        "p99": 46172048.00000008,
+        "min": 0.0,
+        "max": 385000000.0
+      },
+      "Industrial": {
+        "n": 235,
+        "mean": 1629847.1106382979,
+        "median": 15000.0,
+        "p25": 1000.0,
+        "p75": 130000.0,
+        "p90": 500000.0,
+        "p99": 25078899.999999985,
+        "min": 0.0,
+        "max": 200000000.0
+      },
+      "Industrial Manufacturing Plant": {
+        "n": 33,
+        "mean": 279365.1515151515,
+        "median": 35000.0,
+        "p25": 3000.0,
+        "p75": 150000.0,
+        "p90": 550000.0000000002,
+        "p99": 3719999.999999999,
+        "min": 0.0,
+        "max": 5000000.0
+      },
+      "Industrial Processing Plant": {
+        "n": 25,
+        "mean": 829218.56,
+        "median": 50000.0,
+        "p25": 5000.0,
+        "p75": 350000.0,
+        "p90": 680000.0000000005,
+        "p99": 12831999.999999968,
+        "min": 0.0,
+        "max": 16600000.0
+      },
+      "Laneway / Rear Yard Suite": {
+        "n": 190,
+        "mean": 283716.5789473684,
+        "median": 200000.0,
+        "p25": 30000.0,
+        "p75": 400000.0,
+        "p90": 704999.9999999998,
+        "p99": 1500000.0,
+        "min": 0.0,
+        "max": 2000000.0
+      },
+      "Long Term Care Facility": {
+        "n": 27,
+        "mean": 11198774.278148148,
+        "median": 134000.0,
+        "p25": 6190.755,
+        "p75": 425000.0,
+        "p90": 8840000.000000041,
+        "p99": 191924995.99999964,
+        "min": 0.0,
+        "max": 250000000.0
+      },
+      "Medical/Dental Office": {
+        "n": 77,
+        "mean": 178570.03012987014,
+        "median": 80000.0,
+        "p25": 30000.0,
+        "p75": 150000.0,
+        "p90": 370000.0000000003,
+        "p99": 2101373.5999999978,
+        "min": 0.0,
+        "max": 2422390.0
+      },
+      "Mixed Use/Res w Non Res": {
+        "n": 88,
+        "mean": 22333938.045454547,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 6000000.0,
+        "p90": 79300000.0,
+        "p99": 242349999.99999958,
+        "min": 0.0,
+        "max": 325000000.0
+      },
+      "Motel/Hotel": {
+        "n": 16,
+        "mean": 3926837.5,
+        "median": 75000.0,
+        "p25": 6550.0,
+        "p75": 470000.0,
+        "p90": 1625000.0,
+        "p99": 49674999.99999998,
+        "min": 0.0,
+        "max": 58000000.0
+      },
+      "Multiple Unit Building": {
+        "n": 385,
+        "mean": 336441.18441558443,
+        "median": 14850.0,
+        "p25": 1000.0,
+        "p75": 97000.0,
+        "p90": 350000.0,
+        "p99": 4579999.999999984,
+        "min": 0.0,
+        "max": 36000000.0
+      },
+      "Multiple Use/Non Residential": {
+        "n": 231,
+        "mean": 712432.1038961039,
+        "median": 9000.0,
+        "p25": 0.0,
+        "p75": 100000.0,
+        "p90": 750000.0,
+        "p99": 9574723.499999974,
+        "min": 0.0,
+        "max": 66000000.0
+      },
+      "Office": {
+        "n": 715,
+        "mean": 625333.7735104895,
+        "median": 40000.0,
+        "p25": 3000.0,
+        "p75": 187110.0,
+        "p90": 510800.0000000004,
+        "p99": 9097200.000000041,
+        "min": 0.0,
+        "max": 125000000.0
+      },
+      "Other": {
+        "n": 212,
+        "mean": 1633007.7075471699,
+        "median": 25000.0,
+        "p25": 1875.0,
+        "p75": 150000.0,
+        "p90": 596500.0000000002,
+        "p99": 23679999.999999836,
+        "min": 0.0,
+        "max": 143626807.0
+      },
+      "Parking Garage": {
+        "n": 40,
+        "mean": 4272750.80375,
+        "median": 412500.0,
+        "p25": 75000.0,
+        "p75": 1075000.0,
+        "p90": 6431383.000000007,
+        "p99": 68019999.99999996,
+        "min": 0.0,
+        "max": 100000000.0
+      },
+      "Personal Service Shop": {
+        "n": 25,
+        "mean": 36642.4,
+        "median": 30000.0,
+        "p25": 10000.0,
+        "p75": 55000.0,
+        "p90": 79000.00000000001,
+        "p99": 103465.59999999999,
+        "min": 0.0,
+        "max": 104560.0
+      },
+      "Place of Worship": {
+        "n": 73,
+        "mean": 525000.9616438356,
+        "median": 25775.0,
+        "p25": 0.0,
+        "p75": 300000.0,
+        "p90": 1000000.0,
+        "p99": 6480241.760000007,
+        "min": 0.0,
+        "max": 11000000.0
+      },
+      "Restaurant 30 Seats or Less ": {
+        "n": 164,
+        "mean": 59443.59756097561,
+        "median": 30000.0,
+        "p25": 7875.0,
+        "p75": 75000.0,
+        "p90": 150000.0,
+        "p99": 374000.00000000093,
+        "min": 0.0,
+        "max": 543000.0
+      },
+      "Restaurant Greater Than 30 Seats": {
+        "n": 139,
+        "mean": 205129.10071942446,
+        "median": 40000.0,
+        "p25": 2500.0,
+        "p75": 200000.0,
+        "p90": 410000.0000000001,
+        "p99": 2921417.200000014,
+        "min": 0.0,
+        "max": 7077900.0
+      },
+      "Retail Store": {
+        "n": 404,
+        "mean": 484639.24566831684,
+        "median": 30000.0,
+        "p25": 3925.0,
+        "p75": 116250.0,
+        "p90": 484999.9999999994,
+        "p99": 2990999.999999991,
+        "min": 0.0,
+        "max": 110000000.0
+      },
+      "SFD - Detached": {
+        "n": 4904,
+        "mean": 229804.73465130507,
+        "median": 17249.5,
+        "p25": 0.0,
+        "p75": 200000.0,
+        "p90": 800000.0,
+        "p99": 2000000.0,
+        "min": 0.0,
+        "max": 15000000.0
+      },
+      "SFD - Semi-Detached": {
+        "n": 979,
+        "mean": 66249.91169560776,
+        "median": 10000.0,
+        "p25": 0.0,
+        "p75": 50000.0,
+        "p90": 160000.0,
+        "p99": 772000.0000000027,
+        "min": 0.0,
+        "max": 3200000.0
+      },
+      "SFD - Townhouse": {
+        "n": 566,
+        "mean": 185459.2227385159,
+        "median": 100000.0,
+        "p25": 1000.25,
+        "p75": 245193.16,
+        "p90": 425000.0,
+        "p99": 1500000.0,
+        "min": 0.0,
+        "max": 3431800.0
+      },
+      "Secondary School": {
+        "n": 45,
+        "mean": 1910924.771777778,
+        "median": 200000.0,
+        "p25": 31000.0,
+        "p75": 725000.0,
+        "p90": 1546800.0,
+        "p99": 36932200.000000134,
+        "min": 0.0,
+        "max": 63000000.0
+      },
+      "Stacked Townhouses": {
+        "n": 140,
+        "mean": 196677.7185,
+        "median": 164096.0,
+        "p25": 118750.0,
+        "p75": 277444.87,
+        "p90": 280081.66,
+        "p99": 534584.386099994,
+        "min": 0.0,
+        "max": 2800000.0
+      },
+      "Transit Station,Subway, Bus Terminal": {
+        "n": 74,
+        "mean": 20225267.999864865,
+        "median": 135000.0,
+        "p25": 625.0,
+        "p75": 1986500.0,
+        "p90": 24049141.600000035,
+        "p99": 338521577.01999843,
+        "min": 0.0,
+        "max": 630075639.0
+      },
+      "University": {
+        "n": 69,
+        "mean": 1510746.115942029,
+        "median": 57000.0,
+        "p25": 1000.0,
+        "p75": 455000.0,
+        "p90": 1000000.0,
+        "p99": 30753999.99999986,
+        "min": 0.0,
+        "max": 45000000.0
+      },
+      "Unknown": {
+        "n": 253,
+        "mean": 168207.604743083,
+        "median": 7000.0,
+        "p25": 3000.0,
+        "p75": 20000.0,
+        "p90": 60000.0,
+        "p99": 1836877.4399999864,
+        "min": 0.0,
+        "max": 24996900.0
+      },
+      "Warehouse": {
+        "n": 68,
+        "mean": 586897.6470588235,
+        "median": 17500.0,
+        "p25": 1000.0,
+        "p75": 200000.0,
+        "p90": 1000000.0,
+        "p99": 9124999.999999978,
+        "min": 0.0,
+        "max": 17500000.0
+      }
+    }
+  },
+  "dwelling_units": {
+    "total_created": 35408,
+    "total_lost": 711,
+    "net_added": 34510
+  },
+  "top_builders_by_volume": {
+    "GEORGINA MYERS": 70,
+    "CITY TOWNS LIMITED PARTNERSHIP": 45,
+    "MODULAR HOME ADDITIONS INC": 22,
+    "MATTHEW CASTELLI": 17,
+    "MODCITY CONSTRUCTION LTD": 15,
+    "GREENGOLD CONSTRUCTION LTD": 12,
+    "PENGUIN LIVING": 11,
+    "ALBION BUILDING CONSULTANT INC": 11,
+    "SHINING HILL HOMES INC.": 11,
+    "MDK CONSTRUCTION": 10,
+    "LIVANTE HOLDINGS (PECKHAM AVENUE) INC": 10,
+    "NORTHERN LAKES HOLDINGS INC": 9,
+    "1000577118 ONTARIO INC": 9,
+    "CHARLES WAH": 9,
+    "FIRST CAPITAL (KING LIBERTY-BARRYMORE) CORPORATION": 9,
+    "HYLAND HOMES INC": 9,
+    "AMAL PODDER": 8,
+    "DEKEL KATZAV": 8,
+    "RIVER SHUTER HOMES LIMITED": 8,
+    "ANDON FINE HOMES LTD": 8,
+    "PCL CONSTRUCTORS CANADA INC": 8,
+    "COUNTRY WIDE HOMES INC": 8,
+    "Z SQUARE CONSULTING INC": 8,
+    "MUHAMMAD ASIM AIJAZ": 8,
+    "STEIN+REGENCY CONSTRUCTION MANAGEMENT": 8
+  },
+  "builder_performance": {
+    "min_permits_threshold": 10,
+    "city_median_days": 34.0,
+    "fastest_builders": [
+      {
+        "builder": "GEORGINA MYERS",
+        "n_permits": 67,
+        "median_days": 33.0,
+        "p90_days": 165.39999999999998,
+        "mean_days": 64.53731343283582
+      },
+      {
+        "builder": "MODULAR HOME ADDITIONS INC",
+        "n_permits": 21,
+        "median_days": 48.0,
+        "p90_days": 142.0,
+        "mean_days": 62.333333333333336
+      },
+      {
+        "builder": "PENGUIN LIVING",
+        "n_permits": 10,
+        "median_days": 63.5,
+        "p90_days": 169.1,
+        "mean_days": 83.7
+      },
+      {
+        "builder": "MDK CONSTRUCTION",
+        "n_permits": 10,
+        "median_days": 67.0,
+        "p90_days": 115.89999999999999,
+        "mean_days": 71.5
+      },
+      {
+        "builder": "MODCITY CONSTRUCTION LTD",
+        "n_permits": 14,
+        "median_days": 69.0,
+        "p90_days": 92.0,
+        "mean_days": 72.0
+      },
+      {
+        "builder": "ALBION BUILDING CONSULTANT INC",
+        "n_permits": 11,
+        "median_days": 71.0,
+        "p90_days": 156.0,
+        "mean_days": 100.54545454545455
+      },
+      {
+        "builder": "MATTHEW CASTELLI",
+        "n_permits": 15,
+        "median_days": 78.0,
+        "p90_days": 158.39999999999998,
+        "mean_days": 94.6
+      },
+      {
+        "builder": "SHINING HILL HOMES INC.",
+        "n_permits": 11,
+        "median_days": 105.0,
+        "p90_days": 176.0,
+        "mean_days": 122.27272727272727
+      },
+      {
+        "builder": "CITY TOWNS LIMITED PARTNERSHIP",
+        "n_permits": 45,
+        "median_days": 233.0,
+        "p90_days": 236.4,
+        "mean_days": 233.48888888888888
+      },
+      {
+        "builder": "LIVANTE HOLDINGS (PECKHAM AVENUE) INC",
+        "n_permits": 10,
+        "median_days": 351.0,
+        "p90_days": 351.0,
+        "mean_days": 293.4
+      }
+    ],
+    "slowest_builders": [
+      {
+        "builder": "LIVANTE HOLDINGS (PECKHAM AVENUE) INC",
+        "n_permits": 10,
+        "median_days": 351.0,
+        "p90_days": 351.0,
+        "mean_days": 293.4
+      },
+      {
+        "builder": "CITY TOWNS LIMITED PARTNERSHIP",
+        "n_permits": 45,
+        "median_days": 233.0,
+        "p90_days": 236.4,
+        "mean_days": 233.48888888888888
+      },
+      {
+        "builder": "SHINING HILL HOMES INC.",
+        "n_permits": 11,
+        "median_days": 105.0,
+        "p90_days": 176.0,
+        "mean_days": 122.27272727272727
+      },
+      {
+        "builder": "MATTHEW CASTELLI",
+        "n_permits": 15,
+        "median_days": 78.0,
+        "p90_days": 158.39999999999998,
+        "mean_days": 94.6
+      },
+      {
+        "builder": "ALBION BUILDING CONSULTANT INC",
+        "n_permits": 11,
+        "median_days": 71.0,
+        "p90_days": 156.0,
+        "mean_days": 100.54545454545455
+      },
+      {
+        "builder": "MODCITY CONSTRUCTION LTD",
+        "n_permits": 14,
+        "median_days": 69.0,
+        "p90_days": 92.0,
+        "mean_days": 72.0
+      },
+      {
+        "builder": "MDK CONSTRUCTION",
+        "n_permits": 10,
+        "median_days": 67.0,
+        "p90_days": 115.89999999999999,
+        "mean_days": 71.5
+      },
+      {
+        "builder": "PENGUIN LIVING",
+        "n_permits": 10,
+        "median_days": 63.5,
+        "p90_days": 169.1,
+        "mean_days": 83.7
+      },
+      {
+        "builder": "MODULAR HOME ADDITIONS INC",
+        "n_permits": 21,
+        "median_days": 48.0,
+        "p90_days": 142.0,
+        "mean_days": 62.333333333333336
+      },
+      {
+        "builder": "GEORGINA MYERS",
+        "n_permits": 67,
+        "median_days": 33.0,
+        "p90_days": 165.39999999999998,
+        "mean_days": 64.53731343283582
+      }
+    ],
+    "most_active_builders": [
+      {
+        "builder": "GEORGINA MYERS",
+        "n_permits": 67,
+        "median_days": 33.0,
+        "p90_days": 165.39999999999998,
+        "mean_days": 64.53731343283582
+      },
+      {
+        "builder": "CITY TOWNS LIMITED PARTNERSHIP",
+        "n_permits": 45,
+        "median_days": 233.0,
+        "p90_days": 236.4,
+        "mean_days": 233.48888888888888
+      },
+      {
+        "builder": "MODULAR HOME ADDITIONS INC",
+        "n_permits": 21,
+        "median_days": 48.0,
+        "p90_days": 142.0,
+        "mean_days": 62.333333333333336
+      },
+      {
+        "builder": "MATTHEW CASTELLI",
+        "n_permits": 15,
+        "median_days": 78.0,
+        "p90_days": 158.39999999999998,
+        "mean_days": 94.6
+      },
+      {
+        "builder": "MODCITY CONSTRUCTION LTD",
+        "n_permits": 14,
+        "median_days": 69.0,
+        "p90_days": 92.0,
+        "mean_days": 72.0
+      },
+      {
+        "builder": "ALBION BUILDING CONSULTANT INC",
+        "n_permits": 11,
+        "median_days": 71.0,
+        "p90_days": 156.0,
+        "mean_days": 100.54545454545455
+      },
+      {
+        "builder": "SHINING HILL HOMES INC.",
+        "n_permits": 11,
+        "median_days": 105.0,
+        "p90_days": 176.0,
+        "mean_days": 122.27272727272727
+      },
+      {
+        "builder": "PENGUIN LIVING",
+        "n_permits": 10,
+        "median_days": 63.5,
+        "p90_days": 169.1,
+        "mean_days": 83.7
+      },
+      {
+        "builder": "MDK CONSTRUCTION",
+        "n_permits": 10,
+        "median_days": 67.0,
+        "p90_days": 115.89999999999999,
+        "mean_days": 71.5
+      },
+      {
+        "builder": "LIVANTE HOLDINGS (PECKHAM AVENUE) INC",
+        "n_permits": 10,
+        "median_days": 351.0,
+        "p90_days": 351.0,
+        "mean_days": 293.4
+      }
+    ],
+    "fastest_builders_vs_area": [
+      {
+        "builder": "GEORGINA MYERS",
+        "n_permits": 67,
+        "median_delta_days": 3.0,
+        "median_days_absolute": 33.0
+      },
+      {
+        "builder": "MODULAR HOME ADDITIONS INC",
+        "n_permits": 21,
+        "median_delta_days": 10.5,
+        "median_days_absolute": 48.0
+      },
+      {
+        "builder": "ALBION BUILDING CONSULTANT INC",
+        "n_permits": 11,
+        "median_delta_days": 24.0,
+        "median_days_absolute": 71.0
+      },
+      {
+        "builder": "PENGUIN LIVING",
+        "n_permits": 10,
+        "median_delta_days": 26.5,
+        "median_days_absolute": 63.5
+      },
+      {
+        "builder": "MATTHEW CASTELLI",
+        "n_permits": 15,
+        "median_delta_days": 30.0,
+        "median_days_absolute": 78.0
+      },
+      {
+        "builder": "MODCITY CONSTRUCTION LTD",
+        "n_permits": 14,
+        "median_delta_days": 34.0,
+        "median_days_absolute": 69.0
+      },
+      {
+        "builder": "MDK CONSTRUCTION",
+        "n_permits": 10,
+        "median_delta_days": 39.0,
+        "median_days_absolute": 67.0
+      },
+      {
+        "builder": "SHINING HILL HOMES INC.",
+        "n_permits": 11,
+        "median_delta_days": 56.0,
+        "median_days_absolute": 105.0
+      },
+      {
+        "builder": "CITY TOWNS LIMITED PARTNERSHIP",
+        "n_permits": 45,
+        "median_delta_days": 177.0,
+        "median_days_absolute": 233.0
+      },
+      {
+        "builder": "LIVANTE HOLDINGS (PECKHAM AVENUE) INC",
+        "n_permits": 10,
+        "median_delta_days": 295.5,
+        "median_days_absolute": 351.0
+      }
+    ],
+    "slowest_builders_vs_area": [
+      {
+        "builder": "LIVANTE HOLDINGS (PECKHAM AVENUE) INC",
+        "n_permits": 10,
+        "median_delta_days": 295.5,
+        "median_days_absolute": 351.0
+      },
+      {
+        "builder": "CITY TOWNS LIMITED PARTNERSHIP",
+        "n_permits": 45,
+        "median_delta_days": 177.0,
+        "median_days_absolute": 233.0
+      },
+      {
+        "builder": "SHINING HILL HOMES INC.",
+        "n_permits": 11,
+        "median_delta_days": 56.0,
+        "median_days_absolute": 105.0
+      },
+      {
+        "builder": "MDK CONSTRUCTION",
+        "n_permits": 10,
+        "median_delta_days": 39.0,
+        "median_days_absolute": 67.0
+      },
+      {
+        "builder": "MODCITY CONSTRUCTION LTD",
+        "n_permits": 14,
+        "median_delta_days": 34.0,
+        "median_days_absolute": 69.0
+      },
+      {
+        "builder": "MATTHEW CASTELLI",
+        "n_permits": 15,
+        "median_delta_days": 30.0,
+        "median_days_absolute": 78.0
+      },
+      {
+        "builder": "PENGUIN LIVING",
+        "n_permits": 10,
+        "median_delta_days": 26.5,
+        "median_days_absolute": 63.5
+      },
+      {
+        "builder": "ALBION BUILDING CONSULTANT INC",
+        "n_permits": 11,
+        "median_delta_days": 24.0,
+        "median_days_absolute": 71.0
+      },
+      {
+        "builder": "MODULAR HOME ADDITIONS INC",
+        "n_permits": 21,
+        "median_delta_days": 10.5,
+        "median_days_absolute": 48.0
+      },
+      {
+        "builder": "GEORGINA MYERS",
+        "n_permits": 67,
+        "median_delta_days": 3.0,
+        "median_days_absolute": 33.0
+      }
+    ],
+    "fastest_by_permit_type": {
+      "New Houses": [
+        {
+          "builder": "GEORGINA MYERS",
+          "n_permits": 30,
+          "median_days": 29.5,
+          "p90_days": 163.60000000000002,
+          "mean_days": 67.1
+        },
+        {
+          "builder": "CITY TOWNS LIMITED PARTNERSHIP",
+          "n_permits": 45,
+          "median_days": 233.0,
+          "p90_days": 236.4,
+          "mean_days": 233.48888888888888
+        }
+      ],
+      "Plumbing(PS)": [],
+      "Mechanical(MS)": [],
+      "Drain and Site Service": [
+        {
+          "builder": "GEORGINA MYERS",
+          "n_permits": 12,
+          "median_days": 47.5,
+          "p90_days": 157.3,
+          "mean_days": 75.5
+        }
+      ],
+      "Small Residential Projects": [
+        {
+          "builder": "MODULAR HOME ADDITIONS INC",
+          "n_permits": 10,
+          "median_days": 55.0,
+          "p90_days": 104.19999999999999,
+          "mean_days": 64.2
+        }
+      ],
+      "Demolition Folder (DM)": [
+        {
+          "builder": "GEORGINA MYERS",
+          "n_permits": 10,
+          "median_days": 39.0,
+          "p90_days": 97.69999999999997,
+          "mean_days": 54.6
+        }
+      ],
+      "Building Additions/Alterations": [],
+      "Fire/Security Upgrade": []
+    },
+    "fastest_by_structure_type": {
+      "SFD - Detached": [
+        {
+          "builder": "GEORGINA MYERS",
+          "n_permits": 67,
+          "median_days": 33.0,
+          "p90_days": 165.39999999999998,
+          "mean_days": 64.53731343283582
+        },
+        {
+          "builder": "MODULAR HOME ADDITIONS INC",
+          "n_permits": 20,
+          "median_days": 48.0,
+          "p90_days": 142.0,
+          "mean_days": 63.45
+        },
+        {
+          "builder": "ALBION BUILDING CONSULTANT INC",
+          "n_permits": 11,
+          "median_days": 71.0,
+          "p90_days": 156.0,
+          "mean_days": 100.54545454545455
+        },
+        {
+          "builder": "SHINING HILL HOMES INC.",
+          "n_permits": 11,
+          "median_days": 105.0,
+          "p90_days": 176.0,
+          "mean_days": 122.27272727272727
+        },
+        {
+          "builder": "LIVANTE HOLDINGS (PECKHAM AVENUE) INC",
+          "n_permits": 10,
+          "median_days": 351.0,
+          "p90_days": 351.0,
+          "mean_days": 293.4
+        }
+      ],
+      "2 Unit - Detached": [],
+      "3+ Unit - Detached": [],
+      "Laneway / Rear Yard Suite": [],
+      "SFD - Semi-Detached": [],
+      "SFD - Townhouse": [
+        {
+          "builder": "MATTHEW CASTELLI",
+          "n_permits": 15,
+          "median_days": 78.0,
+          "p90_days": 158.39999999999998,
+          "mean_days": 94.6
+        },
+        {
+          "builder": "CITY TOWNS LIMITED PARTNERSHIP",
+          "n_permits": 45,
+          "median_days": 233.0,
+          "p90_days": 236.4,
+          "mean_days": 233.48888888888888
+        }
+      ],
+      "Office": [],
+      "3+ Unit - Semi-detached": []
+    },
+    "fastest_by_fsa": {
+      "M2N": [
+        {
+          "builder": "DIVANBEIGI DESIGN AND BUILD INC",
+          "n_permits": 5,
+          "median_days": 21.0,
+          "p90_days": 27.6,
+          "mean_days": 22.6
+        },
+        {
+          "builder": "TAMAR TSIKLAURI",
+          "n_permits": 5,
+          "median_days": 21.0,
+          "p90_days": 37.0,
+          "mean_days": 25.6
+        },
+        {
+          "builder": "1000577118 ONTARIO INC",
+          "n_permits": 9,
+          "median_days": 27.0,
+          "p90_days": 105.0,
+          "mean_days": 47.77777777777778
+        },
+        {
+          "builder": "JUAN INCIARTE",
+          "n_permits": 5,
+          "median_days": 43.0,
+          "p90_days": 85.0,
+          "mean_days": 57.0
+        },
+        {
+          "builder": "HELMUT GINTER",
+          "n_permits": 6,
+          "median_days": 63.0,
+          "p90_days": 100.5,
+          "mean_days": 59.333333333333336
+        },
+        {
+          "builder": "PROSPER LIVING DEVELOPMENT INC",
+          "n_permits": 6,
+          "median_days": 89.0,
+          "p90_days": 89.0,
+          "mean_days": 77.33333333333333
+        },
+        {
+          "builder": "MEHRAN SAYYADI",
+          "n_permits": 7,
+          "median_days": 911.0,
+          "p90_days": 911.0,
+          "mean_days": 774.8571428571429
+        }
+      ],
+      "M5M": [
+        {
+          "builder": "KAMBIZ BOLOURIAN",
+          "n_permits": 5,
+          "median_days": 34.0,
+          "p90_days": 40.0,
+          "mean_days": 27.2
+        },
+        {
+          "builder": "TAILOR BUILD",
+          "n_permits": 6,
+          "median_days": 34.0,
+          "p90_days": 34.0,
+          "mean_days": 27.666666666666668
+        },
+        {
+          "builder": "AHFEROM T GEBREMEDMIN",
+          "n_permits": 5,
+          "median_days": 43.0,
+          "p90_days": 43.0,
+          "mean_days": 41.2
+        },
+        {
+          "builder": "JALEH KAHNAMI",
+          "n_permits": 5,
+          "median_days": 51.0,
+          "p90_days": 51.0,
+          "mean_days": 46.6
+        },
+        {
+          "builder": "YU ZHANG",
+          "n_permits": 5,
+          "median_days": 52.0,
+          "p90_days": 52.0,
+          "mean_days": 52.0
+        },
+        {
+          "builder": "ROMMEL GUTIERREZ",
+          "n_permits": 7,
+          "median_days": 79.0,
+          "p90_days": 88.2,
+          "mean_days": 66.57142857142857
+        },
+        {
+          "builder": "BEREN YOUSEF",
+          "n_permits": 5,
+          "median_days": 140.0,
+          "p90_days": 359.0,
+          "mean_days": 227.6
+        },
+        {
+          "builder": "EDWARD KLUGERMAN",
+          "n_permits": 5,
+          "median_days": 247.0,
+          "p90_days": 335.6,
+          "mean_days": 282.4
+        }
+      ],
+      "M9A": [
+        {
+          "builder": "ROSEMARY CHACKERY",
+          "n_permits": 5,
+          "median_days": 23.0,
+          "p90_days": 34.6,
+          "mean_days": 27.2
+        },
+        {
+          "builder": "T GORNIK BUILD  DESIGN LTD",
+          "n_permits": 5,
+          "median_days": 38.0,
+          "p90_days": 39.8,
+          "mean_days": 38.0
+        },
+        {
+          "builder": "ISLINGTON VILLAGE TOWNS DEVELOPMENT INC",
+          "n_permits": 5,
+          "median_days": 312.0,
+          "p90_days": 312.6,
+          "mean_days": 312.2
+        }
+      ],
+      "M3H": [
+        {
+          "builder": "JIANYING LOU",
+          "n_permits": 5,
+          "median_days": 46.0,
+          "p90_days": 62.4,
+          "mean_days": 52.0
+        },
+        {
+          "builder": "NORTHERN LAKES HOLDINGS INC",
+          "n_permits": 9,
+          "median_days": 146.0,
+          "p90_days": 186.0,
+          "mean_days": 119.0
+        }
+      ],
+      "M3B": [
+        {
+          "builder": "ZHENGYU LI",
+          "n_permits": 5,
+          "median_days": 18.0,
+          "p90_days": 48.0,
+          "mean_days": 29.0
+        },
+        {
+          "builder": "ILDISSAN MOUSSAI",
+          "n_permits": 5,
+          "median_days": 22.0,
+          "p90_days": 29.8,
+          "mean_days": 23.2
+        },
+        {
+          "builder": "GEORGINA MYERS",
+          "n_permits": 8,
+          "median_days": 34.0,
+          "p90_days": 318.0,
+          "mean_days": 98.875
+        },
+        {
+          "builder": "RUPALEE SUBHASH MEHTA",
+          "n_permits": 5,
+          "median_days": 72.0,
+          "p90_days": 847.0,
+          "mean_days": 361.4
+        },
+        {
+          "builder": "GREENGOLD CONSTRUCTION LTD",
+          "n_permits": 5,
+          "median_days": 129.0,
+          "p90_days": 129.0,
+          "mean_days": 110.6
+        }
+      ],
+      "M9B": [],
+      "M8W": [
+        {
+          "builder": "GIOVANBATTISTA PAOLELLA",
+          "n_permits": 5,
+          "median_days": 61.0,
+          "p90_days": 74.0,
+          "mean_days": 66.2
+        },
+        {
+          "builder": "NICK BASCIANO",
+          "n_permits": 5,
+          "median_days": 119.0,
+          "p90_days": 232.40000000000003,
+          "mean_days": 133.6
+        },
+        {
+          "builder": "BERNARD CASSAR",
+          "n_permits": 5,
+          "median_days": 623.0,
+          "p90_days": 623.0,
+          "mean_days": 456.6
+        }
+      ],
+      "M4N": [
+        {
+          "builder": "GEORGINA MYERS",
+          "n_permits": 6,
+          "median_days": 28.0,
+          "p90_days": 118.5,
+          "mean_days": 56.333333333333336
+        },
+        {
+          "builder": "DARREN KARN",
+          "n_permits": 5,
+          "median_days": 36.0,
+          "p90_days": 36.0,
+          "mean_days": 30.2
+        },
+        {
+          "builder": "TUSCAN VALLEY HOMES",
+          "n_permits": 6,
+          "median_days": 37.0,
+          "p90_days": 46.5,
+          "mean_days": 35.833333333333336
+        },
+        {
+          "builder": "ROSE FERRARO",
+          "n_permits": 5,
+          "median_days": 94.0,
+          "p90_days": 125.60000000000001,
+          "mean_days": 79.0
+        },
+        {
+          "builder": "MALGORZATA GOLEC",
+          "n_permits": 5,
+          "median_days": 106.0,
+          "p90_days": 108.4,
+          "mean_days": 79.2
+        },
+        {
+          "builder": "MAC QIU",
+          "n_permits": 7,
+          "median_days": 286.0,
+          "p90_days": 286.0,
+          "mean_days": 209.57142857142858
+        },
+        {
+          "builder": "ELEONORA CRYSTAL",
+          "n_permits": 5,
+          "median_days": 367.0,
+          "p90_days": 367.0,
+          "mean_days": 367.0
+        }
+      ],
+      "M4G": [
+        {
+          "builder": "11291246 CANADA INC",
+          "n_permits": 7,
+          "median_days": 53.0,
+          "p90_days": 58.2,
+          "mean_days": 48.714285714285715
+        },
+        {
+          "builder": "PROMOPLAST CANADA INC",
+          "n_permits": 5,
+          "median_days": 246.0,
+          "p90_days": 305.2,
+          "mean_days": 265.8
+        }
+      ],
+      "M6C": [
+        {
+          "builder": "DEAN JASON PODOLSKY",
+          "n_permits": 6,
+          "median_days": 17.0,
+          "p90_days": 61.0,
+          "mean_days": 30.166666666666668
+        }
+      ],
+      "M2M": [
+        {
+          "builder": "COUNTRY WIDE HOMES INC",
+          "n_permits": 8,
+          "median_days": 102.0,
+          "p90_days": 137.2,
+          "mean_days": 108.0
+        },
+        {
+          "builder": "SHINING HILL HOMES INC.",
+          "n_permits": 11,
+          "median_days": 105.0,
+          "p90_days": 176.0,
+          "mean_days": 122.27272727272727
+        }
+      ],
+      "M8Z": [],
+      "M6B": [
+        {
+          "builder": "1258630 ONTARIO LTD",
+          "n_permits": 5,
+          "median_days": 21.0,
+          "p90_days": 174.0,
+          "mean_days": 82.2
+        },
+        {
+          "builder": "892 CASTLEFIELD GP INC",
+          "n_permits": 5,
+          "median_days": 45.0,
+          "p90_days": 51.4,
+          "mean_days": 47.4
+        },
+        {
+          "builder": "LEONARDO ALBUQUERQUE",
+          "n_permits": 7,
+          "median_days": 430.0,
+          "p90_days": 430.4,
+          "mean_days": 421.14285714285717
+        }
+      ],
+      "M2L": [
+        {
+          "builder": "SAM SALIMI BENI",
+          "n_permits": 5,
+          "median_days": 42.0,
+          "p90_days": 42.0,
+          "mean_days": 35.2
+        },
+        {
+          "builder": "CHABAD ON BAYVIEW BUILDING CORPORATION",
+          "n_permits": 5,
+          "median_days": 63.0,
+          "p90_days": 82.2,
+          "mean_days": 69.4
+        },
+        {
+          "builder": "GEORGINA MYERS",
+          "n_permits": 6,
+          "median_days": 65.0,
+          "p90_days": 169.0,
+          "mean_days": 92.83333333333333
+        },
+        {
+          "builder": "MATTHEW CASTELLI",
+          "n_permits": 15,
+          "median_days": 78.0,
+          "p90_days": 158.39999999999998,
+          "mean_days": 94.6
+        }
+      ],
+      "M1M": [
+        {
+          "builder": "GOLAM SARWAR",
+          "n_permits": 5,
+          "median_days": 52.0,
+          "p90_days": 99.4,
+          "mean_days": 59.4
+        },
+        {
+          "builder": "MASTAQUE AHMED CHOWDHURY",
+          "n_permits": 6,
+          "median_days": 145.5,
+          "p90_days": 147.0,
+          "mean_days": 123.33333333333333
+        }
+      ],
+      "M1L": [
+        {
+          "builder": "AMAL PODDER",
+          "n_permits": 8,
+          "median_days": 148.0,
+          "p90_days": 183.0,
+          "mean_days": 127.125
+        },
+        {
+          "builder": "ALI ASHRAF AHM",
+          "n_permits": 6,
+          "median_days": 644.0,
+          "p90_days": 652.0,
+          "mean_days": 525.0
+        }
+      ],
+      "M5N": [
+        {
+          "builder": "GEORGINA MYERS",
+          "n_permits": 7,
+          "median_days": 29.0,
+          "p90_days": 29.0,
+          "mean_days": 25.142857142857142
+        }
+      ],
+      "M3C": [
+        {
+          "builder": "CITY TOWNS LIMITED PARTNERSHIP",
+          "n_permits": 45,
+          "median_days": 233.0,
+          "p90_days": 236.4,
+          "mean_days": 233.48888888888888
+        }
+      ],
+      "M6A": [
+        {
+          "builder": "LINDVEST CONSTRUCTION MANAGEMENT LTD",
+          "n_permits": 5,
+          "median_days": 3.0,
+          "p90_days": 105.0,
+          "mean_days": 42.6
+        },
+        {
+          "builder": "OLD ORCHARD PROPERTY DEVELOPMENTS INC",
+          "n_permits": 5,
+          "median_days": 78.0,
+          "p90_days": 193.0,
+          "mean_days": 109.6
+        },
+        {
+          "builder": "SUNFIELD INVESTMENTS (YORKDALE) INC",
+          "n_permits": 7,
+          "median_days": 494.0,
+          "p90_days": 494.0,
+          "mean_days": 447.85714285714283
+        }
+      ],
+      "M1N": [
+        {
+          "builder": "ALBION BUILDING CONSULTANT INC",
+          "n_permits": 6,
+          "median_days": 68.5,
+          "p90_days": 296.5,
+          "mean_days": 131.33333333333334
+        }
+      ],
+      "M6E": [
+        {
+          "builder": "MODCITY CONSTRUCTION LTD",
+          "n_permits": 8,
+          "median_days": 66.0,
+          "p90_days": 69.0,
+          "mean_days": 57.0
+        },
+        {
+          "builder": "11830350 CANADA LIMITED",
+          "n_permits": 5,
+          "median_days": 98.0,
+          "p90_days": 98.0,
+          "mean_days": 98.0
+        }
+      ],
+      "M5P": [
+        {
+          "builder": "MARVIN WHITE",
+          "n_permits": 5,
+          "median_days": 23.0,
+          "p90_days": 42.0,
+          "mean_days": 24.2
+        },
+        {
+          "builder": "GEORGINA MYERS",
+          "n_permits": 11,
+          "median_days": 98.0,
+          "p90_days": 163.0,
+          "mean_days": 115.27272727272727
+        }
+      ],
+      "M4J": [
+        {
+          "builder": "FARZIN MISAMI AZAD",
+          "n_permits": 5,
+          "median_days": 95.0,
+          "p90_days": 231.8,
+          "mean_days": 140.4
+        },
+        {
+          "builder": "MUHAMMAD ASIM AIJAZ",
+          "n_permits": 8,
+          "median_days": 720.0,
+          "p90_days": 786.0,
+          "mean_days": 561.375
+        }
+      ],
+      "M1C": [
+        {
+          "builder": "DEBBIE KIEW LIAO YEN",
+          "n_permits": 5,
+          "median_days": 47.0,
+          "p90_days": 119.0,
+          "mean_days": 68.0
+        },
+        {
+          "builder": "STEVEN PAGE",
+          "n_permits": 5,
+          "median_days": 71.0,
+          "p90_days": 71.0,
+          "mean_days": 48.0
+        },
+        {
+          "builder": "SALVATORE APRILE",
+          "n_permits": 5,
+          "median_days": 650.0,
+          "p90_days": 650.0,
+          "mean_days": 649.8
+        }
+      ],
+      "M8V": [
+        {
+          "builder": "MIDNIGHT BUILDING CORP",
+          "n_permits": 5,
+          "median_days": 25.0,
+          "p90_days": 73.0,
+          "mean_days": 36.0
+        },
+        {
+          "builder": "MODULAR HOME ADDITIONS INC",
+          "n_permits": 5,
+          "median_days": 48.0,
+          "p90_days": 142.0,
+          "mean_days": 80.2
+        },
+        {
+          "builder": "RAFAL KUS",
+          "n_permits": 5,
+          "median_days": 55.0,
+          "p90_days": 55.0,
+          "mean_days": 37.6
+        },
+        {
+          "builder": "ZEKI KILIC",
+          "n_permits": 5,
+          "median_days": 60.0,
+          "p90_days": 62.0,
+          "mean_days": 51.2
+        },
+        {
+          "builder": "SAHIL JAGGI",
+          "n_permits": 7,
+          "median_days": 75.0,
+          "p90_days": 75.0,
+          "mean_days": 51.42857142857143
+        }
+      ]
+    }
+  },
+  "pending_backlog": {
+    "still_open": 2121,
+    "by_status": {
+      "Issuance Pending": 471,
+      "Examiner's Notice Sent": 441,
+      "Under Review ": 316,
+      "Application On Hold": 232,
+      "Refusal Notice": 132,
+      "Not Started": 130,
+      "Application Acceptable": 70,
+      "Pending Cancellation": 61,
+      "Open": 59,
+      "Response Received": 58,
+      "Ready for Issuance": 33,
+      "Application Received": 26,
+      "Abandoned": 23,
+      "Deficiency Notice Issued": 13,
+      "Not Started - Express": 11,
+      "Inspection": 9,
+      "Application Withdrawn": 6,
+      "Active": 5,
+      "Approved": 5,
+      "Revised": 4,
+      "Plan Review Complete": 3,
+      "Not Accepted": 2,
+      "Agreement in Progress": 2,
+      "Pending Parent Folder Review": 2,
+      "Licence Issued": 1,
+      "Cancelled": 1,
+      "Revocation Pending": 1,
+      "Permit Issued": 1,
+      "File Closed": 1,
+      "Revision Issued": 1,
+      "Notice Sent": 1
+    }
+  },
+  "data_quality_flags": {
+    "negative_approval_days": 1,
+    "missing_postal": 0,
+    "missing_application_date": 0
+  }
+}

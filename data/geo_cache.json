@@ -1,0 +1,6262 @@
+{
+  "113 bannockburn ave, toronto": {
+    "lat": 43.7318954215305,
+    "lon": -79.429014041809,
+    "display_name": "113 BANNOCKBURN"
+  },
+  "80 thistle down blvd, toronto": {
+    "lat": 43.7380023453807,
+    "lon": -79.5570060259992,
+    "display_name": "80 THISTLE DOWN"
+  },
+  "2 strachan ave, toronto": {
+    "lat": 43.6348395136225,
+    "lon": -79.4101328225122,
+    "display_name": "2 STRACHAN"
+  },
+  "100 bridgeland ave, toronto": {
+    "lat": 43.7262073410815,
+    "lon": -79.4619679373276,
+    "display_name": "100 BRIDGELAND"
+  },
+  "399 bathurst st, toronto": {
+    "lat": 43.6530947911825,
+    "lon": -79.405688478991,
+    "display_name": "399 BATHURST"
+  },
+  "29 danesbury ave, toronto": {
+    "lat": 43.7030489101697,
+    "lon": -79.4439605282507,
+    "display_name": "29 DANESBURY"
+  },
+  "91 leuty ave, toronto": {
+    "lat": 43.6701399065679,
+    "lon": -79.2960675096166,
+    "display_name": "91 LEUTY"
+  },
+  "50 hollinger rd, toronto": {
+    "lat": 43.7144292462437,
+    "lon": -79.313435048719,
+    "display_name": "50 HOLLINGER"
+  },
+  "92 shaftesbury ave, toronto": {
+    "lat": 43.6829818013016,
+    "lon": -79.3877573003286,
+    "display_name": "92 SHAFTESBURY"
+  },
+  "46 portage ave, toronto": {
+    "lat": 43.7095063877258,
+    "lon": -79.5204918316008,
+    "display_name": "46 PORTAGE"
+  },
+  "3018 dundas st w, toronto": {
+    "lat": 43.6656976111568,
+    "lon": -79.4700022820647,
+    "display_name": "3018 DUNDAS"
+  },
+  "160 neptune dr, toronto": {
+    "lat": 43.7289108374112,
+    "lon": -79.4431287602471,
+    "display_name": "160 NEPTUNE"
+  },
+  "46 old colony rd, toronto": {
+    "lat": 43.7583067025447,
+    "lon": -79.3816254358766,
+    "display_name": "46 OLD COLONY"
+  },
+  "53 renown rd, toronto": {
+    "lat": 43.6444914904932,
+    "lon": -79.5347718761524,
+    "display_name": "53 RENOWN"
+  },
+  "347 canarctic dr, toronto": {
+    "lat": 43.7762685146717,
+    "lon": -79.4878281227953,
+    "display_name": "347 CANARCTIC"
+  },
+  "33 lyonsgate dr, toronto": {
+    "lat": 43.7427777301617,
+    "lon": -79.4339862092576,
+    "display_name": "33 LYONSGATE"
+  },
+  "29 macpherson ave, toronto": {
+    "lat": 43.678738603379,
+    "lon": -79.3912521287899,
+    "display_name": "29 MACPHERSON"
+  },
+  "18 karnwood dr, toronto": {
+    "lat": 43.7140003080831,
+    "lon": -79.2943561304935,
+    "display_name": "18 KARNWOOD"
+  },
+  "44 clyde rd, toronto": {
+    "lat": 43.7849101760019,
+    "lon": -79.1589011809632,
+    "display_name": "44 CLYDE"
+  },
+  "3 neville park blvd, toronto": {
+    "lat": 43.6717532643216,
+    "lon": -79.2813177418792,
+    "display_name": "3 NEVILLE PARK"
+  },
+  "17 brimley rd, toronto": {
+    "lat": 43.720459572903,
+    "lon": -79.2391024629214,
+    "display_name": "17 BRIMLEY"
+  },
+  "87 endsleigh cres, toronto": {
+    "lat": 43.7815265377241,
+    "lon": -79.3346983488191,
+    "display_name": "87 ENDSLEIGH"
+  },
+  "4759-4789 yonge st, toronto": {
+    "lat": 43.760360699505,
+    "lon": -79.4103122753257,
+    "display_name": "4759-4789 YONGE"
+  },
+  "69 whitburn cres, toronto": {
+    "lat": 43.735993993637,
+    "lon": -79.4889231950167,
+    "display_name": "69 WHITBURN"
+  },
+  "23 george henry blvd, toronto": {
+    "lat": 43.7704927488731,
+    "lon": -79.35551904682,
+    "display_name": "23 GEORGE HENRY"
+  },
+  "130 mclevin ave, toronto": {
+    "lat": 43.8034256223442,
+    "lon": -79.235169360334,
+    "display_name": "130 MCLEVIN"
+  },
+  "51 montcalm ave, toronto": {
+    "lat": 43.6961494396976,
+    "lon": -79.4604552644969,
+    "display_name": "51 MONTCALM"
+  },
+  "102 cowan ave, toronto": {
+    "lat": 43.6371956782364,
+    "lon": -79.4318556359905,
+    "display_name": "102 COWAN"
+  },
+  "1 university ave, toronto": {
+    "lat": 43.6457896494124,
+    "lon": -79.3831726914751,
+    "display_name": "1 UNIVERSITY"
+  },
+  "17 hollis st, toronto": {
+    "lat": 43.687878845663,
+    "lon": -79.4890794046735,
+    "display_name": "17 HOLLIS"
+  },
+  "253 wellington st w, toronto": {
+    "lat": 43.6446053058253,
+    "lon": -79.3901140983395,
+    "display_name": "253 WELLINGTON"
+  },
+  "509 palmerston blvd, toronto": {
+    "lat": 43.662984836509,
+    "lon": -79.4127415633193,
+    "display_name": "509 PALMERSTON"
+  },
+  "217 yarmouth rd, toronto": {
+    "lat": 43.6686430206398,
+    "lon": -79.427685818913,
+    "display_name": "217 YARMOUTH"
+  },
+  "161 dalemount ave, toronto": {
+    "lat": 43.7155807879913,
+    "lon": -79.4345581864358,
+    "display_name": "161 DALEMOUNT"
+  },
+  "10 athlone dr, toronto": {
+    "lat": 43.6444431386153,
+    "lon": -79.5045622868252,
+    "display_name": "10 ATHLONE"
+  },
+  "28 venn cres, toronto": {
+    "lat": 43.6913132055891,
+    "lon": -79.4671157310933,
+    "display_name": "28 VENN"
+  },
+  "155 inverdon rd, toronto": {
+    "lat": 43.6692112442486,
+    "lon": -79.5755539000492,
+    "display_name": "155 INVERDON"
+  },
+  "12 sunnylea ave e, toronto": {
+    "lat": 43.6425970500281,
+    "lon": -79.5012828029135,
+    "display_name": "12 SUNNYLEA"
+  },
+  "51 battersea cres, toronto": {
+    "lat": 43.7081059514383,
+    "lon": -79.4845394839066,
+    "display_name": "51 BATTERSEA"
+  },
+  "41 ranwood dr, toronto": {
+    "lat": 43.7101134663554,
+    "lon": -79.5188884644813,
+    "display_name": "41 RANWOOD"
+  },
+  "218 lippincott st, toronto": {
+    "lat": 43.6605760538988,
+    "lon": -79.408318511788,
+    "display_name": "218 LIPPINCOTT"
+  },
+  "1 hayward cres, toronto": {
+    "lat": 43.7850111244583,
+    "lon": -79.2599484417888,
+    "display_name": "1 HAYWARD"
+  },
+  "49 stayner ave, toronto": {
+    "lat": 43.7049030065399,
+    "lon": -79.444306687945,
+    "display_name": "49 STAYNER"
+  },
+  "19 paultiel dr, toronto": {
+    "lat": 43.7979754870489,
+    "lon": -79.3983850088438,
+    "display_name": "19 PAULTIEL"
+  },
+  "93 burndale ave, toronto": {
+    "lat": 43.7627663454397,
+    "lon": -79.4162341132114,
+    "display_name": "93 BURNDALE"
+  },
+  "18 dell park ave, toronto": {
+    "lat": 43.7175726610992,
+    "lon": -79.4308200099482,
+    "display_name": "18 DELL PARK"
+  },
+  "30 bethnal ave, toronto": {
+    "lat": 43.6369334062643,
+    "lon": -79.4975963145637,
+    "display_name": "30 BETHNAL"
+  },
+  "25 ballyconnor crt, toronto": {
+    "lat": 43.7996447435618,
+    "lon": -79.3859109795335,
+    "display_name": "25 BALLYCONNOR"
+  },
+  "83 euclid ave, toronto": {
+    "lat": 43.7946301165288,
+    "lon": -79.1697550346255,
+    "display_name": "83 EUCLID"
+  },
+  "66 beech ave, toronto": {
+    "lat": 43.672207464736,
+    "lon": -79.2876819086764,
+    "display_name": "66 BEECH"
+  },
+  "208 virginia ave, toronto": {
+    "lat": 43.6961224294448,
+    "lon": -79.3161849994262,
+    "display_name": "208 VIRGINIA"
+  },
+  "424 lytton blvd, toronto": {
+    "lat": 43.7121754644653,
+    "lon": -79.4215423896964,
+    "display_name": "424 LYTTON"
+  },
+  "46 lynnhaven rd, toronto": {
+    "lat": 43.7206931539644,
+    "lon": -79.4399365153998,
+    "display_name": "46 LYNNHAVEN"
+  },
+  "12 deep dene dr, toronto": {
+    "lat": 43.7853857125384,
+    "lon": -79.1689280778734,
+    "display_name": "12 DEEP DENE"
+  },
+  "77 walder ave, toronto": {
+    "lat": 43.7136669723164,
+    "lon": -79.3823756507893,
+    "display_name": "77 WALDER"
+  },
+  "40 riverview dr, toronto": {
+    "lat": 43.733489345269,
+    "lon": -79.3939614147992,
+    "display_name": "40 RIVERVIEW"
+  },
+  "10 lacewood cres, toronto": {
+    "lat": 43.7496769280227,
+    "lon": -79.3365466238992,
+    "display_name": "10 LACEWOOD"
+  },
+  "463 st clements ave, toronto": {
+    "lat": 43.7090134568227,
+    "lon": -79.4162917796176,
+    "display_name": "463 ST CLEMENTS"
+  },
+  "59 lawnside dr, toronto": {
+    "lat": 43.7134819272137,
+    "lon": -79.5021350878424,
+    "display_name": "59 LAWNSIDE"
+  },
+  "98 yorkview dr, toronto": {
+    "lat": 43.7726383520329,
+    "lon": -79.4334389411604,
+    "display_name": "98 YORKVIEW"
+  },
+  "201 lord seaton rd, toronto": {
+    "lat": 43.7566644307837,
+    "lon": -79.393312336699,
+    "display_name": "201 LORD SEATON"
+  },
+  "178 ellis ave, toronto": {
+    "lat": 43.6419762824461,
+    "lon": -79.4708760467654,
+    "display_name": "178 ELLIS"
+  },
+  "3 may tree rd, toronto": {
+    "lat": 43.7409233251751,
+    "lon": -79.3937434070739,
+    "display_name": "3 MAY TREE"
+  },
+  "42 august ave, toronto": {
+    "lat": 43.6920350080045,
+    "lon": -79.2810549859459,
+    "display_name": "42 AUGUST"
+  },
+  "387 bloor st e, toronto": {
+    "lat": 43.671975761565,
+    "lon": -79.3775734461038,
+    "display_name": "387 BLOOR"
+  },
+  "474 montrose ave, toronto": {
+    "lat": 43.6622444597338,
+    "lon": -79.4208449852739,
+    "display_name": "474 MONTROSE"
+  },
+  "60 ash cres, toronto": {
+    "lat": 43.5949774374767,
+    "lon": -79.5281247054233,
+    "display_name": "60 ASH"
+  },
+  "167 franklin ave, toronto": {
+    "lat": 43.7541710637824,
+    "lon": -79.418907136732,
+    "display_name": "167 FRANKLIN"
+  },
+  "51 batavia ave, toronto": {
+    "lat": 43.6699466327758,
+    "lon": -79.4890086002792,
+    "display_name": "51 BATAVIA"
+  },
+  "89 carlingview dr, toronto": {
+    "lat": 43.6760487522541,
+    "lon": -79.5899225016589,
+    "display_name": "89 CARLINGVIEW"
+  },
+  "1 kingsway cres, toronto": {
+    "lat": 43.6527961944907,
+    "lon": -79.503914144447,
+    "display_name": "1 KINGSWAY"
+  },
+  "141 fallingbrook rd, toronto": {
+    "lat": 43.6814322350478,
+    "lon": -79.2786012650746,
+    "display_name": "141 FALLINGBROOK"
+  },
+  "175 florence ave, toronto": {
+    "lat": 43.7562130702198,
+    "lon": -79.4183996914015,
+    "display_name": "175 FLORENCE"
+  },
+  "30 fairholme ave, toronto": {
+    "lat": 43.7180562286153,
+    "lon": -79.4321753248113,
+    "display_name": "30 FAIRHOLME"
+  },
+  "65 yorkview dr, toronto": {
+    "lat": 43.629794637192,
+    "lon": -79.5102090806284,
+    "display_name": "65 YORKVIEW"
+  },
+  "43 heathview ave, toronto": {
+    "lat": 43.7832983168105,
+    "lon": -79.3850824169066,
+    "display_name": "43 HEATHVIEW"
+  },
+  "225 st george st, toronto": {
+    "lat": 43.6725291153023,
+    "lon": -79.4014588747892,
+    "display_name": "225 ST GEORGE"
+  },
+  "14 grantbrook st, toronto": {
+    "lat": 43.7772150753444,
+    "lon": -79.4323085523339,
+    "display_name": "14 GRANTBROOK"
+  },
+  "277 bessborough dr, toronto": {
+    "lat": 43.7124289428723,
+    "lon": -79.3743766843626,
+    "display_name": "277 BESSBOROUGH"
+  },
+  "21 cheval dr, toronto": {
+    "lat": 43.7457505480487,
+    "lon": -79.3673135957352,
+    "display_name": "21 CHEVAL"
+  },
+  "30 brawley ave, toronto": {
+    "lat": 43.6240672602777,
+    "lon": -79.5232118922857,
+    "display_name": "30 BRAWLEY"
+  },
+  "9 elmview crt, toronto": {
+    "lat": 43.6540566551097,
+    "lon": -79.5193357971958,
+    "display_name": "9 ELMVIEW"
+  },
+  "49 wales ave, toronto": {
+    "lat": 43.652761072543,
+    "lon": -79.4034429800887,
+    "display_name": "49 WALES"
+  },
+  "41 nasmith ave, toronto": {
+    "lat": 43.6640702708462,
+    "lon": -79.3625524553715,
+    "display_name": "41 NASMITH"
+  },
+  "27 ballacaine dr, toronto": {
+    "lat": 43.6416483996486,
+    "lon": -79.4983621001159,
+    "display_name": "27 BALLACAINE"
+  },
+  "86 stuart ave, toronto": {
+    "lat": 43.7533374069535,
+    "lon": -79.4202515038037,
+    "display_name": "86 STUART"
+  },
+  "17 evergreen gdns, toronto": {
+    "lat": 43.695484561979,
+    "lon": -79.3732337075062,
+    "display_name": "17 EVERGREEN"
+  },
+  "292 euclid ave, toronto": {
+    "lat": 43.6535153951866,
+    "lon": -79.4107646961855,
+    "display_name": "292 EUCLID"
+  },
+  "46 cork ave, toronto": {
+    "lat": 43.7138788019729,
+    "lon": -79.4516680220099,
+    "display_name": "46 CORK"
+  },
+  "43 william cragg dr, toronto": {
+    "lat": 43.7232452248031,
+    "lon": -79.5044170897443,
+    "display_name": "43 WILLIAM CRAGG"
+  },
+  "178 acton ave, toronto": {
+    "lat": 43.7590074865346,
+    "lon": -79.4555447246575,
+    "display_name": "178 ACTON"
+  },
+  "146 bannockburn ave, toronto": {
+    "lat": 43.7316891164394,
+    "lon": -79.4317684013027,
+    "display_name": "146 BANNOCKBURN"
+  },
+  "13 rebecca st, toronto": {
+    "lat": 43.6450334315258,
+    "lon": -79.4184673983838,
+    "display_name": "13 REBECCA"
+  },
+  "109 magnolia ave, toronto": {
+    "lat": 43.7239094599623,
+    "lon": -79.2558778928116,
+    "display_name": "109 MAGNOLIA"
+  },
+  "14 risa blvd, toronto": {
+    "lat": 43.7050555036753,
+    "lon": -79.449169478109,
+    "display_name": "14 RISA"
+  },
+  "103 hogarth ave, toronto": {
+    "lat": 43.6742419549519,
+    "lon": -79.3506214605431,
+    "display_name": "103 HOGARTH"
+  },
+  "15 artinger crt, toronto": {
+    "lat": 43.7394581181284,
+    "lon": -79.3687539346322,
+    "display_name": "15 ARTINGER"
+  },
+  "792 midland ave, toronto": {
+    "lat": 43.7327421021598,
+    "lon": -79.2577313426452,
+    "display_name": "792 MIDLAND"
+  },
+  "26 leona dr, toronto": {
+    "lat": 43.7625991961198,
+    "lon": -79.4048011446679,
+    "display_name": "26 LEONA"
+  },
+  "48 moore park ave, toronto": {
+    "lat": 43.7932045348057,
+    "lon": -79.4230060818135,
+    "display_name": "48 MOORE PARK"
+  },
+  "10 brookmount rd, toronto": {
+    "lat": 43.6687673149926,
+    "lon": -79.3085865637645,
+    "display_name": "10 BROOKMOUNT"
+  },
+  "18 raeburn ave, toronto": {
+    "lat": 43.7453569882755,
+    "lon": -79.4324550732667,
+    "display_name": "18 RAEBURN"
+  },
+  "210 oakridge dr, toronto": {
+    "lat": 43.7335541903292,
+    "lon": -79.2286723289886,
+    "display_name": "210 OAKRIDGE"
+  },
+  "18 twelfth st, toronto": {
+    "lat": 43.5955369873756,
+    "lon": -79.5094197408578,
+    "display_name": "18 TWELFTH"
+  },
+  "123 florence ave, toronto": {
+    "lat": 43.75670910622,
+    "lon": -79.4161340358149,
+    "display_name": "123 FLORENCE"
+  },
+  "150 dalemount ave, toronto": {
+    "lat": 43.715514233468,
+    "lon": -79.4356263612902,
+    "display_name": "150 DALEMOUNT"
+  },
+  "3241 dundas st w, toronto": {
+    "lat": 43.6653609972849,
+    "lon": -79.4779970878604,
+    "display_name": "3241 DUNDAS"
+  },
+  "43 yardley ave, toronto": {
+    "lat": 43.7122398399363,
+    "lon": -79.3042530069201,
+    "display_name": "43 YARDLEY"
+  },
+  "19 swiftdale pl, toronto": {
+    "lat": 43.7459157666697,
+    "lon": -79.341533266082,
+    "display_name": "19 SWIFTDALE"
+  },
+  "344 jarvis st, toronto": {
+    "lat": 43.6629788935435,
+    "lon": -79.3772148150153,
+    "display_name": "344 JARVIS"
+  },
+  "25 edgehill rd, toronto": {
+    "lat": 43.6671156684298,
+    "lon": -79.5162763432202,
+    "display_name": "25 EDGEHILL"
+  },
+  "31 blue springs rd, toronto": {
+    "lat": 43.71778191344,
+    "lon": -79.4900875481156,
+    "display_name": "31 BLUE SPRINGS"
+  },
+  "18 stockbridge ave, toronto": {
+    "lat": 43.6355080415899,
+    "lon": -79.5187549952202,
+    "display_name": "18 STOCKBRIDGE"
+  },
+  "15 foch ave, toronto": {
+    "lat": 43.5934838089946,
+    "lon": -79.5448495222744,
+    "display_name": "15 FOCH"
+  },
+  "23 larkhall ave, toronto": {
+    "lat": 43.7515678145726,
+    "lon": -79.2525683399236,
+    "display_name": "23 LARKHALL"
+  },
+  "21 sandringham dr, toronto": {
+    "lat": 43.7432196316161,
+    "lon": -79.4153510639557,
+    "display_name": "21 SANDRINGHAM"
+  },
+  "36 jane osler blvd, toronto": {
+    "lat": 43.7241681584085,
+    "lon": -79.4603633324614,
+    "display_name": "36 JANE OSLER"
+  },
+  "11 schell ave, toronto": {
+    "lat": 43.6984157179949,
+    "lon": -79.4521481672338,
+    "display_name": "11 SCHELL"
+  },
+  "381 winnett ave, toronto": {
+    "lat": 43.6937583749704,
+    "lon": -79.4350799182465,
+    "display_name": "381 WINNETT"
+  },
+  "36 blue forest dr, toronto": {
+    "lat": 43.7672232288005,
+    "lon": -79.455650873585,
+    "display_name": "36 BLUE FOREST"
+  },
+  "134 hillside ave, toronto": {
+    "lat": 43.6100194344271,
+    "lon": -79.4970815866805,
+    "display_name": "134 HILLSIDE"
+  },
+  "370 glengrove ave w, toronto": {
+    "lat": 43.7157302578627,
+    "lon": -79.4206483560549,
+    "display_name": "370 GLENGROVE"
+  },
+  "44 melrose ave, toronto": {
+    "lat": 43.7327606120623,
+    "lon": -79.406080849556,
+    "display_name": "44 MELROSE"
+  },
+  "131 hillsdale ave e, toronto": {
+    "lat": 43.70399811621,
+    "lon": -79.3937456055744,
+    "display_name": "131 HILLSDALE"
+  },
+  "224 aileen ave, toronto": {
+    "lat": 43.6836845535119,
+    "lon": -79.4708881919696,
+    "display_name": "224 AILEEN"
+  },
+  "13 mckayfield rd, toronto": {
+    "lat": 43.6921767455626,
+    "lon": -79.3313332603589,
+    "display_name": "13 MCKAYFIELD"
+  },
+  "44 draycott dr, toronto": {
+    "lat": 43.7321344573057,
+    "lon": -79.3084111114071,
+    "display_name": "44 DRAYCOTT"
+  },
+  "47 burnhamthorpe cres, toronto": {
+    "lat": 43.6489792258385,
+    "lon": -79.5312976853822,
+    "display_name": "47 BURNHAMTHORPE"
+  },
+  "517 glencairn ave, toronto": {
+    "lat": 43.7118842316644,
+    "lon": -79.4292568368445,
+    "display_name": "517 GLENCAIRN"
+  },
+  "26 ravenscrest dr, toronto": {
+    "lat": 43.6599123305832,
+    "lon": -79.5512642250708,
+    "display_name": "26 RAVENSCREST"
+  },
+  "29 clearbrooke crcl, toronto": {
+    "lat": 43.7179206768791,
+    "lon": -79.5647213425245,
+    "display_name": "29 CLEARBROOKE"
+  },
+  "54 savona dr, toronto": {
+    "lat": 43.6061068936419,
+    "lon": -79.5550345652846,
+    "display_name": "54 SAVONA"
+  },
+  "38 ranee ave, toronto": {
+    "lat": 43.7267268848662,
+    "lon": -79.4336904534169,
+    "display_name": "38 RANEE"
+  },
+  "131 hillside ave, toronto": {
+    "lat": 43.6095471600658,
+    "lon": -79.497219192427,
+    "display_name": "131 HILLSIDE"
+  },
+  "135 portland st, toronto": {
+    "lat": 43.6464330241081,
+    "lon": -79.4005854125866,
+    "display_name": "135 PORTLAND"
+  },
+  "1054 greenwood ave, toronto": {
+    "lat": 43.6901450313915,
+    "lon": -79.3363488491715,
+    "display_name": "1054 GREENWOOD"
+  },
+  "29 sherbourne st n, toronto": {
+    "lat": 43.6761534137022,
+    "lon": -79.3778540774401,
+    "display_name": "29 SHERBOURNE"
+  },
+  "4 lunness rd, toronto": {
+    "lat": 43.6024241388901,
+    "lon": -79.5446049980619,
+    "display_name": "4 LUNNESS"
+  },
+  "155 glen cedar rd, toronto": {
+    "lat": 43.6964472970452,
+    "lon": -79.4290807733638,
+    "display_name": "155 GLEN CEDAR"
+  },
+  "19 aura lea blvd, toronto": {
+    "lat": 43.7233818609128,
+    "lon": -79.5355275109773,
+    "display_name": "19 AURA LEA"
+  },
+  "52 montgomery ave, toronto": {
+    "lat": 43.7094833286445,
+    "lon": -79.4003821526451,
+    "display_name": "52 MONTGOMERY"
+  },
+  "54 montgomery ave, toronto": {
+    "lat": 43.7094674029017,
+    "lon": -79.4004516058128,
+    "display_name": "54 MONTGOMERY"
+  },
+  "1 yonge st, toronto": {
+    "lat": 43.6427525983006,
+    "lon": -79.3739586352677,
+    "display_name": "1 YONGE"
+  },
+  "56 duncannon dr, toronto": {
+    "lat": 43.7028957943234,
+    "lon": -79.4119996549319,
+    "display_name": "56 DUNCANNON"
+  },
+  "236 cedric ave, toronto": {
+    "lat": 43.6907708762338,
+    "lon": -79.4381553049924,
+    "display_name": "236 CEDRIC"
+  },
+  "89 norton ave, toronto": {
+    "lat": 43.7729164538071,
+    "lon": -79.4083424289111,
+    "display_name": "89 NORTON"
+  },
+  "37 regina ave, toronto": {
+    "lat": 43.7271144823191,
+    "lon": -79.434368100846,
+    "display_name": "37 REGINA"
+  },
+  "135 evans ave, toronto": {
+    "lat": 43.6190035349621,
+    "lon": -79.5088434847961,
+    "display_name": "135 EVANS"
+  },
+  "24 glenroy ave, toronto": {
+    "lat": 43.6433446196627,
+    "lon": -79.5054394820029,
+    "display_name": "24 GLENROY"
+  },
+  "15 mitcham dr, toronto": {
+    "lat": 43.6035492640017,
+    "lon": -79.552147021776,
+    "display_name": "15 MITCHAM"
+  },
+  "126 church st, toronto": {
+    "lat": 43.7072614707237,
+    "lon": -79.5152625534648,
+    "display_name": "126 CHURCH"
+  },
+  "76 weybourne cres, toronto": {
+    "lat": 43.724930332234,
+    "lon": -79.3993896708754,
+    "display_name": "76 WEYBOURNE"
+  },
+  "45 rollscourt dr, toronto": {
+    "lat": 43.7546267285095,
+    "lon": -79.3805196604115,
+    "display_name": "45 ROLLSCOURT"
+  },
+  "79 haig ave, toronto": {
+    "lat": 43.6868987505341,
+    "lon": -79.2712366756804,
+    "display_name": "79 HAIG"
+  },
+  "456 pharmacy ave, toronto": {
+    "lat": 43.7042260460451,
+    "lon": -79.2887843907589,
+    "display_name": "456 PHARMACY"
+  },
+  "19 ovida ave, toronto": {
+    "lat": 43.6346237412488,
+    "lon": -79.543588476857,
+    "display_name": "19 OVIDA"
+  },
+  "26 singleton rd, toronto": {
+    "lat": 43.7324470113732,
+    "lon": -79.2984710771254,
+    "display_name": "26 SINGLETON"
+  },
+  "109 ferris rd, toronto": {
+    "lat": 43.702297368849,
+    "lon": -79.3058629133553,
+    "display_name": "109 FERRIS"
+  },
+  "78 yorkview dr, toronto": {
+    "lat": 43.7730400720131,
+    "lon": -79.4316057821623,
+    "display_name": "78 YORKVIEW"
+  },
+  "31 saintfield ave, toronto": {
+    "lat": 43.7291531656637,
+    "lon": -79.3596972906086,
+    "display_name": "31 SAINTFIELD"
+  },
+  "25 king high ave, toronto": {
+    "lat": 43.7371333513298,
+    "lon": -79.4428178679132,
+    "display_name": "25 KING HIGH"
+  },
+  "2814 bayview ave, toronto": {
+    "lat": 43.7653113355026,
+    "lon": -79.3882155000624,
+    "display_name": "2814 BAYVIEW"
+  },
+  "71 edenvale cres, toronto": {
+    "lat": 43.6779349092733,
+    "lon": -79.5268296263251,
+    "display_name": "71 EDENVALE"
+  },
+  "16 downing st, toronto": {
+    "lat": 43.636301994743,
+    "lon": -79.5448239728372,
+    "display_name": "16 DOWNING"
+  },
+  "3 sunset ave, toronto": {
+    "lat": 43.5960030594326,
+    "lon": -79.5485377410704,
+    "display_name": "3 SUNSET"
+  },
+  "35 aura lea blvd, toronto": {
+    "lat": 43.7238090684415,
+    "lon": -79.5337014304885,
+    "display_name": "35 AURA LEA"
+  },
+  "103 centre ave, toronto": {
+    "lat": 43.7934126074744,
+    "lon": -79.4093914683646,
+    "display_name": "103 CENTRE"
+  },
+  "42 yorkdale cres, toronto": {
+    "lat": 43.7172140043571,
+    "lon": -79.5344534256531,
+    "display_name": "42 YORKDALE"
+  },
+  "1 brendan rd, toronto": {
+    "lat": 43.6939814474261,
+    "lon": -79.3767166003679,
+    "display_name": "1 BRENDAN"
+  },
+  "179-181 cocksfield ave, toronto": {
+    "lat": 43.7539555257668,
+    "lon": -79.4515886290609,
+    "display_name": "179-181 COCKSFIELD"
+  },
+  "96 belgravia ave, toronto": {
+    "lat": 43.6989992274419,
+    "lon": -79.4436600514763,
+    "display_name": "96 BELGRAVIA"
+  },
+  "64 king st, toronto": {
+    "lat": 43.7040148596181,
+    "lon": -79.5183321620226,
+    "display_name": "64 KING"
+  },
+  "22 almont rd, toronto": {
+    "lat": 43.7388732957021,
+    "lon": -79.4361031987238,
+    "display_name": "22 ALMONT"
+  },
+  "319 laird dr, toronto": {
+    "lat": 43.7160059318907,
+    "lon": -79.3654856676707,
+    "display_name": "319 LAIRD"
+  },
+  "60 thirtieth st, toronto": {
+    "lat": 43.5978979203393,
+    "lon": -79.5312464375405,
+    "display_name": "60 THIRTIETH"
+  },
+  "21 winlock pk, toronto": {
+    "lat": 43.7850266655612,
+    "lon": -79.3975600876377,
+    "display_name": "21 WINLOCK"
+  },
+  "48 park home ave, toronto": {
+    "lat": 43.7685805622542,
+    "lon": -79.4170747319826,
+    "display_name": "48 PARK HOME"
+  },
+  "52 park home ave, toronto": {
+    "lat": 43.7684686502919,
+    "lon": -79.4175520048597,
+    "display_name": "52 PARK HOME"
+  },
+  "47 doris dr, toronto": {
+    "lat": 43.7072447031511,
+    "lon": -79.3159843089721,
+    "display_name": "47 DORIS"
+  },
+  "102 cheltenham ave, toronto": {
+    "lat": 43.7259632678315,
+    "lon": -79.3893093350434,
+    "display_name": "102 CHELTENHAM"
+  },
+  "44 ambleside ave, toronto": {
+    "lat": 43.6309095040809,
+    "lon": -79.5110485434581,
+    "display_name": "44 AMBLESIDE"
+  },
+  "19 seymour ave, toronto": {
+    "lat": 43.674915694159,
+    "lon": -79.3335741162303,
+    "display_name": "19 SEYMOUR"
+  },
+  "205 heath st w, toronto": {
+    "lat": 43.6867432777128,
+    "lon": -79.4113037881997,
+    "display_name": "205 HEATH"
+  },
+  "6 maple gate crt, toronto": {
+    "lat": 43.6331434820363,
+    "lon": -79.5838233077092,
+    "display_name": "6 MAPLE GATE"
+  },
+  "10 lailey cres, toronto": {
+    "lat": 43.777715822077,
+    "lon": -79.3975536882198,
+    "display_name": "10 LAILEY"
+  },
+  "158 gordon rd, toronto": {
+    "lat": 43.7492265702926,
+    "lon": -79.3894226268575,
+    "display_name": "158 GORDON"
+  },
+  "38 clonmore dr, toronto": {
+    "lat": 43.6852653428372,
+    "lon": -79.2803231888395,
+    "display_name": "38 CLONMORE"
+  },
+  "379 ellis park rd, toronto": {
+    "lat": 43.6519254901029,
+    "lon": -79.4705134770005,
+    "display_name": "379 ELLIS PARK"
+  },
+  "83 mcrae dr, toronto": {
+    "lat": 43.7028912306673,
+    "lon": -79.3684709219236,
+    "display_name": "83 MCRAE"
+  },
+  "76 burndale ave, toronto": {
+    "lat": 43.7633398787485,
+    "lon": -79.4154559806118,
+    "display_name": "76 BURNDALE"
+  },
+  "73 botfield ave, toronto": {
+    "lat": 43.6473502391465,
+    "lon": -79.5402716269459,
+    "display_name": "73 BOTFIELD"
+  },
+  "104 valecrest dr, toronto": {
+    "lat": 43.6740215049006,
+    "lon": -79.5194056642099,
+    "display_name": "104 VALECREST"
+  },
+  "168 fifth st, toronto": {
+    "lat": 43.6027694034786,
+    "lon": -79.5038980532709,
+    "display_name": "168 FIFTH"
+  },
+  "7 bentley dr, toronto": {
+    "lat": 43.6295829513742,
+    "lon": -79.5053766276353,
+    "display_name": "7 BENTLEY"
+  },
+  "42 bartley dr, toronto": {
+    "lat": 43.7229686479846,
+    "lon": -79.304757692518,
+    "display_name": "42 BARTLEY"
+  },
+  "41 heather st, toronto": {
+    "lat": 43.7192353287002,
+    "lon": -79.4064426659086,
+    "display_name": "41 HEATHER"
+  },
+  "3117 st clair ave e, toronto": {
+    "lat": 43.709166358231,
+    "lon": -79.2931063872393,
+    "display_name": "3117 ST CLAIR"
+  },
+  "55 harriet st, toronto": {
+    "lat": 43.6719452168057,
+    "lon": -79.3319221057053,
+    "display_name": "55 HARRIET"
+  },
+  "84 elmwood ave, toronto": {
+    "lat": 43.7677881625445,
+    "lon": -79.4077393805549,
+    "display_name": "84 ELMWOOD"
+  },
+  "1365 military trl, toronto": {
+    "lat": 43.7833193712968,
+    "lon": -79.1820549155625,
+    "display_name": "1365 MILITARY"
+  },
+  "88 scarborough heights blvd, toronto": {
+    "lat": 43.7261300517861,
+    "lon": -79.2297084952843,
+    "display_name": "88 SCARBOROUGH HEIGHTS"
+  },
+  "86 antioch dr, toronto": {
+    "lat": 43.669292845887,
+    "lon": -79.565566028463,
+    "display_name": "86 ANTIOCH"
+  },
+  "39 evanston dr, toronto": {
+    "lat": 43.7641901788685,
+    "lon": -79.4625917100531,
+    "display_name": "39 EVANSTON"
+  },
+  "10 mill cove, toronto": {
+    "lat": 43.6600609930049,
+    "lon": -79.5034633466358,
+    "display_name": "10 MILL COVE"
+  },
+  "9 elstree rd, toronto": {
+    "lat": 43.6666036876802,
+    "lon": -79.529928238734,
+    "display_name": "9 ELSTREE"
+  },
+  "414 richview ave, toronto": {
+    "lat": 43.6983484424445,
+    "lon": -79.4235010866358,
+    "display_name": "414 RICHVIEW"
+  },
+  "110 lloyd manor rd, toronto": {
+    "lat": 43.6667267846476,
+    "lon": -79.55177573214,
+    "display_name": "110 LLOYD MANOR"
+  },
+  "66 george st, toronto": {
+    "lat": 43.7036578314809,
+    "lon": -79.5228388378048,
+    "display_name": "66 GEORGE"
+  },
+  "1251 bridletowne crcl, toronto": {
+    "lat": 43.7936087817049,
+    "lon": -79.3118224023616,
+    "display_name": "1251 BRIDLETOWNE"
+  },
+  "3672 lake shore blvd w, toronto": {
+    "lat": 43.5944767417143,
+    "lon": -79.5381792901975,
+    "display_name": "3672 LAKE SHORE"
+  },
+  "872 sheppard ave w, toronto": {
+    "lat": 43.752509272508,
+    "lon": -79.4542680375951,
+    "display_name": "872 SHEPPARD"
+  },
+  "22 leacrest rd, toronto": {
+    "lat": 43.6969787965872,
+    "lon": -79.3675520925465,
+    "display_name": "22 LEACREST"
+  },
+  "302 grace st, toronto": {
+    "lat": 43.6593400674555,
+    "lon": -79.4175199502092,
+    "display_name": "302 GRACE"
+  },
+  "44 sherwood ave, toronto": {
+    "lat": 43.7142340480817,
+    "lon": -79.3973616863347,
+    "display_name": "44 SHERWOOD"
+  },
+  "2075 bayview ave, toronto": {
+    "lat": 43.7219376499164,
+    "lon": -79.3778753735274,
+    "display_name": "2075 BAYVIEW"
+  },
+  "11 corley ave, toronto": {
+    "lat": 43.6765030558765,
+    "lon": -79.3082024117803,
+    "display_name": "11 CORLEY"
+  },
+  "145 gough ave, toronto": {
+    "lat": 43.6813275804205,
+    "lon": -79.3468521006445,
+    "display_name": "145 GOUGH"
+  },
+  "1 york st, toronto": {
+    "lat": 43.6412673311677,
+    "lon": -79.3805521252431,
+    "display_name": "1 YORK"
+  },
+  "276 monarch park ave, toronto": {
+    "lat": 43.6874984633052,
+    "lon": -79.3294451796501,
+    "display_name": "276 MONARCH PARK"
+  },
+  "42 carr st, toronto": {
+    "lat": 43.6496081315887,
+    "lon": -79.4026378526419,
+    "display_name": "42 CARR"
+  },
+  "380 adelaide st w, toronto": {
+    "lat": 43.6471533807343,
+    "lon": -79.3946991539686,
+    "display_name": "380 ADELAIDE"
+  },
+  "65 queen st w, toronto": {
+    "lat": 43.651559693047,
+    "lon": -79.3822976023047,
+    "display_name": "65 QUEEN"
+  },
+  "73 mattice ave, toronto": {
+    "lat": 43.6458603574478,
+    "lon": -79.5409649425406,
+    "display_name": "73 MATTICE"
+  },
+  "980 bloor st w, toronto": {
+    "lat": 43.6612953299694,
+    "lon": -79.4296808387453,
+    "display_name": "980 BLOOR"
+  },
+  "34 grovetree rd, toronto": {
+    "lat": 43.733902951874,
+    "lon": -79.5668148265191,
+    "display_name": "34 GROVETREE"
+  },
+  "930 progress ave, toronto": {
+    "lat": 43.782956206426,
+    "lon": -79.2333857525995,
+    "display_name": "930 PROGRESS"
+  },
+  "121 norseman st, toronto": {
+    "lat": 43.6343530830952,
+    "lon": -79.5175923333679,
+    "display_name": "121 NORSEMAN"
+  },
+  "93 ypres rd, toronto": {
+    "lat": 43.687565453076,
+    "lon": -79.4729595391158,
+    "display_name": "93 YPRES"
+  },
+  "315 linsmore cres, toronto": {
+    "lat": 43.6948062172493,
+    "lon": -79.3351070685321,
+    "display_name": "315 LINSMORE"
+  },
+  "5095 yonge st, toronto": {
+    "lat": 43.7682802374606,
+    "lon": -79.4122750758595,
+    "display_name": "5095 YONGE"
+  },
+  "40-42 shaft rd, toronto": {
+    "lat": 43.7011231822723,
+    "lon": -79.5648700898281,
+    "display_name": "40-42 SHAFT"
+  },
+  "17 morrow ave, toronto": {
+    "lat": 43.6527354733676,
+    "lon": -79.4465882821252,
+    "display_name": "17 MORROW"
+  },
+  "1 scholfield ave, toronto": {
+    "lat": 43.6825714444548,
+    "lon": -79.3771978345245,
+    "display_name": "1 SCHOLFIELD"
+  },
+  "27 country lane, toronto": {
+    "lat": 43.7406310069578,
+    "lon": -79.3791863482726,
+    "display_name": "27 COUNTRY"
+  },
+  "2 woodsview ave, toronto": {
+    "lat": 43.731083003536,
+    "lon": -79.6052119451591,
+    "display_name": "2 WOODSVIEW"
+  },
+  "4 highgate rd, toronto": {
+    "lat": 43.6510227115245,
+    "lon": -79.5169472922709,
+    "display_name": "4 HIGHGATE"
+  },
+  "760 lawrence ave w, toronto": {
+    "lat": 43.7147929211006,
+    "lon": -79.4516589479366,
+    "display_name": "760 LAWRENCE"
+  },
+  "2 hallcrown pl, toronto": {
+    "lat": 43.7700830174627,
+    "lon": -79.3232661241235,
+    "display_name": "2 HALLCROWN"
+  },
+  "3 bemersyde dr, toronto": {
+    "lat": 43.6749207889916,
+    "lon": -79.5410144370935,
+    "display_name": "3 BEMERSYDE"
+  },
+  "42 racine rd, toronto": {
+    "lat": 43.7166812683001,
+    "lon": -79.5769640378393,
+    "display_name": "42 RACINE"
+  },
+  "100 watson ave, toronto": {
+    "lat": 43.6636015731245,
+    "lon": -79.4921110510654,
+    "display_name": "100 WATSON"
+  },
+  "970 queen st w, toronto": {
+    "lat": 43.6446543264849,
+    "lon": -79.4177727687346,
+    "display_name": "970 QUEEN"
+  },
+  "21 camden st, toronto": {
+    "lat": 43.6469636585507,
+    "lon": -79.3968011391722,
+    "display_name": "21 CAMDEN"
+  },
+  "14 underwood ave, toronto": {
+    "lat": 43.6602342879682,
+    "lon": -79.4950906345255,
+    "display_name": "14 UNDERWOOD"
+  },
+  "36 bryant st, toronto": {
+    "lat": 43.7562818951694,
+    "lon": -79.4444839680156,
+    "display_name": "36 BRYANT"
+  },
+  "80 delabo dr, toronto": {
+    "lat": 43.765613153458,
+    "lon": -79.5047019337053,
+    "display_name": "80 DELABO"
+  },
+  "68 park lane crcl, toronto": {
+    "lat": 43.7297717774183,
+    "lon": -79.3631617634043,
+    "display_name": "68 PARK LANE"
+  },
+  "74 bellamy rd s, toronto": {
+    "lat": 43.738182900372,
+    "lon": -79.2275715916592,
+    "display_name": "74 BELLAMY"
+  },
+  "20 burnelm dr, toronto": {
+    "lat": 43.6467344433506,
+    "lon": -79.5496829994912,
+    "display_name": "20 BURNELM"
+  },
+  "323 woodmount ave, toronto": {
+    "lat": 43.6968712328009,
+    "lon": -79.3200675026484,
+    "display_name": "323 WOODMOUNT"
+  },
+  "30 nelson st, toronto": {
+    "lat": 43.6490616733372,
+    "lon": -79.3884763101574,
+    "display_name": "30 NELSON"
+  },
+  "44 arnold ave, toronto": {
+    "lat": 43.6586978140007,
+    "lon": -79.3651095530417,
+    "display_name": "44 ARNOLD"
+  },
+  "2 fieldway rd, toronto": {
+    "lat": 43.6431993191389,
+    "lon": -79.5270378198231,
+    "display_name": "2 FIELDWAY"
+  },
+  "6 eden park rd, toronto": {
+    "lat": 43.7076587237854,
+    "lon": -79.3189498479867,
+    "display_name": "6 EDEN PARK"
+  },
+  "140 manor rd e, toronto": {
+    "lat": 43.704078580455,
+    "lon": -79.3906156031981,
+    "display_name": "140 MANOR"
+  },
+  "50 batavia ave, toronto": {
+    "lat": 43.6697015733482,
+    "lon": -79.4894090455819,
+    "display_name": "50 BATAVIA"
+  },
+  "60 playfair ave, toronto": {
+    "lat": 43.7100774151612,
+    "lon": -79.458369831568,
+    "display_name": "60 PLAYFAIR"
+  },
+  "80 dunkirk rd, toronto": {
+    "lat": 43.6932219493031,
+    "lon": -79.317696301354,
+    "display_name": "80 DUNKIRK"
+  },
+  "6 beamish dr, toronto": {
+    "lat": 43.6408604826465,
+    "lon": -79.5371957012308,
+    "display_name": "6 BEAMISH"
+  },
+  "418 willard ave, toronto": {
+    "lat": 43.6558174728549,
+    "lon": -79.4839299536058,
+    "display_name": "418 WILLARD"
+  },
+  "28 stafford rd, toronto": {
+    "lat": 43.7668710492689,
+    "lon": -79.4371276874207,
+    "display_name": "28 STAFFORD"
+  },
+  "162 times rd, toronto": {
+    "lat": 43.7028693920794,
+    "lon": -79.4470353733161,
+    "display_name": "162 TIMES"
+  },
+  "78 clifton rd, toronto": {
+    "lat": 43.6906026303304,
+    "lon": -79.3848765514345,
+    "display_name": "78 CLIFTON"
+  },
+  "1692 jane st, toronto": {
+    "lat": 43.7032544644631,
+    "lon": -79.5042255893793,
+    "display_name": "1692 JANE"
+  },
+  "274 ranee ave, toronto": {
+    "lat": 43.723264277045,
+    "lon": -79.4499191093967,
+    "display_name": "274 RANEE"
+  },
+  "39 brenda cres, toronto": {
+    "lat": 43.719357420966,
+    "lon": -79.25913574441,
+    "display_name": "39 BRENDA"
+  },
+  "200 bay st, toronto": {
+    "lat": 43.646291956152,
+    "lon": -79.379750591827,
+    "display_name": "200 BAY"
+  },
+  "2944 eglinton ave e, toronto": {
+    "lat": 43.7400457262842,
+    "lon": -79.2350392632609,
+    "display_name": "2944 EGLINTON"
+  },
+  "1 grimthorpe rd, toronto": {
+    "lat": 43.681851108243,
+    "lon": -79.4306700888578,
+    "display_name": "1 GRIMTHORPE"
+  },
+  "807 shaw st, toronto": {
+    "lat": 43.6643695566621,
+    "lon": -79.4237533245649,
+    "display_name": "807 SHAW"
+  },
+  "211 bethridge rd, toronto": {
+    "lat": 43.7063441335944,
+    "lon": -79.5884093927572,
+    "display_name": "211 BETHRIDGE"
+  },
+  "5487 dundas st w, toronto": {
+    "lat": 43.6320582429157,
+    "lon": -79.5443423965536,
+    "display_name": "5487 DUNDAS"
+  },
+  "10 watt ave, toronto": {
+    "lat": 43.6828108798475,
+    "lon": -79.4682562617142,
+    "display_name": "10 WATT"
+  },
+  "118 helena ave, toronto": {
+    "lat": 43.6802278237529,
+    "lon": -79.4224826321245,
+    "display_name": "118 HELENA"
+  },
+  "4617 kingston rd, toronto": {
+    "lat": 43.7740676638396,
+    "lon": -79.1805928295751,
+    "display_name": "4617 KINGSTON"
+  },
+  "300 borough dr, toronto": {
+    "lat": 43.7762832458723,
+    "lon": -79.2580187013634,
+    "display_name": "300 BOROUGH"
+  },
+  "175 glenrose ave, toronto": {
+    "lat": 43.6897771700713,
+    "lon": -79.3802325354894,
+    "display_name": "175 GLENROSE"
+  },
+  "11 altamont rd, toronto": {
+    "lat": 43.7784826798315,
+    "lon": -79.4255941986524,
+    "display_name": "11 ALTAMONT"
+  },
+  "104 joseph duggan rd, toronto": {
+    "lat": 43.6675842902435,
+    "lon": -79.3080580060087,
+    "display_name": "104 JOSEPH DUGGAN"
+  },
+  "21 hafis rd, toronto": {
+    "lat": 43.7061291965043,
+    "lon": -79.4692244556711,
+    "display_name": "21 HAFIS"
+  },
+  "40 guiness ave, toronto": {
+    "lat": 43.724450576216,
+    "lon": -79.5838291150747,
+    "display_name": "40 GUINESS"
+  },
+  "55 astoria ave, toronto": {
+    "lat": 43.6828534635977,
+    "lon": -79.49301292926,
+    "display_name": "55 ASTORIA"
+  },
+  "3250 midland ave, toronto": {
+    "lat": 43.8048675145427,
+    "lon": -79.2879921389226,
+    "display_name": "3250 MIDLAND"
+  },
+  "121 city view dr, toronto": {
+    "lat": 43.7017437281106,
+    "lon": -79.5872532372472,
+    "display_name": "121 CITY VIEW"
+  },
+  "15 wellesley st w, toronto": {
+    "lat": 43.6646028550315,
+    "lon": -79.3854714216695,
+    "display_name": "15 WELLESLEY"
+  },
+  "38 howden rd, toronto": {
+    "lat": 43.7493980440401,
+    "lon": -79.2896594303184,
+    "display_name": "38 HOWDEN"
+  },
+  "48 skyview cres, toronto": {
+    "lat": 43.7706396781867,
+    "lon": -79.3471999968349,
+    "display_name": "48 SKYVIEW"
+  },
+  "382 roncesvalles ave, toronto": {
+    "lat": 43.6506063310267,
+    "lon": -79.4509728641078,
+    "display_name": "382 RONCESVALLES"
+  },
+  "132 triple crown ave, toronto": {
+    "lat": 43.7254099523186,
+    "lon": -79.6005994397249,
+    "display_name": "132 TRIPLE CROWN"
+  },
+  "31 fishery rd, toronto": {
+    "lat": 43.7912803553421,
+    "lon": -79.1757309531199,
+    "display_name": "31 FISHERY"
+  },
+  "25 garside cres, toronto": {
+    "lat": 43.704549411364,
+    "lon": -79.4839812818707,
+    "display_name": "25 GARSIDE"
+  },
+  "49 montezuma trl, toronto": {
+    "lat": 43.808265822998,
+    "lon": -79.2791669829596,
+    "display_name": "49 MONTEZUMA"
+  },
+  "206 baldwin st, toronto": {
+    "lat": 43.6546373086765,
+    "lon": -79.4017661976159,
+    "display_name": "206 BALDWIN"
+  },
+  "507 kingston rd, toronto": {
+    "lat": 43.6774624499679,
+    "lon": -79.3022536937182,
+    "display_name": "507 KINGSTON"
+  },
+  "2472 yonge st, toronto": {
+    "lat": 43.7113847289185,
+    "lon": -79.3997232063887,
+    "display_name": "2472 YONGE"
+  },
+  "383 sorauren ave, toronto": {
+    "lat": 43.650403469984,
+    "lon": -79.4446885932834,
+    "display_name": "383 SORAUREN"
+  },
+  "111 steinway blvd, toronto": {
+    "lat": 43.7497200126284,
+    "lon": -79.6255845019961,
+    "display_name": "111 STEINWAY"
+  },
+  "28 yarrow rd, toronto": {
+    "lat": 43.6873791426339,
+    "lon": -79.4752829158539,
+    "display_name": "28 YARROW"
+  },
+  "1520 queen st w, toronto": {
+    "lat": 43.6403611615833,
+    "lon": -79.4387332931267,
+    "display_name": "1520 QUEEN"
+  },
+  "8 harewood ave, toronto": {
+    "lat": 43.7177957798501,
+    "lon": -79.2331344333709,
+    "display_name": "8 HAREWOOD"
+  },
+  "62 athlone rd, toronto": {
+    "lat": 43.6956230331718,
+    "lon": -79.3372255892172,
+    "display_name": "62 ATHLONE"
+  },
+  "77 wellesley st w, toronto": {
+    "lat": 43.6638278040129,
+    "lon": -79.3888178213093,
+    "display_name": "77 WELLESLEY"
+  },
+  "240 riverside dr, toronto": {
+    "lat": 43.6428364030072,
+    "lon": -79.4844772224157,
+    "display_name": "240 RIVERSIDE"
+  },
+  "38 woolgar ave, toronto": {
+    "lat": 43.6246511225019,
+    "lon": -79.5210608154677,
+    "display_name": "38 WOOLGAR"
+  },
+  "940 caledonia rd, toronto": {
+    "lat": 43.7063850308705,
+    "lon": -79.4658044827236,
+    "display_name": "940 CALEDONIA"
+  },
+  "2760 dundas st w, toronto": {
+    "lat": 43.6653511598494,
+    "lon": -79.4610621661415,
+    "display_name": "2760 DUNDAS"
+  },
+  "292 spadina ave, toronto": {
+    "lat": 43.6529652332148,
+    "lon": -79.3984372200146,
+    "display_name": "292 SPADINA"
+  },
+  "935 dovercourt rd, toronto": {
+    "lat": 43.6657903412725,
+    "lon": -79.4307920502823,
+    "display_name": "935 DOVERCOURT"
+  },
+  "117 eastwood ave, toronto": {
+    "lat": 43.6943713335202,
+    "lon": -79.2687339566894,
+    "display_name": "117 EASTWOOD"
+  },
+  "172 ranleigh ave, toronto": {
+    "lat": 43.7288753709955,
+    "lon": -79.3975882991555,
+    "display_name": "172 RANLEIGH"
+  },
+  "185 pemberton ave, toronto": {
+    "lat": 43.7832903065325,
+    "lon": -79.4028627893359,
+    "display_name": "185 PEMBERTON"
+  },
+  "8 melton grove st, toronto": {
+    "lat": 43.7766045684893,
+    "lon": -79.4370059673325,
+    "display_name": "8 MELTON GROVE"
+  },
+  "66 high st, toronto": {
+    "lat": 43.6337010722017,
+    "lon": -79.4847048809195,
+    "display_name": "66 HIGH"
+  },
+  "25 woodbine downs blvd, toronto": {
+    "lat": 43.7354499151699,
+    "lon": -79.6058211298725,
+    "display_name": "25 WOODBINE DOWNS"
+  },
+  "42 glenhurst ave, toronto": {
+    "lat": 43.6815915209942,
+    "lon": -79.4387647064476,
+    "display_name": "42 GLENHURST"
+  },
+  "255 dalesford rd, toronto": {
+    "lat": 43.6260587556628,
+    "lon": -79.4920155165676,
+    "display_name": "255 DALESFORD"
+  },
+  "31 parliament st, toronto": {
+    "lat": 43.6488937027853,
+    "lon": -79.3612384308078,
+    "display_name": "31 PARLIAMENT"
+  },
+  "75 yorkview dr, toronto": {
+    "lat": 43.6296381199978,
+    "lon": -79.5109583363737,
+    "display_name": "75 YORKVIEW"
+  },
+  "6 wineva ave, toronto": {
+    "lat": 43.6676542205903,
+    "lon": -79.2943664473914,
+    "display_name": "6 WINEVA"
+  },
+  "15 cloverhill rd, toronto": {
+    "lat": 43.6347101468583,
+    "lon": -79.4873268426015,
+    "display_name": "15 CLOVERHILL"
+  },
+  "560 briar hill ave, toronto": {
+    "lat": 43.7099040255562,
+    "lon": -79.4187169516274,
+    "display_name": "560 BRIAR HILL"
+  },
+  "202 mortimer ave, toronto": {
+    "lat": 43.6858095308079,
+    "lon": -79.34832626334,
+    "display_name": "202 MORTIMER"
+  },
+  "67 kennedy ave, toronto": {
+    "lat": 43.6486882421547,
+    "lon": -79.4740349399301,
+    "display_name": "67 KENNEDY"
+  },
+  "469 church st, toronto": {
+    "lat": 43.6644143492893,
+    "lon": -79.3800992530719,
+    "display_name": "469 CHURCH"
+  },
+  "22 rossander crt, toronto": {
+    "lat": 43.7519367042399,
+    "lon": -79.2416687169051,
+    "display_name": "22 ROSSANDER"
+  },
+  "155 bethridge rd, toronto": {
+    "lat": 43.7071462402426,
+    "lon": -79.5833169920677,
+    "display_name": "155 BETHRIDGE"
+  },
+  "106 garfield ave, toronto": {
+    "lat": 43.6888034401042,
+    "lon": -79.3779475806957,
+    "display_name": "106 GARFIELD"
+  },
+  "13 clinton pl, toronto": {
+    "lat": 43.6629188315013,
+    "lon": -79.4179261923363,
+    "display_name": "13 CLINTON"
+  },
+  "598 crawford st, toronto": {
+    "lat": 43.6595996834831,
+    "lon": -79.4210761535706,
+    "display_name": "598 CRAWFORD"
+  },
+  "20 scarsdale rd, toronto": {
+    "lat": 43.7455026971583,
+    "lon": -79.3545774541687,
+    "display_name": "20 SCARSDALE"
+  },
+  "323 milverton blvd, toronto": {
+    "lat": 43.6855197225074,
+    "lon": -79.3290397742662,
+    "display_name": "323 MILVERTON"
+  },
+  "15 summerland ter, toronto": {
+    "lat": 43.6440356738714,
+    "lon": -79.5322693342608,
+    "display_name": "15 SUMMERLAND"
+  },
+  "94 muir ave, toronto": {
+    "lat": 43.6537620656283,
+    "lon": -79.4364355643428,
+    "display_name": "94 MUIR"
+  },
+  "893 college st, toronto": {
+    "lat": 43.6536433139513,
+    "lon": -79.4245761250821,
+    "display_name": "893 COLLEGE"
+  },
+  "253 glebeholme blvd, toronto": {
+    "lat": 43.6851555850764,
+    "lon": -79.326721782942,
+    "display_name": "253 GLEBEHOLME"
+  },
+  "6117-6123 yonge st, toronto": {
+    "lat": 43.7915878573495,
+    "lon": -79.4179459897925,
+    "display_name": "6117-6123 YONGE"
+  },
+  "462 front st w, toronto": {
+    "lat": 43.6422659115488,
+    "lon": -79.3971561010472,
+    "display_name": "462 FRONT"
+  },
+  "184 dell park ave, toronto": {
+    "lat": 43.7145149789361,
+    "lon": -79.4451924688769,
+    "display_name": "184 DELL PARK"
+  },
+  "33 celestine dr, toronto": {
+    "lat": 43.6910276287607,
+    "lon": -79.561117567895,
+    "display_name": "33 CELESTINE"
+  },
+  "26 springbrook gdns, toronto": {
+    "lat": 43.6415829725924,
+    "lon": -79.5191324752674,
+    "display_name": "26 SPRINGBROOK"
+  },
+  "15 grange rd, toronto": {
+    "lat": 43.6520913035935,
+    "lon": -79.3912579365984,
+    "display_name": "15 GRANGE"
+  },
+  "1185 dufferin st, toronto": {
+    "lat": 43.6650381940402,
+    "lon": -79.4372566839342,
+    "display_name": "1185 DUFFERIN"
+  },
+  "1 carlingview dr, toronto": {
+    "lat": 43.6741455068785,
+    "lon": -79.5861658690074,
+    "display_name": "1 CARLINGVIEW"
+  },
+  "61 pelham park gdns, toronto": {
+    "lat": 43.6692597220376,
+    "lon": -79.4577956590547,
+    "display_name": "61 PELHAM PARK"
+  },
+  "1202 royal york rd, toronto": {
+    "lat": 43.6653041918013,
+    "lon": -79.5197286868778,
+    "display_name": "1202 ROYAL YORK"
+  },
+  "1891 eglinton ave e, toronto": {
+    "lat": 43.7249333655548,
+    "lon": -79.2958487203113,
+    "display_name": "1891 EGLINTON"
+  },
+  "1607 dupont st, toronto": {
+    "lat": 43.6648553720923,
+    "lon": -79.4546020410177,
+    "display_name": "1607 DUPONT"
+  },
+  "543 euclid ave, toronto": {
+    "lat": 43.6597138376832,
+    "lon": -79.4127289550811,
+    "display_name": "543 EUCLID"
+  },
+  "31 dolly varden blvd, toronto": {
+    "lat": 43.769713191966,
+    "lon": -79.2334831039593,
+    "display_name": "31 DOLLY VARDEN"
+  },
+  "72 dunblaine ave, toronto": {
+    "lat": 43.7354566735742,
+    "lon": -79.4231170012677,
+    "display_name": "72 DUNBLAINE"
+  },
+  "72 donegall dr, toronto": {
+    "lat": 43.7068110438633,
+    "lon": -79.3745310616481,
+    "display_name": "72 DONEGALL"
+  },
+  "101 rivercrest rd, toronto": {
+    "lat": 43.653181147186,
+    "lon": -79.4877622314259,
+    "display_name": "101 RIVERCREST"
+  },
+  "25 parkhurst blvd, toronto": {
+    "lat": 43.7086021086555,
+    "lon": -79.3743108958595,
+    "display_name": "25 PARKHURST"
+  },
+  "82 fort york blvd, toronto": {
+    "lat": 43.6400217770936,
+    "lon": -79.3967708259773,
+    "display_name": "82 FORT YORK"
+  },
+  "50 curzon st, toronto": {
+    "lat": 43.6645062481432,
+    "lon": -79.3330657069461,
+    "display_name": "50 CURZON"
+  },
+  "283 cocksfield ave, toronto": {
+    "lat": 43.7521952394335,
+    "lon": -79.4595718602369,
+    "display_name": "283 COCKSFIELD"
+  },
+  "18 lavender rd, toronto": {
+    "lat": 43.6805852613849,
+    "lon": -79.4679721851425,
+    "display_name": "18 LAVENDER"
+  },
+  "75 braemore gdns, toronto": {
+    "lat": 43.6774350658817,
+    "lon": -79.4223531204604,
+    "display_name": "75 BRAEMORE"
+  },
+  "227 park home ave, toronto": {
+    "lat": 43.7652220651119,
+    "lon": -79.4299897140563,
+    "display_name": "227 PARK HOME"
+  },
+  "16 nineteenth st, toronto": {
+    "lat": 43.5989064387738,
+    "lon": -79.5186963614283,
+    "display_name": "16 NINETEENTH"
+  },
+  "211 briar hill ave, toronto": {
+    "lat": 43.7121220643402,
+    "lon": -79.406197865341,
+    "display_name": "211 BRIAR HILL"
+  },
+  "325 brock ave, toronto": {
+    "lat": 43.6509817949768,
+    "lon": -79.4358127881445,
+    "display_name": "325 BROCK"
+  },
+  "30 summerhill ave, toronto": {
+    "lat": 43.683580690748,
+    "lon": -79.3906322306638,
+    "display_name": "30 SUMMERHILL"
+  },
+  "514 carlingview dr, toronto": {
+    "lat": 43.7048593125617,
+    "lon": -79.6055848288796,
+    "display_name": "514 CARLINGVIEW"
+  },
+  "64 alentejo st, toronto": {
+    "lat": 43.6764473135189,
+    "lon": -79.4661137007305,
+    "display_name": "64 ALENTEJO"
+  },
+  "56 grandville ave, toronto": {
+    "lat": 43.6791413782423,
+    "lon": -79.4958196606971,
+    "display_name": "56 GRANDVILLE"
+  },
+  "1100 sheppard ave e, toronto": {
+    "lat": 43.7711852646774,
+    "lon": -79.3698034521758,
+    "display_name": "1100 SHEPPARD"
+  },
+  "187 elmhurst dr, toronto": {
+    "lat": 43.7276350442592,
+    "lon": -79.5677568730888,
+    "display_name": "187 ELMHURST"
+  },
+  "381 albion rd, toronto": {
+    "lat": 43.725536259488,
+    "lon": -79.5515867002988,
+    "display_name": "381 ALBION"
+  },
+  "21 oak st, toronto": {
+    "lat": 43.708286284409,
+    "lon": -79.5306891682003,
+    "display_name": "21 OAK"
+  },
+  "15 eileen ave, toronto": {
+    "lat": 43.6694445562047,
+    "lon": -79.4955221519766,
+    "display_name": "15 EILEEN"
+  },
+  "50 charles st e, toronto": {
+    "lat": 43.6695331189959,
+    "lon": -79.3837850671392,
+    "display_name": "50 CHARLES"
+  },
+  "208 high park ave, toronto": {
+    "lat": 43.6607403458525,
+    "lon": -79.4687193666128,
+    "display_name": "208 HIGH PARK"
+  },
+  "310 tweedsmuir ave, toronto": {
+    "lat": 43.6853032487236,
+    "lon": -79.4144207368034,
+    "display_name": "310 TWEEDSMUIR"
+  },
+  "101 harcourt ave, toronto": {
+    "lat": 43.6777755993989,
+    "lon": -79.3413395054442,
+    "display_name": "101 HARCOURT"
+  },
+  "608 yonge st, toronto": {
+    "lat": 43.6657506278785,
+    "lon": -79.3851069943724,
+    "display_name": "608 YONGE"
+  },
+  "64 sutherland dr, toronto": {
+    "lat": 43.7002792910283,
+    "lon": -79.3678110107395,
+    "display_name": "64 SUTHERLAND"
+  },
+  "64 valhalla blvd, toronto": {
+    "lat": 43.6887678289958,
+    "lon": -79.2682917050584,
+    "display_name": "64 VALHALLA"
+  },
+  "3706 bathurst st, toronto": {
+    "lat": 43.7350098391021,
+    "lon": -79.4336454752469,
+    "display_name": "3706 BATHURST"
+  },
+  "141 galley ave, toronto": {
+    "lat": 43.6428920167373,
+    "lon": -79.4465011529892,
+    "display_name": "141 GALLEY"
+  },
+  "175 bloor st e, toronto": {
+    "lat": 43.6706559937171,
+    "lon": -79.3825243215817,
+    "display_name": "175 BLOOR"
+  },
+  "153 strachan ave, toronto": {
+    "lat": 43.6440596752781,
+    "lon": -79.4124359993917,
+    "display_name": "153 STRACHAN"
+  },
+  "1285 dufferin st, toronto": {
+    "lat": 43.6673277525884,
+    "lon": -79.4381258853488,
+    "display_name": "1285 DUFFERIN"
+  },
+  "150 king st w, toronto": {
+    "lat": 43.6482142784795,
+    "lon": -79.3842322745632,
+    "display_name": "150 KING"
+  },
+  "32 mooreshead dr, toronto": {
+    "lat": 43.6408368027477,
+    "lon": -79.5705859739061,
+    "display_name": "32 MOORESHEAD"
+  },
+  "161 spadina ave, toronto": {
+    "lat": 43.6483633539321,
+    "lon": -79.3956817519402,
+    "display_name": "161 SPADINA"
+  },
+  "303 bogert ave, toronto": {
+    "lat": 43.7574003177493,
+    "lon": -79.4249805561142,
+    "display_name": "303 BOGERT"
+  },
+  "850 bloor st w, toronto": {
+    "lat": 43.6624926788807,
+    "lon": -79.4242010115019,
+    "display_name": "850 BLOOR"
+  },
+  "58 high park blvd, toronto": {
+    "lat": 43.6452783513931,
+    "lon": -79.4557317991478,
+    "display_name": "58 HIGH PARK"
+  },
+  "18 bowater dr, toronto": {
+    "lat": 43.7810054504929,
+    "lon": -79.3111889703616,
+    "display_name": "18 BOWATER"
+  },
+  "28 parndon pl, toronto": {
+    "lat": 43.7669469060755,
+    "lon": -79.241993424814,
+    "display_name": "28 PARNDON"
+  },
+  "26 heather rd, toronto": {
+    "lat": 43.7899390800863,
+    "lon": -79.2738769659655,
+    "display_name": "26 HEATHER"
+  },
+  "296 judson st, toronto": {
+    "lat": 43.6133155163594,
+    "lon": -79.5131240810469,
+    "display_name": "296 JUDSON"
+  },
+  "12 goldfinch crt, toronto": {
+    "lat": 43.7709352662943,
+    "lon": -79.4509567582528,
+    "display_name": "12 GOLDFINCH"
+  },
+  "315 jane st, toronto": {
+    "lat": 43.6569482758325,
+    "lon": -79.4872106598824,
+    "display_name": "315 JANE"
+  },
+  "9 benlamond ave, toronto": {
+    "lat": 43.6803716511053,
+    "lon": -79.2997582992803,
+    "display_name": "9 BENLAMOND"
+  },
+  "65 hampton ave, toronto": {
+    "lat": 43.673604530816,
+    "lon": -79.3509076148879,
+    "display_name": "65 HAMPTON"
+  },
+  "65 sedgebrook cres, toronto": {
+    "lat": 43.6619754488044,
+    "lon": -79.5665684712268,
+    "display_name": "65 SEDGEBROOK"
+  },
+  "397 st clarens ave, toronto": {
+    "lat": 43.6567331524957,
+    "lon": -79.4406173714943,
+    "display_name": "397 ST CLARENS"
+  },
+  "102 chelsea ave, toronto": {
+    "lat": 43.6578632217128,
+    "lon": -79.4559453110966,
+    "display_name": "102 CHELSEA"
+  },
+  "175 elizabeth st, toronto": {
+    "lat": 43.6574439930461,
+    "lon": -79.3857288729657,
+    "display_name": "175 ELIZABETH"
+  },
+  "23 curzon st, toronto": {
+    "lat": 43.6637863997273,
+    "lon": -79.3314202182766,
+    "display_name": "23 CURZON"
+  },
+  "57 leland ave, toronto": {
+    "lat": 43.6389590313815,
+    "lon": -79.515315786487,
+    "display_name": "57 LELAND"
+  },
+  "4 morley crt, toronto": {
+    "lat": 43.6792575751618,
+    "lon": -79.5210495757959,
+    "display_name": "4 MORLEY"
+  },
+  "90 eglinton ave e, toronto": {
+    "lat": 43.7076209683648,
+    "lon": -79.3958997214891,
+    "display_name": "90 EGLINTON"
+  },
+  "45 strachan ave, toronto": {
+    "lat": 43.6394667420838,
+    "lon": -79.4107023109599,
+    "display_name": "45 STRACHAN"
+  },
+  "126 lamb ave, toronto": {
+    "lat": 43.6810719966217,
+    "lon": -79.3291783304506,
+    "display_name": "126 LAMB"
+  },
+  "17 taylor dr, toronto": {
+    "lat": 43.6994676510235,
+    "lon": -79.3266054814367,
+    "display_name": "17 TAYLOR"
+  },
+  "120 geoffrey st, toronto": {
+    "lat": 43.6483953954561,
+    "lon": -79.4489932854807,
+    "display_name": "120 GEOFFREY"
+  },
+  "976 logan ave, toronto": {
+    "lat": 43.6804928315146,
+    "lon": -79.3506022197436,
+    "display_name": "976 LOGAN"
+  },
+  "119 durie st, toronto": {
+    "lat": 43.6499986452191,
+    "lon": -79.4775317547575,
+    "display_name": "119 DURIE"
+  },
+  "40 elgin ave, toronto": {
+    "lat": 43.6717100417252,
+    "lon": -79.3974797616606,
+    "display_name": "40 ELGIN"
+  },
+  "50 cloverhill rd, toronto": {
+    "lat": 43.6356187317086,
+    "lon": -79.4896844559498,
+    "display_name": "50 CLOVERHILL"
+  },
+  "370 progress ave, toronto": {
+    "lat": 43.7754755995715,
+    "lon": -79.2650148051326,
+    "display_name": "370 PROGRESS"
+  },
+  "77 grovedale ave, toronto": {
+    "lat": 43.7170133832286,
+    "lon": -79.4880595771732,
+    "display_name": "77 GROVEDALE"
+  },
+  "150 laird dr, toronto": {
+    "lat": 43.708699937836,
+    "lon": -79.3631524165621,
+    "display_name": "150 LAIRD"
+  },
+  "111 vauxhall dr, toronto": {
+    "lat": 43.7554695088916,
+    "lon": -79.2853656566777,
+    "display_name": "111 VAUXHALL"
+  },
+  "100 devonshire pl, toronto": {
+    "lat": 43.6667365722624,
+    "lon": -79.3981946992369,
+    "display_name": "100 DEVONSHIRE"
+  },
+  "95 ritchie ave, toronto": {
+    "lat": 43.6541931228613,
+    "lon": -79.448784430115,
+    "display_name": "95 RITCHIE"
+  },
+  "86 o'hara ave, toronto": {
+    "lat": 43.6439453351536,
+    "lon": -79.4354761542217,
+    "display_name": "86 O'HARA"
+  },
+  "181 manning ave, toronto": {
+    "lat": 43.6509039689691,
+    "lon": -79.4105148514222,
+    "display_name": "181 MANNING"
+  },
+  "52 sumach st, toronto": {
+    "lat": 43.6560060466848,
+    "lon": -79.3588294335494,
+    "display_name": "52 SUMACH"
+  },
+  "209 ellesmere rd, toronto": {
+    "lat": 43.7603237013393,
+    "lon": -79.302903258104,
+    "display_name": "209 ELLESMERE"
+  },
+  "1222 king st w, toronto": {
+    "lat": 43.6389825543469,
+    "lon": -79.4282992805229,
+    "display_name": "1222 KING"
+  },
+  "46 burr ave, toronto": {
+    "lat": 43.7132856791377,
+    "lon": -79.4951564556368,
+    "display_name": "46 BURR"
+  },
+  "110 bastedo ave, toronto": {
+    "lat": 43.6826489210324,
+    "lon": -79.3187867095053,
+    "display_name": "110 BASTEDO"
+  },
+  "70 delaware ave, toronto": {
+    "lat": 43.6567427441473,
+    "lon": -79.4265579239554,
+    "display_name": "70 DELAWARE"
+  },
+  "11 willow ave, toronto": {
+    "lat": 43.6301794189075,
+    "lon": -79.3549517455801,
+    "display_name": "11 WILLOW"
+  },
+  "53 langside ave, toronto": {
+    "lat": 43.710435188373,
+    "lon": -79.5178084136133,
+    "display_name": "53 LANGSIDE"
+  },
+  "94 clement rd, toronto": {
+    "lat": 43.6809800560033,
+    "lon": -79.5556405355766,
+    "display_name": "94 CLEMENT"
+  },
+  "1009 glencairn ave, toronto": {
+    "lat": 43.7069919488793,
+    "lon": -79.4521546345634,
+    "display_name": "1009 GLENCAIRN"
+  },
+  "2001 sheppard ave e, toronto": {
+    "lat": 43.7749679591921,
+    "lon": -79.3383901439399,
+    "display_name": "2001 SHEPPARD"
+  },
+  "6 adonis crt, toronto": {
+    "lat": 43.687940464651,
+    "lon": -79.5172971272891,
+    "display_name": "6 ADONIS"
+  },
+  "167 cottingham st, toronto": {
+    "lat": 43.6797194887971,
+    "lon": -79.3988336095712,
+    "display_name": "167 COTTINGHAM"
+  },
+  "320 bay st, toronto": {
+    "lat": 43.6496670376878,
+    "lon": -79.3809911721733,
+    "display_name": "320 BAY"
+  },
+  "21 tichester rd, toronto": {
+    "lat": 43.6856752150144,
+    "lon": -79.4169294006212,
+    "display_name": "21 TICHESTER"
+  },
+  "50 hendon ave, toronto": {
+    "lat": 43.7807945544904,
+    "lon": -79.4211797338099,
+    "display_name": "50 HENDON"
+  },
+  "14 parent ave, toronto": {
+    "lat": 43.7305351890039,
+    "lon": -79.4940724114536,
+    "display_name": "14 PARENT"
+  },
+  "76 yorkview dr, toronto": {
+    "lat": 43.7730499414262,
+    "lon": -79.4314054038305,
+    "display_name": "76 YORKVIEW"
+  },
+  "357 dovercourt rd, toronto": {
+    "lat": 43.6516586299146,
+    "lon": -79.4253689056304,
+    "display_name": "357 DOVERCOURT"
+  },
+  "5910 finch ave e, toronto": {
+    "lat": 43.8176738121316,
+    "lon": -79.2248152604769,
+    "display_name": "5910 FINCH"
+  },
+  "10 adams dr, toronto": {
+    "lat": 43.7621834913764,
+    "lon": -79.1966294989755,
+    "display_name": "10 ADAMS"
+  },
+  "547 bellamy rd n, toronto": {
+    "lat": 43.7606319059036,
+    "lon": -79.2359923855468,
+    "display_name": "547 BELLAMY"
+  },
+  "91 spruce hill rd, toronto": {
+    "lat": 43.6750508188797,
+    "lon": -79.2895894975523,
+    "display_name": "91 SPRUCE HILL"
+  },
+  "490 manning ave, toronto": {
+    "lat": 43.6591069193258,
+    "lon": -79.4143680894079,
+    "display_name": "490 MANNING"
+  },
+  "4700 sheppard ave e, toronto": {
+    "lat": 43.7905068036257,
+    "lon": -79.2574116771582,
+    "display_name": "4700 SHEPPARD"
+  },
+  "2893 bloor st w, toronto": {
+    "lat": 43.6482714084461,
+    "lon": -79.5062415152496,
+    "display_name": "2893 BLOOR"
+  },
+  "598 mount pleasant rd, toronto": {
+    "lat": 43.7036547918134,
+    "lon": -79.3885677219906,
+    "display_name": "598 MOUNT PLEASANT"
+  },
+  "1 talwood dr, toronto": {
+    "lat": 43.7381155617515,
+    "lon": -79.3565004461455,
+    "display_name": "1 TALWOOD"
+  },
+  "1 thorncliffe park dr, toronto": {
+    "lat": 43.7054519617584,
+    "lon": -79.3513926949751,
+    "display_name": "1 THORNCLIFFE PARK"
+  },
+  "140 bentworth ave, toronto": {
+    "lat": 43.7207295222163,
+    "lon": -79.465061132292,
+    "display_name": "140 BENTWORTH"
+  },
+  "71 langley ave, toronto": {
+    "lat": 43.6683620802446,
+    "lon": -79.3497573119545,
+    "display_name": "71 LANGLEY"
+  },
+  "355 roselawn ave, toronto": {
+    "lat": 43.7084856609285,
+    "lon": -79.4098754439906,
+    "display_name": "355 ROSELAWN"
+  },
+  "1030 king st w, toronto": {
+    "lat": 43.6415808536674,
+    "lon": -79.4157586754681,
+    "display_name": "1030 KING"
+  },
+  "78 donegall dr, toronto": {
+    "lat": 43.7070195880293,
+    "lon": -79.3746155733007,
+    "display_name": "78 DONEGALL"
+  },
+  "224 seaton st, toronto": {
+    "lat": 43.6600767013095,
+    "lon": -79.3703274430522,
+    "display_name": "224 SEATON"
+  },
+  "91 watson st, toronto": {
+    "lat": 43.7884566327844,
+    "lon": -79.1747312162492,
+    "display_name": "91 WATSON"
+  },
+  "5418 yonge st, toronto": {
+    "lat": 43.7755116743521,
+    "lon": -79.4149142834518,
+    "display_name": "5418 YONGE"
+  },
+  "3 shaver crt, toronto": {
+    "lat": 43.649780908053,
+    "lon": -79.5520426018441,
+    "display_name": "3 SHAVER"
+  },
+  "795 pharmacy ave, toronto": {
+    "lat": 43.7211884861266,
+    "lon": -79.295083010256,
+    "display_name": "795 PHARMACY"
+  },
+  "224 earlscourt ave, toronto": {
+    "lat": 43.6839089711138,
+    "lon": -79.4504896864165,
+    "display_name": "224 EARLSCOURT"
+  },
+  "727-731 millwood rd, toronto": {
+    "lat": 43.7043656573962,
+    "lon": -79.3731107442874,
+    "display_name": "727-731 MILLWOOD"
+  },
+  "71 kenneth ave, toronto": {
+    "lat": 43.661175866346,
+    "lon": -79.4584591451267,
+    "display_name": "71 KENNETH"
+  },
+  "52 alentejo st, toronto": {
+    "lat": 43.6767094098527,
+    "lon": -79.466227604226,
+    "display_name": "52 ALENTEJO"
+  },
+  "59 hillary ave, toronto": {
+    "lat": 43.6804339236542,
+    "lon": -79.4702282340388,
+    "display_name": "59 HILLARY"
+  },
+  "52 shelborne ave, toronto": {
+    "lat": 43.7171217738837,
+    "lon": -79.4247561237184,
+    "display_name": "52 SHELBORNE"
+  },
+  "12 indian grv, toronto": {
+    "lat": 43.6506997462704,
+    "lon": -79.4572035725743,
+    "display_name": "12 INDIAN"
+  },
+  "200 queens quay e, toronto": {
+    "lat": 43.6462074333458,
+    "lon": -79.3634048486028,
+    "display_name": "200 QUEENS QUAY"
+  },
+  "55 lake shore blvd e, toronto": {
+    "lat": 43.644649727616,
+    "lon": -79.3730560293265,
+    "display_name": "55 LAKE SHORE"
+  },
+  "33 lorraine gdns, toronto": {
+    "lat": 43.6530250789997,
+    "lon": -79.549039660863,
+    "display_name": "33 LORRAINE"
+  },
+  "70 minerva ave, toronto": {
+    "lat": 43.7216531526578,
+    "lon": -79.2475858563395,
+    "display_name": "70 MINERVA"
+  },
+  "345 sunnyside ave, toronto": {
+    "lat": 43.6486842610277,
+    "lon": -79.4521946785416,
+    "display_name": "345 SUNNYSIDE"
+  },
+  "3121 st clair ave e, toronto": {
+    "lat": 43.7092973916637,
+    "lon": -79.2924471347463,
+    "display_name": "3121 ST CLAIR"
+  },
+  "2238 bloor st w, toronto": {
+    "lat": 43.6511822299779,
+    "lon": -79.4770126473782,
+    "display_name": "2238 BLOOR"
+  },
+  "69 macdonald ave, toronto": {
+    "lat": 43.7032591500282,
+    "lon": -79.5085268772121,
+    "display_name": "69 MACDONALD"
+  },
+  "162 church ave, toronto": {
+    "lat": 43.7763770765078,
+    "lon": -79.4032521220901,
+    "display_name": "162 CHURCH"
+  },
+  "12 jerome st, toronto": {
+    "lat": 43.6615289875018,
+    "lon": -79.4556284068493,
+    "display_name": "12 JEROME"
+  },
+  "80 hazelton ave, toronto": {
+    "lat": 43.6732424191028,
+    "lon": -79.3943857685087,
+    "display_name": "80 HAZELTON"
+  },
+  "596 danforth ave, toronto": {
+    "lat": 43.678839146501,
+    "lon": -79.3465847176243,
+    "display_name": "596 DANFORTH"
+  },
+  "245 roehampton ave, toronto": {
+    "lat": 43.7091603339833,
+    "lon": -79.391292241911,
+    "display_name": "245 ROEHAMPTON"
+  },
+  "3673 bathurst st, toronto": {
+    "lat": 43.7341937723862,
+    "lon": -79.4329558076185,
+    "display_name": "3673 BATHURST"
+  },
+  "57 gledhill ave, toronto": {
+    "lat": 43.6886286103801,
+    "lon": -79.3091125568134,
+    "display_name": "57 GLEDHILL"
+  },
+  "120 adelaide st w, toronto": {
+    "lat": 43.6500052106484,
+    "lon": -79.3831999895839,
+    "display_name": "120 ADELAIDE"
+  },
+  "1983 kipling ave, toronto": {
+    "lat": 43.7072391646443,
+    "lon": -79.5620478595969,
+    "display_name": "1983 KIPLING"
+  },
+  "6-100 parma crt, toronto": {
+    "lat": 43.7168531627121,
+    "lon": -79.2997159831474,
+    "display_name": "6-100 PARMA"
+  },
+  "301 kane ave, toronto": {
+    "lat": 43.6883678324867,
+    "lon": -79.4689353372339,
+    "display_name": "301 KANE"
+  },
+  "28 seymour ave, toronto": {
+    "lat": 43.6751524141626,
+    "lon": -79.3341771741456,
+    "display_name": "28 SEYMOUR"
+  },
+  "25 bamburgh crcl, toronto": {
+    "lat": 43.8154973879159,
+    "lon": -79.3255821432535,
+    "display_name": "25 BAMBURGH"
+  },
+  "103 castlewood rd, toronto": {
+    "lat": 43.7063983111063,
+    "lon": -79.4154522830754,
+    "display_name": "103 CASTLEWOOD"
+  },
+  "127 glengarry ave, toronto": {
+    "lat": 43.7240139156007,
+    "lon": -79.4101733673984,
+    "display_name": "127 GLENGARRY"
+  },
+  "89 hudson dr, toronto": {
+    "lat": 43.6912284297231,
+    "lon": -79.3761055482488,
+    "display_name": "89 HUDSON"
+  },
+  "124 st clarens ave, toronto": {
+    "lat": 43.6505681188371,
+    "lon": -79.4387651910893,
+    "display_name": "124 ST CLARENS"
+  },
+  "1821 gerrard st e, toronto": {
+    "lat": 43.6783613942042,
+    "lon": -79.3142806434075,
+    "display_name": "1821 GERRARD"
+  },
+  "2180 danforth ave, toronto": {
+    "lat": 43.6864598150394,
+    "lon": -79.3102871867198,
+    "display_name": "2180 DANFORTH"
+  },
+  "83 amherst ave, toronto": {
+    "lat": 43.6903838127784,
+    "lon": -79.445121870794,
+    "display_name": "83 AMHERST"
+  },
+  "252 castlefield ave, toronto": {
+    "lat": 43.7098888822165,
+    "lon": -79.4097364561415,
+    "display_name": "252 CASTLEFIELD"
+  },
+  "4600 bathurst st, toronto": {
+    "lat": 43.7641271442181,
+    "lon": -79.4411963147169,
+    "display_name": "4600 BATHURST"
+  },
+  "444 sumach st, toronto": {
+    "lat": 43.668967041166,
+    "lon": -79.364049799603,
+    "display_name": "444 SUMACH"
+  },
+  "26 floral pkwy, toronto": {
+    "lat": 43.7222690981146,
+    "lon": -79.4790654556728,
+    "display_name": "26 FLORAL"
+  },
+  "1 concorde pl, toronto": {
+    "lat": 43.7286217705745,
+    "lon": -79.3275707528446,
+    "display_name": "1 CONCORDE"
+  },
+  "315 king st w, toronto": {
+    "lat": 43.6462556614045,
+    "lon": -79.3905547940802,
+    "display_name": "315 KING"
+  },
+  "127 borden st, toronto": {
+    "lat": 43.6613328904832,
+    "lon": -79.4065774361467,
+    "display_name": "127 BORDEN"
+  },
+  "231 bessborough dr, toronto": {
+    "lat": 43.7081925069005,
+    "lon": -79.3704023309073,
+    "display_name": "231 BESSBOROUGH"
+  },
+  "22 worthington cres, toronto": {
+    "lat": 43.6421062510569,
+    "lon": -79.4787365255382,
+    "display_name": "22 WORTHINGTON"
+  },
+  "1954 danforth ave, toronto": {
+    "lat": 43.6853827702458,
+    "lon": -79.3155337414968,
+    "display_name": "1954 DANFORTH"
+  },
+  "439 annette st, toronto": {
+    "lat": 43.6604662852774,
+    "lon": -79.4773591559645,
+    "display_name": "439 ANNETTE"
+  },
+  "21 ruden cres, toronto": {
+    "lat": 43.7583698113454,
+    "lon": -79.3431334866509,
+    "display_name": "21 RUDEN"
+  },
+  "17 northmount ave, toronto": {
+    "lat": 43.7394277866015,
+    "lon": -79.429910239805,
+    "display_name": "17 NORTHMOUNT"
+  },
+  "20 wiley ave, toronto": {
+    "lat": 43.6849549589028,
+    "lon": -79.3372195486567,
+    "display_name": "20 WILEY"
+  },
+  "991-1025 finch ave w, toronto": {
+    "lat": 43.7681195459264,
+    "lon": -79.4684290569888,
+    "display_name": "991-1025 FINCH"
+  },
+  "56 drysdale cres, toronto": {
+    "lat": 43.7996754238095,
+    "lon": -79.3674079111222,
+    "display_name": "56 DRYSDALE"
+  },
+  "193 colbeck st, toronto": {
+    "lat": 43.6529102046878,
+    "lon": -79.4854722202489,
+    "display_name": "193 COLBECK"
+  },
+  "37 clark st, toronto": {
+    "lat": 43.660263944642,
+    "lon": -79.3474369523074,
+    "display_name": "37 CLARK"
+  },
+  "8 broadway ave, toronto": {
+    "lat": 43.7099327060989,
+    "lon": -79.3983152039271,
+    "display_name": "8 BROADWAY"
+  },
+  "216 carlton st, toronto": {
+    "lat": 43.6641172505407,
+    "lon": -79.369837955472,
+    "display_name": "216 CARLTON"
+  },
+  "280 warden ave, toronto": {
+    "lat": 43.6909403727701,
+    "lon": -79.2725331458816,
+    "display_name": "280 WARDEN"
+  },
+  "503 annette st, toronto": {
+    "lat": 43.6600954163935,
+    "lon": -79.4789858361334,
+    "display_name": "503 ANNETTE"
+  },
+  "207 parkmount rd, toronto": {
+    "lat": 43.6821772859733,
+    "lon": -79.3256020246789,
+    "display_name": "207 PARKMOUNT"
+  },
+  "18 saintfield ave, toronto": {
+    "lat": 43.7292028076485,
+    "lon": -79.3615621733343,
+    "display_name": "18 SAINTFIELD"
+  },
+  "10157 sheppard ave e, toronto": {
+    "lat": 43.8049917660011,
+    "lon": -79.1599212323775,
+    "display_name": "10157 SHEPPARD"
+  },
+  "216 glenholme ave, toronto": {
+    "lat": 43.6823921447186,
+    "lon": -79.4403087862213,
+    "display_name": "216 GLENHOLME"
+  },
+  "8 bridgman ave, toronto": {
+    "lat": 43.6751820241608,
+    "lon": -79.4119157875346,
+    "display_name": "8 BRIDGMAN"
+  },
+  "4723 steeles ave e, toronto": {
+    "lat": 43.824793582415,
+    "lon": -79.3011754623162,
+    "display_name": "4723 STEELES"
+  },
+  "25 thornly cres, toronto": {
+    "lat": 43.6618184356079,
+    "lon": -79.5448673818015,
+    "display_name": "25 THORNLY"
+  },
+  "83 roncesvalles ave, toronto": {
+    "lat": 43.6415746464667,
+    "lon": -79.4469816389177,
+    "display_name": "83 RONCESVALLES"
+  },
+  "713 indian rd, toronto": {
+    "lat": 43.6617369755914,
+    "lon": -79.4582655216043,
+    "display_name": "713 INDIAN"
+  },
+  "33 fermanagh ave, toronto": {
+    "lat": 43.6468464815187,
+    "lon": -79.445442404445,
+    "display_name": "33 FERMANAGH"
+  },
+  "3 biggin crt, toronto": {
+    "lat": 43.7282562746353,
+    "lon": -79.3058507255573,
+    "display_name": "3 BIGGIN"
+  },
+  "851 milner ave, toronto": {
+    "lat": 43.8000503168651,
+    "lon": -79.1975562071078,
+    "display_name": "851 MILNER"
+  },
+  "24 cordella ave, toronto": {
+    "lat": 43.6825303402744,
+    "lon": -79.4823087660868,
+    "display_name": "24 CORDELLA"
+  },
+  "21 st clair ave e, toronto": {
+    "lat": 43.6880773237596,
+    "lon": -79.3928081422501,
+    "display_name": "21 ST CLAIR"
+  },
+  "1229 queen st w, toronto": {
+    "lat": 43.6418317097776,
+    "lon": -79.4294189223583,
+    "display_name": "1229 QUEEN"
+  },
+  "310 spadina ave, toronto": {
+    "lat": 43.6534301930164,
+    "lon": -79.3988577049032,
+    "display_name": "310 SPADINA"
+  },
+  "1 eglinton ave e, toronto": {
+    "lat": 43.7065798020934,
+    "lon": -79.3977706497267,
+    "display_name": "1 EGLINTON"
+  },
+  "36 britannia ave, toronto": {
+    "lat": 43.6704858667516,
+    "lon": -79.4814243530498,
+    "display_name": "36 BRITANNIA"
+  },
+  "99 jarvis st, toronto": {
+    "lat": 43.6521882882115,
+    "lon": -79.3723042459569,
+    "display_name": "99 JARVIS"
+  },
+  "435 middlefield rd, toronto": {
+    "lat": 43.8088384582619,
+    "lon": -79.2565792955764,
+    "display_name": "435 MIDDLEFIELD"
+  },
+  "126 fenn ave, toronto": {
+    "lat": 43.750663926485,
+    "lon": -79.3909016042896,
+    "display_name": "126 FENN"
+  },
+  "5830 bathurst st, toronto": {
+    "lat": 43.7767108331573,
+    "lon": -79.455443920104,
+    "display_name": "5830 BATHURST"
+  },
+  "35 upper humber dr, toronto": {
+    "lat": 43.7275065378801,
+    "lon": -79.6244827273214,
+    "display_name": "35 UPPER HUMBER"
+  },
+  "160 spadina ave, toronto": {
+    "lat": 43.6488083249223,
+    "lon": -79.3967000755629,
+    "display_name": "160 SPADINA"
+  },
+  "52 riverdale ave, toronto": {
+    "lat": 43.6694757434092,
+    "lon": -79.3508002911298,
+    "display_name": "52 RIVERDALE"
+  },
+  "108 lakeshore ave, toronto": {
+    "lat": 43.6269924989057,
+    "lon": -79.3568716367386,
+    "display_name": "108 LAKESHORE"
+  },
+  "71 fairholme ave, toronto": {
+    "lat": 43.7169801427326,
+    "lon": -79.435416736283,
+    "display_name": "71 FAIRHOLME"
+  },
+  "61 joanna dr, toronto": {
+    "lat": 43.7624170293967,
+    "lon": -79.3104473373187,
+    "display_name": "61 JOANNA"
+  },
+  "6 norton ave, toronto": {
+    "lat": 43.6788066114881,
+    "lon": -79.444009758157,
+    "display_name": "6 NORTON"
+  },
+  "1 cypress st, toronto": {
+    "lat": 43.7070902291683,
+    "lon": -79.5169340054389,
+    "display_name": "1 CYPRESS"
+  },
+  "45 florence cres, toronto": {
+    "lat": 43.6680511194048,
+    "lon": -79.4946058694054,
+    "display_name": "45 FLORENCE"
+  },
+  "75 graydon hall dr, toronto": {
+    "lat": 43.7642775882775,
+    "lon": -79.344103107442,
+    "display_name": "75 GRAYDON HALL"
+  },
+  "64 humewood dr, toronto": {
+    "lat": 43.6845790421544,
+    "lon": -79.4271428294816,
+    "display_name": "64 HUMEWOOD"
+  },
+  "136 lambton ave, toronto": {
+    "lat": 43.6824320972385,
+    "lon": -79.4925747116942,
+    "display_name": "136 LAMBTON"
+  },
+  "468 queen st e, toronto": {
+    "lat": 43.6567692530843,
+    "lon": -79.3602211033344,
+    "display_name": "468 QUEEN"
+  },
+  "111 merton st, toronto": {
+    "lat": 43.6964472563953,
+    "lon": -79.393340136494,
+    "display_name": "111 MERTON"
+  },
+  "40 thorncrest rd, toronto": {
+    "lat": 43.6645889362515,
+    "lon": -79.5380076423158,
+    "display_name": "40 THORNCREST"
+  },
+  "486 northcliffe blvd, toronto": {
+    "lat": 43.6886407199804,
+    "lon": -79.445271655722,
+    "display_name": "486 NORTHCLIFFE"
+  },
+  "341 queen st w, toronto": {
+    "lat": 43.6493961436548,
+    "lon": -79.3923519173076,
+    "display_name": "341 QUEEN"
+  },
+  "91 miramar cres, toronto": {
+    "lat": 43.7499445357048,
+    "lon": -79.2466385874641,
+    "display_name": "91 MIRAMAR"
+  },
+  "54 geoffrey st, toronto": {
+    "lat": 43.6487995976899,
+    "lon": -79.4473563070731,
+    "display_name": "54 GEOFFREY"
+  },
+  "68 burncrest dr, toronto": {
+    "lat": 43.7378067745991,
+    "lon": -79.4281416786538,
+    "display_name": "68 BURNCREST"
+  },
+  "996 woodbine ave, toronto": {
+    "lat": 43.6863219071331,
+    "lon": -79.3133536163268,
+    "display_name": "996 WOODBINE"
+  },
+  "137 eastbourne ave, toronto": {
+    "lat": 43.7041474160087,
+    "lon": -79.4040819837878,
+    "display_name": "137 EASTBOURNE"
+  },
+  "101 amelia st, toronto": {
+    "lat": 43.6679748963635,
+    "lon": -79.3650220296866,
+    "display_name": "101 AMELIA"
+  },
+  "78 dingwall ave, toronto": {
+    "lat": 43.6743225482746,
+    "lon": -79.340594655461,
+    "display_name": "78 DINGWALL"
+  },
+  "405 wellesley st e, toronto": {
+    "lat": 43.6689293815412,
+    "lon": -79.3652831505366,
+    "display_name": "405 WELLESLEY"
+  },
+  "61 isleworth ave, toronto": {
+    "lat": 43.6722232687722,
+    "lon": -79.2936728083612,
+    "display_name": "61 ISLEWORTH"
+  },
+  "45 goulding ave, toronto": {
+    "lat": 43.7909032845072,
+    "lon": -79.4221400460645,
+    "display_name": "45 GOULDING"
+  },
+  "452 rhodes ave, toronto": {
+    "lat": 43.6767485578073,
+    "lon": -79.3223344865429,
+    "display_name": "452 RHODES"
+  },
+  "67 gwynne ave, toronto": {
+    "lat": 43.6410658135134,
+    "lon": -79.4294979175517,
+    "display_name": "67 GWYNNE"
+  },
+  "90 woodbine downs blvd, toronto": {
+    "lat": 43.7397536297414,
+    "lon": -79.6099545923851,
+    "display_name": "90 WOODBINE DOWNS"
+  },
+  "98 kendal ave, toronto": {
+    "lat": 43.6733166085629,
+    "lon": -79.4092922482485,
+    "display_name": "98 KENDAL"
+  },
+  "243 alberta ave, toronto": {
+    "lat": 43.6807542031572,
+    "lon": -79.4337796540646,
+    "display_name": "243 ALBERTA"
+  },
+  "3040 don mills rd e, toronto": {
+    "lat": 43.7861215239952,
+    "lon": -79.3519127362781,
+    "display_name": "3040 DON MILLS"
+  },
+  "3113 dufferin st, toronto": {
+    "lat": 43.7164654241942,
+    "lon": -79.4548938865916,
+    "display_name": "3113 DUFFERIN"
+  },
+  "4100 yonge st, toronto": {
+    "lat": 43.7460458988532,
+    "lon": -79.407927314651,
+    "display_name": "4100 YONGE"
+  },
+  "78 government rd, toronto": {
+    "lat": 43.6593873685153,
+    "lon": -79.5094285924883,
+    "display_name": "78 GOVERNMENT"
+  },
+  "1411 queen st e, toronto": {
+    "lat": 43.6638296748272,
+    "lon": -79.3226898266276,
+    "display_name": "1411 QUEEN"
+  },
+  "23 meadowvale dr, toronto": {
+    "lat": 43.6464614355576,
+    "lon": -79.5062543470909,
+    "display_name": "23 MEADOWVALE"
+  },
+  "33 victor ave, toronto": {
+    "lat": 43.6672310988257,
+    "lon": -79.3511865624422,
+    "display_name": "33 VICTOR"
+  },
+  "414 briar hill ave, toronto": {
+    "lat": 43.7111812371685,
+    "lon": -79.4125831933434,
+    "display_name": "414 BRIAR HILL"
+  },
+  "4111 lawrence ave e, toronto": {
+    "lat": 43.7663179525404,
+    "lon": -79.1945950732227,
+    "display_name": "4111 LAWRENCE"
+  },
+  "4466 sheppard ave e, toronto": {
+    "lat": 43.7889746227264,
+    "lon": -79.266852926522,
+    "display_name": "4466 SHEPPARD"
+  },
+  "4804 yonge st, toronto": {
+    "lat": 43.7617207072234,
+    "lon": -79.4113397718377,
+    "display_name": "4804 YONGE"
+  },
+  "24 grandview ave, toronto": {
+    "lat": 43.6738518935845,
+    "lon": -79.3499151278449,
+    "display_name": "24 GRANDVIEW"
+  },
+  "62 arrow rd, toronto": {
+    "lat": 43.7395222439079,
+    "lon": -79.530919014673,
+    "display_name": "62 ARROW"
+  },
+  "174 dunraven dr, toronto": {
+    "lat": 43.6849928054331,
+    "lon": -79.4689457490684,
+    "display_name": "174 DUNRAVEN"
+  },
+  "2535 gerrard st e, toronto": {
+    "lat": 43.6878783180294,
+    "lon": -79.2796311491432,
+    "display_name": "2535 GERRARD"
+  },
+  "88 bowmore rd, toronto": {
+    "lat": 43.676677282175,
+    "lon": -79.3148066206624,
+    "display_name": "88 BOWMORE"
+  },
+  "29 dempsey cres, toronto": {
+    "lat": 43.7546358060623,
+    "lon": -79.3732509681196,
+    "display_name": "29 DEMPSEY"
+  },
+  "60 ashburnham rd, toronto": {
+    "lat": 43.6734833642081,
+    "lon": -79.4441780028575,
+    "display_name": "60 ASHBURNHAM"
+  },
+  "768-770 wilson ave, toronto": {
+    "lat": 43.7314091768084,
+    "lon": -79.46469821733,
+    "display_name": "768-770 WILSON"
+  },
+  "50 ingram dr, toronto": {
+    "lat": 43.7013670385456,
+    "lon": -79.4713865249653,
+    "display_name": "50 INGRAM"
+  },
+  "3 collinson blvd, toronto": {
+    "lat": 43.7379390310025,
+    "lon": -79.4375675630973,
+    "display_name": "3 COLLINSON"
+  },
+  "347 milverton blvd, toronto": {
+    "lat": 43.6857999125516,
+    "lon": -79.3277489668701,
+    "display_name": "347 MILVERTON"
+  },
+  "143 macdonell ave, toronto": {
+    "lat": 43.644675744667,
+    "lon": -79.4393404467314,
+    "display_name": "143 MACDONELL"
+  },
+  "43 fleming cres, toronto": {
+    "lat": 43.7094127970712,
+    "lon": -79.3736235586019,
+    "display_name": "43 FLEMING"
+  },
+  "105 gordon baker rd, toronto": {
+    "lat": 43.8014347348209,
+    "lon": -79.343761571059,
+    "display_name": "105 GORDON BAKER"
+  },
+  "21 dale ave, toronto": {
+    "lat": 43.6736087996417,
+    "lon": -79.3714321257883,
+    "display_name": "21 DALE"
+  },
+  "10 rosalind cres, toronto": {
+    "lat": 43.7147150708544,
+    "lon": -79.2960627590483,
+    "display_name": "10 ROSALIND"
+  },
+  "104 eastbourne ave, toronto": {
+    "lat": 43.7025990967202,
+    "lon": -79.4040061622547,
+    "display_name": "104 EASTBOURNE"
+  },
+  "605 logan ave, toronto": {
+    "lat": 43.6704569629723,
+    "lon": -79.3462376718661,
+    "display_name": "605 LOGAN"
+  },
+  "27 struthers st, toronto": {
+    "lat": 43.6086897973917,
+    "lon": -79.4970671074746,
+    "display_name": "27 STRUTHERS"
+  },
+  "7 stuart ave, toronto": {
+    "lat": 43.7542439807571,
+    "lon": -79.4140370771331,
+    "display_name": "7 STUART"
+  },
+  "756 crawford st, toronto": {
+    "lat": 43.6641339383667,
+    "lon": -79.4229329574532,
+    "display_name": "756 CRAWFORD"
+  },
+  "101 humber college blvd, toronto": {
+    "lat": 43.7297834462022,
+    "lon": -79.5986965808273,
+    "display_name": "101 HUMBER COLLEGE"
+  },
+  "11 grayford crt, toronto": {
+    "lat": 43.8177001000328,
+    "lon": -79.2006561006205,
+    "display_name": "11 GRAYFORD"
+  },
+  "67 keele st, toronto": {
+    "lat": 43.6564855407837,
+    "lon": -79.4604553147388,
+    "display_name": "67 KEELE"
+  },
+  "606 lauder ave, toronto": {
+    "lat": 43.6924886407864,
+    "lon": -79.4455945256467,
+    "display_name": "606 LAUDER"
+  },
+  "288 geary ave, toronto": {
+    "lat": 43.6693300765579,
+    "lon": -79.4414848710326,
+    "display_name": "288 GEARY"
+  },
+  "90 caroline ave, toronto": {
+    "lat": 43.6611838834925,
+    "lon": -79.3351829886554,
+    "display_name": "90 CAROLINE"
+  },
+  "65 treverton dr, toronto": {
+    "lat": 43.7359086917518,
+    "lon": -79.2651378833752,
+    "display_name": "65 TREVERTON"
+  },
+  "2328 kingston rd, toronto": {
+    "lat": 43.706668415579,
+    "lon": -79.2515464339881,
+    "display_name": "2328 KINGSTON"
+  },
+  "160 kane ave, toronto": {
+    "lat": 43.6847894840355,
+    "lon": -79.4679354787831,
+    "display_name": "160 KANE"
+  },
+  "1 leighton crt, toronto": {
+    "lat": 43.7514553676981,
+    "lon": -79.5976219485537,
+    "display_name": "1 LEIGHTON"
+  },
+  "551 mount pleasant rd, toronto": {
+    "lat": 43.7030065703715,
+    "lon": -79.387570465427,
+    "display_name": "551 MOUNT PLEASANT"
+  },
+  "479 margueretta st, toronto": {
+    "lat": 43.662740701047,
+    "lon": -79.4410270122052,
+    "display_name": "479 MARGUERETTA"
+  },
+  "2600 eglinton ave w, toronto": {
+    "lat": 43.6908391827882,
+    "lon": -79.4730058643645,
+    "display_name": "2600 EGLINTON"
+  },
+  "850-894 alness st, toronto": {
+    "lat": 43.7790561793526,
+    "lon": -79.475937454507,
+    "display_name": "850-894 ALNESS"
+  },
+  "26 buckingham ave, toronto": {
+    "lat": 43.7262400864503,
+    "lon": -79.3931235592993,
+    "display_name": "26 BUCKINGHAM"
+  },
+  "734-752 sheppard ave e, toronto": {
+    "lat": 43.7698765340094,
+    "lon": -79.3758827307686,
+    "display_name": "734-752 SHEPPARD"
+  },
+  "67 hullen cres, toronto": {
+    "lat": 43.7299436185958,
+    "lon": -79.6244616578111,
+    "display_name": "67 HULLEN"
+  },
+  "8 karnwood dr, toronto": {
+    "lat": 43.7126088258162,
+    "lon": -79.2949437812701,
+    "display_name": "8 KARNWOOD"
+  },
+  "92 blantyre ave, toronto": {
+    "lat": 43.6781237788638,
+    "lon": -79.2803590465366,
+    "display_name": "92 BLANTYRE"
+  },
+  "1436 queen st w, toronto": {
+    "lat": 43.6409587447496,
+    "lon": -79.4357648083412,
+    "display_name": "1436 QUEEN"
+  },
+  "320 wilson ave, toronto": {
+    "lat": 43.737176831834,
+    "lon": -79.4361775527043,
+    "display_name": "320 WILSON"
+  },
+  "127 perth ave, toronto": {
+    "lat": 43.6582593862156,
+    "lon": -79.4491713056615,
+    "display_name": "127 PERTH"
+  },
+  "84 atlas ave, toronto": {
+    "lat": 43.6837843422829,
+    "lon": -79.4322497855691,
+    "display_name": "84 ATLAS"
+  },
+  "1 blaketon rd, toronto": {
+    "lat": 43.6462951109498,
+    "lon": -79.557454865135,
+    "display_name": "1 BLAKETON"
+  },
+  "143 grenadier rd, toronto": {
+    "lat": 43.6484759971288,
+    "lon": -79.4509552774778,
+    "display_name": "143 GRENADIER"
+  },
+  "364 richmond st w, toronto": {
+    "lat": 43.6483793799354,
+    "lon": -79.3941939893601,
+    "display_name": "364 RICHMOND"
+  },
+  "28 athol ave, toronto": {
+    "lat": 43.627442133212,
+    "lon": -79.5143491130353,
+    "display_name": "28 ATHOL"
+  },
+  "42 glenaden ave e, toronto": {
+    "lat": 43.6438859869199,
+    "lon": -79.4997600856633,
+    "display_name": "42 GLENADEN"
+  },
+  "27 edenbridge dr, toronto": {
+    "lat": 43.6682767204625,
+    "lon": -79.5239817311998,
+    "display_name": "27 EDENBRIDGE"
+  },
+  "51 otter cres, toronto": {
+    "lat": 43.7182740294088,
+    "lon": -79.4183384547374,
+    "display_name": "51 OTTER"
+  },
+  "1982-1984 danforth ave, toronto": {
+    "lat": 43.6854723767493,
+    "lon": -79.314778570924,
+    "display_name": "1982-1984 DANFORTH"
+  },
+  "509 markham st, toronto": {
+    "lat": 43.6616403837852,
+    "lon": -79.4108590068799,
+    "display_name": "509 MARKHAM"
+  },
+  "609 crawford st, toronto": {
+    "lat": 43.6601439849127,
+    "lon": -79.4207689841928,
+    "display_name": "609 CRAWFORD"
+  },
+  "59 royalavon cres, toronto": {
+    "lat": 43.646714700261,
+    "lon": -79.5338802273797,
+    "display_name": "59 ROYALAVON"
+  },
+  "730 yonge st, toronto": {
+    "lat": 43.6688748823321,
+    "lon": -79.386948291169,
+    "display_name": "730 YONGE"
+  },
+  "56 eaton ave, toronto": {
+    "lat": 43.6810748225349,
+    "lon": -79.3440398579009,
+    "display_name": "56 EATON"
+  },
+  "1103 warden ave, toronto": {
+    "lat": 43.7431769389979,
+    "lon": -79.2934854028046,
+    "display_name": "1103 WARDEN"
+  },
+  "4230-4240 chesswood dr, toronto": {
+    "lat": 43.7596670206555,
+    "lon": -79.4785037329644,
+    "display_name": "4230-4240 CHESSWOOD"
+  },
+  "109 gloucester st, toronto": {
+    "lat": 43.6675970124139,
+    "lon": -79.379677453065,
+    "display_name": "109 GLOUCESTER"
+  },
+  "505 glenlake ave, toronto": {
+    "lat": 43.6554734829617,
+    "lon": -79.4739422244697,
+    "display_name": "505 GLENLAKE"
+  },
+  "369 queen st w, toronto": {
+    "lat": 43.6492352680627,
+    "lon": -79.3933471947297,
+    "display_name": "369 QUEEN"
+  },
+  "71 wheeler ave, toronto": {
+    "lat": 43.6727967150969,
+    "lon": -79.2996535599548,
+    "display_name": "71 WHEELER"
+  },
+  "2 olympus ave, toronto": {
+    "lat": 43.6512634160059,
+    "lon": -79.4711884570818,
+    "display_name": "2 OLYMPUS"
+  },
+  "23 harris park dr, toronto": {
+    "lat": 43.7192883510714,
+    "lon": -79.2974066093765,
+    "display_name": "23 HARRIS PARK"
+  },
+  "421 brock ave, toronto": {
+    "lat": 43.6541860783497,
+    "lon": -79.4370722048763,
+    "display_name": "421 BROCK"
+  },
+  "5385 yonge st, toronto": {
+    "lat": 43.775869852987,
+    "lon": -79.4142456717393,
+    "display_name": "5385 YONGE"
+  },
+  "265 sheppard ave e, toronto": {
+    "lat": 43.7648434513024,
+    "lon": -79.3951066295368,
+    "display_name": "265 SHEPPARD"
+  },
+  "1400 kennedy rd, toronto": {
+    "lat": 43.7626707459236,
+    "lon": -79.2806330260974,
+    "display_name": "1400 KENNEDY"
+  },
+  "47 kingsdown dr, toronto": {
+    "lat": 43.7400870072605,
+    "lon": -79.2721891259988,
+    "display_name": "47 KINGSDOWN"
+  },
+  "40 lawlor ave, toronto": {
+    "lat": 43.6815799473128,
+    "lon": -79.2891878817519,
+    "display_name": "40 LAWLOR"
+  },
+  "480 university ave, toronto": {
+    "lat": 43.6549380970725,
+    "lon": -79.3889707572678,
+    "display_name": "480 UNIVERSITY"
+  },
+  "54 gwendolen ave, toronto": {
+    "lat": 43.7524826273618,
+    "lon": -79.4199249953816,
+    "display_name": "54 GWENDOLEN"
+  },
+  "804 shaw st, toronto": {
+    "lat": 43.6640753707394,
+    "lon": -79.4241529937241,
+    "display_name": "804 SHAW"
+  },
+  "60 gladstone ave, toronto": {
+    "lat": 43.6442888748149,
+    "lon": -79.4281203144068,
+    "display_name": "60 GLADSTONE"
+  },
+  "12 kingswell cres, toronto": {
+    "lat": 43.7183232237741,
+    "lon": -79.2956747801392,
+    "display_name": "12 KINGSWELL"
+  },
+  "155 gordon baker rd, toronto": {
+    "lat": 43.8044519981525,
+    "lon": -79.3440437482668,
+    "display_name": "155 GORDON BAKER"
+  },
+  "400 soudan ave, toronto": {
+    "lat": 43.7073858771494,
+    "lon": -79.3839222214858,
+    "display_name": "400 SOUDAN"
+  },
+  "117 gladstone ave, toronto": {
+    "lat": 43.6462467431831,
+    "lon": -79.4282843190093,
+    "display_name": "117 GLADSTONE"
+  },
+  "155 frederick tisdale dr, toronto": {
+    "lat": 43.7361278480666,
+    "lon": -79.4766732982126,
+    "display_name": "155 FREDERICK TISDALE"
+  },
+  "172 berry rd, toronto": {
+    "lat": 43.6366796409178,
+    "lon": -79.4924054177403,
+    "display_name": "172 BERRY"
+  },
+  "90 bleecker st, toronto": {
+    "lat": 43.6650356074689,
+    "lon": -79.3729932027529,
+    "display_name": "90 BLEECKER"
+  },
+  "1009 royal york rd, toronto": {
+    "lat": 43.651460304256,
+    "lon": -79.5128063057919,
+    "display_name": "1009 ROYAL YORK"
+  },
+  "317 sutherland dr, toronto": {
+    "lat": 43.7084264365743,
+    "lon": -79.3649937040319,
+    "display_name": "317 SUTHERLAND"
+  },
+  "25 francine dr, toronto": {
+    "lat": 43.8047221296811,
+    "lon": -79.3634307995052,
+    "display_name": "25 FRANCINE"
+  },
+  "18 york st, toronto": {
+    "lat": 43.6432110318151,
+    "lon": -79.3822508864855,
+    "display_name": "18 YORK"
+  },
+  "657 university ave, toronto": {
+    "lat": 43.6591464360496,
+    "lon": -79.3895579626505,
+    "display_name": "657 UNIVERSITY"
+  },
+  "25 riverdale ave, toronto": {
+    "lat": 43.6689245090822,
+    "lon": -79.3515455419962,
+    "display_name": "25 RIVERDALE"
+  },
+  "185 sheridan ave, toronto": {
+    "lat": 43.6524294620145,
+    "lon": -79.4344895804701,
+    "display_name": "185 SHERIDAN"
+  },
+  "130 william duncan rd, toronto": {
+    "lat": 43.7359592291743,
+    "lon": -79.4758975388359,
+    "display_name": "130 WILLIAM DUNCAN"
+  },
+  "229 melrose st, toronto": {
+    "lat": 43.620123634797,
+    "lon": -79.4980979254542,
+    "display_name": "229 MELROSE"
+  },
+  "100 armstrong ave, toronto": {
+    "lat": 43.6641638461555,
+    "lon": -79.441021552092,
+    "display_name": "100 ARMSTRONG"
+  },
+  "120 westrose ave, toronto": {
+    "lat": 43.6552817607418,
+    "lon": -79.5177507223386,
+    "display_name": "120 WESTROSE"
+  },
+  "110 logan ave, toronto": {
+    "lat": 43.6570661645023,
+    "lon": -79.3413580775748,
+    "display_name": "110 LOGAN"
+  },
+  "2050 kipling ave, toronto": {
+    "lat": 43.7133317748297,
+    "lon": -79.5685183129017,
+    "display_name": "2050 KIPLING"
+  },
+  "20 the queensway, toronto": {
+    "lat": 43.6394281172429,
+    "lon": -79.4480250564447,
+    "display_name": "20 THE QUEENSWAY"
+  },
+  "1046 yonge st, toronto": {
+    "lat": 43.677086759632,
+    "lon": -79.3899042315798,
+    "display_name": "1046 YONGE"
+  },
+  "47 hounslow heath rd, toronto": {
+    "lat": 43.6730056466895,
+    "lon": -79.458910587366,
+    "display_name": "47 HOUNSLOW HEATH"
+  },
+  "21 eastdale ave, toronto": {
+    "lat": 43.6939620867099,
+    "lon": -79.3001966890361,
+    "display_name": "21 EASTDALE"
+  },
+  "15 barnwell dr, toronto": {
+    "lat": 43.8175220914269,
+    "lon": -79.2822330187837,
+    "display_name": "15 BARNWELL"
+  },
+  "49 lamay cres, toronto": {
+    "lat": 43.8221380430632,
+    "lon": -79.2098206278533,
+    "display_name": "49 LAMAY"
+  },
+  "23 spadina ave, toronto": {
+    "lat": 43.6410658840199,
+    "lon": -79.3927765334312,
+    "display_name": "23 SPADINA"
+  },
+  "5 wakunda pl, toronto": {
+    "lat": 43.7155566596109,
+    "lon": -79.3046691881243,
+    "display_name": "5 WAKUNDA"
+  },
+  "37 allanbrooke dr, toronto": {
+    "lat": 43.6517753868065,
+    "lon": -79.5203993821044,
+    "display_name": "37 ALLANBROOKE"
+  },
+  "1 yore rd, toronto": {
+    "lat": 43.6927704363234,
+    "lon": -79.469743399934,
+    "display_name": "1 YORE"
+  },
+  "14 victor ave, toronto": {
+    "lat": 43.6673660061229,
+    "lon": -79.3521276887923,
+    "display_name": "14 VICTOR"
+  },
+  "173 frederick tisdale dr, toronto": {
+    "lat": 43.7366457552453,
+    "lon": -79.477047165826,
+    "display_name": "173 FREDERICK TISDALE"
+  },
+  "249 manning ave, toronto": {
+    "lat": 43.652726866538,
+    "lon": -79.4112608635824,
+    "display_name": "249 MANNING"
+  },
+  "88 glenvale blvd, toronto": {
+    "lat": 43.717527386899,
+    "lon": -79.37225368686,
+    "display_name": "88 GLENVALE"
+  },
+  "660 eglinton ave w, toronto": {
+    "lat": 43.7025704695354,
+    "lon": -79.4195995016476,
+    "display_name": "660 EGLINTON"
+  },
+  "88 moorehouse dr, toronto": {
+    "lat": 43.8199045764817,
+    "lon": -79.2848551500621,
+    "display_name": "88 MOOREHOUSE"
+  },
+  "26 westwynd crt, toronto": {
+    "lat": 43.6795591941149,
+    "lon": -79.5686974219192,
+    "display_name": "26 WESTWYND"
+  },
+  "33 beckwith rd, toronto": {
+    "lat": 43.6603310582307,
+    "lon": -79.5752488883456,
+    "display_name": "33 BECKWITH"
+  },
+  "44 arden cres, toronto": {
+    "lat": 43.7130098955373,
+    "lon": -79.2887257839187,
+    "display_name": "44 ARDEN"
+  },
+  "859 milner ave, toronto": {
+    "lat": 43.7994587365695,
+    "lon": -79.1980550364199,
+    "display_name": "859 MILNER"
+  },
+  "129 armour blvd, toronto": {
+    "lat": 43.7415235130184,
+    "lon": -79.4280410989838,
+    "display_name": "129 ARMOUR"
+  },
+  "3077 dundas st w, toronto": {
+    "lat": 43.6653378549647,
+    "lon": -79.4718800128208,
+    "display_name": "3077 DUNDAS"
+  },
+  "356 huron st, toronto": {
+    "lat": 43.6639948606189,
+    "lon": -79.4006150359715,
+    "display_name": "356 HURON"
+  },
+  "72 ossington ave, toronto": {
+    "lat": 43.6457697904789,
+    "lon": -79.4197819761345,
+    "display_name": "72 OSSINGTON"
+  },
+  "299 cook rd, toronto": {
+    "lat": 43.7673089292484,
+    "lon": -79.4992591155998,
+    "display_name": "299 COOK"
+  },
+  "185 colbeck st, toronto": {
+    "lat": 43.6529875236073,
+    "lon": -79.4849637599083,
+    "display_name": "185 COLBECK"
+  },
+  "2055 danforth ave, toronto": {
+    "lat": 43.6853263228419,
+    "lon": -79.313530859142,
+    "display_name": "2055 DANFORTH"
+  },
+  "629 markham rd, toronto": {
+    "lat": 43.760682882968,
+    "lon": -79.2239132257549,
+    "display_name": "629 MARKHAM"
+  },
+  "13 humber blvd, toronto": {
+    "lat": 43.6825282193922,
+    "lon": -79.4802415679805,
+    "display_name": "13 HUMBER"
+  },
+  "40 station rd, toronto": {
+    "lat": 43.6145379172348,
+    "lon": -79.4943012102781,
+    "display_name": "40 STATION"
+  },
+  "1552 king st w, toronto": {
+    "lat": 43.6377581385912,
+    "lon": -79.4431724953008,
+    "display_name": "1552 KING"
+  },
+  "257 inglewood dr, toronto": {
+    "lat": 43.6896216035377,
+    "lon": -79.3785249783509,
+    "display_name": "257 INGLEWOOD"
+  },
+  "94 ridge dr, toronto": {
+    "lat": 43.6866884467981,
+    "lon": -79.3801441711086,
+    "display_name": "94 RIDGE"
+  },
+  "22 wingrove hill, toronto": {
+    "lat": 43.6540376326371,
+    "lon": -79.5430957279816,
+    "display_name": "22 WINGROVE"
+  },
+  "73 boston ave, toronto": {
+    "lat": 43.6634950011904,
+    "lon": -79.3393281567803,
+    "display_name": "73 BOSTON"
+  },
+  "720 king st w, toronto": {
+    "lat": 43.6439081092999,
+    "lon": -79.4042076166383,
+    "display_name": "720 KING"
+  },
+  "7 bannon ave, toronto": {
+    "lat": 43.6580522823955,
+    "lon": -79.5039240572115,
+    "display_name": "7 BANNON"
+  },
+  "34 edwalter ave, toronto": {
+    "lat": 43.6379168114846,
+    "lon": -79.497671638243,
+    "display_name": "34 EDWALTER"
+  },
+  "12 lund ave, toronto": {
+    "lat": 43.7339030645806,
+    "lon": -79.5596624693697,
+    "display_name": "12 LUND"
+  },
+  "2375 steeles ave w, toronto": {
+    "lat": 43.784322742782,
+    "lon": -79.4795781655847,
+    "display_name": "2375 STEELES"
+  },
+  "80 weybourne cres, toronto": {
+    "lat": 43.7250680560997,
+    "lon": -79.3993747322271,
+    "display_name": "80 WEYBOURNE"
+  },
+  "402 durie st, toronto": {
+    "lat": 43.6556559885703,
+    "lon": -79.4814398597152,
+    "display_name": "402 DURIE"
+  },
+  "215 wilson ave, toronto": {
+    "lat": 43.7385758888221,
+    "lon": -79.4263867523372,
+    "display_name": "215 WILSON"
+  },
+  "40 old burnhamthorpe rd, toronto": {
+    "lat": 43.6443689470074,
+    "lon": -79.5797948468408,
+    "display_name": "40 OLD BURNHAMTHORPE"
+  },
+  "29 harold st, toronto": {
+    "lat": 43.6165195647065,
+    "lon": -79.5008771335467,
+    "display_name": "29 HAROLD"
+  },
+  "26 puckeridge cres, toronto": {
+    "lat": 43.6636667660919,
+    "lon": -79.5635776986278,
+    "display_name": "26 PUCKERIDGE"
+  },
+  "20 strathmore blvd, toronto": {
+    "lat": 43.6811788509484,
+    "lon": -79.3390593330414,
+    "display_name": "20 STRATHMORE"
+  },
+  "124 willowdale ave, toronto": {
+    "lat": 43.76500859064,
+    "lon": -79.4003931089027,
+    "display_name": "124 WILLOWDALE"
+  },
+  "585 bloor st w, toronto": {
+    "lat": 43.6646600135167,
+    "lon": -79.4125775592149,
+    "display_name": "585 BLOOR"
+  },
+  "800 islington ave, toronto": {
+    "lat": 43.6169327073752,
+    "lon": -79.5110796641462,
+    "display_name": "800 ISLINGTON"
+  },
+  "6 windermere ave, toronto": {
+    "lat": 43.6365789888101,
+    "lon": -79.4697042378308,
+    "display_name": "6 WINDERMERE"
+  },
+  "34 tasker rd, toronto": {
+    "lat": 43.6574961680458,
+    "lon": -79.5447551017321,
+    "display_name": "34 TASKER"
+  },
+  "1461 lawrence ave w, toronto": {
+    "lat": 43.707512070396,
+    "lon": -79.4797981787656,
+    "display_name": "1461 LAWRENCE"
+  },
+  "5 baird ave, toronto": {
+    "lat": 43.676965703091,
+    "lon": -79.3370503670526,
+    "display_name": "5 BAIRD"
+  },
+  "41 summerhill gdns, toronto": {
+    "lat": 43.684034547271,
+    "lon": -79.3864519430008,
+    "display_name": "41 SUMMERHILL"
+  },
+  "18 cortleigh blvd, toronto": {
+    "lat": 43.713702238933,
+    "lon": -79.4074972291836,
+    "display_name": "18 CORTLEIGH"
+  },
+  "31 creston rd, toronto": {
+    "lat": 43.7193247744333,
+    "lon": -79.4513832856262,
+    "display_name": "31 CRESTON"
+  },
+  "34 loyalist rd, toronto": {
+    "lat": 43.6537394671317,
+    "lon": -79.5217454128681,
+    "display_name": "34 LOYALIST"
+  },
+  "81 jones ave, toronto": {
+    "lat": 43.6645797875022,
+    "lon": -79.3333113722382,
+    "display_name": "81 JONES"
+  },
+  "24 maple bush ave, toronto": {
+    "lat": 43.7102751767003,
+    "lon": -79.5366510777261,
+    "display_name": "24 MAPLE BUSH"
+  },
+  "217 shaw st, toronto": {
+    "lat": 43.6478913135331,
+    "lon": -79.4171853613246,
+    "display_name": "217 SHAW"
+  },
+  "29 westgate blvd, toronto": {
+    "lat": 43.7393039569167,
+    "lon": -79.4314840449241,
+    "display_name": "29 WESTGATE"
+  },
+  "24 arrow rd, toronto": {
+    "lat": 43.7371035365425,
+    "lon": -79.5300677915419,
+    "display_name": "24 ARROW"
+  },
+  "648 the queensway, toronto": {
+    "lat": 43.6276953905533,
+    "lon": -79.4976834407966,
+    "display_name": "648 THE QUEENSWAY"
+  },
+  "61 torlake cres, toronto": {
+    "lat": 43.6125528422577,
+    "lon": -79.5261116950394,
+    "display_name": "61 TORLAKE"
+  },
+  "46 timberlane dr, toronto": {
+    "lat": 43.7491932007597,
+    "lon": -79.4302288574769,
+    "display_name": "46 TIMBERLANE"
+  },
+  "62 humbervale blvd, toronto": {
+    "lat": 43.6455209323064,
+    "lon": -79.5096750248656,
+    "display_name": "62 HUMBERVALE"
+  },
+  "2388 jane st, toronto": {
+    "lat": 43.7311287199727,
+    "lon": -79.5156700619209,
+    "display_name": "2388 JANE"
+  },
+  "3180 danforth ave, toronto": {
+    "lat": 43.6924820538828,
+    "lon": -79.2843407389903,
+    "display_name": "3180 DANFORTH"
+  },
+  "293 kennedy ave, toronto": {
+    "lat": 43.6529422529177,
+    "lon": -79.4755332775229,
+    "display_name": "293 KENNEDY"
+  },
+  "843 don mills rd, toronto": {
+    "lat": 43.7227607782806,
+    "lon": -79.3389195763336,
+    "display_name": "843 DON MILLS"
+  },
+  "84 elinor ave, toronto": {
+    "lat": 43.7498519389242,
+    "lon": -79.3032454647689,
+    "display_name": "84 ELINOR"
+  },
+  "82 lynnhaven rd, toronto": {
+    "lat": 43.7231387983928,
+    "lon": -79.440490549784,
+    "display_name": "82 LYNNHAVEN"
+  },
+  "596 crawford st, toronto": {
+    "lat": 43.6595462928515,
+    "lon": -79.4211204276464,
+    "display_name": "596 CRAWFORD"
+  },
+  "422 spadina ave, toronto": {
+    "lat": 43.6563622219271,
+    "lon": -79.3997980897209,
+    "display_name": "422 SPADINA"
+  },
+  "109 sweeney dr, toronto": {
+    "lat": 43.7352143500835,
+    "lon": -79.3171890042851,
+    "display_name": "109 SWEENEY"
+  },
+  "206 sixth st, toronto": {
+    "lat": 43.6040023943158,
+    "lon": -79.5056390570837,
+    "display_name": "206 SIXTH"
+  },
+  "29 earl grey rd, toronto": {
+    "lat": 43.6759602197932,
+    "lon": -79.3370629721381,
+    "display_name": "29 EARL GREY"
+  },
+  "204 gillard ave, toronto": {
+    "lat": 43.6817299156049,
+    "lon": -79.3282680059921,
+    "display_name": "204 GILLARD"
+  },
+  "168 rankin cres, toronto": {
+    "lat": 43.6602639374309,
+    "lon": -79.447121050056,
+    "display_name": "168 RANKIN"
+  },
+  "120 murison blvd, toronto": {
+    "lat": 43.7997009985516,
+    "lon": -79.2069824402913,
+    "display_name": "120 MURISON"
+  },
+  "477 strathmore blvd, toronto": {
+    "lat": 43.6854326587602,
+    "lon": -79.3171824865747,
+    "display_name": "477 STRATHMORE"
+  },
+  "603 durie st, toronto": {
+    "lat": 43.661287493075,
+    "lon": -79.4829772827686,
+    "display_name": "603 DURIE"
+  },
+  "95 queen's park, toronto": {
+    "lat": 43.6677758956415,
+    "lon": -79.3929936183823,
+    "display_name": "95 QUEEN'S PARK"
+  },
+  "149 strachan ave, toronto": {
+    "lat": 43.6439139348626,
+    "lon": -79.4123665375463,
+    "display_name": "149 STRACHAN"
+  },
+  "2237 queen st e, toronto": {
+    "lat": 43.6708803166594,
+    "lon": -79.2950190229275,
+    "display_name": "2237 QUEEN"
+  },
+  "1663 davenport rd, toronto": {
+    "lat": 43.6711111795625,
+    "lon": -79.4502081067047,
+    "display_name": "1663 DAVENPORT"
+  },
+  "5245 dundas st w, toronto": {
+    "lat": 43.6385597170844,
+    "lon": -79.5373745420035,
+    "display_name": "5245 DUNDAS"
+  },
+  "1118-1126 finch ave w, toronto": {
+    "lat": 43.7675981804253,
+    "lon": -79.4749755537745,
+    "display_name": "1118-1126 FINCH"
+  },
+  "341 fairlawn ave, toronto": {
+    "lat": 43.7280222478088,
+    "lon": -79.4162775796617,
+    "display_name": "341 FAIRLAWN"
+  },
+  "62 victoria park ave, toronto": {
+    "lat": 43.6766363621119,
+    "lon": -79.281478839227,
+    "display_name": "62 VICTORIA PARK"
+  },
+  "32 triller ave, toronto": {
+    "lat": 43.638592765862,
+    "lon": -79.4438270927485,
+    "display_name": "32 TRILLER"
+  },
+  "197 arlington ave, toronto": {
+    "lat": 43.6838219741236,
+    "lon": -79.4296774285898,
+    "display_name": "197 ARLINGTON"
+  },
+  "23 caddy dr, toronto": {
+    "lat": 43.7640528240338,
+    "lon": -79.2127279723929,
+    "display_name": "23 CADDY"
+  },
+  "215 edenbridge dr, toronto": {
+    "lat": 43.6767761552188,
+    "lon": -79.5119659662455,
+    "display_name": "215 EDENBRIDGE"
+  },
+  "60 atlas ave, toronto": {
+    "lat": 43.6829136856874,
+    "lon": -79.4322064448468,
+    "display_name": "60 ATLAS"
+  },
+  "69 mc farland ave, toronto": {
+    "lat": 43.6742807476133,
+    "lon": -79.4424021398533,
+    "display_name": "69 MC FARLAND"
+  },
+  "230 st clements ave, toronto": {
+    "lat": 43.7115130160084,
+    "lon": -79.4065546225893,
+    "display_name": "230 ST CLEMENTS"
+  },
+  "201 cottingham st, toronto": {
+    "lat": 43.6793691540391,
+    "lon": -79.4003977709819,
+    "display_name": "201 COTTINGHAM"
+  },
+  "10 raglan ave, toronto": {
+    "lat": 43.6836364845542,
+    "lon": -79.4200766357922,
+    "display_name": "10 RAGLAN"
+  },
+  "1012 coxwell ave, toronto": {
+    "lat": 43.6965243654389,
+    "lon": -79.3292937525616,
+    "display_name": "1012 COXWELL"
+  },
+  "777 dundas st e, toronto": {
+    "lat": 43.6612074089353,
+    "lon": -79.3542014678244,
+    "display_name": "777 DUNDAS"
+  },
+  "200 dupont st, toronto": {
+    "lat": 43.6756054455644,
+    "lon": -79.4044620319594,
+    "display_name": "200 DUPONT"
+  },
+  "30 st lawrence st, toronto": {
+    "lat": 43.655199173395,
+    "lon": -79.3569819331932,
+    "display_name": "30 ST LAWRENCE"
+  },
+  "27 yorkview dr, toronto": {
+    "lat": 43.7741702633971,
+    "lon": -79.4274375556073,
+    "display_name": "27 YORKVIEW"
+  },
+  "46 aldershot cres, toronto": {
+    "lat": 43.7535694680221,
+    "lon": -79.4000631378385,
+    "display_name": "46 ALDERSHOT"
+  },
+  "38 beaconsfield ave, toronto": {
+    "lat": 43.6444699921383,
+    "lon": -79.4256390496055,
+    "display_name": "38 BEACONSFIELD"
+  },
+  "3 humber ridge dr, toronto": {
+    "lat": 43.6398709249319,
+    "lon": -79.4945765375558,
+    "display_name": "3 HUMBER RIDGE"
+  },
+  "356 ridley blvd, toronto": {
+    "lat": 43.7443735576121,
+    "lon": -79.4281969567303,
+    "display_name": "356 RIDLEY"
+  },
+  "95 withrow ave, toronto": {
+    "lat": 43.6704488187342,
+    "lon": -79.3490009356708,
+    "display_name": "95 WITHROW"
+  },
+  "67 elmhurst ave, toronto": {
+    "lat": 43.7621852653703,
+    "lon": -79.4150346281264,
+    "display_name": "67 ELMHURST"
+  },
+  "1350 mount pleasant rd, toronto": {
+    "lat": 43.7228070479365,
+    "lon": -79.3962296762106,
+    "display_name": "1350 MOUNT PLEASANT"
+  },
+  "111 bellwoods ave, toronto": {
+    "lat": 43.6492822256049,
+    "lon": -79.4118021479784,
+    "display_name": "111 BELLWOODS"
+  },
+  "66 hewitt ave, toronto": {
+    "lat": 43.6520454477043,
+    "lon": -79.4546992629462,
+    "display_name": "66 HEWITT"
+  },
+  "14 park st, toronto": {
+    "lat": 43.7101433549978,
+    "lon": -79.2574251683618,
+    "display_name": "14 PARK"
+  },
+  "365 mortimer ave, toronto": {
+    "lat": 43.6879574394363,
+    "lon": -79.337704282465,
+    "display_name": "365 MORTIMER"
+  },
+  "2136 kipling ave, toronto": {
+    "lat": 43.7187462981945,
+    "lon": -79.5706143430914,
+    "display_name": "2136 KIPLING"
+  },
+  "54 burnhamthorpe cres, toronto": {
+    "lat": 43.6489718591381,
+    "lon": -79.5321218717176,
+    "display_name": "54 BURNHAMTHORPE"
+  },
+  "260 lee ave, toronto": {
+    "lat": 43.6753939977201,
+    "lon": -79.3003408898594,
+    "display_name": "260 LEE"
+  },
+  "14 wickford dr, toronto": {
+    "lat": 43.710889011816,
+    "lon": -79.4801757763464,
+    "display_name": "14 WICKFORD"
+  },
+  "41 dartmouth cres, toronto": {
+    "lat": 43.6054446312041,
+    "lon": -79.4935959048941,
+    "display_name": "41 DARTMOUTH"
+  },
+  "19 horton blvd, toronto": {
+    "lat": 43.7358205574904,
+    "lon": -79.2452310935729,
+    "display_name": "19 HORTON"
+  },
+  "253 markham st, toronto": {
+    "lat": 43.6546551485845,
+    "lon": -79.4080635167697,
+    "display_name": "253 MARKHAM"
+  },
+  "7 ellis gdns, toronto": {
+    "lat": 43.6383472104565,
+    "lon": -79.4677725358431,
+    "display_name": "7 ELLIS"
+  },
+  "275 unwin ave, toronto": {
+    "lat": 43.6411752627973,
+    "lon": -79.3416277609378,
+    "display_name": "275 UNWIN"
+  },
+  "1466 bathurst st, toronto": {
+    "lat": 43.6827715685648,
+    "lon": -79.4183470390909,
+    "display_name": "1466 BATHURST"
+  },
+  "102 lankin blvd, toronto": {
+    "lat": 43.6966484404157,
+    "lon": -79.3304885733197,
+    "display_name": "102 LANKIN"
+  },
+  "32 playter cres, toronto": {
+    "lat": 43.6784465599283,
+    "lon": -79.3554444640809,
+    "display_name": "32 PLAYTER"
+  },
+  "55 beaconsfield ave, toronto": {
+    "lat": 43.6449790358966,
+    "lon": -79.4253463975538,
+    "display_name": "55 BEACONSFIELD"
+  },
+  "115 flora dr, toronto": {
+    "lat": 43.7435596298061,
+    "lon": -79.2749989422255,
+    "display_name": "115 FLORA"
+  },
+  "664 scarlett rd, toronto": {
+    "lat": 43.6937399636996,
+    "lon": -79.5189215695524,
+    "display_name": "664 SCARLETT"
+  },
+  "505 consumers rd, toronto": {
+    "lat": 43.7706862771875,
+    "lon": -79.3241364768677,
+    "display_name": "505 CONSUMERS"
+  },
+  "3 knowlton dr, toronto": {
+    "lat": 43.7384976517111,
+    "lon": -79.2232538746454,
+    "display_name": "3 KNOWLTON"
+  },
+  "204 betty ann dr, toronto": {
+    "lat": 43.767461059145,
+    "lon": -79.426608719851,
+    "display_name": "204 BETTY ANN"
+  },
+  "71 claymore dr, toronto": {
+    "lat": 43.636907889207,
+    "lon": -79.5110472901001,
+    "display_name": "71 CLAYMORE"
+  },
+  "442 o'connor dr, toronto": {
+    "lat": 43.6973703191529,
+    "lon": -79.3324789830474,
+    "display_name": "442 O'CONNOR"
+  },
+  "78 westlake ave, toronto": {
+    "lat": 43.6878017579827,
+    "lon": -79.3056233947707,
+    "display_name": "78 WESTLAKE"
+  },
+  "14 redbank rd, toronto": {
+    "lat": 43.7031678662928,
+    "lon": -79.4838320249069,
+    "display_name": "14 REDBANK"
+  },
+  "250 concord ave, toronto": {
+    "lat": 43.6604956616324,
+    "lon": -79.4266334571155,
+    "display_name": "250 CONCORD"
+  },
+  "179 maria st, toronto": {
+    "lat": 43.6663173085232,
+    "lon": -79.4786629689857,
+    "display_name": "179 MARIA"
+  },
+  "156 woodmount ave, toronto": {
+    "lat": 43.6902400516888,
+    "lon": -79.317689328842,
+    "display_name": "156 WOODMOUNT"
+  },
+  "93 strath ave, toronto": {
+    "lat": 43.6558961839956,
+    "lon": -79.5122163685885,
+    "display_name": "93 STRATH"
+  },
+  "550 ontario st, toronto": {
+    "lat": 43.6665610935321,
+    "lon": -79.3723732909222,
+    "display_name": "550 ONTARIO"
+  },
+  "40 fairleigh cres, toronto": {
+    "lat": 43.7004994594943,
+    "lon": -79.439476050884,
+    "display_name": "40 FAIRLEIGH"
+  },
+  "299 queen st w, toronto": {
+    "lat": 43.6495516829517,
+    "lon": -79.3903772806993,
+    "display_name": "299 QUEEN"
+  },
+  "250 viewmount ave, toronto": {
+    "lat": 43.7078049236429,
+    "lon": -79.4413138426156,
+    "display_name": "250 VIEWMOUNT"
+  },
+  "148 dewbourne ave, toronto": {
+    "lat": 43.6979794545914,
+    "lon": -79.4293917503111,
+    "display_name": "148 DEWBOURNE"
+  },
+  "512 delaware ave n, toronto": {
+    "lat": 43.6713609602828,
+    "lon": -79.43232644479,
+    "display_name": "512 DELAWARE"
+  },
+  "10 weston downs ave, toronto": {
+    "lat": 43.7105531032085,
+    "lon": -79.5293498274056,
+    "display_name": "10 WESTON DOWNS"
+  },
+  "7 weybridge crt, toronto": {
+    "lat": 43.6680395028826,
+    "lon": -79.5497060509091,
+    "display_name": "7 WEYBRIDGE"
+  },
+  "677 queen st e, toronto": {
+    "lat": 43.6583552895261,
+    "lon": -79.3509986269148,
+    "display_name": "677 QUEEN"
+  },
+  "173 melrose ave, toronto": {
+    "lat": 43.7310208268782,
+    "lon": -79.4122773923908,
+    "display_name": "173 MELROSE"
+  },
+  "659 markham st, toronto": {
+    "lat": 43.6656499309398,
+    "lon": -79.4123598720162,
+    "display_name": "659 MARKHAM"
+  },
+  "233 sutherland dr, toronto": {
+    "lat": 43.7055057554315,
+    "lon": -79.3639708969193,
+    "display_name": "233 SUTHERLAND"
+  },
+  "3400 midland ave, toronto": {
+    "lat": 43.8104976782675,
+    "lon": -79.2910901958264,
+    "display_name": "3400 MIDLAND"
+  },
+  "2278 lawrence ave w, toronto": {
+    "lat": 43.6971528511727,
+    "lon": -79.5290576817047,
+    "display_name": "2278 LAWRENCE"
+  },
+  "121 thirtieth st, toronto": {
+    "lat": 43.6003888822492,
+    "lon": -79.5307417594065,
+    "display_name": "121 THIRTIETH"
+  },
+  "4869 dundas st w, toronto": {
+    "lat": 43.6500868679051,
+    "lon": -79.5271910927694,
+    "display_name": "4869 DUNDAS"
+  },
+  "1871 davenport rd, toronto": {
+    "lat": 43.6704035561704,
+    "lon": -79.4536941604949,
+    "display_name": "1871 DAVENPORT"
+  },
+  "204 lee ave, toronto": {
+    "lat": 43.6739351193731,
+    "lon": -79.299739769706,
+    "display_name": "204 LEE"
+  },
+  "15 penhale dr, toronto": {
+    "lat": 43.6927800662079,
+    "lon": -79.5215383948301,
+    "display_name": "15 PENHALE"
+  },
+  "105 langden ave, toronto": {
+    "lat": 43.6802748839904,
+    "lon": -79.4856040234107,
+    "display_name": "105 LANGDEN"
+  },
+  "1 haverhill crcl, toronto": {
+    "lat": 43.7155652259129,
+    "lon": -79.4823912392196,
+    "display_name": "1 HAVERHILL"
+  },
+  "5 resurrection rd, toronto": {
+    "lat": 43.6438692189194,
+    "lon": -79.5309435166034,
+    "display_name": "5 RESURRECTION"
+  },
+  "197 sheppard ave w, toronto": {
+    "lat": 43.759162948337,
+    "lon": -79.4204639715815,
+    "display_name": "197 SHEPPARD"
+  },
+  "115 roncesvalles ave, toronto": {
+    "lat": 43.6425300396044,
+    "lon": -79.447343598515,
+    "display_name": "115 RONCESVALLES"
+  },
+  "58 presley ave, toronto": {
+    "lat": 43.7044916621748,
+    "lon": -79.2862472045459,
+    "display_name": "58 PRESLEY"
+  },
+  "8 st james crt, toronto": {
+    "lat": 43.6698470147152,
+    "lon": -79.3646193363452,
+    "display_name": "8 ST JAMES"
+  },
+  "21 corundum cres, toronto": {
+    "lat": 43.7749541149521,
+    "lon": -79.2983345612514,
+    "display_name": "21 CORUNDUM"
+  },
+  "290 new toronto st, toronto": {
+    "lat": 43.6055731112912,
+    "lon": -79.5138077027879,
+    "display_name": "290 NEW TORONTO"
+  },
+  "3212 dundas st w, toronto": {
+    "lat": 43.665768135568,
+    "lon": -79.4770300216831,
+    "display_name": "3212 DUNDAS"
+  },
+  "69 whitley ave, toronto": {
+    "lat": 43.7277300547963,
+    "lon": -79.4633203325834,
+    "display_name": "69 WHITLEY"
+  },
+  "35 city view dr, toronto": {
+    "lat": 43.6949725306428,
+    "lon": -79.5840882333353,
+    "display_name": "35 CITY VIEW"
+  },
+  "38 shirley st, toronto": {
+    "lat": 43.6485242370315,
+    "lon": -79.4367221725004,
+    "display_name": "38 SHIRLEY"
+  },
+  "125 mcintosh st, toronto": {
+    "lat": 43.7071950327669,
+    "lon": -79.2520441995391,
+    "display_name": "125 MCINTOSH"
+  },
+  "42 ridgevalley cres, toronto": {
+    "lat": 43.6714487104968,
+    "lon": -79.5319174243167,
+    "display_name": "42 RIDGEVALLEY"
+  },
+  "2570 birchmount rd, toronto": {
+    "lat": 43.789706174473,
+    "lon": -79.3028188198246,
+    "display_name": "2570 BIRCHMOUNT"
+  },
+  "200 gateway blvd, toronto": {
+    "lat": 43.7151700984694,
+    "lon": -79.3352757297279,
+    "display_name": "200 GATEWAY"
+  },
+  "2012 dufferin st, toronto": {
+    "lat": 43.6853987593263,
+    "lon": -79.4463214307976,
+    "display_name": "2012 DUFFERIN"
+  },
+  "47 baywood rd, toronto": {
+    "lat": 43.7472370854845,
+    "lon": -79.6057000689074,
+    "display_name": "47 BAYWOOD"
+  },
+  "34 coules crt, toronto": {
+    "lat": 43.6076125308255,
+    "lon": -79.5502030763682,
+    "display_name": "34 COULES"
+  },
+  "5 magwood crt, toronto": {
+    "lat": 43.6616765701191,
+    "lon": -79.495014536702,
+    "display_name": "5 MAGWOOD"
+  },
+  "52 hunter st, toronto": {
+    "lat": 43.6749593397165,
+    "lon": -79.3357134214841,
+    "display_name": "52 HUNTER"
+  },
+  "178 old orchard grv, toronto": {
+    "lat": 43.7332816578695,
+    "lon": -79.412568433376,
+    "display_name": "178 OLD ORCHARD"
+  },
+  "555 coldstream ave, toronto": {
+    "lat": 43.7137781321683,
+    "lon": -79.433467237417,
+    "display_name": "555 COLDSTREAM"
+  },
+  "30 ellerslie ave, toronto": {
+    "lat": 43.7717196020678,
+    "lon": -79.4150839326332,
+    "display_name": "30 ELLERSLIE"
+  },
+  "98 george st, toronto": {
+    "lat": 43.6112579454537,
+    "lon": -79.4952044306463,
+    "display_name": "98 GEORGE"
+  },
+  "104 prescott ave, toronto": {
+    "lat": 43.677325935807,
+    "lon": -79.4584034198355,
+    "display_name": "104 PRESCOTT"
+  },
+  "115 city view dr, toronto": {
+    "lat": 43.7013126633395,
+    "lon": -79.587016777868,
+    "display_name": "115 CITY VIEW"
+  },
+  "55 torlake cres, toronto": {
+    "lat": 43.6120633631852,
+    "lon": -79.5258572539882,
+    "display_name": "55 TORLAKE"
+  },
+  "221 melrose st, toronto": {
+    "lat": 43.6202715155534,
+    "lon": -79.4975423493378,
+    "display_name": "221 MELROSE"
+  },
+  "15 crocker ave, toronto": {
+    "lat": 43.6465923713026,
+    "lon": -79.4102754440246,
+    "display_name": "15 CROCKER"
+  },
+  "148 curzon st, toronto": {
+    "lat": 43.6672188624517,
+    "lon": -79.3334290864369,
+    "display_name": "148 CURZON"
+  },
+  "36 walford rd, toronto": {
+    "lat": 43.6588635209213,
+    "lon": -79.5064749849019,
+    "display_name": "36 WALFORD"
+  },
+  "672 milverton blvd, toronto": {
+    "lat": 43.6887225135591,
+    "lon": -79.3158773854805,
+    "display_name": "672 MILVERTON"
+  },
+  "355 coxwell ave, toronto": {
+    "lat": 43.6757718191676,
+    "lon": -79.3202008528294,
+    "display_name": "355 COXWELL"
+  },
+  "68 belgrave ave, toronto": {
+    "lat": 43.7443132760598,
+    "lon": -79.4189799330951,
+    "display_name": "68 BELGRAVE"
+  },
+  "57 parkwoods village dr, toronto": {
+    "lat": 43.7601414645224,
+    "lon": -79.3205101331457,
+    "display_name": "57 PARKWOODS VILLAGE"
+  },
+  "51 fishery rd, toronto": {
+    "lat": 43.7914259904659,
+    "lon": -79.1752558845961,
+    "display_name": "51 FISHERY"
+  },
+  "166 high park ave, toronto": {
+    "lat": 43.6591457489563,
+    "lon": -79.4681671163135,
+    "display_name": "166 HIGH PARK"
+  },
+  "36 jackson pl, toronto": {
+    "lat": 43.6661739871472,
+    "lon": -79.4674303511852,
+    "display_name": "36 JACKSON"
+  },
+  "12 sharron dr, toronto": {
+    "lat": 43.7079414177018,
+    "lon": -79.3701575080881,
+    "display_name": "12 SHARRON"
+  },
+  "24 mabelle ave, toronto": {
+    "lat": 43.646577142683,
+    "lon": -79.5271439092565,
+    "display_name": "24 MABELLE"
+  },
+  "73 kimbark blvd, toronto": {
+    "lat": 43.7194021175657,
+    "lon": -79.4175433444358,
+    "display_name": "73 KIMBARK"
+  },
+  "80 jackman ave, toronto": {
+    "lat": 43.6805245747302,
+    "lon": -79.3546298332718,
+    "display_name": "80 JACKMAN"
+  },
+  "66 thirty second st, toronto": {
+    "lat": 43.5980168690888,
+    "lon": -79.5325559005374,
+    "display_name": "66 THIRTY SECOND"
+  },
+  "424 montrose ave, toronto": {
+    "lat": 43.661067611301,
+    "lon": -79.4203987171381,
+    "display_name": "424 MONTROSE"
+  },
+  "138 winston park blvd, toronto": {
+    "lat": 43.728194126455,
+    "lon": -79.4715841136869,
+    "display_name": "138 WINSTON PARK"
+  },
+  "445 annette st, toronto": {
+    "lat": 43.6603760410605,
+    "lon": -79.4777425051928,
+    "display_name": "445 ANNETTE"
+  },
+  "8 herbert ave, toronto": {
+    "lat": 43.6696507318986,
+    "lon": -79.3051831204912,
+    "display_name": "8 HERBERT"
+  },
+  "3108 danforth ave, toronto": {
+    "lat": 43.6916422326597,
+    "lon": -79.2877194739741,
+    "display_name": "3108 DANFORTH"
+  },
+  "34 kern rd, toronto": {
+    "lat": 43.7495890429944,
+    "lon": -79.3513702899915,
+    "display_name": "34 KERN"
+  },
+  "1382 danforth ave, toronto": {
+    "lat": 43.6826567026319,
+    "lon": -79.3281324125547,
+    "display_name": "1382 DANFORTH"
+  },
+  "28 norcross rd, toronto": {
+    "lat": 43.7513211623608,
+    "lon": -79.4539333927914,
+    "display_name": "28 NORCROSS"
+  },
+  "112 clinton st, toronto": {
+    "lat": 43.6569758583164,
+    "lon": -79.4148491563293,
+    "display_name": "112 CLINTON"
+  },
+  "8 hawkins dr, toronto": {
+    "lat": 43.7010982348408,
+    "lon": -79.4843058942966,
+    "display_name": "8 HAWKINS"
+  },
+  "31 woburn ave, toronto": {
+    "lat": 43.7278755470578,
+    "lon": -79.4043057965873,
+    "display_name": "31 WOBURN"
+  },
+  "57 fairview blvd, toronto": {
+    "lat": 43.6754030106105,
+    "lon": -79.3537065040835,
+    "display_name": "57 FAIRVIEW"
+  },
+  "4040 lawrence ave e, toronto": {
+    "lat": 43.7660035251339,
+    "lon": -79.1990118386671,
+    "display_name": "4040 LAWRENCE"
+  },
+  "25 rexford rd, toronto": {
+    "lat": 43.6631626874066,
+    "lon": -79.4868867512554,
+    "display_name": "25 REXFORD"
+  },
+  "235 dixon rd, toronto": {
+    "lat": 43.6966790689064,
+    "lon": -79.5439123761529,
+    "display_name": "235 DIXON"
+  },
+  "560 queen st w, toronto": {
+    "lat": 43.6475047158125,
+    "lon": -79.403290438858,
+    "display_name": "560 QUEEN"
+  },
+  "233 dunraven dr, toronto": {
+    "lat": 43.6842323652619,
+    "lon": -79.4707234650877,
+    "display_name": "233 DUNRAVEN"
+  },
+  "157 gladstone ave, toronto": {
+    "lat": 43.6471654196928,
+    "lon": -79.4286679944261,
+    "display_name": "157 GLADSTONE"
+  },
+  "5168 dundas st w, toronto": {
+    "lat": 43.6429836662581,
+    "lon": -79.5343998249487,
+    "display_name": "5168 DUNDAS"
+  },
+  "71 front st e, toronto": {
+    "lat": 43.648552251954,
+    "lon": -79.3731128039106,
+    "display_name": "71 FRONT"
+  },
+  "36-38 dufflaw rd, toronto": {
+    "lat": 43.7152775949067,
+    "lon": -79.4622231356882,
+    "display_name": "36-38 DUFFLAW"
+  },
+  "219 old weston rd, toronto": {
+    "lat": 43.670616470202,
+    "lon": -79.4620097297187,
+    "display_name": "219 OLD WESTON"
+  },
+  "36 morgan ave, toronto": {
+    "lat": 43.6247890972961,
+    "lon": -79.501178691732,
+    "display_name": "36 MORGAN"
+  },
+  "471 church st, toronto": {
+    "lat": 43.664468140668,
+    "lon": -79.3800815015977,
+    "display_name": "471 CHURCH"
+  },
+  "916 markham rd, toronto": {
+    "lat": 43.7695023365993,
+    "lon": -79.2295507336204,
+    "display_name": "916 MARKHAM"
+  },
+  "23 thomas mulholland dr, toronto": {
+    "lat": 43.7364243652079,
+    "lon": -79.476491562096,
+    "display_name": "23 THOMAS MULHOLLAND"
+  },
+  "98 chelsea ave, toronto": {
+    "lat": 43.6578917101008,
+    "lon": -79.4558031089134,
+    "display_name": "98 CHELSEA"
+  },
+  "345 carlaw ave, toronto": {
+    "lat": 43.6651563819166,
+    "lon": -79.3415492781601,
+    "display_name": "345 CARLAW"
+  },
+  "75 brownlow ave, toronto": {
+    "lat": 43.7074309560117,
+    "lon": -79.3909141347035,
+    "display_name": "75 BROWNLOW"
+  },
+  "5 san romanoway, toronto": {
+    "lat": 43.7585363981891,
+    "lon": -79.5150918673627,
+    "display_name": "5 SAN ROMANOWAY"
+  },
+  "101 bloor st w, toronto": {
+    "lat": 43.669061225682,
+    "lon": -79.3913363165072,
+    "display_name": "101 BLOOR"
+  },
+  "2142 bloor st w, toronto": {
+    "lat": 43.6521407893011,
+    "lon": -79.4728469812799,
+    "display_name": "2142 BLOOR"
+  },
+  "98 vaughan rd, toronto": {
+    "lat": 43.6836471136578,
+    "lon": -79.421464140152,
+    "display_name": "98 VAUGHAN"
+  },
+  "955 gerrard st e, toronto": {
+    "lat": 43.6681378087918,
+    "lon": -79.3397962808045,
+    "display_name": "955 GERRARD"
+  },
+  "4 corby ave, toronto": {
+    "lat": 43.685064065497,
+    "lon": -79.4577218625949,
+    "display_name": "4 CORBY"
+  },
+  "191 sandringham dr, toronto": {
+    "lat": 43.7452015738746,
+    "lon": -79.4270374207564,
+    "display_name": "191 SANDRINGHAM"
+  },
+  "2120 queen st e, toronto": {
+    "lat": 43.671355740282,
+    "lon": -79.2947635096069,
+    "display_name": "2120 QUEEN"
+  },
+  "103 woodington ave, toronto": {
+    "lat": 43.6874830491425,
+    "lon": -79.32210471892,
+    "display_name": "103 WOODINGTON"
+  },
+  "307 durie st, toronto": {
+    "lat": 43.652447576926,
+    "lon": -79.4795159818512,
+    "display_name": "307 DURIE"
+  },
+  "30 bertrand ave, toronto": {
+    "lat": 43.734592006842,
+    "lon": -79.2848240569898,
+    "display_name": "30 BERTRAND"
+  },
+  "772 palmerston ave, toronto": {
+    "lat": 43.66936964672,
+    "lon": -79.4157542807799,
+    "display_name": "772 PALMERSTON"
+  },
+  "147 waverley rd, toronto": {
+    "lat": 43.6714798697728,
+    "lon": -79.3012990653691,
+    "display_name": "147 WAVERLEY"
+  },
+  "79 badgerow ave, toronto": {
+    "lat": 43.6664053640273,
+    "lon": -79.3375869083632,
+    "display_name": "79 BADGEROW"
+  },
+  "1282 woodbine ave, toronto": {
+    "lat": 43.6942789456836,
+    "lon": -79.3167820331516,
+    "display_name": "1282 WOODBINE"
+  },
+  "137 montgomery ave, toronto": {
+    "lat": 43.7085933188379,
+    "lon": -79.403082992908,
+    "display_name": "137 MONTGOMERY"
+  },
+  "3242 eglinton ave e, toronto": {
+    "lat": 43.7443258642273,
+    "lon": -79.2168334713726,
+    "display_name": "3242 EGLINTON"
+  },
+  "4 ripley ave, toronto": {
+    "lat": 43.6371473927013,
+    "lon": -79.4749383113003,
+    "display_name": "4 RIPLEY"
+  },
+  "114 evans ave, toronto": {
+    "lat": 43.6199157197449,
+    "lon": -79.5064179096207,
+    "display_name": "114 EVANS"
+  },
+  "24 harshaw ave, toronto": {
+    "lat": 43.6552634770805,
+    "lon": -79.4884414301075,
+    "display_name": "24 HARSHAW"
+  },
+  "68 scarboro beach blvd, toronto": {
+    "lat": 43.6697706044235,
+    "lon": -79.2931343218923,
+    "display_name": "68 SCARBORO BEACH"
+  },
+  "852 eglinton ave e, toronto": {
+    "lat": 43.7136215924739,
+    "lon": -79.3655938080387,
+    "display_name": "852 EGLINTON"
+  },
+  "947 alness st, toronto": {
+    "lat": 43.7809985576579,
+    "lon": -79.475601489322,
+    "display_name": "947 ALNESS"
+  },
+  "58 marine parade dr, toronto": {
+    "lat": 43.6274691648797,
+    "lon": -79.4771276610409,
+    "display_name": "58 MARINE PARADE"
+  },
+  "81 lawrence cres, toronto": {
+    "lat": 43.7251212258401,
+    "lon": -79.3960714903671,
+    "display_name": "81 LAWRENCE"
+  },
+  "1338 york mills rd, toronto": {
+    "lat": 43.763019114282,
+    "lon": -79.3207999461941,
+    "display_name": "1338 YORK MILLS"
+  },
+  "220 high park ave, toronto": {
+    "lat": 43.6611310142481,
+    "lon": -79.4689211892099,
+    "display_name": "220 HIGH PARK"
+  },
+  "33 jackes ave, toronto": {
+    "lat": 43.6848623831562,
+    "lon": -79.3906471804575,
+    "display_name": "33 JACKES"
+  },
+  "36 aldburn rd, toronto": {
+    "lat": 43.702415774767,
+    "lon": -79.4365859260925,
+    "display_name": "36 ALDBURN"
+  },
+  "202 brock ave, toronto": {
+    "lat": 43.6476832560338,
+    "lon": -79.4350028259181,
+    "display_name": "202 BROCK"
+  },
+  "57 hilton ave, toronto": {
+    "lat": 43.6797131275504,
+    "lon": -79.4154662123718,
+    "display_name": "57 HILTON"
+  },
+  "24 plateau cres, toronto": {
+    "lat": 43.7337150503173,
+    "lon": -79.3347704242349,
+    "display_name": "24 PLATEAU"
+  },
+  "28 stephenfrank rd, toronto": {
+    "lat": 43.757810642789,
+    "lon": -79.2581126042512,
+    "display_name": "28 STEPHENFRANK"
+  },
+  "201 lynedock cres, toronto": {
+    "lat": 43.7625318447556,
+    "lon": -79.3239522513881,
+    "display_name": "201 LYNEDOCK"
+  },
+  "25 wineva ave, toronto": {
+    "lat": 43.6685200866645,
+    "lon": -79.2941569970206,
+    "display_name": "25 WINEVA"
+  },
+  "122 pape ave, toronto": {
+    "lat": 43.6625418545005,
+    "lon": -79.3383613038348,
+    "display_name": "122 PAPE"
+  },
+  "222 gilbert ave, toronto": {
+    "lat": 43.6829788322035,
+    "lon": -79.4596566591306,
+    "display_name": "222 GILBERT"
+  },
+  "76 horsham ave, toronto": {
+    "lat": 43.7740856513476,
+    "lon": -79.4180566776942,
+    "display_name": "76 HORSHAM"
+  },
+  "83 wilson ave, toronto": {
+    "lat": 43.7413154105696,
+    "lon": -79.4142576500302,
+    "display_name": "83 WILSON"
+  },
+  "5765 yonge st, toronto": {
+    "lat": 43.7831021051216,
+    "lon": -79.4151659746956,
+    "display_name": "5765 YONGE"
+  },
+  "117 chester ave, toronto": {
+    "lat": 43.6806668411783,
+    "lon": -79.3528896919833,
+    "display_name": "117 CHESTER"
+  },
+  "22 iona ave, toronto": {
+    "lat": 43.6845544983475,
+    "lon": -79.3090141970785,
+    "display_name": "22 IONA"
+  },
+  "65 westmount ave, toronto": {
+    "lat": 43.675935298591,
+    "lon": -79.4407761633935,
+    "display_name": "65 WESTMOUNT"
+  },
+  "189 lansdowne ave, toronto": {
+    "lat": 43.6463769640667,
+    "lon": -79.4386947706692,
+    "display_name": "189 LANSDOWNE"
+  },
+  "791 pape ave, toronto": {
+    "lat": 43.6815143672119,
+    "lon": -79.3455926113131,
+    "display_name": "791 PAPE"
+  },
+  "32 millbrook cres, toronto": {
+    "lat": 43.6724922216569,
+    "lon": -79.35338001008,
+    "display_name": "32 MILLBROOK"
+  },
+  "52 mcnicoll ave, toronto": {
+    "lat": 43.8035140691943,
+    "lon": -79.3668050877117,
+    "display_name": "52 MCNICOLL"
+  },
+  "105 humbervale blvd, toronto": {
+    "lat": 43.6430696225341,
+    "lon": -79.5079556368074,
+    "display_name": "105 HUMBERVALE"
+  },
+  "191 rosethorn ave, toronto": {
+    "lat": 43.6819737445033,
+    "lon": -79.4638778187869,
+    "display_name": "191 ROSETHORN"
+  },
+  "151 st helen's ave, toronto": {
+    "lat": 43.6540289279296,
+    "lon": -79.4421761019385,
+    "display_name": "151 ST HELEN'S"
+  },
+  "433 montrose ave, toronto": {
+    "lat": 43.6612431347159,
+    "lon": -79.4199770046829,
+    "display_name": "433 MONTROSE"
+  },
+  "19 winslow st, toronto": {
+    "lat": 43.6258960451633,
+    "lon": -79.4974703584469,
+    "display_name": "19 WINSLOW"
+  },
+  "95 river st, toronto": {
+    "lat": 43.6601749430593,
+    "lon": -79.3574689629515,
+    "display_name": "95 RIVER"
+  },
+  "317 dundas st w, toronto": {
+    "lat": 43.6535115628292,
+    "lon": -79.3925697739565,
+    "display_name": "317 DUNDAS"
+  },
+  "58 newlands ave, toronto": {
+    "lat": 43.7088621547908,
+    "lon": -79.2750942274739,
+    "display_name": "58 NEWLANDS"
+  },
+  "217 ashworth ave, toronto": {
+    "lat": 43.6749177125089,
+    "lon": -79.4212581873453,
+    "display_name": "217 ASHWORTH"
+  },
+  "73 prince philip blvd, toronto": {
+    "lat": 43.7452149242321,
+    "lon": -79.2026109884866,
+    "display_name": "73 PRINCE PHILIP"
+  },
+  "748 pharmacy ave, toronto": {
+    "lat": 43.7200007663732,
+    "lon": -79.2955274934715,
+    "display_name": "748 PHARMACY"
+  },
+  "40 chestnut hills pkwy, toronto": {
+    "lat": 43.6564417333103,
+    "lon": -79.5275806672372,
+    "display_name": "40 CHESTNUT HILLS"
+  },
+  "668 silver star blvd, toronto": {
+    "lat": 43.823089075986,
+    "lon": -79.3011093356434,
+    "display_name": "668 SILVER STAR"
+  },
+  "10 zorra st, toronto": {
+    "lat": 43.6212778873135,
+    "lon": -79.5223514340451,
+    "display_name": "10 ZORRA"
+  },
+  "82 kingslake rd, toronto": {
+    "lat": 43.784190396615,
+    "lon": -79.3442459679529,
+    "display_name": "82 KINGSLAKE"
+  },
+  "301 chaplin cres, toronto": {
+    "lat": 43.702075816598,
+    "lon": -79.4163429138866,
+    "display_name": "301 CHAPLIN"
+  },
+  "40 wellesbourne cres, toronto": {
+    "lat": 43.8008701553567,
+    "lon": -79.3553092018564,
+    "display_name": "40 WELLESBOURNE"
+  },
+  "82 barrington ave, toronto": {
+    "lat": 43.6912511462217,
+    "lon": -79.3020240292886,
+    "display_name": "82 BARRINGTON"
+  },
+  "41 marchmount rd, toronto": {
+    "lat": 43.674072776046,
+    "lon": -79.4265165651834,
+    "display_name": "41 MARCHMOUNT"
+  },
+  "207 ashdale ave, toronto": {
+    "lat": 43.6707149960066,
+    "lon": -79.3208851424385,
+    "display_name": "207 ASHDALE"
+  },
+  "18 cowan ave, toronto": {
+    "lat": 43.6344658015528,
+    "lon": -79.4308067421568,
+    "display_name": "18 COWAN"
+  },
+  "84 laurel ave, toronto": {
+    "lat": 43.7232552950824,
+    "lon": -79.2572982846452,
+    "display_name": "84 LAUREL"
+  },
+  "3 paget rd, toronto": {
+    "lat": 43.7599903651895,
+    "lon": -79.3152680930515,
+    "display_name": "3 PAGET"
+  },
+  "1639 yonge st, toronto": {
+    "lat": 43.6917469686765,
+    "lon": -79.3948924012314,
+    "display_name": "1639 YONGE"
+  },
+  "45 cornelius pkwy, toronto": {
+    "lat": 43.714542847701,
+    "lon": -79.4758522619174,
+    "display_name": "45 CORNELIUS"
+  },
+  "256 withrow ave, toronto": {
+    "lat": 43.6720945405972,
+    "lon": -79.3432897377959,
+    "display_name": "256 WITHROW"
+  },
+  "69 aura lea blvd, toronto": {
+    "lat": 43.7241875495166,
+    "lon": -79.5321695723351,
+    "display_name": "69 AURA LEA"
+  },
+  "422 wellington st w, toronto": {
+    "lat": 43.6439709241816,
+    "lon": -79.3966169251807,
+    "display_name": "422 WELLINGTON"
+  },
+  "49 gotham crt, toronto": {
+    "lat": 43.7005557840105,
+    "lon": -79.4784190652087,
+    "display_name": "49 GOTHAM"
+  },
+  "203 glenview ave, toronto": {
+    "lat": 43.7182893665752,
+    "lon": -79.4115963490879,
+    "display_name": "203 GLENVIEW"
+  },
+  "219 johnston ave, toronto": {
+    "lat": 43.7565746611068,
+    "lon": -79.4207462251967,
+    "display_name": "219 JOHNSTON"
+  },
+  "4330 dufferin st, toronto": {
+    "lat": 43.7617908433807,
+    "lon": -79.4665315263383,
+    "display_name": "4330 DUFFERIN"
+  },
+  "42 frater ave, toronto": {
+    "lat": 43.6910973666337,
+    "lon": -79.3195044115383,
+    "display_name": "42 FRATER"
+  },
+  "142 dynevor rd, toronto": {
+    "lat": 43.6945763001891,
+    "lon": -79.4511096294723,
+    "display_name": "142 DYNEVOR"
+  },
+  "417 st clarens ave, toronto": {
+    "lat": 43.6571811875781,
+    "lon": -79.4408031744373,
+    "display_name": "417 ST CLARENS"
+  },
+  "230 floyd ave, toronto": {
+    "lat": 43.6883457517738,
+    "lon": -79.3448923272873,
+    "display_name": "230 FLOYD"
+  },
+  "1 golden gate crt, toronto": {
+    "lat": 43.7708709862253,
+    "lon": -79.2659568660547,
+    "display_name": "1 GOLDEN GATE"
+  },
+  "19 cloebury crt, toronto": {
+    "lat": 43.771996355026,
+    "lon": -79.4406965775889,
+    "display_name": "19 CLOEBURY"
+  },
+  "165 augusta ave, toronto": {
+    "lat": 43.6530067733289,
+    "lon": -79.4012301150763,
+    "display_name": "165 AUGUSTA"
+  },
+  "678 milverton blvd, toronto": {
+    "lat": 43.6888008510495,
+    "lon": -79.3156886551631,
+    "display_name": "678 MILVERTON"
+  },
+  "860 yonge st, toronto": {
+    "lat": 43.6722163141885,
+    "lon": -79.3878567076175,
+    "display_name": "860 YONGE"
+  },
+  "47 bathford cres, toronto": {
+    "lat": 43.7881221242591,
+    "lon": -79.3709034439068,
+    "display_name": "47 BATHFORD"
+  },
+  "3 alexandra wood, toronto": {
+    "lat": 43.7103664632838,
+    "lon": -79.421894750144,
+    "display_name": "3 ALEXANDRA"
+  },
+  "40 murray st, toronto": {
+    "lat": 43.6569809083073,
+    "lon": -79.3914444422811,
+    "display_name": "40 MURRAY"
+  },
+  "163 st john's rd, toronto": {
+    "lat": 43.6643349767029,
+    "lon": -79.4781644009705,
+    "display_name": "163 ST JOHN'S"
+  },
+  "2287 gerrard st e, toronto": {
+    "lat": 43.6847530151064,
+    "lon": -79.2954397188719,
+    "display_name": "2287 GERRARD"
+  },
+  "68 hilton ave, toronto": {
+    "lat": 43.6802000640016,
+    "lon": -79.4161414292901,
+    "display_name": "68 HILTON"
+  },
+  "35 jutland rd, toronto": {
+    "lat": 43.6270625384897,
+    "lon": -79.5242987734161,
+    "display_name": "35 JUTLAND"
+  },
+  "935 eglinton ave w, toronto": {
+    "lat": 43.7003386614376,
+    "lon": -79.4278494581606,
+    "display_name": "935 EGLINTON"
+  },
+  "413 briar hill ave, toronto": {
+    "lat": 43.7107858908944,
+    "lon": -79.4122872054379,
+    "display_name": "413 BRIAR HILL"
+  },
+  "52 coulter ave, toronto": {
+    "lat": 43.7052993393776,
+    "lon": -79.5260023117657,
+    "display_name": "52 COULTER"
+  },
+  "25 borden st, toronto": {
+    "lat": 43.6580252771252,
+    "lon": -79.4053123272985,
+    "display_name": "25 BORDEN"
+  },
+  "11 wheatfield rd, toronto": {
+    "lat": 43.6088803761881,
+    "lon": -79.4910276269401,
+    "display_name": "11 WHEATFIELD"
+  },
+  "465 cummer ave, toronto": {
+    "lat": 43.7914220404404,
+    "lon": -79.3963371195075,
+    "display_name": "465 CUMMER"
+  },
+  "9 grenoble dr, toronto": {
+    "lat": 43.7154310882437,
+    "lon": -79.3327597513647,
+    "display_name": "9 GRENOBLE"
+  },
+  "14 lakeshore ave, toronto": {
+    "lat": 43.6316483826651,
+    "lon": -79.3540470493377,
+    "display_name": "14 LAKESHORE"
+  },
+  "16 ingram dr, toronto": {
+    "lat": 43.7001006184682,
+    "lon": -79.4750638668635,
+    "display_name": "16 INGRAM"
+  },
+  "56 coe hill dr, toronto": {
+    "lat": 43.6395787199975,
+    "lon": -79.4701849530817,
+    "display_name": "56 COE HILL"
+  },
+  "3223 kennedy rd, toronto": {
+    "lat": 43.816001408289,
+    "lon": -79.3023486767949,
+    "display_name": "3223 KENNEDY"
+  },
+  "288 roxton rd, toronto": {
+    "lat": 43.6560242529548,
+    "lon": -79.4222860067787,
+    "display_name": "288 ROXTON"
+  },
+  "34 bradgate rd, toronto": {
+    "lat": 43.7431312218467,
+    "lon": -79.3542121983383,
+    "display_name": "34 BRADGATE"
+  },
+  "533 bloor st w, toronto": {
+    "lat": 43.6653055571143,
+    "lon": -79.4095851148052,
+    "display_name": "533 BLOOR"
+  },
+  "7 loganberry cres, toronto": {
+    "lat": 43.803674173521,
+    "lon": -79.3571993459414,
+    "display_name": "7 LOGANBERRY"
+  },
+  "332 victoria park ave, toronto": {
+    "lat": 43.6789752769609,
+    "lon": -79.2835699139799,
+    "display_name": "332 VICTORIA PARK"
+  },
+  "218 armour blvd, toronto": {
+    "lat": 43.7447378546503,
+    "lon": -79.433648103109,
+    "display_name": "218 ARMOUR"
+  },
+  "638 yonge st, toronto": {
+    "lat": 43.6664666303855,
+    "lon": -79.3854031881608,
+    "display_name": "638 YONGE"
+  },
+  "328 beresford ave, toronto": {
+    "lat": 43.6534389146583,
+    "lon": -79.4790210594422,
+    "display_name": "328 BERESFORD"
+  },
+  "72 pendrith st, toronto": {
+    "lat": 43.6669868821986,
+    "lon": -79.422757952391,
+    "display_name": "72 PENDRITH"
+  },
+  "130 rexdale blvd, toronto": {
+    "lat": 43.7118962523518,
+    "lon": -79.56718578341,
+    "display_name": "130 REXDALE"
+  },
+  "228 indian grv, toronto": {
+    "lat": 43.6578130185143,
+    "lon": -79.4602864359597,
+    "display_name": "228 INDIAN"
+  },
+  "33 scarcliff gdns, toronto": {
+    "lat": 43.7535345675565,
+    "lon": -79.1838427755426,
+    "display_name": "33 SCARCLIFF"
+  },
+  "835 kipling ave, toronto": {
+    "lat": 43.6329486134057,
+    "lon": -79.5310849566864,
+    "display_name": "835 KIPLING"
+  },
+  "3464-3480 lake shore blvd w, toronto": {
+    "lat": 43.5955343113397,
+    "lon": -79.5301410910945,
+    "display_name": "3464-3480 LAKE SHORE"
+  },
+  "66 laughton ave, toronto": {
+    "lat": 43.6693409494487,
+    "lon": -79.455577613972,
+    "display_name": "66 LAUGHTON"
+  },
+  "66 glenvale blvd, toronto": {
+    "lat": 43.7172162888211,
+    "lon": -79.3736739765655,
+    "display_name": "66 GLENVALE"
+  },
+  "1930 queen st e, toronto": {
+    "lat": 43.669538219897,
+    "lon": -79.303475183141,
+    "display_name": "1930 QUEEN"
+  },
+  "685 queen st e, toronto": {
+    "lat": 43.6585518799917,
+    "lon": -79.350551221815,
+    "display_name": "685 QUEEN"
+  },
+  "51 kingswood rd, toronto": {
+    "lat": 43.6751051863703,
+    "lon": -79.2834235646495,
+    "display_name": "51 KINGSWOOD"
+  },
+  "160 silverthorn ave, toronto": {
+    "lat": 43.6780206151798,
+    "lon": -79.4615206023652,
+    "display_name": "160 SILVERTHORN"
+  },
+  "81 corbett ave, toronto": {
+    "lat": 43.6706604565379,
+    "lon": -79.490739524193,
+    "display_name": "81 CORBETT"
+  },
+  "3000 lawrence ave e, toronto": {
+    "lat": 43.7551484058493,
+    "lon": -79.2496725114493,
+    "display_name": "3000 LAWRENCE"
+  },
+  "42 highgate rd, toronto": {
+    "lat": 43.6528808947087,
+    "lon": -79.5177578439342,
+    "display_name": "42 HIGHGATE"
+  },
+  "66 wexford blvd, toronto": {
+    "lat": 43.7395226480663,
+    "lon": -79.2999112829481,
+    "display_name": "66 WEXFORD"
+  },
+  "211 westview blvd, toronto": {
+    "lat": 43.7127776502858,
+    "lon": -79.3054621782111,
+    "display_name": "211 WESTVIEW"
+  },
+  "76 westmount ave, toronto": {
+    "lat": 43.6761032237919,
+    "lon": -79.4414158217676,
+    "display_name": "76 WESTMOUNT"
+  },
+  "1179 glengrove ave, toronto": {
+    "lat": 43.7063166414638,
+    "lon": -79.4649208063528,
+    "display_name": "1179 GLENGROVE"
+  },
+  "144 stephenson ave, toronto": {
+    "lat": 43.687122662094,
+    "lon": -79.3023572409252,
+    "display_name": "144 STEPHENSON"
+  },
+  "42 carnforth rd, toronto": {
+    "lat": 43.7393278827142,
+    "lon": -79.3168692778519,
+    "display_name": "42 CARNFORTH"
+  },
+  "785 dufferin st, toronto": {
+    "lat": 43.6543712296701,
+    "lon": -79.4330209847304,
+    "display_name": "785 DUFFERIN"
+  },
+  "126 newport ave, toronto": {
+    "lat": 43.6964374652125,
+    "lon": -79.277719710301,
+    "display_name": "126 NEWPORT"
+  },
+  "459 sackville st, toronto": {
+    "lat": 43.6678356140252,
+    "lon": -79.3658131607354,
+    "display_name": "459 SACKVILLE"
+  },
+  "117 garden ave, toronto": {
+    "lat": 43.6440079053968,
+    "lon": -79.4452093906841,
+    "display_name": "117 GARDEN"
+  },
+  "266 king st w, toronto": {
+    "lat": 43.6472272552333,
+    "lon": -79.3877832528357,
+    "display_name": "266 KING"
+  },
+  "21 brook tree cres, toronto": {
+    "lat": 43.6858210034913,
+    "lon": -79.5387473102178,
+    "display_name": "21 BROOK TREE"
+  },
+  "169 bellwoods ave, toronto": {
+    "lat": 43.6507268793954,
+    "lon": -79.4124815704458,
+    "display_name": "169 BELLWOODS"
+  },
+  "50 cordova ave, toronto": {
+    "lat": 43.647102914751,
+    "lon": -79.526466447355,
+    "display_name": "50 CORDOVA"
+  },
+  "17 danish cres, toronto": {
+    "lat": 43.6649255385036,
+    "lon": -79.5795415407154,
+    "display_name": "17 DANISH"
+  },
+  "164 beech ave, toronto": {
+    "lat": 43.6749943008483,
+    "lon": -79.2888584091866,
+    "display_name": "164 BEECH"
+  },
+  "49 borden st, toronto": {
+    "lat": 43.6585807742915,
+    "lon": -79.4055371394649,
+    "display_name": "49 BORDEN"
+  },
+  "443 rogers rd, toronto": {
+    "lat": 43.6824192268444,
+    "lon": -79.464476090074,
+    "display_name": "443 ROGERS"
+  },
+  "48 florens ave, toronto": {
+    "lat": 43.7055500707308,
+    "lon": -79.2841951150476,
+    "display_name": "48 FLORENS"
+  },
+  "132 dundas st w, toronto": {
+    "lat": 43.6556722464265,
+    "lon": -79.3847051504387,
+    "display_name": "132 DUNDAS"
+  },
+  "17 york ridge rd, toronto": {
+    "lat": 43.7459268215716,
+    "lon": -79.4036355598091,
+    "display_name": "17 YORK RIDGE"
+  },
+  "2455 1/2 queen st e, toronto": {
+    "lat": 43.6732042784814,
+    "lon": -79.2838196857069,
+    "display_name": "2455 1/2 QUEEN"
+  },
+  "250 woburn ave, toronto": {
+    "lat": 43.7267964791661,
+    "lon": -79.4113466089059,
+    "display_name": "250 WOBURN"
+  },
+  "8 rockingham dr, toronto": {
+    "lat": 43.6607293464873,
+    "lon": -79.5344302852062,
+    "display_name": "8 ROCKINGHAM"
+  },
+  "18 croft st, toronto": {
+    "lat": 43.657728169956,
+    "lon": -79.406306883089,
+    "display_name": "18 CROFT"
+  },
+  "4 brentside crt, toronto": {
+    "lat": 43.6897959444093,
+    "lon": -79.5216492790532,
+    "display_name": "4 BRENTSIDE"
+  },
+  "119 dell park ave, toronto": {
+    "lat": 43.715340922847,
+    "lon": -79.4393757761927,
+    "display_name": "119 DELL PARK"
+  },
+  "125 whitburn cres, toronto": {
+    "lat": 43.738608530856,
+    "lon": -79.4905617042494,
+    "display_name": "125 WHITBURN"
+  },
+  "600 bloor st w, toronto": {
+    "lat": 43.6650034393318,
+    "lon": -79.4132362461483,
+    "display_name": "600 BLOOR"
+  },
+  "15 rothwell rd, toronto": {
+    "lat": 43.7639976756532,
+    "lon": -79.3132277515017,
+    "display_name": "15 ROTHWELL"
+  },
+  "260 jones ave, toronto": {
+    "lat": 43.6702181605152,
+    "lon": -79.3362958159618,
+    "display_name": "260 JONES"
+  },
+  "75 howland ave, toronto": {
+    "lat": 43.6680129868068,
+    "lon": -79.409322656076,
+    "display_name": "75 HOWLAND"
+  },
+  "7 windmill rd, toronto": {
+    "lat": 43.6962963555609,
+    "lon": -79.3733212102003,
+    "display_name": "7 WINDMILL"
+  },
+  "167 harlandale ave, toronto": {
+    "lat": 43.7603201208544,
+    "lon": -79.4195195474732,
+    "display_name": "167 HARLANDALE"
+  },
+  "373 harbord st, toronto": {
+    "lat": 43.65876992332,
+    "lon": -79.4225265219571,
+    "display_name": "373 HARBORD"
+  },
+  "10 queen magdalene pl, toronto": {
+    "lat": 43.7984816587468,
+    "lon": -79.3596577938744,
+    "display_name": "10 QUEEN MAGDALENE"
+  },
+  "10 medford ave, toronto": {
+    "lat": 43.6953989001901,
+    "lon": -79.2719545445921,
+    "display_name": "10 MEDFORD"
+  },
+  "221 logan ave, toronto": {
+    "lat": 43.6596463530826,
+    "lon": -79.3419117811754,
+    "display_name": "221 LOGAN"
+  },
+  "435 ontario st, toronto": {
+    "lat": 43.6628390556234,
+    "lon": -79.3699271314196,
+    "display_name": "435 ONTARIO"
+  },
+  "144 song meadoway, toronto": {
+    "lat": 43.8117974299428,
+    "lon": -79.3543611797055,
+    "display_name": "144 SONG MEADOWAY"
+  },
+  "116 high park ave, toronto": {
+    "lat": 43.6574633737753,
+    "lon": -79.4673511376003,
+    "display_name": "116 HIGH PARK"
+  },
+  "68 ellerbeck st, toronto": {
+    "lat": 43.679754658273,
+    "lon": -79.357048030075,
+    "display_name": "68 ELLERBECK"
+  },
+  "108 maria st, toronto": {
+    "lat": 43.6667154677712,
+    "lon": -79.4765252717419,
+    "display_name": "108 MARIA"
+  },
+  "187 prescott ave, toronto": {
+    "lat": 43.6793463275068,
+    "lon": -79.45933202645,
+    "display_name": "187 PRESCOTT"
+  },
+  "1082 1/2 queen st w, toronto": {
+    "lat": 43.6438192161153,
+    "lon": -79.4219996670692,
+    "display_name": "1082 1/2 QUEEN"
+  },
+  "211 concord ave, toronto": {
+    "lat": 43.6597586851433,
+    "lon": -79.4258655868109,
+    "display_name": "211 CONCORD"
+  },
+  "9 fairglen cres, toronto": {
+    "lat": 43.7085194297849,
+    "lon": -79.5350587633603,
+    "display_name": "9 FAIRGLEN"
+  },
+  "15 laws st, toronto": {
+    "lat": 43.6627859653158,
+    "lon": -79.4738639270454,
+    "display_name": "15 LAWS"
+  },
+  "220 shaughnessy blvd, toronto": {
+    "lat": 43.7832980942981,
+    "lon": -79.3559582909161,
+    "display_name": "220 SHAUGHNESSY"
+  },
+  "46 woodside ave, toronto": {
+    "lat": 43.6587083141113,
+    "lon": -79.4763410388424,
+    "display_name": "46 WOODSIDE"
+  },
+  "26 balmoral ave, toronto": {
+    "lat": 43.6859248443673,
+    "lon": -79.3944305036157,
+    "display_name": "26 BALMORAL"
+  },
+  "131 cedric ave, toronto": {
+    "lat": 43.6877496776008,
+    "lon": -79.4365251920741,
+    "display_name": "131 CEDRIC"
+  },
+  "150 fifth st, toronto": {
+    "lat": 43.6020136316566,
+    "lon": -79.5035785821709,
+    "display_name": "150 FIFTH"
+  },
+  "135 wychwood ave, toronto": {
+    "lat": 43.6816209303986,
+    "lon": -79.4230562499479,
+    "display_name": "135 WYCHWOOD"
+  },
+  "88 burnaby blvd, toronto": {
+    "lat": 43.705078038568,
+    "lon": -79.4114484517014,
+    "display_name": "88 BURNABY"
+  },
+  "44 monarch park ave, toronto": {
+    "lat": 43.6801571559157,
+    "lon": -79.3264465079049,
+    "display_name": "44 MONARCH PARK"
+  },
+  "199 beta st, toronto": {
+    "lat": 43.606614289683,
+    "lon": -79.5397196662331,
+    "display_name": "199 BETA"
+  },
+  "98 lansbury dr, toronto": {
+    "lat": 43.8175840386587,
+    "lon": -79.2637481600904,
+    "display_name": "98 LANSBURY"
+  },
+  "48 willingdon blvd, toronto": {
+    "lat": 43.6499322580352,
+    "lon": -79.51132639321,
+    "display_name": "48 WILLINGDON"
+  },
+  "3430 finch ave e, toronto": {
+    "lat": 43.7974757937848,
+    "lon": -79.3145653641473,
+    "display_name": "3430 FINCH"
+  },
+  "221 old weston rd, toronto": {
+    "lat": 43.6706558627836,
+    "lon": -79.4620180505577,
+    "display_name": "221 OLD WESTON"
+  },
+  "11 nebula starway, toronto": {
+    "lat": 43.7696855555052,
+    "lon": -79.340719970498,
+    "display_name": "11 NEBULA STARWAY"
+  },
+  "96 willcocks st, toronto": {
+    "lat": 43.6612086560583,
+    "lon": -79.4029708989461,
+    "display_name": "96 WILLCOCKS"
+  },
+  "577 palmerston ave, toronto": {
+    "lat": 43.6656992078452,
+    "lon": -79.4137969753126,
+    "display_name": "577 PALMERSTON"
+  },
+  "1118 finch ave w, toronto": {
+    "lat": 43.7675752518761,
+    "lon": -79.4750874740856,
+    "display_name": "1118 FINCH"
+  },
+  "31 rexdale blvd, toronto": {
+    "lat": 43.7094185094066,
+    "lon": -79.5581218821017,
+    "display_name": "31 REXDALE"
+  },
+  "18 lillington ave, toronto": {
+    "lat": 43.6991235953064,
+    "lon": -79.2628981208795,
+    "display_name": "18 LILLINGTON"
+  },
+  "133 lyndhurst ave, toronto": {
+    "lat": 43.6815341414332,
+    "lon": -79.4129093486504,
+    "display_name": "133 LYNDHURST"
+  },
+  "197 caribou rd, toronto": {
+    "lat": 43.7176468377194,
+    "lon": -79.4284324970446,
+    "display_name": "197 CARIBOU"
+  },
+  "12 bluewater ave, toronto": {
+    "lat": 43.7028142992425,
+    "lon": -79.2470757962404,
+    "display_name": "12 BLUEWATER"
+  },
+  "75 elizabeth st, toronto": {
+    "lat": 43.6541749371073,
+    "lon": -79.3844849994936,
+    "display_name": "75 ELIZABETH"
+  },
+  "192 markham st, toronto": {
+    "lat": 43.653194103592,
+    "lon": -79.4079752217903,
+    "display_name": "192 MARKHAM"
+  },
+  "15 craftsman lane, toronto": {
+    "lat": 43.6683050665783,
+    "lon": -79.4368804679481,
+    "display_name": "15 CRAFTSMAN"
+  },
+  "91 somerset ave, toronto": {
+    "lat": 43.6741240530407,
+    "lon": -79.4316169417009,
+    "display_name": "91 SOMERSET"
+  },
+  "137 aldwych ave, toronto": {
+    "lat": 43.6847576120437,
+    "lon": -79.3398652073189,
+    "display_name": "137 ALDWYCH"
+  },
+  "14 earlscourt ave, toronto": {
+    "lat": 43.6774803094194,
+    "lon": -79.4478868670987,
+    "display_name": "14 EARLSCOURT"
+  },
+  "3599 lake shore blvd w, toronto": {
+    "lat": 43.5939640913486,
+    "lon": -79.5348236194171,
+    "display_name": "3599 LAKE SHORE"
+  },
+  "560 finch ave w, toronto": {
+    "lat": 43.7730522579342,
+    "lon": -79.4485839000673,
+    "display_name": "560 FINCH"
+  },
+  "57 woodside ave, toronto": {
+    "lat": 43.6582160050061,
+    "lon": -79.476743862454,
+    "display_name": "57 WOODSIDE"
+  },
+  "1077 st clarens ave, toronto": {
+    "lat": 43.6752710017349,
+    "lon": -79.448690100696,
+    "display_name": "1077 ST CLARENS"
+  },
+  "42 furnival rd, toronto": {
+    "lat": 43.7111732421354,
+    "lon": -79.3038452740303,
+    "display_name": "42 FURNIVAL"
+  },
+  "135 jersey ave, toronto": {
+    "lat": 43.6613897019173,
+    "lon": -79.4172102860945,
+    "display_name": "135 JERSEY"
+  },
+  "58 edenbrook hill, toronto": {
+    "lat": 43.6755514779615,
+    "lon": -79.5274618004869,
+    "display_name": "58 EDENBROOK"
+  },
+  "122 garfield ave, toronto": {
+    "lat": 43.6889714033672,
+    "lon": -79.3772313494767,
+    "display_name": "122 GARFIELD"
+  },
+  "513 jones ave, toronto": {
+    "lat": 43.677438118005,
+    "lon": -79.3388464158037,
+    "display_name": "513 JONES"
+  },
+  "30 queen elizabeth blvd, toronto": {
+    "lat": 43.6231051827375,
+    "lon": -79.5050370861101,
+    "display_name": "30 QUEEN ELIZABETH"
+  },
+  "1250 bay st, toronto": {
+    "lat": 43.6706547621061,
+    "lon": -79.390135122677,
+    "display_name": "1250 BAY"
+  },
+  "49 hartley ave, toronto": {
+    "lat": 43.6972963933464,
+    "lon": -79.4546966070528,
+    "display_name": "49 HARTLEY"
+  },
+  "19 henning ave, toronto": {
+    "lat": 43.7066564280263,
+    "lon": -79.4014019318476,
+    "display_name": "19 HENNING"
+  },
+  "112 miller st, toronto": {
+    "lat": 43.6700411118526,
+    "lon": -79.4608213640751,
+    "display_name": "112 MILLER"
+  },
+  "339 beresford ave, toronto": {
+    "lat": 43.6539398469357,
+    "lon": -79.4786687526585,
+    "display_name": "339 BERESFORD"
+  },
+  "90 billington cres, toronto": {
+    "lat": 43.7667104831042,
+    "lon": -79.3338967795011,
+    "display_name": "90 BILLINGTON"
+  },
+  "50 fred young dr, toronto": {
+    "lat": 43.7272532306159,
+    "lon": -79.520235653891,
+    "display_name": "50 FRED YOUNG"
+  },
+  "250 delta st, toronto": {
+    "lat": 43.6093660454735,
+    "lon": -79.5387483725634,
+    "display_name": "250 DELTA"
+  },
+  "41 bobmar rd, toronto": {
+    "lat": 43.7850481721562,
+    "lon": -79.1779516645322,
+    "display_name": "41 BOBMAR"
+  },
+  "2 mccowan rd, toronto": {
+    "lat": 43.7253262505945,
+    "lon": -79.2328924716569,
+    "display_name": "2 MCCOWAN"
+  },
+  "8 lapp st, toronto": {
+    "lat": 43.6767674158427,
+    "lon": -79.4749231746991,
+    "display_name": "8 LAPP"
+  },
+  "640 lawrence ave w, toronto": {
+    "lat": 43.7178089516362,
+    "lon": -79.439855309525,
+    "display_name": "640 LAWRENCE"
+  },
+  "47 wigan cres, toronto": {
+    "lat": 43.7382972700901,
+    "lon": -79.4446228345268,
+    "display_name": "47 WIGAN"
+  },
+  "181 westminster ave, toronto": {
+    "lat": 43.6459834345909,
+    "lon": -79.4548586279145,
+    "display_name": "181 WESTMINSTER"
+  },
+  "177 st george st, toronto": {
+    "lat": 43.67114573622,
+    "lon": -79.4009160228362,
+    "display_name": "177 ST GEORGE"
+  },
+  "325 balliol st, toronto": {
+    "lat": 43.6992692355535,
+    "lon": -79.3860048955018,
+    "display_name": "325 BALLIOL"
+  },
+  "11 valley centre dr, toronto": {
+    "lat": 43.8221146099216,
+    "lon": -79.2051797905455,
+    "display_name": "11 VALLEY CENTRE"
+  },
+  "78 kensington ave, toronto": {
+    "lat": 43.6546037543993,
+    "lon": -79.4008000099543,
+    "display_name": "78 KENSINGTON"
+  },
+  "640 roselawn ave, toronto": {
+    "lat": 43.7061498594577,
+    "lon": -79.423624264807,
+    "display_name": "640 ROSELAWN"
+  },
+  "1911 kennedy rd, toronto": {
+    "lat": 43.7674356924497,
+    "lon": -79.2805733330022,
+    "display_name": "1911 KENNEDY"
+  },
+  "91 wheeler ave, toronto": {
+    "lat": 43.6735165419701,
+    "lon": -79.3000443239724,
+    "display_name": "91 WHEELER"
+  },
+  "312 indian grv, toronto": {
+    "lat": 43.6597521519663,
+    "lon": -79.4611246092181,
+    "display_name": "312 INDIAN"
+  },
+  "35 queen anne rd, toronto": {
+    "lat": 43.6563093580755,
+    "lon": -79.5067567039203,
+    "display_name": "35 QUEEN ANNE"
+  },
+  "490 glen park ave, toronto": {
+    "lat": 43.7074690141324,
+    "lon": -79.4574052281033,
+    "display_name": "490 GLEN PARK"
+  },
+  "24 wayland ave, toronto": {
+    "lat": 43.6824369209181,
+    "lon": -79.2951609518698,
+    "display_name": "24 WAYLAND"
+  },
+  "10 kensington ave, toronto": {
+    "lat": 43.653091751724,
+    "lon": -79.4003136312536,
+    "display_name": "10 KENSINGTON"
+  },
+  "134 clearbrooke crcl, toronto": {
+    "lat": 43.7213371353359,
+    "lon": -79.5672655123179,
+    "display_name": "134 CLEARBROOKE"
+  },
+  "23 stanley greene blvd, toronto": {
+    "lat": 43.7329595488703,
+    "lon": -79.4774260331622,
+    "display_name": "23 STANLEY GREENE"
+  },
+  "54 wright ave, toronto": {
+    "lat": 43.6468615044576,
+    "lon": -79.4426411027237,
+    "display_name": "54 WRIGHT"
+  },
+  "9 nanaberry st, toronto": {
+    "lat": 43.821417797936,
+    "lon": -79.223747356808,
+    "display_name": "9 NANABERRY"
+  },
+  "39 corbett ave, toronto": {
+    "lat": 43.6710842197006,
+    "lon": -79.4889041018612,
+    "display_name": "39 CORBETT"
+  },
+  "2825 dufferin st, toronto": {
+    "lat": 43.7056854762333,
+    "lon": -79.4521309322542,
+    "display_name": "2825 DUFFERIN"
+  },
+  "716 bloor st w, toronto": {
+    "lat": 43.6639221005688,
+    "lon": -79.418081083205,
+    "display_name": "716 BLOOR"
+  },
+  "74 st hubert ave, toronto": {
+    "lat": 43.6934815817204,
+    "lon": -79.3396593595008,
+    "display_name": "74 ST HUBERT"
+  },
+  "235 aileen ave, toronto": {
+    "lat": 43.683251689294,
+    "lon": -79.4711248940829,
+    "display_name": "235 AILEEN"
+  },
+  "246 chisholm ave, toronto": {
+    "lat": 43.6947017444984,
+    "lon": -79.3061854909528,
+    "display_name": "246 CHISHOLM"
+  },
+  "63 silver star blvd, toronto": {
+    "lat": 43.8072494772409,
+    "lon": -79.2905551529919,
+    "display_name": "63 SILVER STAR"
+  },
+  "57 bond st, toronto": {
+    "lat": 43.654967920192,
+    "lon": -79.3772552330737,
+    "display_name": "57 BOND"
+  },
+  "20 toronto st, toronto": {
+    "lat": 43.6502600665959,
+    "lon": -79.3765030669813,
+    "display_name": "20 TORONTO"
+  },
+  "63 evans ave, toronto": {
+    "lat": 43.6558680213896,
+    "lon": -79.484587552688,
+    "display_name": "63 EVANS"
+  },
+  "8 hackmore ave, toronto": {
+    "lat": 43.7258505908515,
+    "lon": -79.5581163441351,
+    "display_name": "8 HACKMORE"
+  },
+  "19 ashland ave, toronto": {
+    "lat": 43.6679841717514,
+    "lon": -79.3160159911689,
+    "display_name": "19 ASHLAND"
+  },
+  "20 sanagan rd, toronto": {
+    "lat": 43.7384884673607,
+    "lon": -79.5771052576711,
+    "display_name": "20 SANAGAN"
+  },
+  "10 browning ave, toronto": {
+    "lat": 43.6814246601328,
+    "lon": -79.356593218163,
+    "display_name": "10 BROWNING"
+  },
+  "40 caroline ave, toronto": {
+    "lat": 43.6601194912626,
+    "lon": -79.3347269059303,
+    "display_name": "40 CAROLINE"
+  },
+  "54 oak knolls cres, toronto": {
+    "lat": 43.8021806165812,
+    "lon": -79.1437932243174,
+    "display_name": "54 OAK KNOLLS"
+  },
+  "25 huntsmoor rd, toronto": {
+    "lat": 43.7148662250273,
+    "lon": -79.5462873527681,
+    "display_name": "25 HUNTSMOOR"
+  },
+  "434 gladstone ave, toronto": {
+    "lat": 43.6579222089641,
+    "lon": -79.4332209616911,
+    "display_name": "434 GLADSTONE"
+  },
+  "1062 bloor st w, toronto": {
+    "lat": 43.6607268751516,
+    "lon": -79.4328513606799,
+    "display_name": "1062 BLOOR"
+  },
+  "1808 danforth ave, toronto": {
+    "lat": 43.6846403035287,
+    "lon": -79.3186312232769,
+    "display_name": "1808 DANFORTH"
+  },
+  "9 ternhill cres, toronto": {
+    "lat": 43.7329969793376,
+    "lon": -79.3510491965647,
+    "display_name": "9 TERNHILL"
+  },
+  "116 ava rd, toronto": {
+    "lat": 43.6973560732314,
+    "lon": -79.4281881774667,
+    "display_name": "116 AVA"
+  },
+  "7 the outlook, toronto": {
+    "lat": 43.6628675766225,
+    "lon": -79.5662518498188,
+    "display_name": "7 THE OUTLOOK"
+  },
+  "522 king st w, toronto": {
+    "lat": 43.6452074794683,
+    "lon": -79.3974074958618,
+    "display_name": "522 KING"
+  },
+  "353 queen st w, toronto": {
+    "lat": 43.6492805685779,
+    "lon": -79.3928911282332,
+    "display_name": "353 QUEEN"
+  },
+  "56 glencrest blvd, toronto": {
+    "lat": 43.7072685298881,
+    "lon": -79.3012631926482,
+    "display_name": "56 GLENCREST"
+  },
+  "31 donlea dr, toronto": {
+    "lat": 43.7128142847927,
+    "lon": -79.372076354882,
+    "display_name": "31 DONLEA"
+  },
+  "17 coneflower cres, toronto": {
+    "lat": 43.7782734744893,
+    "lon": -79.4508217982359,
+    "display_name": "17 CONEFLOWER"
+  },
+  "339 rhodes ave, toronto": {
+    "lat": 43.6742985703498,
+    "lon": -79.3208239731592,
+    "display_name": "339 RHODES"
+  },
+  "840 dupont st, toronto": {
+    "lat": 43.6706896814542,
+    "lon": -79.4268812949079,
+    "display_name": "840 DUPONT"
+  },
+  "641 eglinton ave w, toronto": {
+    "lat": 43.7027318342959,
+    "lon": -79.4162667102703,
+    "display_name": "641 EGLINTON"
+  },
+  "378 deloraine ave, toronto": {
+    "lat": 43.7311776452922,
+    "lon": -79.4186408164297,
+    "display_name": "378 DELORAINE"
+  },
+  "26 beaufield ave, toronto": {
+    "lat": 43.716661774659,
+    "lon": -79.3702420694041,
+    "display_name": "26 BEAUFIELD"
+  },
+  "26 aldwinckle hts, toronto": {
+    "lat": 43.7661354579594,
+    "lon": -79.5032743953071,
+    "display_name": "26 ALDWINCKLE"
+  },
+  "105 riverdale ave, toronto": {
+    "lat": 43.6696048464621,
+    "lon": -79.3484849212384,
+    "display_name": "105 RIVERDALE"
+  },
+  "1 front st w, toronto": {
+    "lat": 43.6460486767782,
+    "lon": -79.3777903939279,
+    "display_name": "1 FRONT"
+  },
+  "37 greenwood ave, toronto": {
+    "lat": 43.6658982474643,
+    "lon": -79.3256939486043,
+    "display_name": "37 GREENWOOD"
+  },
+  "556 st clair ave w, toronto": {
+    "lat": 43.6827727377672,
+    "lon": -79.4216510809754,
+    "display_name": "556 ST CLAIR"
+  },
+  "46 golders green ave, toronto": {
+    "lat": 43.7844991350572,
+    "lon": -79.1345602885559,
+    "display_name": "46 GOLDERS GREEN"
+  },
+  "252 parliament st, toronto": {
+    "lat": 43.6578279127005,
+    "lon": -79.3655433131605,
+    "display_name": "252 PARLIAMENT"
+  },
+  "289 barton ave, toronto": {
+    "lat": 43.6652945861972,
+    "lon": -79.4238692111272,
+    "display_name": "289 BARTON"
+  },
+  "99 queen st e, toronto": {
+    "lat": 43.653166032556,
+    "lon": -79.3747851689776,
+    "display_name": "99 QUEEN"
+  },
+  "545 broadview ave, toronto": {
+    "lat": 43.6714979175238,
+    "lon": -79.354302490178,
+    "display_name": "545 BROADVIEW"
+  },
+  "519 lansdowne ave, toronto": {
+    "lat": 43.6553570423238,
+    "lon": -79.4414873325329,
+    "display_name": "519 LANSDOWNE"
+  },
+  "104 treelawn pkwy, toronto": {
+    "lat": 43.7168382788302,
+    "lon": -79.4715835111972,
+    "display_name": "104 TREELAWN"
+  },
+  "190 woolner ave, toronto": {
+    "lat": 43.6726891679992,
+    "lon": -79.4906772387946,
+    "display_name": "190 WOOLNER"
+  },
+  "127 coleridge ave, toronto": {
+    "lat": 43.6905464237915,
+    "lon": -79.3136250765662,
+    "display_name": "127 COLERIDGE"
+  },
+  "27 anderson ave, toronto": {
+    "lat": 43.7037675907218,
+    "lon": -79.4019618918157,
+    "display_name": "27 ANDERSON"
+  },
+  "30 gloxinia cres, toronto": {
+    "lat": 43.7956555756575,
+    "lon": -79.3057809836454,
+    "display_name": "30 GLOXINIA"
+  },
+  "16 foxwell st, toronto": {
+    "lat": 43.6714417042683,
+    "lon": -79.4951181463779,
+    "display_name": "16 FOXWELL"
+  },
+  "69 glen agar dr, toronto": {
+    "lat": 43.665487022531,
+    "lon": -79.5548558687801,
+    "display_name": "69 GLEN AGAR"
+  },
+  "114 lisgar st, toronto": {
+    "lat": 43.6437839316614,
+    "lon": -79.4240327474976,
+    "display_name": "114 LISGAR"
+  },
+  "23 ivy lea cres, toronto": {
+    "lat": 43.642123557414,
+    "lon": -79.4946209018525,
+    "display_name": "23 IVY LEA"
+  },
+  "67 methuen ave, toronto": {
+    "lat": 43.6551906474045,
+    "lon": -79.490572415002,
+    "display_name": "67 METHUEN"
+  },
+  "1027 finch ave w, toronto": {
+    "lat": 43.7673316719366,
+    "lon": -79.4698246487399,
+    "display_name": "1027 FINCH"
+  },
+  "78 sussex ave, toronto": {
+    "lat": 43.6643586752213,
+    "lon": -79.4052130230241,
+    "display_name": "78 SUSSEX"
+  },
+  "76 coleridge ave, toronto": {
+    "lat": 43.6895125752681,
+    "lon": -79.3136564685669,
+    "display_name": "76 COLERIDGE"
+  },
+  "172 john st, toronto": {
+    "lat": 43.7053965674163,
+    "lon": -79.5112018603643,
+    "display_name": "172 JOHN"
+  },
+  "180 bartor rd, toronto": {
+    "lat": 43.7262373362629,
+    "lon": -79.5258042945364,
+    "display_name": "180 BARTOR"
+  },
+  "38 jackson pl, toronto": {
+    "lat": 43.6661691556104,
+    "lon": -79.4675012682462,
+    "display_name": "38 JACKSON"
+  },
+  "579 danforth ave, toronto": {
+    "lat": 43.6783612809693,
+    "lon": -79.3466342731572,
+    "display_name": "579 DANFORTH"
+  },
+  "187 acton ave, toronto": {
+    "lat": 43.7584796563459,
+    "lon": -79.4559388301069,
+    "display_name": "187 ACTON"
+  },
+  "60 clifton rd, toronto": {
+    "lat": 43.6897773210247,
+    "lon": -79.3844651255315,
+    "display_name": "60 CLIFTON"
+  },
+  "43 bexhill ave, toronto": {
+    "lat": 43.7028228724185,
+    "lon": -79.288759514645,
+    "display_name": "43 BEXHILL"
+  },
+  "154 hanson st, toronto": {
+    "lat": 43.6808425606197,
+    "lon": -79.3184666803023,
+    "display_name": "154 HANSON"
+  },
+  "35 blue ridge rd, toronto": {
+    "lat": 43.7723834839047,
+    "lon": -79.3744962757404,
+    "display_name": "35 BLUE RIDGE"
+  },
+  "5250 dundas st w, toronto": {
+    "lat": 43.6383611917791,
+    "lon": -79.538933025163,
+    "display_name": "5250 DUNDAS"
+  },
+  "86 bannatyne dr, toronto": {
+    "lat": 43.7599964286839,
+    "lon": -79.3683568789835,
+    "display_name": "86 BANNATYNE"
+  },
+  "16 marchwood dr, toronto": {
+    "lat": 43.745393909135,
+    "lon": -79.4218587878266,
+    "display_name": "16 MARCHWOOD"
+  },
+  "14 corley ave, toronto": {
+    "lat": 43.6768818818463,
+    "lon": -79.3082379002118,
+    "display_name": "14 CORLEY"
+  },
+  "103 pearson ave, toronto": {
+    "lat": 43.6424413832912,
+    "lon": -79.4438226393899,
+    "display_name": "103 PEARSON"
+  },
+  "799 college st, toronto": {
+    "lat": 43.654580848381,
+    "lon": -79.4209238638174,
+    "display_name": "799 COLLEGE"
+  },
+  "68 parkhurst blvd, toronto": {
+    "lat": 43.7094378426799,
+    "lon": -79.3717683288052,
+    "display_name": "68 PARKHURST"
+  },
+  "42 russett ave, toronto": {
+    "lat": 43.6609394334274,
+    "lon": -79.4372502449211,
+    "display_name": "42 RUSSETT"
+  },
+  "1731 lawrence ave e, toronto": {
+    "lat": 43.7420811779191,
+    "lon": -79.3081677496912,
+    "display_name": "1731 LAWRENCE"
+  },
+  "68 ash cres, toronto": {
+    "lat": 43.5948735617319,
+    "lon": -79.5285204492858,
+    "display_name": "68 ASH"
+  },
+  "1339 islington ave, toronto": {
+    "lat": 43.6524378386002,
+    "lon": -79.5265476124761,
+    "display_name": "1339 ISLINGTON"
+  },
+  "28 kilpatrick dr, toronto": {
+    "lat": 43.7381218808757,
+    "lon": -79.2909514398733,
+    "display_name": "28 KILPATRICK"
+  },
+  "232 queenslea ave, toronto": {
+    "lat": 43.7073033772391,
+    "lon": -79.5258082601749,
+    "display_name": "232 QUEENSLEA"
+  },
+  "9 burlingame rd, toronto": {
+    "lat": 43.6004600003322,
+    "lon": -79.5456796349415,
+    "display_name": "9 BURLINGAME"
+  },
+  "94 chisholm ave, toronto": {
+    "lat": 43.6905155008163,
+    "lon": -79.3043797941069,
+    "display_name": "94 CHISHOLM"
+  },
+  "1493 finch ave w, toronto": {
+    "lat": 43.760863164601,
+    "lon": -79.4993169115372,
+    "display_name": "1493 FINCH"
+  },
+  "2588 lake shore blvd w, toronto": {
+    "lat": 43.6071672550814,
+    "lon": -79.4908474055831,
+    "display_name": "2588 LAKE SHORE"
+  },
+  "75 glen edyth dr, toronto": {
+    "lat": 43.6801050257811,
+    "lon": -79.4056889951688,
+    "display_name": "75 GLEN EDYTH"
+  },
+  "12 jasmine ave, toronto": {
+    "lat": 43.5927321531687,
+    "lon": -79.5246009427384,
+    "display_name": "12 JASMINE"
+  },
+  "1020 islington ave, toronto": {
+    "lat": 43.631868280084,
+    "lon": -79.518489700833,
+    "display_name": "1020 ISLINGTON"
+  },
+  "482 dundas st w, toronto": {
+    "lat": 43.6533339150815,
+    "lon": -79.3971333476076,
+    "display_name": "482 DUNDAS"
+  },
+  "700 the queensway, toronto": {
+    "lat": 43.6271432349886,
+    "lon": -79.4999829489194,
+    "display_name": "700 THE QUEENSWAY"
+  },
+  "155 maclean ave, toronto": {
+    "lat": 43.6736916111775,
+    "lon": -79.2915003478671,
+    "display_name": "155 MACLEAN"
+  },
+  "19 braemore gdns, toronto": {
+    "lat": 43.6762867511038,
+    "lon": -79.4223884607684,
+    "display_name": "19 BRAEMORE"
+  },
+  "430 parliament st, toronto": {
+    "lat": 43.6630463828177,
+    "lon": -79.367706751577,
+    "display_name": "430 PARLIAMENT"
+  },
+  "44 valley woods rd, toronto": {
+    "lat": 43.7546450065803,
+    "lon": -79.3334361124857,
+    "display_name": "44 VALLEY WOODS"
+  },
+  "43 cartwright ave, toronto": {
+    "lat": 43.7229997079471,
+    "lon": -79.4601338816563,
+    "display_name": "43 CARTWRIGHT"
+  },
+  "9 roanoke rd, toronto": {
+    "lat": 43.7410493569982,
+    "lon": -79.3274459291955,
+    "display_name": "9 ROANOKE"
+  },
+  "162 viewmount ave, toronto": {
+    "lat": 43.7085865186517,
+    "lon": -79.4376028523302,
+    "display_name": "162 VIEWMOUNT"
+  }
+}

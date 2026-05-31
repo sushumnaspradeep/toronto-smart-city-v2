@@ -23,6 +23,7 @@ RESOURCE_IDS = {
     "building_permits":  "6d0229af-bc54-46de-9c2b-26759b01dd05",
     "parks":             "e8cd0f4d-4910-42a0-81f9-cf8c2218753a",
     "zoning":            "76a2620f-a6b4-495d-8e41-c0ede1f8a928",
+    "address_geo":       "0b3756af-9caf-4f0f-ac28-9c6617adede4"
 }
 
 
@@ -103,6 +104,15 @@ def fetch_zip_csv(slug: str, target_file: str, limit: int = 500) -> pd.DataFrame
     return df
 
 # ── Dataset fetchers ──────────────────────────────────────────────────────────
+
+def get_address_points(limit: int = 1000) -> pd.DataFrame:
+    """
+    Active building permits across all of Toronto.
+    Columns: address, ward, permit_type, work_type,
+             estimated cost, status
+    """
+    print(" Fetching building permits...")
+    return datastore_search(RESOURCE_IDS["address_geo"], limit)
 
 def get_building_permits(limit: int = 500) -> pd.DataFrame:
     """
